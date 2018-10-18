@@ -1,0 +1,8 @@
+﻿2017-09-09 16:47:04,330 [29] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.AddRoomOne.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_PLAY_MJ\common\mjrule\AddRoomOne.cs:行号 0
+2017-09-09 16:47:04,408 [29] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.AddRoomOne.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_PLAY_MJ\common\mjrule\AddRoomOne.cs:行号 72
+2017-09-09 16:47:18,119 [29] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.AddRoomOne.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_PLAY_MJ\common\mjrule\AddRoomOne.cs:行号 0
+2017-09-09 16:47:18,120 [29] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.AddRoomOne.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_PLAY_MJ\common\mjrule\AddRoomOne.cs:行号 72

@@ -1,0 +1,237 @@
+﻿2017-09-22 10:42:14,962 [1] INFO  DBServer - The server instance DBServer has been started!
+2017-09-22 10:43:09,256 [4] INFO  DBServer - Session: 4eca18d7-d322-4787-8eb5-c316c0beab06/192.168.2.116:54208
+A new session connected!
+2017-09-22 10:43:27,446 [4] INFO  DBServer - Session: 7f4d508d-b8d3-4c07-9b3f-798558cac6b0/192.168.2.196:37908
+A new session connected!
+2017-09-22 10:49:18,739 [29] INFO  DBServer - Session: 4eca18d7-d322-4787-8eb5-c316c0beab06/192.168.2.116:54208
+This session was closed for SocketError!
+2017-09-22 10:49:27,037 [30] INFO  DBServer - Session: 308c8d7d-0d31-4fac-8568-99c083190cd4/192.168.2.54:28101
+A new session connected!
+2017-09-22 10:49:29,404 [30] INFO  DBServer - Session: ab718caf-5f7b-4f3f-81b2-c299704c3c78/192.168.2.116:54269
+A new session connected!
+2017-09-22 10:50:35,309 [11] INFO  DBServer - Session: ab718caf-5f7b-4f3f-81b2-c299704c3c78/192.168.2.116:54269
+This session was closed for SocketError!
+2017-09-22 10:51:39,498 [29] INFO  DBServer - Session: 7f4d508d-b8d3-4c07-9b3f-798558cac6b0/192.168.2.196:37908
+This session was closed for ClientClosing!
+2017-09-22 10:53:16,815 [15] INFO  DBServer - Session: 499adaeb-ad85-4e8b-950b-d2603e48e507/192.168.2.116:54537
+A new session connected!
+2017-09-22 10:53:28,015 [15] INFO  DBServer - Session: b655ba98-9ff3-4681-a9b3-6ac9de73e49c/192.168.2.196:38092
+A new session connected!
+2017-09-22 10:53:30,928 [10] INFO  DBServer - Session: 308c8d7d-0d31-4fac-8568-99c083190cd4/192.168.2.54:28101
+This session was closed for SocketError!
+2017-09-22 10:55:54,844 [9] INFO  DBServer - Session: 499adaeb-ad85-4e8b-950b-d2603e48e507/192.168.2.116:54537
+This session was closed for ClientClosing!
+2017-09-22 10:57:36,327 [10] INFO  DBServer - Session: b655ba98-9ff3-4681-a9b3-6ac9de73e49c/192.168.2.196:38092
+This session was closed for ClientClosing!
+2017-09-22 10:57:42,528 [55] INFO  DBServer - Session: a2b08507-8672-4a88-9806-25450b913a09/192.168.2.116:54855
+A new session connected!
+2017-09-22 10:58:15,066 [29] INFO  DBServer - Session: a2b08507-8672-4a88-9806-25450b913a09/192.168.2.116:54855
+This session was closed for SocketError!
+2017-09-22 11:04:01,999 [39] INFO  DBServer - Session: 0db33314-4dd0-460c-b0a3-15ec926799f8/192.168.2.196:38228
+A new session connected!
+2017-09-22 11:04:20,073 [3] INFO  DBServer - Session: 2a8fec45-eff3-4e6a-9837-759e36c65f98/192.168.2.54:28830
+A new session connected!
+2017-09-22 11:04:26,824 [3] INFO  DBServer - Session: 4ae17dee-4b49-41c4-b5d8-efb91009b915/192.168.2.129:38821
+A new session connected!
+2017-09-22 11:04:26,949 [51] INFO  DBServer - Session: 0db33314-4dd0-460c-b0a3-15ec926799f8/192.168.2.196:38228
+This session was closed for ServerClosing!
+2017-09-22 11:06:23,871 [10] INFO  DBServer - Session: 4ae17dee-4b49-41c4-b5d8-efb91009b915/192.168.2.129:38821
+This session was closed for ClientClosing!
+2017-09-22 11:08:30,978 [21] INFO  DBServer - Session: 2a8fec45-eff3-4e6a-9837-759e36c65f98/192.168.2.54:28830
+This session was closed for SocketError!
+2017-09-22 11:09:36,647 [59] INFO  DBServer - Session: 72f92d0c-ead1-4ba9-a996-dc49b9178d5b/192.168.2.196:38256
+A new session connected!
+2017-09-22 11:09:45,871 [59] INFO  DBServer - Session: b941673d-0fb7-4275-85d0-bf8725771b49/192.168.2.129:38825
+A new session connected!
+2017-09-22 11:25:02,271 [19] INFO  DBServer - Session: 27935838-9afd-45f4-b193-533110729671/192.168.2.54:29600
+A new session connected!
+2017-09-22 11:25:04,582 [19] INFO  DBServer - Session: 9a8f8dd0-b472-494a-8a8e-72aec9afe72b/192.168.2.116:55642
+A new session connected!
+2017-09-22 11:25:05,016 [10] INFO  DBServer - Session: 72f92d0c-ead1-4ba9-a996-dc49b9178d5b/192.168.2.196:38256
+This session was closed for ServerClosing!
+2017-09-22 11:25:31,091 [21] INFO  DBServer - Session: 27935838-9afd-45f4-b193-533110729671/192.168.2.54:29600
+This session was closed for SocketError!
+2017-09-22 11:27:10,686 [28] INFO  DBServer - Session: 9a8f8dd0-b472-494a-8a8e-72aec9afe72b/192.168.2.116:55642
+This session was closed for SocketError!
+2017-09-22 11:28:40,690 [16] INFO  DBServer - Session: 66b07525-2b70-431d-97e0-7082e6425f67/192.168.2.54:29739
+A new session connected!
+2017-09-22 11:28:42,959 [16] INFO  DBServer - Session: e0804c7e-e7da-4c38-a027-8bfdaff60e26/192.168.2.116:55822
+A new session connected!
+2017-09-22 11:28:59,053 [29] INFO  DBServer - Session: e0804c7e-e7da-4c38-a027-8bfdaff60e26/192.168.2.116:55822
+This session was closed for SocketError!
+2017-09-22 11:29:45,761 [28] INFO  DBServer - Session: b941673d-0fb7-4275-85d0-bf8725771b49/192.168.2.129:38825
+This session was closed for ClientClosing!
+2017-09-22 11:30:03,306 [37] INFO  DBServer - Session: fc41efb3-68d1-44d6-8f8a-fa78b7ee674b/192.168.2.196:38624
+A new session connected!
+2017-09-22 11:30:13,710 [37] INFO  DBServer - Session: e9d04288-78be-4391-b4e0-f1ae220c5392/192.168.2.129:38827
+A new session connected!
+2017-09-22 11:33:22,142 [28] INFO  DBServer - Session: fc41efb3-68d1-44d6-8f8a-fa78b7ee674b/192.168.2.196:38624
+This session was closed for ClientClosing!
+2017-09-22 11:33:31,111 [29] INFO  DBServer - Session: 66b07525-2b70-431d-97e0-7082e6425f67/192.168.2.54:29739
+This session was closed for SocketError!
+2017-09-22 11:33:56,721 [21] INFO  DBServer - Session: e9d04288-78be-4391-b4e0-f1ae220c5392/192.168.2.129:38827
+This session was closed for ClientClosing!
+2017-09-22 11:34:51,970 [72] INFO  DBServer - Session: 2bb7a07f-0560-40eb-ba39-d991202f87f2/192.168.2.129:38831
+A new session connected!
+2017-09-22 11:34:59,332 [72] INFO  DBServer - Session: 8404558e-5e31-4d39-92a3-5ec1245464eb/192.168.2.54:30040
+A new session connected!
+2017-09-22 11:35:12,213 [72] INFO  DBServer - Session: 46f097df-77a5-4c9c-aeb5-c5d0482b45d0/192.168.2.196:38750
+A new session connected!
+2017-09-22 11:35:24,713 [10] INFO  DBServer - Session: 46f097df-77a5-4c9c-aeb5-c5d0482b45d0/192.168.2.196:38750
+This session was closed for ClientClosing!
+2017-09-22 11:35:25,081 [72] INFO  DBServer - Session: 49cb1182-1838-4d2f-822b-e70e4e0eca53/192.168.2.196:38752
+A new session connected!
+2017-09-22 11:35:48,748 [10] INFO  DBServer - Session: 49cb1182-1838-4d2f-822b-e70e4e0eca53/192.168.2.196:38752
+This session was closed for ClientClosing!
+2017-09-22 11:35:57,159 [72] INFO  DBServer - Session: 65bd8c9e-bd42-4b0d-90d5-2e673947aa08/192.168.2.196:38759
+A new session connected!
+2017-09-22 11:36:04,462 [10] INFO  DBServer - Session: 65bd8c9e-bd42-4b0d-90d5-2e673947aa08/192.168.2.196:38759
+This session was closed for ClientClosing!
+2017-09-22 11:36:07,037 [72] INFO  DBServer - Session: 9a55fb08-c345-4380-844d-04b7fe8947cd/192.168.2.196:38762
+A new session connected!
+2017-09-22 11:36:16,223 [10] INFO  DBServer - Session: 9a55fb08-c345-4380-844d-04b7fe8947cd/192.168.2.196:38762
+This session was closed for ClientClosing!
+2017-09-22 11:36:29,076 [47] INFO  DBServer - Session: 06c0fb0a-1b7a-4b94-b717-7297ce5f2927/192.168.2.196:38765
+A new session connected!
+2017-09-22 11:36:37,307 [60] INFO  DBServer - Session: 06c0fb0a-1b7a-4b94-b717-7297ce5f2927/192.168.2.196:38765
+This session was closed for ClientClosing!
+2017-09-22 11:36:37,488 [47] INFO  DBServer - Session: c1b56fb9-9054-48a9-8028-b0196770f879/192.168.2.196:38767
+A new session connected!
+2017-09-22 11:36:43,175 [28] INFO  DBServer - Session: 2bb7a07f-0560-40eb-ba39-d991202f87f2/192.168.2.129:38831
+This session was closed for ClientClosing!
+2017-09-22 11:36:54,265 [9] INFO  DBServer - Session: b02afee1-1034-4092-8f52-04b1adecda2c/192.168.2.54:30187
+A new session connected!
+2017-09-22 11:37:01,352 [9] INFO  DBServer - Session: e949f5f5-8ffa-4cc6-a169-67b5c2d17ce8/192.168.2.129:38835
+A new session connected!
+2017-09-22 11:37:31,114 [60] INFO  DBServer - Session: 8404558e-5e31-4d39-92a3-5ec1245464eb/192.168.2.54:30040
+This session was closed for SocketError!
+2017-09-22 11:37:31,114 [29] INFO  DBServer - Session: b02afee1-1034-4092-8f52-04b1adecda2c/192.168.2.54:30187
+This session was closed for SocketError!
+2017-09-22 11:38:07,397 [29] INFO  DBServer - Session: c1b56fb9-9054-48a9-8028-b0196770f879/192.168.2.196:38767
+This session was closed for ClientClosing!
+2017-09-22 11:38:59,532 [28] INFO  DBServer - Session: e949f5f5-8ffa-4cc6-a169-67b5c2d17ce8/192.168.2.129:38835
+This session was closed for ClientClosing!
+2017-09-22 11:40:01,304 [36] INFO  DBServer - Session: 0e8a79bc-f0d0-4446-83ca-c7cbcdddc203/192.168.2.129:38840
+A new session connected!
+2017-09-22 11:40:14,616 [28] INFO  DBServer - Session: 0e8a79bc-f0d0-4446-83ca-c7cbcdddc203/192.168.2.129:38840
+This session was closed for ClientClosing!
+2017-09-22 11:40:14,780 [36] INFO  DBServer - Session: 445442f1-eb80-458d-a7b1-a0b268b48c1a/192.168.2.129:38842
+A new session connected!
+2017-09-22 11:40:21,112 [36] INFO  DBServer - Session: a6558ace-1b1e-4eeb-a9c7-dada486e01da/192.168.2.196:38811
+A new session connected!
+2017-09-22 11:40:21,294 [29] INFO  DBServer - Session: 445442f1-eb80-458d-a7b1-a0b268b48c1a/192.168.2.129:38842
+This session was closed for ServerClosing!
+2017-09-22 11:40:53,536 [86] INFO  DBServer - Session: d16f1bc3-99b1-4b57-907f-e9e3ad01fd5d/192.168.2.54:30369
+A new session connected!
+2017-09-22 11:40:59,385 [86] INFO  DBServer - Session: ea5ac747-e8bc-4671-9e85-76ead3ec02db/192.168.2.129:38846
+A new session connected!
+2017-09-22 11:42:13,883 [18] INFO  DBServer - Session: a6558ace-1b1e-4eeb-a9c7-dada486e01da/192.168.2.196:38811
+This session was closed for ClientClosing!
+2017-09-22 11:42:44,507 [18] INFO  DBServer - Session: ea5ac747-e8bc-4671-9e85-76ead3ec02db/192.168.2.129:38846
+This session was closed for ClientClosing!
+2017-09-22 11:43:05,015 [99] INFO  DBServer - Session: e82061c5-fe4e-4acd-baaf-32b3e53f9ee0/192.168.2.129:38850
+A new session connected!
+2017-09-22 11:43:35,281 [29] INFO  DBServer - Session: e82061c5-fe4e-4acd-baaf-32b3e53f9ee0/192.168.2.129:38850
+This session was closed for ClientClosing!
+2017-09-22 11:43:59,971 [103] INFO  DBServer - Session: 59c49973-38cd-4b7c-828f-64639c3976c4/192.168.2.196:38850
+A new session connected!
+2017-09-22 11:44:05,270 [103] INFO  DBServer - Session: ac8ec2e7-0581-4fec-952f-7c13d47327ea/192.168.2.54:30550
+A new session connected!
+2017-09-22 11:44:15,289 [103] INFO  DBServer - Session: 0e36db22-ede9-4c78-97cf-8d9e5cd3dcbe/192.168.2.143:10617
+A new session connected!
+2017-09-22 11:44:31,148 [29] INFO  DBServer - Session: ac8ec2e7-0581-4fec-952f-7c13d47327ea/192.168.2.54:30550
+This session was closed for SocketError!
+2017-09-22 11:44:31,148 [10] INFO  DBServer - Session: d16f1bc3-99b1-4b57-907f-e9e3ad01fd5d/192.168.2.54:30369
+This session was closed for SocketError!
+2017-09-22 11:44:35,973 [116] INFO  DBServer - Session: 0e36db22-ede9-4c78-97cf-8d9e5cd3dcbe/192.168.2.143:10617
+This session was closed for SocketError!
+2017-09-22 11:44:36,293 [103] INFO  DBServer - Session: dad55b16-2d79-499d-8aca-927f7e4e9aeb/192.168.2.143:10638
+A new session connected!
+2017-09-22 11:45:05,916 [103] INFO  DBServer - Session: 8310c866-dd22-4f5d-bd61-d981b6b88dd8/192.168.2.129:38855
+A new session connected!
+2017-09-22 11:45:22,122 [115] INFO  DBServer - Session: 59c49973-38cd-4b7c-828f-64639c3976c4/192.168.2.196:38850
+This session was closed for ClientClosing!
+2017-09-22 11:45:38,575 [98] INFO  DBServer - Session: ffc205dc-6b70-449f-ba04-fe8f7c211cb8/192.168.2.196:38887
+A new session connected!
+2017-09-22 11:50:45,377 [29] INFO  DBServer - Session: ffc205dc-6b70-449f-ba04-fe8f7c211cb8/192.168.2.196:38887
+This session was closed for ClientClosing!
+2017-09-22 11:50:48,394 [16] INFO  DBServer - Session: ee0cd8f4-53ec-4e5f-b493-4a751ff0b710/192.168.2.196:38999
+A new session connected!
+2017-09-22 11:50:59,062 [115] INFO  DBServer - Session: ee0cd8f4-53ec-4e5f-b493-4a751ff0b710/192.168.2.196:38999
+This session was closed for ClientClosing!
+2017-09-22 11:51:12,775 [16] INFO  DBServer - Session: 5408ef3c-76eb-40a4-9b9b-54fc1eb0ed18/192.168.2.196:39011
+A new session connected!
+2017-09-22 11:51:28,398 [116] INFO  DBServer - Session: 8310c866-dd22-4f5d-bd61-d981b6b88dd8/192.168.2.129:38855
+This session was closed for ClientClosing!
+2017-09-22 11:51:30,660 [18] INFO  DBServer - Session: dad55b16-2d79-499d-8aca-927f7e4e9aeb/192.168.2.143:10638
+This session was closed for SocketError!
+2017-09-22 11:51:30,850 [16] INFO  DBServer - Session: 28b2c309-db7d-428b-985c-fd4762ac97f2/192.168.2.143:11098
+A new session connected!
+2017-09-22 11:51:30,975 [115] INFO  DBServer - Session: 5408ef3c-76eb-40a4-9b9b-54fc1eb0ed18/192.168.2.196:39011
+This session was closed for ServerClosing!
+2017-09-22 11:51:52,426 [3] INFO  DBServer - Session: b6098408-71c6-4f56-9a0c-f78149b8d85b/192.168.2.54:30858
+A new session connected!
+2017-09-22 11:51:55,597 [3] INFO  DBServer - Session: 699c025a-5416-49d3-a489-7adf87c2dbef/192.168.2.196:39064
+A new session connected!
+2017-09-22 11:51:55,780 [29] INFO  DBServer - Session: 28b2c309-db7d-428b-985c-fd4762ac97f2/192.168.2.143:11098
+This session was closed for ServerClosing!
+2017-09-22 11:51:59,265 [3] INFO  DBServer - Session: b8023700-483f-4e0b-9348-3f9c0b854c56/192.168.2.143:11138
+A new session connected!
+2017-09-22 11:52:03,966 [29] INFO  DBServer - Session: b8023700-483f-4e0b-9348-3f9c0b854c56/192.168.2.143:11138
+This session was closed for ServerClosing!
+2017-09-22 11:52:09,392 [3] INFO  DBServer - Session: 966524e0-2778-495c-a177-2fc38a291360/192.168.2.143:11148
+A new session connected!
+2017-09-22 11:52:11,212 [115] INFO  DBServer - Session: 966524e0-2778-495c-a177-2fc38a291360/192.168.2.143:11148
+This session was closed for ServerClosing!
+2017-09-22 11:52:12,428 [3] INFO  DBServer - Session: b696aca6-e3fa-4a19-b077-65e740a7542f/192.168.2.143:11154
+A new session connected!
+2017-09-22 11:52:12,779 [29] INFO  DBServer - Session: b696aca6-e3fa-4a19-b077-65e740a7542f/192.168.2.143:11154
+This session was closed for SocketError!
+2017-09-22 11:52:44,452 [43] INFO  DBServer - Session: 6539a452-4666-4de9-9193-89df8343901e/192.168.2.129:38857
+A new session connected!
+2017-09-22 11:52:56,309 [116] INFO  DBServer - Session: 699c025a-5416-49d3-a489-7adf87c2dbef/192.168.2.196:39064
+This session was closed for ClientClosing!
+2017-09-22 11:53:04,306 [43] INFO  DBServer - Session: ffcf1f2f-6608-410b-a0fc-c15cd28af502/192.168.2.54:30900
+A new session connected!
+2017-09-22 11:53:07,446 [43] INFO  DBServer - Session: 81ad6e91-9c2b-4c86-a0b3-4d72bc89d870/192.168.2.196:39094
+A new session connected!
+2017-09-22 11:53:20,473 [115] INFO  DBServer - Session: 81ad6e91-9c2b-4c86-a0b3-4d72bc89d870/192.168.2.196:39094
+This session was closed for ClientClosing!
+2017-09-22 11:53:28,182 [43] INFO  DBServer - Session: 051e974b-d704-4420-a7b4-4b0e8fa0ab81/192.168.2.54:30915
+A new session connected!
+2017-09-22 11:53:31,329 [43] INFO  DBServer - Session: fa0b0716-4c32-4a47-9e9d-b695beb123da/192.168.2.196:39107
+A new session connected!
+2017-09-22 11:53:49,962 [29] INFO  DBServer - Session: fa0b0716-4c32-4a47-9e9d-b695beb123da/192.168.2.196:39107
+This session was closed for ClientClosing!
+2017-09-22 11:53:57,514 [43] INFO  DBServer - Session: 1578627d-9cc2-44b2-b30f-300ba84b2994/192.168.2.54:30934
+A new session connected!
+2017-09-22 11:54:00,628 [43] INFO  DBServer - Session: 23ea8704-4607-424c-ada5-0621c9eb6148/192.168.2.196:39120
+A new session connected!
+2017-09-22 11:54:23,639 [29] INFO  DBServer - Session: 6539a452-4666-4de9-9193-89df8343901e/192.168.2.129:38857
+This session was closed for ClientClosing!
+2017-09-22 11:54:29,617 [67] INFO  DBServer - Session: 1de36e4d-5abc-4992-b247-cc1f7b775a91/192.168.2.129:38859
+A new session connected!
+2017-09-22 11:54:56,473 [29] INFO  DBServer - Session: 1de36e4d-5abc-4992-b247-cc1f7b775a91/192.168.2.129:38859
+This session was closed for ClientClosing!
+2017-09-22 11:55:02,422 [116] INFO  DBServer - Session: 23ea8704-4607-424c-ada5-0621c9eb6148/192.168.2.196:39120
+This session was closed for ClientClosing!
+2017-09-22 11:55:31,196 [115] INFO  DBServer - Session: 051e974b-d704-4420-a7b4-4b0e8fa0ab81/192.168.2.54:30915
+This session was closed for SocketError!
+2017-09-22 11:55:31,196 [18] INFO  DBServer - Session: b6098408-71c6-4f56-9a0c-f78149b8d85b/192.168.2.54:30858
+This session was closed for SocketError!
+2017-09-22 11:55:31,196 [29] INFO  DBServer - Session: ffcf1f2f-6608-410b-a0fc-c15cd28af502/192.168.2.54:30900
+This session was closed for SocketError!
+2017-09-22 11:55:31,196 [116] INFO  DBServer - Session: 1578627d-9cc2-44b2-b30f-300ba84b2994/192.168.2.54:30934
+This session was closed for SocketError!
+2017-09-22 11:57:43,852 [81] INFO  DBServer - Session: b033b223-ee31-4aa4-ad57-c4e924890d9e/192.168.2.129:38861
+A new session connected!
+2017-09-22 11:59:12,869 [71] INFO  DBServer - Session: 250ae113-9fb8-4c8d-8dd0-12fe1c739329/192.168.2.196:39149
+A new session connected!
+2017-09-22 12:00:56,845 [62] INFO  DBServer - Session: b033b223-ee31-4aa4-ad57-c4e924890d9e/192.168.2.129:38861
+This session was closed for ClientClosing!
+2017-09-22 12:00:56,845 [71] INFO  DBServer - Session: eb9d5ef8-7aa8-4062-b67e-fdb9d35b99fd/192.168.2.129:38862
+A new session connected!
+2017-09-22 12:01:04,057 [80] INFO  DBServer - Session: 250ae113-9fb8-4c8d-8dd0-12fe1c739329/192.168.2.196:39149
+This session was closed for ClientClosing!
+2017-09-22 12:01:04,089 [71] INFO  DBServer - Session: e4b42b44-0660-4389-a8f5-b2b06702c8e0/192.168.2.196:39191
+A new session connected!

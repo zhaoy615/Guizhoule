@@ -1,0 +1,15 @@
+
+
+//#客户端发送登录信息
+message sendloginInfo { 
+ optional  string name = 1;//可选 用户名
+ required  int32 id = 2;  // 用户ID
+ optional  string email = 3; //可选 邮箱
+}
+//#返回用户信息
+message returnUserInfo { 
+ required  int32 id = 1;  // 用户ID
+ optional  int32 roomID=2;  //房间号
+ optional  int32 palyStatus = 3; // 用户游戏状态
+ optional  string headPortrait = 4; //用户头像
+}

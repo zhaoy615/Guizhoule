@@ -1,0 +1,68 @@
+﻿2017-10-26 15:27:23,576 [1] DEBUG DefaultBootstrap - The server instance LISTServer has been created!
+2017-10-26 15:27:23,733 [1] DEBUG LISTServer - The command 19005(ListBLL.Logic.Feedback) has been discovered
+2017-10-26 15:27:23,733 [1] DEBUG LISTServer - The command 11020(ListBLL.Logic.GameOperation) has been discovered
+2017-10-26 15:27:23,733 [1] DEBUG LISTServer - The command 10001(ListBLL.Logic.Heartbeat) has been discovered
+2017-10-26 15:27:23,733 [1] DEBUG LISTServer - The command 11001(ListBLL.Logic.Login) has been discovered
+2017-10-26 15:27:23,733 [1] DEBUG LISTServer - The command 19003(ListBLL.Logic.UserGamePlaybackLogic) has been discovered
+2017-10-26 15:27:23,733 [1] DEBUG LISTServer - The command 19001(ListBLL.Logic.UserRecordLogic) has been discovered
+2017-10-26 15:27:23,733 [1] DEBUG DefaultBootstrap - The server instance LISTServer has been initialized!
+2017-10-26 15:27:24,640 [1] DEBUG DefaultBootstrap - The PerformanceMonitor has been initialized!
+2017-10-26 15:27:24,640 [1] DEBUG DefaultBootstrap - The Bootstrap has been initialized!
+2017-10-26 15:27:24,655 [1] DEBUG LISTServer - Listener (0.0.0.0:2018) was started
+2017-10-26 15:27:24,671 [1] DEBUG DefaultBootstrap - The PerformanceMonitor has been started!
+2017-10-26 15:27:34,687 [9] DEBUG LISTServer - 登陆sssionID--------7e82b116-93aa-4f20-a1c3-03e59e77ecc4
+2017-10-26 15:27:34,687 [9] DEBUG LISTServer - 登录游戏----------2017/10/26 15:27:34
+2017-10-26 15:27:53,023 [9] DEBUG LISTServer - 登录用户openid:9697486827159f30f5cab73bbab97a1b56966c2a|昵称:测试用户969----------2017/10/26 15:27:53
+2017-10-26 15:27:54,223 [9] DEBUG LISTServer - 登录游戏成功----------2017/10/26 15:27:54
+2017-10-26 15:28:49,914 [1] DEBUG DefaultBootstrap - The server instance LISTServer has been created!
+2017-10-26 15:28:50,002 [1] DEBUG LISTServer - The command 19005(ListBLL.Logic.Feedback) has been discovered
+2017-10-26 15:28:50,002 [1] DEBUG LISTServer - The command 11020(ListBLL.Logic.GameOperation) has been discovered
+2017-10-26 15:28:50,002 [1] DEBUG LISTServer - The command 10001(ListBLL.Logic.Heartbeat) has been discovered
+2017-10-26 15:28:50,002 [1] DEBUG LISTServer - The command 11001(ListBLL.Logic.Login) has been discovered
+2017-10-26 15:28:50,002 [1] DEBUG LISTServer - The command 19003(ListBLL.Logic.UserGamePlaybackLogic) has been discovered
+2017-10-26 15:28:50,002 [1] DEBUG LISTServer - The command 19001(ListBLL.Logic.UserRecordLogic) has been discovered
+2017-10-26 15:28:50,014 [1] DEBUG DefaultBootstrap - The server instance LISTServer has been initialized!
+2017-10-26 15:28:50,652 [1] DEBUG DefaultBootstrap - The PerformanceMonitor has been initialized!
+2017-10-26 15:28:50,652 [1] DEBUG DefaultBootstrap - The Bootstrap has been initialized!
+2017-10-26 15:28:50,662 [1] DEBUG LISTServer - Listener (0.0.0.0:2018) was started
+2017-10-26 15:28:50,665 [1] DEBUG DefaultBootstrap - The PerformanceMonitor has been started!
+2017-10-26 15:29:34,787 [9] DEBUG LISTServer - 登陆sssionID--------0a2921dd-a416-4d4e-8dec-1e686498b27e
+2017-10-26 15:29:34,787 [9] DEBUG LISTServer - 登录游戏----------2017/10/26 15:29:34
+2017-10-26 15:29:35,984 [9] DEBUG LISTServer - 登录用户openid:9697486827159f30f5cab73bbab97a1b56966c2a|昵称:测试用户969----------2017/10/26 15:29:35
+2017-10-26 15:29:36,843 [9] DEBUG LISTServer - 登录游戏成功----------2017/10/26 15:29:36
+2017-10-26 15:31:56,441 [24] DEBUG LISTServer - 登陆sssionID--------ee95c9ff-5c89-4aa8-a505-c5d02e36c159
+2017-10-26 15:31:56,441 [24] DEBUG LISTServer - 登录游戏----------2017/10/26 15:31:56
+2017-10-26 15:31:57,601 [24] DEBUG LISTServer - 登录用户openid:9697486827159f30f5cab73bbab97a1b56966c2a|昵称:测试用户969----------2017/10/26 15:31:57
+2017-10-26 15:32:00,558 [24] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2017/10/26 15:32:00
+2017-10-26 15:34:32,886 [14] DEBUG LISTServer - 登陆sssionID--------db3348ec-8714-4924-8629-7acb028ef1b8
+2017-10-26 15:34:32,886 [14] DEBUG LISTServer - 登录游戏----------2017/10/26 15:34:32
+2017-10-26 15:34:36,140 [14] DEBUG LISTServer - 登录用户openid:9697486827159f30f5cab73bbab97a1b56966c2a|昵称:测试用户969----------2017/10/26 15:34:36
+2017-10-26 15:34:36,800 [14] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2017/10/26 15:34:36
+2017-10-26 15:56:20,744 [14] DEBUG LISTServer - 登陆sssionID--------b63e1487-8f00-4fd4-9322-70bc38fae9d5
+2017-10-26 15:56:20,744 [14] DEBUG LISTServer - 登录游戏----------2017/10/26 15:56:20
+2017-10-26 15:56:21,547 [14] DEBUG LISTServer - 登录用户openid:2be4087248667baee875b4dd4e4e388e|昵称:测试用户2be----------2017/10/26 15:56:21
+2017-10-26 15:56:22,203 [14] DEBUG LISTServer - 登录游戏成功----------2017/10/26 15:56:22
+2017-10-26 15:56:30,452 [50] DEBUG LISTServer - 登陆sssionID--------927b2b58-38bb-458d-9670-8c7268060d07
+2017-10-26 15:56:30,452 [50] DEBUG LISTServer - 登录游戏----------2017/10/26 15:56:30
+2017-10-26 15:56:31,149 [50] DEBUG LISTServer - 登录用户openid:9697486827159f30f5cab73bbab97a1b56966c2a|昵称:测试用户969----------2017/10/26 15:56:31
+2017-10-26 15:56:34,973 [50] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2017/10/26 15:56:34
+2017-10-26 16:01:58,983 [1] DEBUG DefaultBootstrap - The server instance LISTServer has been created!
+2017-10-26 16:01:59,073 [1] DEBUG LISTServer - The command 19005(ListBLL.Logic.Feedback) has been discovered
+2017-10-26 16:01:59,073 [1] DEBUG LISTServer - The command 11020(ListBLL.Logic.GameOperation) has been discovered
+2017-10-26 16:01:59,074 [1] DEBUG LISTServer - The command 10001(ListBLL.Logic.Heartbeat) has been discovered
+2017-10-26 16:01:59,074 [1] DEBUG LISTServer - The command 11001(ListBLL.Logic.Login) has been discovered
+2017-10-26 16:01:59,074 [1] DEBUG LISTServer - The command 19003(ListBLL.Logic.UserGamePlaybackLogic) has been discovered
+2017-10-26 16:01:59,074 [1] DEBUG LISTServer - The command 19001(ListBLL.Logic.UserRecordLogic) has been discovered
+2017-10-26 16:01:59,084 [1] DEBUG DefaultBootstrap - The server instance LISTServer has been initialized!
+2017-10-26 16:02:00,010 [1] DEBUG DefaultBootstrap - The PerformanceMonitor has been initialized!
+2017-10-26 16:02:00,011 [1] DEBUG DefaultBootstrap - The Bootstrap has been initialized!
+2017-10-26 16:02:00,021 [1] DEBUG LISTServer - Listener (0.0.0.0:2018) was started
+2017-10-26 16:02:00,025 [1] DEBUG DefaultBootstrap - The PerformanceMonitor has been started!
+2017-10-26 16:02:22,396 [8] DEBUG LISTServer - 登陆sssionID--------bdc422b9-cc03-4eea-abf8-d60bea811e84
+2017-10-26 16:02:22,396 [8] DEBUG LISTServer - 登录游戏----------2017/10/26 16:02:22
+2017-10-26 16:02:22,862 [8] DEBUG LISTServer - 登录用户openid:9697486827159f30f5cab73bbab97a1b56966c2a|昵称:测试用户969----------2017/10/26 16:02:22
+2017-10-26 16:02:23,754 [8] DEBUG LISTServer - 登录游戏成功----------2017/10/26 16:02:23
+2017-10-26 16:02:33,399 [8] DEBUG LISTServer - 登陆sssionID--------bfaeb5c8-4939-4ef1-a43a-dd3f140227bd
+2017-10-26 16:02:33,399 [8] DEBUG LISTServer - 登录游戏----------2017/10/26 16:02:33
+2017-10-26 16:02:33,450 [8] DEBUG LISTServer - 登录用户openid:2be4087248667baee875b4dd4e4e388e|昵称:测试用户2be----------2017/10/26 16:02:33
+2017-10-26 16:02:34,337 [8] DEBUG LISTServer - 登录游戏成功----------2017/10/26 16:02:34

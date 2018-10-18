@@ -1,0 +1,81 @@
+﻿using DAL.Model;
+using log4net;
+using MJBLL.common;
+using SuperSocket.SocketBase.Command;
+using System;
+using System.Reflection;
+
+namespace MJBLL.mjrule
+{
+
+    public class BizIntegral : ICommand<GameSession, ProtobufRequestInfo>
+    {
+        public string Name
+        {
+            get { return "10010"; }
+        }
+
+        public void ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo)
+        {
+             log4net.ILog log = log4net.LogManager.GetLogger("ColoredConsoleAppender");
+          //  ILog log = log4net.LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
+
+            var info =IntegralBusiness.ParseFrom(requestInfo.Body);
+
+           DAL.DAL.Business  business = new DAL.DAL.Business();
+
+
+
+
+            //获取用户积分消费卷信息
+            IntegralInfo integralInfo = business.GetIntegralInfo(info.UserID);
+            if (integralInfo==null)
+            {
+               
+                log.Error("用户不存在");
+                business.InsertIntegralInfo(info.UserID);
+                var data = Result.CreateBuilder().SetStatus(0).SetMessage("用户不存在").Build().ToByteArray();
+                session.Send(new ArraySegment<byte>(CreateHead.CreateMessage(10001, data.Length, requestInfo.MessageNum, data)));   
+                session.Close();
+                return;
+            }
+
+            //获取业务信息
+            BusinessModel businessInfo = business.SelectBusiness(info.BusinessID);
+            if (businessInfo==null)
+            {
+              
+                log.Error("该业务不存在");
+                var data = Result.CreateBuilder().SetStatus(0).SetMessage("该业务不存在").Build().ToByteArray();
+                session.Send(new ArraySegment<byte>(CreateHead.CreateMessage(10001, data.Length, requestInfo.MessageNum, data)));
+                session.Close();
+                return;
+            }
+
+
+            //获取操作方式
+            ActionModel actionInfo= business.SelectAction(businessInfo.action_id);
+
+            // 处理业务 更新积分信息并返回
+            integralInfo= business.UpdateIntegralInfo(info.UserID, businessInfo.type, actionInfo, info.Counts);
+            log.Info("更新成功");
+             var dataResult = Result.CreateBuilder().SetStatus(1).SetMessage("更新成功").Build().ToByteArray();
+            session.Send(new ArraySegment<byte>(CreateHead.CreateMessage(10001, dataResult.Length, requestInfo.MessageNum, dataResult)));
+            session.Send("更新成功");
+
+            //写入日志
+            var logModel = new LogModel
+            {
+                userID = info.UserID,
+                action= actionInfo.title,
+                business= businessInfo.tittle,
+                type =businessInfo.type,
+                count=info.Counts,
+                dateTime=DateTime.Now,
+            };
+            business.WriteLog(logModel);
+        }
+
+     
+    }
+}

@@ -1,0 +1,437 @@
+﻿2017-10-17 09:23:33,257 [64] INFO  LISTServer - Session: 25252e56-b99a-4da3-9d2c-b472b597e5ae/192.168.2.107:58498
+A new session connected!
+2017-10-17 09:35:17,533 [58] INFO  LISTServer - Session: 25252e56-b99a-4da3-9d2c-b472b597e5ae/192.168.2.107:58498
+This session was closed for SocketError!
+2017-10-17 09:35:53,349 [61] INFO  LISTServer - Session: ede6c0f6-6230-4813-99d7-89aa394ea9e4/192.168.2.107:59560
+A new session connected!
+2017-10-17 09:36:07,745 [66] INFO  LISTServer - Session: ede6c0f6-6230-4813-99d7-89aa394ea9e4/192.168.2.107:59560
+This session was closed for SocketError!
+2017-10-17 09:36:36,939 [56] INFO  LISTServer - Session: 744f9ee0-7774-44c3-ae62-fa90c3d07328/192.168.2.107:59639
+A new session connected!
+2017-10-17 09:37:31,312 [12] INFO  LISTServer - Session: 744f9ee0-7774-44c3-ae62-fa90c3d07328/192.168.2.107:59639
+This session was closed for SocketError!
+2017-10-17 09:38:03,690 [56] INFO  LISTServer - Session: b04a32dc-7a31-4a91-bc3a-13594d7c9440/192.168.2.107:59794
+A new session connected!
+2017-10-17 09:38:30,876 [60] INFO  LISTServer - Session: b04a32dc-7a31-4a91-bc3a-13594d7c9440/192.168.2.107:59794
+This session was closed for SocketError!
+2017-10-17 09:42:20,892 [79] INFO  LISTServer - Session: a589c99d-0e6c-4161-abcb-a9bee206d3b1/192.168.2.107:60229
+A new session connected!
+2017-10-17 09:42:56,576 [60] INFO  LISTServer - Session: a589c99d-0e6c-4161-abcb-a9bee206d3b1/192.168.2.107:60229
+This session was closed for SocketError!
+2017-10-17 09:44:19,677 [79] INFO  LISTServer - Session: 7c51b576-4e34-4ed8-849b-7506d5607b62/192.168.2.107:60466
+A new session connected!
+2017-10-17 09:44:24,616 [79] INFO  LISTServer - Session: 9fdbe2f1-dbe1-41f8-a56a-516987d8bc34/192.168.2.107:60477
+A new session connected!
+2017-10-17 09:45:30,598 [66] INFO  LISTServer - Session: 7c51b576-4e34-4ed8-849b-7506d5607b62/192.168.2.107:60466
+This session was closed for SocketError!
+2017-10-17 09:45:45,976 [66] INFO  LISTServer - Session: 9fdbe2f1-dbe1-41f8-a56a-516987d8bc34/192.168.2.107:60477
+This session was closed for ClientClosing!
+2017-10-17 09:47:38,571 [59] INFO  LISTServer - Session: e7e4ca6f-9828-4303-85dc-656ee6abfcdb/192.168.2.107:60831
+A new session connected!
+2017-10-17 09:47:47,918 [60] INFO  LISTServer - Session: e7e4ca6f-9828-4303-85dc-656ee6abfcdb/192.168.2.107:60831
+This session was closed for SocketError!
+2017-10-17 13:34:45,949 [15] INFO  LISTServer - Session: 8612aaee-14bd-4b2c-94cc-0514ba05fc67/192.168.2.107:60545
+A new session connected!
+2017-10-17 13:36:01,653 [74] INFO  LISTServer - Session: 8612aaee-14bd-4b2c-94cc-0514ba05fc67/192.168.2.107:60545
+This session was closed for SocketError!
+2017-10-17 13:36:01,669 [55] INFO  LISTServer - Session: 8119674b-055a-45fe-86f5-c9efae2a946e/192.168.2.107:60600
+A new session connected!
+2017-10-17 13:36:12,105 [74] INFO  LISTServer - Session: 8119674b-055a-45fe-86f5-c9efae2a946e/192.168.2.107:60600
+This session was closed for SocketError!
+2017-10-17 13:36:12,136 [55] INFO  LISTServer - Session: 3b3de033-4490-459d-814e-944a08ab12a8/192.168.2.107:60606
+A new session connected!
+2017-10-17 13:36:29,227 [72] INFO  LISTServer - Session: 3b3de033-4490-459d-814e-944a08ab12a8/192.168.2.107:60606
+This session was closed for SocketError!
+2017-10-17 13:36:29,227 [55] INFO  LISTServer - Session: ee1cd753-073e-45c9-911e-cab9147b4076/192.168.2.107:60618
+A new session connected!
+2017-10-17 13:36:36,924 [66] INFO  LISTServer - Session: ee1cd753-073e-45c9-911e-cab9147b4076/192.168.2.107:60618
+This session was closed for SocketError!
+2017-10-17 13:36:36,940 [55] INFO  LISTServer - Session: 796ef1cb-bc14-4edb-8a4d-ab154375aa0b/192.168.2.107:60625
+A new session connected!
+2017-10-17 13:36:41,623 [58] INFO  LISTServer - Session: 796ef1cb-bc14-4edb-8a4d-ab154375aa0b/192.168.2.107:60625
+This session was closed for SocketError!
+2017-10-17 13:38:28,677 [55] INFO  LISTServer - Session: 42bbb50a-c3fa-48aa-927c-1d1345b5c2ba/192.168.2.107:60717
+A new session connected!
+2017-10-17 13:38:35,072 [58] INFO  LISTServer - Session: 42bbb50a-c3fa-48aa-927c-1d1345b5c2ba/192.168.2.107:60717
+This session was closed for SocketError!
+2017-10-17 13:39:25,872 [75] INFO  LISTServer - Session: c3d1deba-9a34-466c-81a9-fe70cc6dfff7/192.168.2.107:60755
+A new session connected!
+2017-10-17 13:40:32,704 [72] INFO  LISTServer - Session: c3d1deba-9a34-466c-81a9-fe70cc6dfff7/192.168.2.107:60755
+This session was closed for SocketError!
+2017-10-17 13:40:59,076 [75] INFO  LISTServer - Session: 7c4fd81e-aee0-4f9c-86d7-b103fc4de3a1/192.168.2.107:60823
+A new session connected!
+2017-10-17 13:42:37,406 [58] INFO  LISTServer - Session: 7c4fd81e-aee0-4f9c-86d7-b103fc4de3a1/192.168.2.107:60823
+This session was closed for SocketError!
+2017-10-17 13:43:33,438 [54] INFO  LISTServer - Session: 142a5c9c-5d8c-4629-ba42-d783d2fc73e0/192.168.2.107:60915
+A new session connected!
+2017-10-17 13:43:54,758 [66] INFO  LISTServer - Session: 142a5c9c-5d8c-4629-ba42-d783d2fc73e0/192.168.2.107:60915
+This session was closed for SocketError!
+2017-10-17 13:44:17,628 [52] INFO  LISTServer - Session: 88e2f01d-144b-4d28-b2e0-90f8bb6c18eb/192.168.2.107:60942
+A new session connected!
+2017-10-17 13:45:20,923 [58] INFO  LISTServer - Session: 88e2f01d-144b-4d28-b2e0-90f8bb6c18eb/192.168.2.107:60942
+This session was closed for SocketError!
+2017-10-17 13:45:30,348 [75] INFO  LISTServer - Session: c1f5c2f5-aa48-4aa7-92a6-5e197a510010/192.168.2.107:60985
+A new session connected!
+2017-10-17 13:48:17,760 [58] INFO  LISTServer - Session: c1f5c2f5-aa48-4aa7-92a6-5e197a510010/192.168.2.107:60985
+This session was closed for SocketError!
+2017-10-17 13:48:29,349 [40] INFO  LISTServer - Session: 024ac5bb-282b-491c-91f7-1bb3d2862c18/192.168.2.107:61095
+A new session connected!
+2017-10-17 13:49:47,931 [58] INFO  LISTServer - Session: 024ac5bb-282b-491c-91f7-1bb3d2862c18/192.168.2.107:61095
+This session was closed for SocketError!
+2017-10-17 13:49:59,132 [75] INFO  LISTServer - Session: 95cd3fb5-1e3b-4a8c-a243-7dcb1a4698a8/192.168.2.107:61152
+A new session connected!
+2017-10-17 13:51:20,121 [66] INFO  LISTServer - Session: 95cd3fb5-1e3b-4a8c-a243-7dcb1a4698a8/192.168.2.107:61152
+This session was closed for SocketError!
+2017-10-17 13:51:40,573 [52] INFO  LISTServer - Session: af9c573f-152f-40e9-a56b-a05e76fd21d9/192.168.2.107:61218
+A new session connected!
+2017-10-17 13:52:55,321 [66] INFO  LISTServer - Session: af9c573f-152f-40e9-a56b-a05e76fd21d9/192.168.2.107:61218
+This session was closed for SocketError!
+2017-10-17 13:53:29,030 [47] INFO  LISTServer - Session: ed52d63a-ec9a-41ea-a2ca-33b18b23afe7/192.168.2.107:61287
+A new session connected!
+2017-10-17 13:54:07,916 [72] INFO  LISTServer - Session: ed52d63a-ec9a-41ea-a2ca-33b18b23afe7/192.168.2.107:61287
+This session was closed for SocketError!
+2017-10-17 13:55:10,101 [49] INFO  LISTServer - Session: 5e794441-e1f9-4c14-882f-a5e2e8dea28f/192.168.2.107:61365
+A new session connected!
+2017-10-17 13:56:38,920 [72] INFO  LISTServer - Session: 5e794441-e1f9-4c14-882f-a5e2e8dea28f/192.168.2.107:61365
+This session was closed for SocketError!
+2017-10-17 13:56:38,920 [56] INFO  LISTServer - Session: cb268476-0fdd-487f-920d-08da2754a5ef/192.168.2.107:61426
+A new session connected!
+2017-10-17 13:58:44,572 [58] INFO  LISTServer - Session: cb268476-0fdd-487f-920d-08da2754a5ef/192.168.2.107:61426
+This session was closed for SocketError!
+2017-10-17 14:15:12,662 [56] INFO  LISTServer - Session: 83f35f93-9a32-4f40-b681-53c8338f3aed/192.168.2.107:62255
+A new session connected!
+2017-10-17 14:16:04,930 [66] INFO  LISTServer - Session: 83f35f93-9a32-4f40-b681-53c8338f3aed/192.168.2.107:62255
+This session was closed for SocketError!
+2017-10-17 14:43:40,558 [54] INFO  LISTServer - Session: 4a0c6bac-e600-478b-baeb-6301f7f842f0/192.168.2.107:63496
+A new session connected!
+2017-10-17 14:44:01,424 [58] INFO  LISTServer - Session: 4a0c6bac-e600-478b-baeb-6301f7f842f0/192.168.2.107:63496
+This session was closed for SocketError!
+2017-10-17 14:44:41,470 [41] INFO  LISTServer - Session: 01dfae86-4202-46f9-99c7-62b1f9dc6b0b/192.168.2.107:63566
+A new session connected!
+2017-10-17 14:45:02,391 [45] INFO  LISTServer - Session: 01dfae86-4202-46f9-99c7-62b1f9dc6b0b/192.168.2.107:63566
+This session was closed for SocketError!
+2017-10-17 14:45:09,180 [41] INFO  LISTServer - Session: 0bfaaadc-2ead-454e-9a12-0ff1f87382c8/192.168.2.107:63584
+A new session connected!
+2017-10-17 14:46:16,595 [54] INFO  LISTServer - Session: 0bfaaadc-2ead-454e-9a12-0ff1f87382c8/192.168.2.107:63584
+This session was closed for SocketError!
+2017-10-17 14:47:44,394 [57] INFO  LISTServer - Session: dc683fd1-66e0-483c-b8d4-fd4a1550c077/192.168.2.107:63738
+A new session connected!
+2017-10-17 14:50:29,203 [54] INFO  LISTServer - Session: dc683fd1-66e0-483c-b8d4-fd4a1550c077/192.168.2.107:63738
+This session was closed for SocketError!
+2017-10-17 14:50:40,637 [48] INFO  LISTServer - Session: 0d4f503e-b81e-4505-8ebf-79ac6cf247e5/192.168.2.107:63884
+A new session connected!
+2017-10-17 14:51:01,435 [48] INFO  LISTServer - Session: eae3d25b-a5f7-4bc3-9bc9-37bc1c53bf8b/192.168.2.107:63901
+A new session connected!
+2017-10-17 14:51:30,563 [50] INFO  LISTServer - Session: eae3d25b-a5f7-4bc3-9bc9-37bc1c53bf8b/192.168.2.107:63901
+This session was closed for SocketError!
+2017-10-17 14:52:44,450 [28] INFO  LISTServer - Session: 63914dd6-f2fd-4285-9967-5ed065782fd1/192.168.2.107:63988
+A new session connected!
+2017-10-17 14:52:54,162 [42] INFO  LISTServer - Session: 63914dd6-f2fd-4285-9967-5ed065782fd1/192.168.2.107:63988
+This session was closed for SocketError!
+2017-10-17 14:53:56,127 [31] INFO  LISTServer - Session: a453b220-ddb5-45b4-90fc-eb03954fc297/192.168.2.107:64041
+A new session connected!
+2017-10-17 14:54:17,211 [42] INFO  LISTServer - Session: a453b220-ddb5-45b4-90fc-eb03954fc297/192.168.2.107:64041
+This session was closed for SocketError!
+2017-10-17 14:54:34,109 [25] INFO  LISTServer - Session: 0d4f503e-b81e-4505-8ebf-79ac6cf247e5/192.168.2.107:63884
+This session was closed for ClientClosing!
+2017-10-17 14:54:57,699 [51] INFO  LISTServer - Session: 7a8570f7-9414-4543-8d39-c902e00a99d8/192.168.2.107:64139
+A new session connected!
+2017-10-17 14:55:41,853 [30] INFO  LISTServer - Session: 7a8570f7-9414-4543-8d39-c902e00a99d8/192.168.2.107:64139
+This session was closed for ClientClosing!
+2017-10-17 14:56:09,852 [51] INFO  LISTServer - Session: 7d8b819f-b4fa-4de6-8e5a-9aeeac9e862c/192.168.2.111:36436
+A new session connected!
+2017-10-17 14:56:23,305 [42] INFO  LISTServer - Session: 7d8b819f-b4fa-4de6-8e5a-9aeeac9e862c/192.168.2.111:36436
+This session was closed for ClientClosing!
+2017-10-17 14:58:32,574 [58] INFO  LISTServer - Session: 726d716d-8173-4b8d-a8b3-9330e655008c/192.168.2.107:64292
+A new session connected!
+2017-10-17 14:58:35,912 [36] INFO  LISTServer - Session: 726d716d-8173-4b8d-a8b3-9330e655008c/192.168.2.107:64292
+This session was closed for SocketError!
+2017-10-17 15:01:13,628 [31] INFO  LISTServer - Session: d2d979fd-4f2d-4311-bb5d-0ff62473951c/192.168.2.111:36438
+A new session connected!
+2017-10-17 15:01:20,516 [67] INFO  LISTServer - Session: 2c1f6587-9563-4e4f-a865-802e3baa0ca5/192.168.2.107:64996
+A new session connected!
+2017-10-17 15:02:46,980 [59] INFO  LISTServer - Session: 2c1f6587-9563-4e4f-a865-802e3baa0ca5/192.168.2.107:64996
+This session was closed for SocketError!
+2017-10-17 15:02:56,713 [42] INFO  LISTServer - Session: d2d979fd-4f2d-4311-bb5d-0ff62473951c/192.168.2.111:36438
+This session was closed for ClientClosing!
+2017-10-17 15:03:11,944 [31] INFO  LISTServer - Session: f886ded1-8d7a-4253-9edf-60ddd85594e9/192.168.2.111:36440
+A new session connected!
+2017-10-17 15:03:12,108 [59] INFO  LISTServer - Session: f886ded1-8d7a-4253-9edf-60ddd85594e9/192.168.2.111:36440
+This session was closed for ClientClosing!
+2017-10-17 15:03:49,064 [31] INFO  LISTServer - Session: 45ba6487-c41e-4671-b3dd-1d80baea85c6/192.168.2.111:36453
+A new session connected!
+2017-10-17 15:05:22,723 [31] INFO  LISTServer - Session: 51b211bc-19ef-498b-9808-0a6e0cf3fcba/192.168.2.107:65154
+A new session connected!
+2017-10-17 15:05:28,418 [36] INFO  LISTServer - Session: 51b211bc-19ef-498b-9808-0a6e0cf3fcba/192.168.2.107:65154
+This session was closed for ClientClosing!
+2017-10-17 15:05:36,303 [36] INFO  LISTServer - Session: 45ba6487-c41e-4671-b3dd-1d80baea85c6/192.168.2.111:36453
+This session was closed for ClientClosing!
+2017-10-17 15:05:56,393 [31] INFO  LISTServer - Session: f9b8eecb-004d-4266-aa7a-4d688db7c464/192.168.2.111:36464
+A new session connected!
+2017-10-17 15:06:11,388 [31] INFO  LISTServer - Session: c5a0ed90-0af1-434d-a96d-820bdd02f8e9/192.168.2.107:65195
+A new session connected!
+2017-10-17 15:06:14,128 [59] INFO  LISTServer - Session: f9b8eecb-004d-4266-aa7a-4d688db7c464/192.168.2.111:36464
+This session was closed for ClientClosing!
+2017-10-17 15:08:26,312 [67] INFO  LISTServer - Session: c5a0ed90-0af1-434d-a96d-820bdd02f8e9/192.168.2.107:65195
+This session was closed for SocketError!
+2017-10-17 15:08:53,890 [31] INFO  LISTServer - Session: b8749d0a-abc3-4044-a607-9b297ef27aa9/192.168.2.111:36474
+A new session connected!
+2017-10-17 15:09:04,339 [31] INFO  LISTServer - Session: ccdbed0a-6a64-4eb4-918c-a444f64aa7af/192.168.2.107:65312
+A new session connected!
+2017-10-17 15:09:19,426 [59] INFO  LISTServer - Session: ccdbed0a-6a64-4eb4-918c-a444f64aa7af/192.168.2.107:65312
+This session was closed for SocketError!
+2017-10-17 15:09:19,848 [65] INFO  LISTServer - Session: b8749d0a-abc3-4044-a607-9b297ef27aa9/192.168.2.111:36474
+This session was closed for ClientClosing!
+2017-10-17 15:09:53,134 [31] INFO  LISTServer - Session: 7b5a3a62-d4c0-4318-aa8b-145467e5d12e/192.168.2.111:36477
+A new session connected!
+2017-10-17 15:10:12,416 [59] INFO  LISTServer - Session: 7b5a3a62-d4c0-4318-aa8b-145467e5d12e/192.168.2.111:36477
+This session was closed for ClientClosing!
+2017-10-17 15:12:11,953 [1] INFO  LISTServer - The server instance LISTServer has been started!
+2017-10-17 15:15:23,609 [3] INFO  LISTServer - Session: 561b241b-1657-4d3b-8b08-724ac3858180/192.168.2.107:49212
+A new session connected!
+2017-10-17 15:15:55,975 [17] INFO  LISTServer - Session: 561b241b-1657-4d3b-8b08-724ac3858180/192.168.2.107:49212
+This session was closed for SocketError!
+2017-10-17 15:16:26,554 [19] INFO  LISTServer - Session: 910340a5-c959-4ae4-bd9d-890755be3648/192.168.2.107:49258
+A new session connected!
+2017-10-17 15:17:53,227 [12] INFO  LISTServer - Session: 910340a5-c959-4ae4-bd9d-890755be3648/192.168.2.107:49258
+This session was closed for SocketError!
+2017-10-17 15:18:20,546 [37] INFO  LISTServer - Session: 594fef0f-0175-447f-bada-0a5260a73693/192.168.2.107:49372
+A new session connected!
+2017-10-17 15:19:52,006 [13] INFO  LISTServer - Session: 594fef0f-0175-447f-bada-0a5260a73693/192.168.2.107:49372
+This session was closed for SocketError!
+2017-10-17 15:22:15,808 [45] INFO  LISTServer - Session: a04debd2-1339-4fcd-923e-42d2ba311513/192.168.2.107:49553
+A new session connected!
+2017-10-17 15:23:47,555 [32] INFO  LISTServer - Session: a04debd2-1339-4fcd-923e-42d2ba311513/192.168.2.107:49553
+This session was closed for SocketError!
+2017-10-17 15:24:56,958 [47] INFO  LISTServer - Session: f13c39cf-bc85-4b64-a5b9-a6ed623f6c33/192.168.2.107:49654
+A new session connected!
+2017-10-17 15:25:17,382 [13] INFO  LISTServer - Session: f13c39cf-bc85-4b64-a5b9-a6ed623f6c33/192.168.2.107:49654
+This session was closed for SocketError!
+2017-10-17 15:32:28,857 [38] INFO  LISTServer - Session: aaa6f950-33ff-4e95-a34c-05b1ef9f1b44/192.168.2.107:49951
+A new session connected!
+2017-10-17 15:32:35,687 [13] INFO  LISTServer - Session: aaa6f950-33ff-4e95-a34c-05b1ef9f1b44/192.168.2.107:49951
+This session was closed for ClientClosing!
+2017-10-17 15:33:01,917 [38] INFO  LISTServer - Session: e74e9506-137b-445e-bccf-9105fd4960ca/192.168.2.107:50001
+A new session connected!
+2017-10-17 15:33:10,580 [7] INFO  LISTServer - Session: e74e9506-137b-445e-bccf-9105fd4960ca/192.168.2.107:50001
+This session was closed for ClientClosing!
+2017-10-17 15:38:33,648 [15] INFO  LISTServer - Session: 9d7c2b02-6311-4f40-bc15-583bea38a348/192.168.2.107:50197
+A new session connected!
+2017-10-17 15:38:37,045 [17] INFO  LISTServer - Session: 9d7c2b02-6311-4f40-bc15-583bea38a348/192.168.2.107:50197
+This session was closed for SocketError!
+2017-10-17 15:46:01,998 [39] INFO  LISTServer - Session: 43b223fc-3d33-40e6-8b01-b7a5192249a1/192.168.2.107:50511
+A new session connected!
+2017-10-17 15:46:05,532 [13] INFO  LISTServer - Session: 43b223fc-3d33-40e6-8b01-b7a5192249a1/192.168.2.107:50511
+This session was closed for SocketError!
+2017-10-17 15:48:12,699 [33] INFO  LISTServer - Session: de0f326f-c2e9-4dad-bcfc-44835a4a6dd0/192.168.2.107:50620
+A new session connected!
+2017-10-17 15:48:15,967 [32] INFO  LISTServer - Session: de0f326f-c2e9-4dad-bcfc-44835a4a6dd0/192.168.2.107:50620
+This session was closed for SocketError!
+2017-10-17 15:49:25,564 [30] INFO  LISTServer - Session: 7fbc1da4-6959-4dec-805c-14a4a46fbf86/192.168.2.107:50679
+A new session connected!
+2017-10-17 15:49:37,084 [7] INFO  LISTServer - Session: 7fbc1da4-6959-4dec-805c-14a4a46fbf86/192.168.2.107:50679
+This session was closed for ClientClosing!
+2017-10-17 15:50:09,266 [34] INFO  LISTServer - Session: e2036b40-e348-470f-bfcd-f727331e98f1/192.168.2.107:50795
+A new session connected!
+2017-10-17 15:50:18,374 [7] INFO  LISTServer - Session: e2036b40-e348-470f-bfcd-f727331e98f1/192.168.2.107:50795
+This session was closed for ClientClosing!
+2017-10-17 15:52:11,622 [34] INFO  LISTServer - Session: 0e441e08-6760-4df7-b7e1-78612cafa251/192.168.2.107:50890
+A new session connected!
+2017-10-17 15:52:14,902 [49] INFO  LISTServer - Session: 0e441e08-6760-4df7-b7e1-78612cafa251/192.168.2.107:50890
+This session was closed for SocketError!
+2017-10-17 15:56:19,897 [34] INFO  LISTServer - Session: 9affb4c3-ca21-42e0-bbef-1af444a66da0/192.168.2.107:51076
+A new session connected!
+2017-10-17 15:56:23,145 [49] INFO  LISTServer - Session: 9affb4c3-ca21-42e0-bbef-1af444a66da0/192.168.2.107:51076
+This session was closed for SocketError!
+2017-10-17 16:01:26,045 [34] INFO  LISTServer - Session: 706526ac-3210-4a6e-9d07-61c51a21cadc/192.168.2.107:51288
+A new session connected!
+2017-10-17 16:01:28,343 [13] INFO  LISTServer - Session: 706526ac-3210-4a6e-9d07-61c51a21cadc/192.168.2.107:51288
+This session was closed for SocketError!
+2017-10-17 16:01:53,388 [34] INFO  LISTServer - Session: 824378c4-583c-40a9-93aa-64c5b5bbb186/192.168.2.107:51309
+A new session connected!
+2017-10-17 16:01:55,451 [13] INFO  LISTServer - Session: 824378c4-583c-40a9-93aa-64c5b5bbb186/192.168.2.107:51309
+This session was closed for SocketError!
+2017-10-17 16:01:57,973 [34] INFO  LISTServer - Session: 38333f14-8d60-4a75-b6ec-b0011fdffdbf/192.168.2.107:51312
+A new session connected!
+2017-10-17 16:02:01,561 [32] INFO  LISTServer - Session: 38333f14-8d60-4a75-b6ec-b0011fdffdbf/192.168.2.107:51312
+This session was closed for SocketError!
+2017-10-17 16:02:03,882 [34] INFO  LISTServer - Session: 39f44e1c-ed45-4d99-b5c5-2a0ce26bbb4a/192.168.2.107:51317
+A new session connected!
+2017-10-17 16:02:05,966 [49] INFO  LISTServer - Session: 39f44e1c-ed45-4d99-b5c5-2a0ce26bbb4a/192.168.2.107:51317
+This session was closed for SocketError!
+2017-10-17 16:02:39,558 [34] INFO  LISTServer - Session: 4f71e8b9-438d-4002-886d-9c9d431e6569/192.168.2.107:51343
+A new session connected!
+2017-10-17 16:02:41,429 [32] INFO  LISTServer - Session: 4f71e8b9-438d-4002-886d-9c9d431e6569/192.168.2.107:51343
+This session was closed for SocketError!
+2017-10-17 16:02:43,930 [34] INFO  LISTServer - Session: 46ef71a3-5ecd-4f31-9265-5ac92361cde3/192.168.2.107:51346
+A new session connected!
+2017-10-17 16:02:47,387 [7] INFO  LISTServer - Session: 46ef71a3-5ecd-4f31-9265-5ac92361cde3/192.168.2.107:51346
+This session was closed for SocketError!
+2017-10-17 16:03:38,416 [34] INFO  LISTServer - Session: 0c0ac1e1-bfb8-45f7-b364-6b6d142efc72/192.168.2.107:51385
+A new session connected!
+2017-10-17 16:03:41,814 [49] INFO  LISTServer - Session: 0c0ac1e1-bfb8-45f7-b364-6b6d142efc72/192.168.2.107:51385
+This session was closed for SocketError!
+2017-10-17 16:12:22,862 [3] INFO  LISTServer - Session: 44396c56-a867-4ef7-a460-cc74cce2cb7a/192.168.2.107:51775
+A new session connected!
+2017-10-17 16:12:25,468 [49] INFO  LISTServer - Session: 44396c56-a867-4ef7-a460-cc74cce2cb7a/192.168.2.107:51775
+This session was closed for SocketError!
+2017-10-17 16:13:02,578 [3] INFO  LISTServer - Session: 9a783be5-c248-46cc-bfa4-9714b2e89f21/192.168.2.107:51798
+A new session connected!
+2017-10-17 16:13:05,640 [32] INFO  LISTServer - Session: 9a783be5-c248-46cc-bfa4-9714b2e89f21/192.168.2.107:51798
+This session was closed for SocketError!
+2017-10-17 16:14:10,907 [3] INFO  LISTServer - Session: c112e6d2-9d5f-4910-b119-bdaa139e4946/192.168.2.107:51840
+A new session connected!
+2017-10-17 16:14:12,508 [49] INFO  LISTServer - Session: c112e6d2-9d5f-4910-b119-bdaa139e4946/192.168.2.107:51840
+This session was closed for SocketError!
+2017-10-17 16:14:50,373 [3] INFO  LISTServer - Session: 72eb9b16-b398-48b2-86f6-dc349ec8e61d/192.168.2.107:51868
+A new session connected!
+2017-10-17 16:14:53,100 [32] INFO  LISTServer - Session: 72eb9b16-b398-48b2-86f6-dc349ec8e61d/192.168.2.107:51868
+This session was closed for SocketError!
+2017-10-17 16:15:17,291 [3] INFO  LISTServer - Session: d5656616-b716-456c-8dd1-196b467ec266/192.168.2.107:51884
+A new session connected!
+2017-10-17 16:15:19,267 [13] INFO  LISTServer - Session: d5656616-b716-456c-8dd1-196b467ec266/192.168.2.107:51884
+This session was closed for SocketError!
+2017-10-17 16:15:46,172 [12] INFO  LISTServer - Session: 8eefda4e-fa3b-404f-871b-952ed5b5beac/192.168.2.107:51900
+A new session connected!
+2017-10-17 16:15:48,414 [13] INFO  LISTServer - Session: 8eefda4e-fa3b-404f-871b-952ed5b5beac/192.168.2.107:51900
+This session was closed for SocketError!
+2017-10-17 16:16:13,220 [14] INFO  LISTServer - Session: 6e72d480-05e4-47ee-bd4a-5ba1bd6eba40/192.168.2.107:51916
+A new session connected!
+2017-10-17 16:16:16,517 [13] INFO  LISTServer - Session: 6e72d480-05e4-47ee-bd4a-5ba1bd6eba40/192.168.2.107:51916
+This session was closed for SocketError!
+2017-10-17 16:16:20,513 [14] INFO  LISTServer - Session: 772b89e7-02a3-44c6-9190-47c35f9029db/192.168.2.107:51921
+A new session connected!
+2017-10-17 16:16:23,855 [49] INFO  LISTServer - Session: 772b89e7-02a3-44c6-9190-47c35f9029db/192.168.2.107:51921
+This session was closed for SocketError!
+2017-10-17 16:16:43,675 [14] INFO  LISTServer - Session: 15cf316e-8a9d-4498-8a60-77ec743742c4/192.168.2.107:51938
+A new session connected!
+2017-10-17 16:16:47,853 [32] INFO  LISTServer - Session: 15cf316e-8a9d-4498-8a60-77ec743742c4/192.168.2.107:51938
+This session was closed for SocketError!
+2017-10-17 16:17:02,363 [14] INFO  LISTServer - Session: 3f35b120-bb37-4590-8f92-cdad2c66fcbb/192.168.2.107:51952
+A new session connected!
+2017-10-17 16:17:04,188 [13] INFO  LISTServer - Session: 3f35b120-bb37-4590-8f92-cdad2c66fcbb/192.168.2.107:51952
+This session was closed for SocketError!
+2017-10-17 16:17:14,884 [14] INFO  LISTServer - Session: 08292c74-3501-4442-a236-534084aa5c1a/192.168.2.107:51965
+A new session connected!
+2017-10-17 16:17:17,015 [49] INFO  LISTServer - Session: 08292c74-3501-4442-a236-534084aa5c1a/192.168.2.107:51965
+This session was closed for SocketError!
+2017-10-17 16:19:00,326 [14] INFO  LISTServer - Session: a85efe68-f180-48fc-8730-1c0df224dc2d/192.168.2.107:52036
+A new session connected!
+2017-10-17 16:19:03,699 [32] INFO  LISTServer - Session: a85efe68-f180-48fc-8730-1c0df224dc2d/192.168.2.107:52036
+This session was closed for SocketError!
+2017-10-17 16:23:13,955 [34] INFO  LISTServer - Session: 663b7a96-1f31-4005-9cd1-27a718192252/192.168.2.107:52463
+A new session connected!
+2017-10-17 16:23:17,207 [13] INFO  LISTServer - Session: 663b7a96-1f31-4005-9cd1-27a718192252/192.168.2.107:52463
+This session was closed for SocketError!
+2017-10-17 16:29:19,743 [18] INFO  LISTServer - Session: f0c10e66-d51b-4fd1-a151-ce0ba56a8def/192.168.2.107:52738
+A new session connected!
+2017-10-17 16:29:23,286 [49] INFO  LISTServer - Session: f0c10e66-d51b-4fd1-a151-ce0ba56a8def/192.168.2.107:52738
+This session was closed for SocketError!
+2017-10-17 16:30:30,795 [20] INFO  LISTServer - Session: 84fad426-8dad-4f14-8dd6-4805809a2954/192.168.2.107:52804
+A new session connected!
+2017-10-17 16:30:33,941 [32] INFO  LISTServer - Session: 84fad426-8dad-4f14-8dd6-4805809a2954/192.168.2.107:52804
+This session was closed for SocketError!
+2017-10-17 16:35:26,614 [19] INFO  LISTServer - Session: a2d0f6e4-bf9e-431f-bd86-f4287b8b65ea/192.168.2.107:53003
+A new session connected!
+2017-10-17 16:35:29,936 [32] INFO  LISTServer - Session: a2d0f6e4-bf9e-431f-bd86-f4287b8b65ea/192.168.2.107:53003
+This session was closed for SocketError!
+2017-10-17 16:39:49,395 [19] INFO  LISTServer - Session: afac6508-fd2a-47d5-9f36-7b5310dd3c1c/192.168.2.107:53202
+A new session connected!
+2017-10-17 16:39:52,963 [7] INFO  LISTServer - Session: afac6508-fd2a-47d5-9f36-7b5310dd3c1c/192.168.2.107:53202
+This session was closed for SocketError!
+2017-10-17 16:54:49,577 [40] INFO  LISTServer - Session: 004a8399-bdbb-439a-b7d7-77c7bc3aff0e/192.168.2.107:53974
+A new session connected!
+2017-10-17 16:54:53,014 [32] INFO  LISTServer - Session: 004a8399-bdbb-439a-b7d7-77c7bc3aff0e/192.168.2.107:53974
+This session was closed for SocketError!
+2017-10-17 16:56:02,327 [41] INFO  LISTServer - Session: da005a59-059b-4608-b3c3-94be612c946d/192.168.2.107:54032
+A new session connected!
+2017-10-17 16:56:05,292 [49] INFO  LISTServer - Session: da005a59-059b-4608-b3c3-94be612c946d/192.168.2.107:54032
+This session was closed for SocketError!
+2017-10-17 17:08:09,355 [41] INFO  LISTServer - Session: 1b75a7d4-dae5-4405-a594-3f77678c4af0/192.168.2.107:54536
+A new session connected!
+2017-10-17 17:08:12,659 [32] INFO  LISTServer - Session: 1b75a7d4-dae5-4405-a594-3f77678c4af0/192.168.2.107:54536
+This session was closed for SocketError!
+2017-10-17 17:08:35,816 [21] INFO  LISTServer - Session: 3e831a7c-3f5f-4fc4-81dd-985b3d069dc3/192.168.2.107:54561
+A new session connected!
+2017-10-17 17:09:11,887 [7] INFO  LISTServer - Session: 3e831a7c-3f5f-4fc4-81dd-985b3d069dc3/192.168.2.107:54561
+This session was closed for SocketError!
+2017-10-17 17:14:38,313 [36] INFO  LISTServer - Session: 7e8e2ff9-f57a-4b97-9b41-d7f5cacd9688/192.168.2.107:54878
+A new session connected!
+2017-10-17 17:16:17,318 [32] INFO  LISTServer - Session: 7e8e2ff9-f57a-4b97-9b41-d7f5cacd9688/192.168.2.107:54878
+This session was closed for SocketError!
+2017-10-17 17:16:53,158 [36] INFO  LISTServer - Session: 2e05f149-15c6-49a5-b0c3-a4835ea1a793/192.168.2.107:55046
+A new session connected!
+2017-10-17 17:17:01,844 [13] INFO  LISTServer - Session: 2e05f149-15c6-49a5-b0c3-a4835ea1a793/192.168.2.107:55046
+This session was closed for SocketError!
+2017-10-17 17:17:22,921 [36] INFO  LISTServer - Session: 485a5db5-618b-4564-ac81-e295ff599b1f/192.168.2.107:55074
+A new session connected!
+2017-10-17 17:17:36,140 [7] INFO  LISTServer - Session: 485a5db5-618b-4564-ac81-e295ff599b1f/192.168.2.107:55074
+This session was closed for SocketError!
+2017-10-17 17:32:17,394 [36] INFO  LISTServer - Session: f4582259-3b0b-4026-ab5f-24bca7954d15/192.168.2.107:55749
+A new session connected!
+2017-10-17 17:40:36,995 [44] INFO  LISTServer - Session: f4582259-3b0b-4026-ab5f-24bca7954d15/192.168.2.107:55749
+This session was closed for SocketError!
+2017-10-17 17:40:54,914 [37] INFO  LISTServer - Session: 5de51386-8f1a-4e74-a20d-881ad07daa28/192.168.2.107:56160
+A new session connected!
+2017-10-17 17:41:29,737 [13] INFO  LISTServer - Session: 5de51386-8f1a-4e74-a20d-881ad07daa28/192.168.2.107:56160
+This session was closed for SocketError!
+2017-10-17 17:45:00,388 [30] INFO  LISTServer - Session: 16dd10da-aee5-4130-b7d4-e2d88935784e/192.168.2.107:56386
+A new session connected!
+2017-10-17 17:45:30,386 [32] INFO  LISTServer - Session: 16dd10da-aee5-4130-b7d4-e2d88935784e/192.168.2.107:56386
+This session was closed for SocketError!
+2017-10-17 17:46:30,639 [25] INFO  LISTServer - Session: 2f457f4d-cd3b-4f8e-94fc-3d1c1a9a687d/192.168.2.107:56489
+A new session connected!
+2017-10-17 17:47:09,922 [13] INFO  LISTServer - Session: 2f457f4d-cd3b-4f8e-94fc-3d1c1a9a687d/192.168.2.107:56489
+This session was closed for SocketError!
+2017-10-17 17:48:29,114 [12] INFO  LISTServer - Session: 17def3df-af79-4b4e-8e7c-17337cbf52cb/192.168.2.107:56576
+A new session connected!
+2017-10-17 17:49:24,384 [13] INFO  LISTServer - Session: 17def3df-af79-4b4e-8e7c-17337cbf52cb/192.168.2.107:56576
+This session was closed for SocketError!
+2017-10-17 18:00:13,521 [14] INFO  LISTServer - Session: aef36ba4-0ba7-4c37-8648-d5f86090c85c/192.168.2.107:57154
+A new session connected!
+2017-10-17 18:04:37,108 [44] INFO  LISTServer - Session: aef36ba4-0ba7-4c37-8648-d5f86090c85c/192.168.2.107:57154
+This session was closed for SocketError!
+2017-10-17 18:11:16,363 [14] INFO  LISTServer - Session: 590b288a-3e05-4f8e-8315-023ea020e7b7/192.168.2.107:57651
+A new session connected!
+2017-10-17 18:11:37,687 [44] INFO  LISTServer - Session: 590b288a-3e05-4f8e-8315-023ea020e7b7/192.168.2.107:57651
+This session was closed for SocketError!
+2017-10-17 18:13:02,495 [12] INFO  LISTServer - Session: a185fd14-0775-4677-92b4-a270ad2d2d82/192.168.2.107:57789
+A new session connected!
+2017-10-17 18:13:57,657 [44] INFO  LISTServer - Session: a185fd14-0775-4677-92b4-a270ad2d2d82/192.168.2.107:57789
+This session was closed for SocketError!
+2017-10-17 18:31:58,862 [1] INFO  LISTServer - The server instance LISTServer has been started!
+2017-10-17 18:49:02,568 [3] INFO  LISTServer - Session: ea9a34f5-68ba-41b4-a5f9-5c1992060d62/192.168.2.107:59436
+A new session connected!
+2017-10-17 18:49:23,921 [7] INFO  LISTServer - Session: ea9a34f5-68ba-41b4-a5f9-5c1992060d62/192.168.2.107:59436
+This session was closed for SocketError!
+2017-10-17 18:49:34,962 [3] INFO  LISTServer - Session: f154a436-2f78-4f28-9a14-b1bfe1c2db40/192.168.2.107:59461
+A new session connected!
+2017-10-17 18:51:33,528 [1] INFO  LISTServer - The server instance LISTServer has been started!
+2017-10-17 18:51:49,114 [3] INFO  LISTServer - Session: 1cd82f3a-3036-4bee-af36-96af4bd931ff/192.168.2.107:59565
+A new session connected!
+2017-10-17 18:52:22,814 [7] INFO  LISTServer - Session: 1cd82f3a-3036-4bee-af36-96af4bd931ff/192.168.2.107:59565
+This session was closed for SocketError!
+2017-10-17 18:52:29,088 [3] INFO  LISTServer - Session: e7c3ebd6-6f6c-402c-9970-b0c2132b9ce9/192.168.2.107:59599
+A new session connected!
+2017-10-17 18:54:34,886 [7] INFO  LISTServer - Session: e7c3ebd6-6f6c-402c-9970-b0c2132b9ce9/192.168.2.107:59599
+This session was closed for SocketError!
+2017-10-17 18:54:50,921 [25] INFO  LISTServer - Session: 2c3ddc8d-c2e7-4106-8845-cbd09090eb17/192.168.2.107:59739
+A new session connected!
+2017-10-17 18:55:56,859 [31] INFO  LISTServer - Session: 2c3ddc8d-c2e7-4106-8845-cbd09090eb17/192.168.2.107:59739
+This session was closed for SocketError!
+2017-10-17 18:57:14,735 [37] INFO  LISTServer - Session: b5ef4c21-1459-468f-a313-23caca2da76e/192.168.2.107:59889
+A new session connected!
+2017-10-17 18:58:04,565 [31] INFO  LISTServer - Session: b5ef4c21-1459-468f-a313-23caca2da76e/192.168.2.107:59889
+This session was closed for SocketError!
+2017-10-17 19:29:21,101 [31] INFO  LISTServer - Session: 1cfe3c2b-4fe8-41b0-b1b6-65a814d556bf/192.168.2.107:61480
+A new session connected!
+2017-10-17 19:34:02,802 [24] INFO  LISTServer - Session: 1cfe3c2b-4fe8-41b0-b1b6-65a814d556bf/192.168.2.107:61480
+This session was closed for SocketError!
+2017-10-17 19:34:13,500 [22] INFO  LISTServer - Session: a01cef22-b7c6-4fa7-89fa-84f29df64087/192.168.2.107:61702
+A new session connected!
+2017-10-17 19:34:18,737 [7] INFO  LISTServer - Session: a01cef22-b7c6-4fa7-89fa-84f29df64087/192.168.2.107:61702
+This session was closed for SocketError!
+2017-10-17 19:36:53,219 [22] INFO  LISTServer - Session: e5496290-070c-40b8-8b9f-816d476ad21f/192.168.2.159:55187
+A new session connected!
+2017-10-17 19:37:06,481 [28] INFO  LISTServer - Session: e5496290-070c-40b8-8b9f-816d476ad21f/192.168.2.159:55187
+This session was closed for ClientClosing!

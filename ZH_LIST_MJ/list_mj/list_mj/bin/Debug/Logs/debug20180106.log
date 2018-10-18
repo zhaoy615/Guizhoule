@@ -1,0 +1,130 @@
+﻿2018-01-06 16:34:53,799 [1] DEBUG DefaultBootstrap - The server instance LISTServer has been created!
+2018-01-06 16:34:54,500 [1] DEBUG LISTServer - The command 11105(ListBLL.Logic.AgentGetGroupInfo) has been discovered
+2018-01-06 16:34:54,501 [1] DEBUG LISTServer - The command 11107(ListBLL.Logic.AgentGroupUsersManager) has been discovered
+2018-01-06 16:34:54,501 [1] DEBUG LISTServer - The command 11110(ListBLL.Logic.AgentSignIn) has been discovered
+2018-01-06 16:34:54,501 [1] DEBUG LISTServer - The command 11060(ListBLL.Logic.ApplyRecord) has been discovered
+2018-01-06 16:34:54,501 [1] DEBUG LISTServer - The command 11040(ListBLL.Logic.ApplyToJoin) has been discovered
+2018-01-06 16:34:54,501 [1] DEBUG LISTServer - The command 11070(ListBLL.Logic.ChangeApplyStatus) has been discovered
+2018-01-06 16:34:54,502 [1] DEBUG LISTServer - The command 11103(ListBLL.Logic.CreateGroup) has been discovered
+2018-01-06 16:34:54,502 [1] DEBUG LISTServer - The command 11109(ListBLL.Logic.DeleteGroup) has been discovered
+2018-01-06 16:34:54,502 [1] DEBUG LISTServer - The command 19005(ListBLL.Logic.Feedback) has been discovered
+2018-01-06 16:34:54,502 [1] DEBUG LISTServer - The command 11020(ListBLL.Logic.GameOperation) has been discovered
+2018-01-06 16:34:54,502 [1] DEBUG LISTServer - The command 11030(ListBLL.Logic.GetGroupInfo) has been discovered
+2018-01-06 16:34:54,502 [1] DEBUG LISTServer - The command 11022(ListBLL.Logic.GetRoomCard) has been discovered
+2018-01-06 16:34:54,502 [1] DEBUG LISTServer - The command 11050(ListBLL.Logic.GroupUsersManager) has been discovered
+2018-01-06 16:34:54,502 [1] DEBUG LISTServer - The command 10001(ListBLL.Logic.Heartbeat) has been discovered
+2018-01-06 16:34:54,502 [1] DEBUG LISTServer - The command 11080(ListBLL.Logic.LobbyInfo) has been discovered
+2018-01-06 16:34:54,502 [1] DEBUG LISTServer - The command 11001(ListBLL.Logic.Login) has been discovered
+2018-01-06 16:34:54,503 [1] DEBUG LISTServer - The command 11101(ListBLL.Logic.Package) has been discovered
+2018-01-06 16:34:54,503 [1] DEBUG LISTServer - The command 11090(ListBLL.Logic.QuitGroup) has been discovered
+2018-01-06 16:34:54,503 [1] DEBUG LISTServer - The command 11108(ListBLL.Logic.SearchPlayer) has been discovered
+2018-01-06 16:34:54,503 [1] DEBUG LISTServer - The command 19003(ListBLL.Logic.UserGamePlaybackLogic) has been discovered
+2018-01-06 16:34:54,503 [1] DEBUG LISTServer - The command 19001(ListBLL.Logic.UserRecordLogic) has been discovered
+2018-01-06 16:34:54,518 [1] DEBUG DefaultBootstrap - The server instance LISTServer has been initialized!
+2018-01-06 16:34:55,712 [1] DEBUG DefaultBootstrap - The PerformanceMonitor has been initialized!
+2018-01-06 16:34:55,712 [1] DEBUG DefaultBootstrap - The Bootstrap has been initialized!
+2018-01-06 16:34:55,740 [1] DEBUG LISTServer - Listener (0.0.0.0:2018) was started
+2018-01-06 16:34:55,744 [1] DEBUG DefaultBootstrap - The PerformanceMonitor has been started!
+2018-01-06 16:35:18,315 [11] DEBUG LISTServer - 登陆sssionID--------970bd58b-9646-4837-9465-a90575e816d1
+2018-01-06 16:35:18,315 [11] DEBUG LISTServer - 登录游戏----------2018/1/6 16:35:18
+2018-01-06 16:35:19,480 [11] DEBUG LISTServer - 登录用户openid:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d|昵称:测试用户cb0----------2018/1/6 16:35:19
+2018-01-06 16:35:20,262 [11] DEBUG LISTServer - 登录游戏成功----------2018/1/6 16:35:20
+2018-01-06 16:35:20,262 [11] DEBUG LISTServer - 新登录用户openid:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d
+2018-01-06 16:35:49,970 [11] DEBUG LISTServer - 登陆sssionID--------3cd48a3d-e8d3-4e16-ae8e-e601f4761e18
+2018-01-06 16:35:49,970 [11] DEBUG LISTServer - 登录游戏----------2018/1/6 16:35:49
+2018-01-06 16:35:50,139 [11] DEBUG LISTServer - 登录用户openid:9697486827159f30f5cab73bbab97a1b56966c2a|昵称:测试用户969----------2018/1/6 16:35:50
+2018-01-06 16:35:50,382 [11] DEBUG LISTServer - 登录游戏成功----------2018/1/6 16:35:50
+2018-01-06 16:35:50,382 [11] DEBUG LISTServer - 新登录用户openid:9697486827159f30f5cab73bbab97a1b56966c2a
+2018-01-06 16:36:43,374 [9] DEBUG LISTServer - 登陆sssionID--------a47f7a61-94a0-463a-9658-6a6ee9122cfe
+2018-01-06 16:36:43,374 [9] DEBUG LISTServer - 登录游戏----------2018/1/6 16:36:43
+2018-01-06 16:36:43,539 [9] DEBUG LISTServer - 登录用户openid:9697486827159f30f5cab73bbab97a1b56966c2a|昵称:测试用户969----------2018/1/6 16:36:43
+2018-01-06 16:36:50,953 [16] DEBUG LISTServer - 登陆sssionID--------f414c6a9-3e9a-4414-9a86-278c030aa428
+2018-01-06 16:36:50,954 [16] DEBUG LISTServer - 登录游戏----------2018/1/6 16:36:50
+2018-01-06 16:36:51,129 [16] DEBUG LISTServer - 登录用户openid:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d|昵称:测试用户cb0----------2018/1/6 16:36:51
+2018-01-06 16:36:51,133 [16] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2018/1/6 16:36:51
+2018-01-06 16:36:51,342 [16] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2018/1/6 16:36:51
+2018-01-06 16:37:21,888 [11] DEBUG LISTServer - 登陆sssionID--------f91df143-0519-48e0-8702-aba133ce8bcc
+2018-01-06 16:37:21,888 [11] DEBUG LISTServer - 登录游戏----------2018/1/6 16:37:21
+2018-01-06 16:37:22,028 [11] DEBUG LISTServer - 登录用户openid:9697486827159f30f5cab73bbab97a1b56966c2a|昵称:测试用户969----------2018/1/6 16:37:22
+2018-01-06 16:37:22,032 [11] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2018/1/6 16:37:22
+2018-01-06 16:37:22,201 [11] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2018/1/6 16:37:22
+2018-01-06 16:41:48,656 [9] DEBUG LISTServer - 登陆sssionID--------87820ac3-e8ba-4120-8e56-656817053a5f
+2018-01-06 16:41:48,656 [9] DEBUG LISTServer - 登录游戏----------2018/1/6 16:41:48
+2018-01-06 16:41:48,894 [9] DEBUG LISTServer - 登录用户openid:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d|昵称:测试用户cb0----------2018/1/6 16:41:48
+2018-01-06 16:41:48,898 [9] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2018/1/6 16:41:48
+2018-01-06 16:41:49,056 [9] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2018/1/6 16:41:49
+2018-01-06 17:35:53,456 [23] DEBUG LISTServer - 登陆sssionID--------f1c233e7-2db7-4a88-9607-7921ae157a18
+2018-01-06 17:35:53,456 [23] DEBUG LISTServer - 登录游戏----------2018/1/6 17:35:53
+2018-01-06 17:36:02,458 [23] DEBUG LISTServer - 登录用户openid:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d|昵称:测试用户cb0----------2018/1/6 17:36:02
+2018-01-06 17:36:02,473 [23] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2018/1/6 17:36:02
+2018-01-06 17:36:09,057 [23] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2018/1/6 17:36:09
+2018-01-06 17:37:17,491 [32] DEBUG LISTServer - 登陆sssionID--------80df8a61-8d78-4a15-9ad7-daf41c577fd9
+2018-01-06 17:37:17,491 [32] DEBUG LISTServer - 登录游戏----------2018/1/6 17:37:17
+2018-01-06 17:37:18,477 [32] DEBUG LISTServer - 登录用户openid:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d|昵称:测试用户cb0----------2018/1/6 17:37:18
+2018-01-06 17:37:18,565 [32] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2018/1/6 17:37:18
+2018-01-06 17:37:19,449 [32] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2018/1/6 17:37:19
+2018-01-06 17:42:05,514 [23] DEBUG LISTServer - 登陆sssionID--------94274a1d-7779-4ffc-80da-50990f1f620f
+2018-01-06 17:42:05,514 [23] DEBUG LISTServer - 登录游戏----------2018/1/6 17:42:05
+2018-01-06 17:42:06,633 [23] DEBUG LISTServer - 登录用户openid:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d|昵称:测试用户cb0----------2018/1/6 17:42:06
+2018-01-06 17:42:06,637 [23] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2018/1/6 17:42:06
+2018-01-06 17:42:06,782 [23] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2018/1/6 17:42:06
+2018-01-06 17:52:22,812 [23] DEBUG LISTServer - 登陆sssionID--------c8918861-4edf-4a5b-b5e4-2fee9e909de6
+2018-01-06 17:52:22,812 [23] DEBUG LISTServer - 登录游戏----------2018/1/6 17:52:22
+2018-01-06 17:52:23,178 [23] DEBUG LISTServer - 登录用户openid:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d|昵称:测试用户cb0----------2018/1/6 17:52:23
+2018-01-06 17:52:23,183 [23] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2018/1/6 17:52:23
+2018-01-06 17:52:23,373 [23] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2018/1/6 17:52:23
+2018-01-06 17:53:55,106 [19] DEBUG LISTServer - 登陆sssionID--------17cc90d1-7826-493d-9d6f-697eb8ab24b2
+2018-01-06 17:53:55,106 [19] DEBUG LISTServer - 登录游戏----------2018/1/6 17:53:55
+2018-01-06 17:53:55,337 [19] DEBUG LISTServer - 登录用户openid:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d|昵称:测试用户cb0----------2018/1/6 17:53:55
+2018-01-06 17:53:55,341 [19] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2018/1/6 17:53:55
+2018-01-06 17:53:55,562 [19] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2018/1/6 17:53:55
+2018-01-06 17:56:34,925 [9] DEBUG LISTServer - 登陆sssionID--------6c2212b9-c909-4d76-b6b4-c5098d6e9eda
+2018-01-06 17:56:34,925 [9] DEBUG LISTServer - 登录游戏----------2018/1/6 17:56:34
+2018-01-06 17:56:35,186 [9] DEBUG LISTServer - 登录用户openid:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d|昵称:测试用户cb0----------2018/1/6 17:56:35
+2018-01-06 17:56:35,190 [9] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2018/1/6 17:56:35
+2018-01-06 17:56:35,339 [9] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2018/1/6 17:56:35
+2018-01-06 17:57:31,967 [9] DEBUG LISTServer - 登陆sssionID--------533a372a-7b1b-4205-87a4-a6e541abe350
+2018-01-06 17:57:31,967 [9] DEBUG LISTServer - 登录游戏----------2018/1/6 17:57:31
+2018-01-06 17:57:32,079 [9] DEBUG LISTServer - 登录用户openid:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d|昵称:测试用户cb0----------2018/1/6 17:57:32
+2018-01-06 17:57:32,087 [9] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2018/1/6 17:57:32
+2018-01-06 17:57:32,343 [9] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2018/1/6 17:57:32
+2018-01-06 17:59:01,034 [9] DEBUG LISTServer - 登陆sssionID--------4a6e91bd-42ef-4bbc-92fd-29651ae79ddd
+2018-01-06 17:59:01,034 [9] DEBUG LISTServer - 登录游戏----------2018/1/6 17:59:01
+2018-01-06 17:59:01,193 [9] DEBUG LISTServer - 登录用户openid:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d|昵称:测试用户cb0----------2018/1/6 17:59:01
+2018-01-06 17:59:01,213 [9] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2018/1/6 17:59:01
+2018-01-06 17:59:01,398 [9] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2018/1/6 17:59:01
+2018-01-06 18:02:30,012 [19] DEBUG LISTServer - 登陆sssionID--------52f211d7-89d5-4a8d-804a-0b2cc5adb7dc
+2018-01-06 18:02:30,012 [19] DEBUG LISTServer - 登录游戏----------2018/1/6 18:02:30
+2018-01-06 18:02:30,201 [19] DEBUG LISTServer - 登录用户openid:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d|昵称:测试用户cb0----------2018/1/6 18:02:30
+2018-01-06 18:02:30,205 [19] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2018/1/6 18:02:30
+2018-01-06 18:02:30,327 [19] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2018/1/6 18:02:30
+2018-01-06 18:03:32,468 [16] DEBUG LISTServer - 登陆sssionID--------fdbefa1a-dde4-4541-bb90-993bcba8689b
+2018-01-06 18:03:32,468 [16] DEBUG LISTServer - 登录游戏----------2018/1/6 18:03:32
+2018-01-06 18:03:32,591 [16] DEBUG LISTServer - 登录用户openid:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d|昵称:测试用户cb0----------2018/1/6 18:03:32
+2018-01-06 18:03:32,595 [16] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2018/1/6 18:03:32
+2018-01-06 18:03:32,703 [16] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2018/1/6 18:03:32
+2018-01-06 18:04:46,330 [16] DEBUG LISTServer - 登陆sssionID--------de1d50d7-a49c-4d79-b7b3-ece5360ad792
+2018-01-06 18:04:46,330 [16] DEBUG LISTServer - 登录游戏----------2018/1/6 18:04:46
+2018-01-06 18:04:46,469 [16] DEBUG LISTServer - 登录用户openid:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d|昵称:测试用户cb0----------2018/1/6 18:04:46
+2018-01-06 18:04:46,472 [16] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2018/1/6 18:04:46
+2018-01-06 18:04:46,592 [16] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2018/1/6 18:04:46
+2018-01-06 18:08:34,918 [16] DEBUG LISTServer - 登陆sssionID--------5080f821-d172-4d61-97d1-0684e5a1f286
+2018-01-06 18:08:34,918 [16] DEBUG LISTServer - 登录游戏----------2018/1/6 18:08:34
+2018-01-06 18:08:35,016 [16] DEBUG LISTServer - 登录用户openid:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d|昵称:测试用户cb0----------2018/1/6 18:08:35
+2018-01-06 18:08:35,019 [16] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2018/1/6 18:08:35
+2018-01-06 18:08:35,138 [16] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2018/1/6 18:08:35
+2018-01-06 18:09:36,111 [9] DEBUG LISTServer - 登陆sssionID--------9f916316-ff03-4d41-8cad-3184fd53520d
+2018-01-06 18:09:36,111 [9] DEBUG LISTServer - 登录游戏----------2018/1/6 18:09:36
+2018-01-06 18:09:36,235 [9] DEBUG LISTServer - 登录用户openid:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d|昵称:测试用户cb0----------2018/1/6 18:09:36
+2018-01-06 18:09:36,238 [9] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2018/1/6 18:09:36
+2018-01-06 18:09:36,361 [9] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2018/1/6 18:09:36
+2018-01-06 18:10:38,218 [19] DEBUG LISTServer - 登陆sssionID--------4fdead5d-732b-411d-b791-b97808e888d3
+2018-01-06 18:10:38,218 [19] DEBUG LISTServer - 登录游戏----------2018/1/6 18:10:38
+2018-01-06 18:10:38,696 [19] DEBUG LISTServer - 登录用户openid:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d|昵称:测试用户cb0----------2018/1/6 18:10:38
+2018-01-06 18:10:38,698 [19] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2018/1/6 18:10:38
+2018-01-06 18:10:38,822 [19] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2018/1/6 18:10:38
+2018-01-06 18:12:06,592 [9] DEBUG LISTServer - 登陆sssionID--------d1ff11ed-0aaf-4be7-9a86-d6fd0f7baeee
+2018-01-06 18:12:06,592 [9] DEBUG LISTServer - 登录游戏----------2018/1/6 18:12:06
+2018-01-06 18:12:06,774 [9] DEBUG LISTServer - 登录用户openid:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d|昵称:测试用户cb0----------2018/1/6 18:12:06
+2018-01-06 18:12:06,777 [9] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2018/1/6 18:12:06
+2018-01-06 18:12:06,897 [9] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2018/1/6 18:12:06

@@ -1,0 +1,17 @@
+E:\BaiduNetdiskDownload\麻将项目服务端6-18\麻将项目服务端\麻将项目服务端\麻将服务端2017-6-24\Project1\Project1\DAL\obj\Release\MJDAL.csprojResolveAssemblyReference.cache
+D:\工作\ZH_LIST_MJ\list_mj\DAL\bin\Release\DAL.dll
+D:\工作\ZH_LIST_MJ\list_mj\DAL\bin\Release\DAL.pdb
+D:\工作\ZH_LIST_MJ\list_mj\DAL\bin\Release\Dapper.dll
+D:\工作\ZH_LIST_MJ\list_mj\DAL\bin\Release\Dapper.xml
+D:\工作\ZH_LIST_MJ\list_mj\DAL\obj\Release\DAL.dll
+D:\工作\ZH_LIST_MJ\list_mj\DAL\obj\Release\DAL.pdb
+D:\工作\ZH_LIST_MJ\list_mj\DAL\obj\Release\MJDAL.csprojResolveAssemblyReference.cache
+D:\千羽瑞佳-白\ZH_LIST_MJ\list_mj\DAL\bin\Release\DAL.dll
+D:\千羽瑞佳-白\ZH_LIST_MJ\list_mj\DAL\bin\Release\DAL.pdb
+D:\千羽瑞佳-白\ZH_LIST_MJ\list_mj\DAL\bin\Release\Dapper.dll
+D:\千羽瑞佳-白\ZH_LIST_MJ\list_mj\DAL\bin\Release\Dapper.xml
+D:\千羽瑞佳-白\ZH_LIST_MJ\list_mj\DAL\obj\Release\MJDAL.csprojAssemblyReference.cache
+D:\千羽瑞佳-白\ZH_LIST_MJ\list_mj\DAL\obj\Release\MJDAL.csproj.CoreCompileInputs.cache
+D:\千羽瑞佳-白\ZH_LIST_MJ\list_mj\DAL\obj\Release\MJDAL.csproj.CopyComplete
+D:\千羽瑞佳-白\ZH_LIST_MJ\list_mj\DAL\obj\Release\DAL.dll
+D:\千羽瑞佳-白\ZH_LIST_MJ\list_mj\DAL\obj\Release\DAL.pdb

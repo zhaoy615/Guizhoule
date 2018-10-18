@@ -1,0 +1,30 @@
+{
+    "group":       "SDK",
+    "libs":        [],
+    "frameworks":  ["ImageIO.framework",
+                    "MessageUI.framework",
+                    "JavaScriptCore.framework",
+                    ],
+    "zips":         ["SDK.zip"],                
+    "headerpaths": [],
+    "librarypaths": [],
+    "files":       ["SDK/ShareSDK/ShareSDK.framework",
+                    "SDK/Required/MOBFoundation.framework",
+                    "SDK/ShareSDK/Support/Required/ShareSDKConnector.framework",
+                    "SDK/ShareSDK/Support/Optional/ShareSDKExtension.framework",
+                    "SDK/ShareSDK/Support/Optional/ShareSDKUI.framework",
+                    "SDK/ShareSDK/Support/Optional/ShareSDKConfigFile.framework",
+                    "SDK/ShareSDK/Support/PlatformSDK/QQSDK/TencentOpenAPI.framework",
+                    "SDK/ShareSDK/Support/PlatformConnector/QQConnector.framework",
+                    "SDK/ShareSDK/Support/PlatformConnector/WechatConnector.framework",
+                    "SDK/ShareSDK/Support/PlatformConnector/WhatsAppConnector.framework",
+                    ],
+    "folders":     [],
+    "buildSettings": { 
+        "OTHER_LDFLAGS" : ["-ObjC",
+                           "-lsqlite3.0",
+                           "-lz",
+                           "licucore"]
+    },
+    "excludes":    ["^.*.meta$", "^.*.mdown^", "^.*.pdf$"]
+}

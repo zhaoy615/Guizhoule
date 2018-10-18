@@ -1,0 +1,84 @@
+﻿2017-11-13 17:28:32,229 [1] DEBUG DefaultBootstrap - The server instance DBServer has been created!
+2017-11-13 17:28:32,508 [1] DEBUG DBServer - The command 12003(MJBLL.mjrule.AddRoom) has been discovered
+2017-11-13 17:28:32,509 [1] DEBUG DBServer - The command 17089(MJBLL.mjrule.AddRoomOne) has been discovered
+2017-11-13 17:28:32,509 [1] DEBUG DBServer - The command 11011(MJBLL.mjrule.AddServer) has been discovered
+2017-11-13 17:28:32,509 [1] DEBUG DBServer - The command 15005(MJBLL.mjrule.ClearByUser) has been discovered
+2017-11-13 17:28:32,509 [1] DEBUG DBServer - The command 15019(MJBLL.mjrule.ConnData) has been discovered
+2017-11-13 17:28:32,509 [1] DEBUG DBServer - The command 12001(MJBLL.mjrule.CreateRoom) has been discovered
+2017-11-13 17:28:32,509 [1] DEBUG DBServer - The command 15001(MJBLL.mjrule.DayToL) has been discovered
+2017-11-13 17:28:32,509 [1] DEBUG DBServer - The command 14001(MJBLL.mjrule.Gang) has been discovered
+2017-11-13 17:28:32,509 [1] DEBUG DBServer - The command 15016(MJBLL.mjrule.GetH) has been discovered
+2017-11-13 17:28:32,509 [1] DEBUG DBServer - The command 10001(MJBLL.mjrule.Heartbeat) has been discovered
+2017-11-13 17:28:32,509 [1] DEBUG DBServer - The command 13001(MJBLL.mjrule.ChuPai) has been discovered
+2017-11-13 17:28:32,509 [1] DEBUG DBServer - The command 15017(MJBLL.mjrule.JX_Game) has been discovered
+2017-11-13 17:28:32,510 [1] DEBUG DBServer - The command 12012(MJBLL.mjrule.Managed) has been discovered
+2017-11-13 17:28:32,510 [1] DEBUG DBServer - The command 13002(MJBLL.mjrule.MoPai) has been discovered
+2017-11-13 17:28:32,510 [1] DEBUG DBServer - The command 10010(MJBLL.mjrule.BizIntegral) has been discovered
+2017-11-13 17:28:32,510 [1] DEBUG DBServer - The command 15011(MJBLL.mjrule.QYM) has been discovered
+2017-11-13 17:28:32,510 [1] DEBUG DBServer - The command 18002(MJBLL.mjrule.ReqVoice) has been discovered
+2017-11-13 17:28:32,510 [1] DEBUG DBServer - The command 19901(MJBLL.mjrule.RoomExist) has been discovered
+2017-11-13 17:28:32,510 [1] DEBUG DBServer - The command 18005(MJBLL.mjrule.UserOffline) has been discovered
+2017-11-13 17:28:32,510 [1] DEBUG DBServer - The command 15003(MJBLL.mjrule.RemoveRoom) has been discovered
+2017-11-13 17:28:32,510 [1] DEBUG DBServer - The command 17094(MJBLL.mjrule.StartGame) has been discovered
+2017-11-13 17:28:32,510 [1] DEBUG DBServer - The command 15008(MJBLL.mjrule.UserRemove) has been discovered
+2017-11-13 17:28:32,521 [1] DEBUG DefaultBootstrap - The server instance DBServer has been initialized!
+2017-11-13 17:28:33,378 [1] DEBUG DefaultBootstrap - The PerformanceMonitor has been initialized!
+2017-11-13 17:28:33,378 [1] DEBUG DefaultBootstrap - The Bootstrap has been initialized!
+2017-11-13 17:28:33,394 [1] DEBUG DBServer - Listener (0.0.0.0:2000) was started
+2017-11-13 17:28:33,406 [1] DEBUG DefaultBootstrap - The PerformanceMonitor has been started!
+2017-11-13 17:31:23,265 [1] DEBUG DefaultBootstrap - The server instance DBServer has been created!
+2017-11-13 17:31:23,562 [1] DEBUG DBServer - The command 12003(MJBLL.mjrule.AddRoom) has been discovered
+2017-11-13 17:31:23,562 [1] DEBUG DBServer - The command 17089(MJBLL.mjrule.AddRoomOne) has been discovered
+2017-11-13 17:31:23,562 [1] DEBUG DBServer - The command 11011(MJBLL.mjrule.AddServer) has been discovered
+2017-11-13 17:31:23,562 [1] DEBUG DBServer - The command 15005(MJBLL.mjrule.ClearByUser) has been discovered
+2017-11-13 17:31:23,562 [1] DEBUG DBServer - The command 15019(MJBLL.mjrule.ConnData) has been discovered
+2017-11-13 17:31:23,562 [1] DEBUG DBServer - The command 12001(MJBLL.mjrule.CreateRoom) has been discovered
+2017-11-13 17:31:23,562 [1] DEBUG DBServer - The command 15001(MJBLL.mjrule.DayToL) has been discovered
+2017-11-13 17:31:23,562 [1] DEBUG DBServer - The command 14001(MJBLL.mjrule.Gang) has been discovered
+2017-11-13 17:31:23,562 [1] DEBUG DBServer - The command 15016(MJBLL.mjrule.GetH) has been discovered
+2017-11-13 17:31:23,563 [1] DEBUG DBServer - The command 10001(MJBLL.mjrule.Heartbeat) has been discovered
+2017-11-13 17:31:23,563 [1] DEBUG DBServer - The command 13001(MJBLL.mjrule.ChuPai) has been discovered
+2017-11-13 17:31:23,563 [1] DEBUG DBServer - The command 15017(MJBLL.mjrule.JX_Game) has been discovered
+2017-11-13 17:31:23,563 [1] DEBUG DBServer - The command 12012(MJBLL.mjrule.Managed) has been discovered
+2017-11-13 17:31:23,563 [1] DEBUG DBServer - The command 13002(MJBLL.mjrule.MoPai) has been discovered
+2017-11-13 17:31:23,563 [1] DEBUG DBServer - The command 10010(MJBLL.mjrule.BizIntegral) has been discovered
+2017-11-13 17:31:23,563 [1] DEBUG DBServer - The command 15011(MJBLL.mjrule.QYM) has been discovered
+2017-11-13 17:31:23,563 [1] DEBUG DBServer - The command 18002(MJBLL.mjrule.ReqVoice) has been discovered
+2017-11-13 17:31:23,563 [1] DEBUG DBServer - The command 19901(MJBLL.mjrule.RoomExist) has been discovered
+2017-11-13 17:31:23,563 [1] DEBUG DBServer - The command 18005(MJBLL.mjrule.UserOffline) has been discovered
+2017-11-13 17:31:23,563 [1] DEBUG DBServer - The command 15003(MJBLL.mjrule.RemoveRoom) has been discovered
+2017-11-13 17:31:23,563 [1] DEBUG DBServer - The command 17094(MJBLL.mjrule.StartGame) has been discovered
+2017-11-13 17:31:23,563 [1] DEBUG DBServer - The command 15008(MJBLL.mjrule.UserRemove) has been discovered
+2017-11-13 17:31:23,576 [1] DEBUG DefaultBootstrap - The server instance DBServer has been initialized!
+2017-11-13 17:31:24,459 [1] DEBUG DefaultBootstrap - The PerformanceMonitor has been initialized!
+2017-11-13 17:31:24,459 [1] DEBUG DefaultBootstrap - The Bootstrap has been initialized!
+2017-11-13 17:31:24,496 [1] DEBUG DBServer - Listener (0.0.0.0:2000) was started
+2017-11-13 17:31:24,501 [1] DEBUG DefaultBootstrap - The PerformanceMonitor has been started!
+2017-11-13 17:35:35,823 [1] DEBUG DefaultBootstrap - The server instance DBServer has been created!
+2017-11-13 17:35:36,126 [1] DEBUG DBServer - The command 12003(MJBLL.mjrule.AddRoom) has been discovered
+2017-11-13 17:35:36,126 [1] DEBUG DBServer - The command 17089(MJBLL.mjrule.AddRoomOne) has been discovered
+2017-11-13 17:35:36,126 [1] DEBUG DBServer - The command 11011(MJBLL.mjrule.AddServer) has been discovered
+2017-11-13 17:35:36,126 [1] DEBUG DBServer - The command 15005(MJBLL.mjrule.ClearByUser) has been discovered
+2017-11-13 17:35:36,126 [1] DEBUG DBServer - The command 15019(MJBLL.mjrule.ConnData) has been discovered
+2017-11-13 17:35:36,126 [1] DEBUG DBServer - The command 12001(MJBLL.mjrule.CreateRoom) has been discovered
+2017-11-13 17:35:36,126 [1] DEBUG DBServer - The command 15001(MJBLL.mjrule.DayToL) has been discovered
+2017-11-13 17:35:36,126 [1] DEBUG DBServer - The command 14001(MJBLL.mjrule.Gang) has been discovered
+2017-11-13 17:35:36,126 [1] DEBUG DBServer - The command 15016(MJBLL.mjrule.GetH) has been discovered
+2017-11-13 17:35:36,126 [1] DEBUG DBServer - The command 10001(MJBLL.mjrule.Heartbeat) has been discovered
+2017-11-13 17:35:36,127 [1] DEBUG DBServer - The command 13001(MJBLL.mjrule.ChuPai) has been discovered
+2017-11-13 17:35:36,127 [1] DEBUG DBServer - The command 15017(MJBLL.mjrule.JX_Game) has been discovered
+2017-11-13 17:35:36,127 [1] DEBUG DBServer - The command 12012(MJBLL.mjrule.Managed) has been discovered
+2017-11-13 17:35:36,127 [1] DEBUG DBServer - The command 13002(MJBLL.mjrule.MoPai) has been discovered
+2017-11-13 17:35:36,127 [1] DEBUG DBServer - The command 10010(MJBLL.mjrule.BizIntegral) has been discovered
+2017-11-13 17:35:36,127 [1] DEBUG DBServer - The command 15011(MJBLL.mjrule.QYM) has been discovered
+2017-11-13 17:35:36,127 [1] DEBUG DBServer - The command 18002(MJBLL.mjrule.ReqVoice) has been discovered
+2017-11-13 17:35:36,127 [1] DEBUG DBServer - The command 19901(MJBLL.mjrule.RoomExist) has been discovered
+2017-11-13 17:35:36,127 [1] DEBUG DBServer - The command 18005(MJBLL.mjrule.UserOffline) has been discovered
+2017-11-13 17:35:36,127 [1] DEBUG DBServer - The command 15003(MJBLL.mjrule.RemoveRoom) has been discovered
+2017-11-13 17:35:36,127 [1] DEBUG DBServer - The command 17094(MJBLL.mjrule.StartGame) has been discovered
+2017-11-13 17:35:36,127 [1] DEBUG DBServer - The command 15008(MJBLL.mjrule.UserRemove) has been discovered
+2017-11-13 17:35:36,140 [1] DEBUG DefaultBootstrap - The server instance DBServer has been initialized!
+2017-11-13 17:35:37,016 [1] DEBUG DefaultBootstrap - The PerformanceMonitor has been initialized!
+2017-11-13 17:35:37,016 [1] DEBUG DefaultBootstrap - The Bootstrap has been initialized!
+2017-11-13 17:35:37,032 [1] DEBUG DBServer - Listener (0.0.0.0:2000) was started
+2017-11-13 17:35:37,038 [1] DEBUG DefaultBootstrap - The PerformanceMonitor has been started!

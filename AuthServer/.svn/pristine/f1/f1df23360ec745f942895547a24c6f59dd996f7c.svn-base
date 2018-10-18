@@ -1,0 +1,43 @@
+﻿using MJBLL.common;
+using SuperSocket.SocketBase.Command;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BLL.Longbao
+{
+    public class AddLongBaov : ICommand<GameSession, ProtobufRequestInfo>
+    {
+
+        const int count = 3;  //默认返回龙宝数量
+        public string Name
+        {
+            get { return "11008"; }
+        }
+
+        public void ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo)
+        {
+            var addLongBao = SendAddLongBao.ParseFrom(requestInfo.Body);
+
+
+            DAL.DAL.Longbao longbao = new DAL.DAL.Longbao();
+            var state = longbao.AddLongBao(addLongBao.UserID, addLongBao.Count, addLongBao.Logging);
+
+
+            if (state == 1)
+            {
+                var data = ReturnMessage.CreateBuilder().SetState(state).SetMessage("返回成功").Build().ToByteArray();
+                session.Send(new ArraySegment<byte>(CreateHead.CreateMessage(11010, data.Length, requestInfo.MessageNum, data)));
+                //longbao.AddLongBaoLog(addLongBao.UserID, addLongBao.Logging, count);
+                //Console.WriteLine(addLongBao.UserID, addLongBao.Logging, count);
+            }
+            else
+            {
+                var data = ReturnMessage.CreateBuilder().SetState(state).SetMessage("返回失败").Build().ToByteArray();
+                session.Send(new ArraySegment<byte>(CreateHead.CreateMessage(11010, data.Length, requestInfo.MessageNum, data)));
+            }
+        }
+    }
+}

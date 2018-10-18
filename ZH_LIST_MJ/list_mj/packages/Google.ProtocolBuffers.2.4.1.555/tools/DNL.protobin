@@ -1,0 +1,277 @@
+
+”
+	DNL.proto"∫
+SendCreateRoom
+openid (	
+is_wgj (
+
+is_xinqiji (
+is_shangxiaji (
+is_benji (
+is_yikousan (
+room_peo (	
+count (
+is_lianzhuang	 ("?
+ReturnCreateRoom
+roomID (
+userinfo (2	.Userinfo"Å
+Userinfo
+openid (	
+nickname (	
+headimg (	
+sex (
+	user_bean (
+	user_gold (
+user_FW ("-
+SendAddRoom
+roomID (
+openid (	";
+ReturnAddRoom
+state (
+userinfo (2	.Userinfo"-
+ReturnUserInfo
+userinfo (2	.Userinfo"'
+MaJiang
+PaiID (
+PaiHS ("G
+ReturnStartGame
+mj (2.MaJiang
+chuuser (
+state ("|
+	SendLogin
+openid (	
+nickname (	
+sex (	
+province (	
+city (	
+headimg (	
+unionid (	" 
+ReturnLogin
+	loginstat ("2
+MaintainHeartbeat
+state (
+openid (	"
+ReturnStart
+start ("+
+	SendStart
+openid (	
+roomid ("7
+SendMP
+openid (	
+roomid (
+mType (":
+ReturnMP
+mj (2.MaJiang
+gang (
+
+hu ("L
+SendCP
+openid (	
+roomid (
+mj (2.MaJiang
+type ("p
+	ReturnAll
+peng (
+gang (
+
+hu (
+
+mo (
+mj (2.MaJiang
+
+fw (
+mType (":
+	ReturnMsg
+msg (	
+mj (2.MaJiang
+
+FW ("y
+SendPeng
+types (
+state (
+openid (	
+roomid (
+
+FW (
+mj (2.MaJiang
+Gtype (	"Y
+
+ReturnPeng
+state (
+mj (2.MaJiang
+
+fw (
+Pfw (
+Gtype (	"
+ReturnRecon
+state ("<
+UserShou
+
+FW (
+mj (2.MaJiang
+Pcount (",
+UserPeng
+
+FW (
+mj (2.MaJiang"$
+UserGang
+
+FW (
+gang (	"+
+UserChu
+
+FW (
+mj (2.MaJiang".
+JpConn
+CFJ (
+WGJ (
+
+FW ("ö
+ReturnConnData
+shoupai (2	.UserShou
+peng (2	.UserPeng
+gang (2	.UserGang
+chu (2.UserChu
+roomID (
+jp (2.JpConn"
+ReturnMsgList
+msg ("©
+ReturnRoomMsg
+is_wgj (
+
+is_xinqiji (
+is_shangxiaji (
+is_benji (
+is_yikousan (
+room_peo (	
+count (
+is_lianzhuang ("<
+ReturnHyUser
+
+fw (
+
+cz (	
+mj (2.MaJiang"
+ReturnFJ
+
+HS ("4
+JiPaiF
+PaiHS (
+Count (
+type (""
+Dou
+type (
+Count ("à
+UserJS
+userinfo (2	.Userinfo
+jp (2.JiPaiF
+dc (2.Dou
+
+FS (
+is_jiao (
+is_pao (
+dy_fs ("
+ReturnJS
+js (2.UserJS" 
+ReturnTP
+mj (2.MaJiang"6
+SendBT
+openid (	
+type (
+roomID ("
+ReturnBTMsg
+
+fw ("(
+SendJS
+openid (	
+roomid ("+
+ReturnJSMsg
+NickName (	
+
+fw (";
+
+SendJSIdea
+roomid (
+openid (	
+state ("1
+ReturnJSByOnew
+NickName (	
+state ("
+ReturnAllIdea
+state (",
+
+SendRemove
+openid (	
+RoomID (""
+ReturnRemoveUser
+openid (	""
+ReturnPaiCount
+PaiCount (",
+UserSPai
+
+fw (
+mj (2.MaJiang"(
+ReturnUserSPai
+usp (2	.UserSPai"'
+SendQYM
+type (
+openid (	"%
+	ReturnQYM
+
+fw (
+type ("#
+	ReturnAYM
+QP (2
+.ReturnQYM"
+ReturnTT
+
+fw ("{
+UserAJS
+user (2	.Userinfo
+zimo (
+dianpao (
+andou (
+Mdou (
+Zdou (
+Scare ("4
+	ReturnDJS
+userjs (2.UserAJS
+state ("M
+ReturnHByType
+FWZ (
+type (
+FWB (
+MJ (2.MaJiang"f
+SendHu
+FWZ (
+type (
+FWB (
+MJ (2.MaJiang
+openid (	
+roomid ("*
+SendGetGame
+room_ID (
+
+fw ("6
+ReturnZR
+gtype (
+zrfw (
+dzrfw (".
+SendConnData
+openid (	
+RoomID ("
+ReturnZhuang
+zhuang ("K
+ReturnHType
+FWZ (
+type (
+FWB (
+MJ (2.MaJiang"9
+GangMSG
+
+fw (
+Type (
+mj (2.MaJiang"$
+
+ReturnGang
+gang (2.GangMSG

@@ -1,0 +1,116 @@
+﻿2017-11-21 17:31:01,009 [1] ERROR DefaultBootstrap - Failed to create server instance DBServer!
+System.IO.FileNotFoundException: 未能加载文件或程序集“MJBLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。
+文件名:“MJBLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”
+   在 System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   在 System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   在 System.RuntimeType.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark)
+   在 System.Type.GetType(String typeName, Boolean throwOnError)
+   在 SuperSocket.SocketEngine.DefaultBootstrap.CreateWorkItemInstance(String serviceTypeName, StatusInfoAttribute[] serverStatusMetadata)
+   在 SuperSocket.SocketEngine.DefaultBootstrap.InitializeAndSetupWorkItem(WorkItemFactoryInfo factoryInfo)
+
+=== 预绑定状态信息 ===
+日志: DisplayName = MJBLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+ (Fully-specified)
+日志: Appbase = file:///C:/DotWork/JPlayMJv1.01/Play_mj/bin/Debug/
+日志: 初始 PrivatePath = NULL
+调用程序集: Play_mj, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null。
+===
+日志: 此绑定从 default 加载上下文开始。
+日志: 正在使用应用程序配置文件: C:\DotWork\JPlayMJv1.01\Play_mj\bin\Debug\AuthServer.exe.Config
+日志: 使用主机配置文件: 
+日志: 使用 C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config 的计算机配置文件。
+日志: 此时没有为引用应用策略(私有、自定义、分部或基于位置的程序集绑定)。
+日志: 尝试下载新的 URL file:///C:/DotWork/JPlayMJv1.01/Play_mj/bin/Debug/MJBLL.DLL。
+日志: 尝试下载新的 URL file:///C:/DotWork/JPlayMJv1.01/Play_mj/bin/Debug/MJBLL/MJBLL.DLL。
+日志: 尝试下载新的 URL file:///C:/DotWork/JPlayMJv1.01/Play_mj/bin/Debug/MJBLL.EXE。
+日志: 尝试下载新的 URL file:///C:/DotWork/JPlayMJv1.01/Play_mj/bin/Debug/MJBLL/MJBLL.EXE。
+
+2017-11-21 17:31:39,515 [1] ERROR DefaultBootstrap - Failed to create server instance DBServer!
+System.IO.FileNotFoundException: 未能加载文件或程序集“MJBLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。
+文件名:“MJBLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”
+   在 System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   在 System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   在 System.RuntimeType.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark)
+   在 System.Type.GetType(String typeName, Boolean throwOnError)
+   在 SuperSocket.SocketEngine.DefaultBootstrap.CreateWorkItemInstance(String serviceTypeName, StatusInfoAttribute[] serverStatusMetadata)
+   在 SuperSocket.SocketEngine.DefaultBootstrap.InitializeAndSetupWorkItem(WorkItemFactoryInfo factoryInfo)
+
+=== 预绑定状态信息 ===
+日志: DisplayName = MJBLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+ (Fully-specified)
+日志: Appbase = file:///C:/DotWork/JPlayMJv1.01/Play_mj/bin/Debug/
+日志: 初始 PrivatePath = NULL
+调用程序集: Play_mj, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null。
+===
+日志: 此绑定从 default 加载上下文开始。
+日志: 正在使用应用程序配置文件: C:\DotWork\JPlayMJv1.01\Play_mj\bin\Debug\AuthServer.exe.Config
+日志: 使用主机配置文件: 
+日志: 使用 C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config 的计算机配置文件。
+日志: 此时没有为引用应用策略(私有、自定义、分部或基于位置的程序集绑定)。
+日志: 尝试下载新的 URL file:///C:/DotWork/JPlayMJv1.01/Play_mj/bin/Debug/MJBLL.DLL。
+日志: 尝试下载新的 URL file:///C:/DotWork/JPlayMJv1.01/Play_mj/bin/Debug/MJBLL/MJBLL.DLL。
+日志: 尝试下载新的 URL file:///C:/DotWork/JPlayMJv1.01/Play_mj/bin/Debug/MJBLL.EXE。
+日志: 尝试下载新的 URL file:///C:/DotWork/JPlayMJv1.01/Play_mj/bin/Debug/MJBLL/MJBLL.EXE。
+
+2017-11-21 17:31:59,740 [1] ERROR DefaultBootstrap - Failed to create server instance DBServer!
+System.IO.FileNotFoundException: 未能加载文件或程序集“MJBLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。
+文件名:“MJBLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”
+   在 System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   在 System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   在 System.RuntimeType.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark)
+   在 System.Type.GetType(String typeName, Boolean throwOnError)
+   在 SuperSocket.SocketEngine.DefaultBootstrap.CreateWorkItemInstance(String serviceTypeName, StatusInfoAttribute[] serverStatusMetadata)
+   在 SuperSocket.SocketEngine.DefaultBootstrap.InitializeAndSetupWorkItem(WorkItemFactoryInfo factoryInfo)
+
+=== 预绑定状态信息 ===
+日志: DisplayName = MJBLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+ (Fully-specified)
+日志: Appbase = file:///C:/DotWork/JPlayMJv1.01/Play_mj/bin/Debug/
+日志: 初始 PrivatePath = NULL
+调用程序集: Play_mj, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null。
+===
+日志: 此绑定从 default 加载上下文开始。
+日志: 正在使用应用程序配置文件: C:\DotWork\JPlayMJv1.01\Play_mj\bin\Debug\AuthServer.exe.Config
+日志: 使用主机配置文件: 
+日志: 使用 C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config 的计算机配置文件。
+日志: 此时没有为引用应用策略(私有、自定义、分部或基于位置的程序集绑定)。
+日志: 尝试下载新的 URL file:///C:/DotWork/JPlayMJv1.01/Play_mj/bin/Debug/MJBLL.DLL。
+日志: 尝试下载新的 URL file:///C:/DotWork/JPlayMJv1.01/Play_mj/bin/Debug/MJBLL/MJBLL.DLL。
+日志: 尝试下载新的 URL file:///C:/DotWork/JPlayMJv1.01/Play_mj/bin/Debug/MJBLL.EXE。
+日志: 尝试下载新的 URL file:///C:/DotWork/JPlayMJv1.01/Play_mj/bin/Debug/MJBLL/MJBLL.EXE。
+
+2017-11-21 17:35:13,223 [1] ERROR DefaultBootstrap - Failed to create server instance DBServer!
+System.TypeLoadException: 未能从程序集“AuthServer”中加载类型“AuthServer.GameServer”。
+   在 System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   在 System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   在 System.RuntimeType.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark)
+   在 System.Type.GetType(String typeName, Boolean throwOnError)
+   在 SuperSocket.SocketEngine.DefaultBootstrap.CreateWorkItemInstance(String serviceTypeName, StatusInfoAttribute[] serverStatusMetadata)
+   在 SuperSocket.SocketEngine.DefaultBootstrap.InitializeAndSetupWorkItem(WorkItemFactoryInfo factoryInfo)
+2017-11-21 17:39:27,257 [1] ERROR DefaultBootstrap - Failed to create server instance DBServer!
+System.IO.FileNotFoundException: 未能加载文件或程序集“MJBLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。
+文件名:“MJBLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”
+   在 System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   在 System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   在 System.RuntimeType.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark)
+   在 System.Type.GetType(String typeName, Boolean throwOnError)
+   在 SuperSocket.SocketEngine.DefaultBootstrap.CreateWorkItemInstance(String serviceTypeName, StatusInfoAttribute[] serverStatusMetadata)
+   在 SuperSocket.SocketEngine.DefaultBootstrap.InitializeAndSetupWorkItem(WorkItemFactoryInfo factoryInfo)
+
+=== 预绑定状态信息 ===
+日志: DisplayName = MJBLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+ (Fully-specified)
+日志: Appbase = file:///C:/DotWork/JPlayMJv1.01/Play_mj/bin/Debug/
+日志: 初始 PrivatePath = NULL
+调用程序集: Play_mj, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null。
+===
+日志: 此绑定从 default 加载上下文开始。
+日志: 正在使用应用程序配置文件: C:\DotWork\JPlayMJv1.01\Play_mj\bin\Debug\AuthServer.exe.Config
+日志: 使用主机配置文件: 
+日志: 使用 C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config 的计算机配置文件。
+日志: 此时没有为引用应用策略(私有、自定义、分部或基于位置的程序集绑定)。
+日志: 尝试下载新的 URL file:///C:/DotWork/JPlayMJv1.01/Play_mj/bin/Debug/MJBLL.DLL。
+日志: 尝试下载新的 URL file:///C:/DotWork/JPlayMJv1.01/Play_mj/bin/Debug/MJBLL/MJBLL.DLL。
+日志: 尝试下载新的 URL file:///C:/DotWork/JPlayMJv1.01/Play_mj/bin/Debug/MJBLL.EXE。
+日志: 尝试下载新的 URL file:///C:/DotWork/JPlayMJv1.01/Play_mj/bin/Debug/MJBLL/MJBLL.EXE。
+

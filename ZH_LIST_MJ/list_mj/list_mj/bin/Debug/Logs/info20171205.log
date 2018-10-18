@@ -1,0 +1,10 @@
+﻿2017-12-05 10:07:49,049 [1] INFO  LISTServer - The server instance LISTServer has been started!
+2017-12-05 10:08:18,007 [3] INFO  LISTServer - Session: a18c4b40-8b1f-416b-89bc-fdbfb1e5fa95/192.168.2.249:3259
+A new session connected!
+2017-12-05 10:08:43,290 [12] INFO  手动添加日志 - 请求扣除房卡:System.Net.Sockets.SocketException (0x80004005): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.2.8:2000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2017-12-05 10:09:38,727 [12] INFO  LISTServer - Session: a18c4b40-8b1f-416b-89bc-fdbfb1e5fa95/192.168.2.249:3259
+This session was closed for ClientClosing!

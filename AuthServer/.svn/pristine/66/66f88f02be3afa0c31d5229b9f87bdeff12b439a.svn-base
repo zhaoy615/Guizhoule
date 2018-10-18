@@ -1,0 +1,107 @@
+﻿using DAL.DBHelp;
+
+using MySql.Data.MySqlClient;
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Dapper;
+using DAL.Model;
+
+namespace DAL.DAL
+{
+    public class Business
+    {
+        IDbConnection conn = new MySqlConnection(DbHelperMySQL.connectionString);
+
+        /// <summary>
+        /// 获取用户积分信息
+        /// </summary>
+        /// <param name="userID"></param>
+        /// <returns></returns>
+        public IntegralInfo GetIntegralInfo(string userID)
+        {
+           string str = @"select * from integral_info where userID=@userID";
+           return  conn.QueryFirstOrDefault<IntegralInfo>(str,new { userID= userID });
+        }
+
+
+        public int GetIntegralInfo(string userID, string businessType)
+        {
+            string str = string.Format("select {0} from integral_info  WHERE userID = @userID", businessType);
+            return conn.Query<int>(str, new { userID = userID }).FirstOrDefault();
+        }
+
+        /// <summary>
+        /// 插入用户空信息
+        /// </summary>
+        public void InsertIntegralInfo(string userID)
+        {
+            string sql = @"insert into integral_info VALUES  (@userID,0,0,0 )";
+            conn.Execute(sql,new { userID= userID });
+        }
+
+        /// <summary>
+        /// 更新积分信息并返回
+        /// </summary>
+        /// <param name="userID"></param>
+        /// <returns></returns>
+        public IntegralInfo UpdateIntegralInfo(string userID, string businessType, ActionModel action, double counts)
+        {
+
+
+            string str = string.Format("UPDATE integral_info set {0}={1}{2}{3} WHERE userID = @userID", businessType, businessType,action.action, counts);
+ 
+            conn.Execute(str, new { userID =userID});
+
+            return GetIntegralInfo(userID);
+        }
+
+        /// <summary>
+        /// 查询获取业务
+        /// </summary>
+        /// <returns></returns>
+        public BusinessModel SelectBusiness(string businessID)
+        {
+            return conn.QueryFirstOrDefault<BusinessModel>("select * from business where id=@businessID ", new { businessID = businessID});
+        }
+
+
+        /// <summary>
+        /// 查询获取操作
+        /// </summary>
+        /// <param name="actionID"></param>
+        /// <returns></returns>
+        public ActionModel SelectAction(int actionID)
+        {
+            return conn.QueryFirstOrDefault<ActionModel>("select * from action where id=@actionID",new { actionID = actionID });
+        }
+
+        /// <summary>
+        /// 写日志
+        /// </summary>
+        /// <param name="logModel"></param>
+        public void WriteLog(LogModel logModel)
+        {
+             conn.Execute("insert into user_operation_log (userID,business,action,type,count,dateTime) VALUES (@userID,@business,@action,@type,@count,@dateTime )",
+                new { userID=logModel.userID, action=logModel.action, business=logModel.business, type=logModel.type, count=logModel.count, dateTime=logModel.dateTime });
+
+            Console.WriteLine(logModel.business, logModel.action, logModel.type);
+        }
+
+
+
+      
+
+
+
+
+
+
+
+
+
+    }
+}

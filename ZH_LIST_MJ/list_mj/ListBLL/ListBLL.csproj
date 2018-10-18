@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{78BB6933-95F8-472B-A9B6-937AB581EC32}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ListBLL</RootNamespace>
+    <AssemblyName>ListBLL</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aliyun.OSS">
+      <HintPath>..\packages\aliyun_oss_dotnet_sdk_2_5_0\bin\Aliyun.OSS.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.ProtocolBuffers">
+      <HintPath>..\packages\Google.ProtocolBuffers.2.4.1.555\lib\net40\Google.ProtocolBuffers.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\ZJLMShop\packages\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="StackExchange.Redis">
+      <HintPath>..\..\..\ZH_PLAY_MJ\RJPlayMj\packages\StackExchange.Redis.1.2.6\lib\net45\StackExchange.Redis.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.Common">
+      <HintPath>..\packages\SuperSocket.1.6.6.1\lib\net45\SuperSocket.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.Facility">
+      <HintPath>..\packages\SuperSocket.1.6.6.1\lib\net45\SuperSocket.Facility.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.SocketBase">
+      <HintPath>..\packages\SuperSocket.1.6.6.1\lib\net45\SuperSocket.SocketBase.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.SocketEngine">
+      <HintPath>..\packages\SuperSocket.Engine.1.6.6.1\lib\net45\SuperSocket.SocketEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="common\CompressUtility.cs" />
+    <Compile Include="common\CreateHead.cs" />
+    <Compile Include="common\GameSession.cs" />
+    <Compile Include="common\IntToByte.cs" />
+    <Compile Include="common\MyLogger.cs" />
+    <Compile Include="common\MySocket.cs" />
+    <Compile Include="common\PictureUtility.cs" />
+    <Compile Include="common\ProtobufReceiveFilter.cs" />
+    <Compile Include="common\ProtobufRequestInfo.cs" />
+    <Compile Include="common\PutObjectSample.cs" />
+    <Compile Include="common\RedisUtility.cs" />
+    <Compile Include="common\RoomCardUtility.cs" />
+    <Compile Include="common\TimeToLong.cs" />
+    <Compile Include="ddz\DZModel\DDZRoom.cs" />
+    <Compile Include="Logic\AgentGetGroupInfo.cs" />
+    <Compile Include="Logic\AgentGroupUsersManager.cs" />
+    <Compile Include="Logic\AgentSignIn.cs" />
+    <Compile Include="Logic\ApplyRecord.cs" />
+    <Compile Include="Logic\ApplyToJoin.cs" />
+    <Compile Include="Logic\ChangeApplyStatus.cs" />
+    <Compile Include="Logic\CreateGroup.cs" />
+    <Compile Include="Logic\DeleteGroup.cs" />
+    <Compile Include="Logic\Feedback.cs" />
+    <Compile Include="Logic\GameOperation.cs" />
+    <Compile Include="Logic\GetGroupInfo.cs" />
+    <Compile Include="Logic\GetGroupInfoByGroupID.cs" />
+    <Compile Include="Logic\GetGroupUserInfoByGroupID.cs" />
+    <Compile Include="Logic\GetRoomCard.cs" />
+    <Compile Include="Logic\GroupUsersManager.cs" />
+    <Compile Include="Logic\Heartbeat.cs" />
+    <Compile Include="Logic\LobbyInfo.cs" />
+    <Compile Include="Logic\Login.cs" />
+    <Compile Include="Logic\LoginPW.cs" />
+    <Compile Include="Logic\Package.cs" />
+    <Compile Include="Logic\QuitGroup.cs" />
+    <Compile Include="Logic\SearchPlayer.cs" />
+    <Compile Include="Logic\UserGamePlaybackLogic.cs" />
+    <Compile Include="Logic\UserRecordLogic.cs" />
+    <Compile Include="model\CardUser.cs" />
+    <Compile Include="model\GameInformationBase.cs" />
+    <Compile Include="model\Gongyong.cs" />
+    <Compile Include="model\JIpai.cs" />
+    <Compile Include="model\MaJiang.cs" />
+    <Compile Include="model\MJScore.cs" />
+    <Compile Include="model\mjuser.cs" />
+    <Compile Include="model\MsgLog.cs" />
+    <Compile Include="model\PageResultData.cs" />
+    <Compile Include="model\RedisModel.cs" />
+    <Compile Include="model\ResultData.cs" />
+    <Compile Include="model\Room.cs" />
+    <Compile Include="model\RoomClear.cs" />
+    <Compile Include="model\RoomMsgWirte.cs" />
+    <Compile Include="model\UserInfo.cs" />
+    <Compile Include="model\UserSettle.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="proto\Business.cs" />
+    <Compile Include="proto\DNL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="proto\Business.proto" />
+    <None Include="proto\DNL.proto" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\MJDAL.csproj">
+      <Project>{77a5cf2c-b3d9-468f-9627-83abc5497452}</Project>
+      <Name>MJDAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="User" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://120.77.84.15:8086/UserCenter/User.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://120.77.84.15:8086/UserCenter/User.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://120.77.84.15:8086/UserCenter/User.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IUser_UpdateUserInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateUserInfo" />
+  </wsdl:message>
+  <wsdl:message name="IUser_UpdateUserInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateUserInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUser_UpdateGameCurrency_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGameCurrency" />
+  </wsdl:message>
+  <wsdl:message name="IUser_UpdateGameCurrency_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGameCurrencyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUser_GetGameCurrency_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGameCurrency" />
+  </wsdl:message>
+  <wsdl:message name="IUser_GetGameCurrency_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGameCurrencyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUser_GetGameCurrencyList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGameCurrencyList" />
+  </wsdl:message>
+  <wsdl:message name="IUser_GetGameCurrencyList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGameCurrencyListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUser_GetSubordinateAmountList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSubordinateAmountList" />
+  </wsdl:message>
+  <wsdl:message name="IUser_GetSubordinateAmountList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSubordinateAmountListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUser_GetUserInfo_Openid_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserInfo_Openid" />
+  </wsdl:message>
+  <wsdl:message name="IUser_GetUserInfo_Openid_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserInfo_OpenidResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUser_GetUserInfo_Unionid_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserInfo_Unionid" />
+  </wsdl:message>
+  <wsdl:message name="IUser_GetUserInfo_Unionid_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserInfo_UnionidResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IUser">
+    <wsdl:operation name="UpdateUserInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUser/UpdateUserInfo" message="tns:IUser_UpdateUserInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUser/UpdateUserInfoResponse" message="tns:IUser_UpdateUserInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGameCurrency">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUser/UpdateGameCurrency" message="tns:IUser_UpdateGameCurrency_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUser/UpdateGameCurrencyResponse" message="tns:IUser_UpdateGameCurrency_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGameCurrency">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUser/GetGameCurrency" message="tns:IUser_GetGameCurrency_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUser/GetGameCurrencyResponse" message="tns:IUser_GetGameCurrency_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGameCurrencyList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUser/GetGameCurrencyList" message="tns:IUser_GetGameCurrencyList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUser/GetGameCurrencyListResponse" message="tns:IUser_GetGameCurrencyList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSubordinateAmountList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUser/GetSubordinateAmountList" message="tns:IUser_GetSubordinateAmountList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUser/GetSubordinateAmountListResponse" message="tns:IUser_GetSubordinateAmountList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserInfo_Openid">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUser/GetUserInfo_Openid" message="tns:IUser_GetUserInfo_Openid_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUser/GetUserInfo_OpenidResponse" message="tns:IUser_GetUserInfo_Openid_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserInfo_Unionid">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUser/GetUserInfo_Unionid" message="tns:IUser_GetUserInfo_Unionid_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUser/GetUserInfo_UnionidResponse" message="tns:IUser_GetUserInfo_Unionid_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IUser" type="tns:IUser">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UpdateUserInfo">
+      <soap:operation soapAction="http://tempuri.org/IUser/UpdateUserInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGameCurrency">
+      <soap:operation soapAction="http://tempuri.org/IUser/UpdateGameCurrency" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGameCurrency">
+      <soap:operation soapAction="http://tempuri.org/IUser/GetGameCurrency" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGameCurrencyList">
+      <soap:operation soapAction="http://tempuri.org/IUser/GetGameCurrencyList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSubordinateAmountList">
+      <soap:operation soapAction="http://tempuri.org/IUser/GetSubordinateAmountList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserInfo_Openid">
+      <soap:operation soapAction="http://tempuri.org/IUser/GetUserInfo_Openid" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserInfo_Unionid">
+      <soap:operation soapAction="http://tempuri.org/IUser/GetUserInfo_Unionid" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="User">
+    <wsdl:port name="BasicHttpBinding_IUser" binding="tns:BasicHttpBinding_IUser">
+      <soap:address location="http://120.77.84.15:8086/UserCenter/User.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

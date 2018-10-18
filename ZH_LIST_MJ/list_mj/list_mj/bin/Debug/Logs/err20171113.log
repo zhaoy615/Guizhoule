@@ -1,0 +1,42 @@
+﻿2017-11-13 15:37:57,456 [12] ERROR LISTServer - Google.ProtocolBuffers.InvalidProtocolBufferException: Message missing required fields: Latitude
+   在 Google.ProtocolBuffers.GeneratedBuilder`2.BuildParsed()
+   在 SendLogin.ParseFrom(Byte[] data) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\proto\DNL.cs:行号 1005
+   在 ListBLL.Logic.Login.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Login.cs:行号 41
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-13 15:48:12,219 [67] ERROR LISTServer - Google.ProtocolBuffers.InvalidProtocolBufferException: Message missing required fields: Latitude
+   在 Google.ProtocolBuffers.GeneratedBuilder`2.BuildParsed()
+   在 SendLogin.ParseFrom(Byte[] data) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\proto\DNL.cs:行号 1005
+   在 ListBLL.Logic.Login.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Login.cs:行号 41
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-13 16:25:51,934 [67] ERROR LISTServer - Google.ProtocolBuffers.InvalidProtocolBufferException: Message missing required fields: Latitude
+   在 Google.ProtocolBuffers.GeneratedBuilder`2.BuildParsed()
+   在 SendLogin.ParseFrom(Byte[] data) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\proto\DNL.cs:行号 1005
+   在 ListBLL.Logic.Login.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Login.cs:行号 41
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-13 16:26:55,532 [12] ERROR LISTServer - Google.ProtocolBuffers.InvalidProtocolBufferException: Message missing required fields: Latitude
+   在 Google.ProtocolBuffers.GeneratedBuilder`2.BuildParsed()
+   在 SendLogin.ParseFrom(Byte[] data) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\proto\DNL.cs:行号 1005
+   在 ListBLL.Logic.Login.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Login.cs:行号 41
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-13 16:47:47,462 [12] ERROR LISTServer - Google.ProtocolBuffers.InvalidProtocolBufferException: Message missing required fields: Latitude
+   在 Google.ProtocolBuffers.GeneratedBuilder`2.BuildParsed()
+   在 SendLogin.ParseFrom(Byte[] data) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\proto\DNL.cs:行号 1005
+   在 ListBLL.Logic.Login.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Login.cs:行号 41
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-13 16:47:47,462 [64] ERROR LISTServer - Google.ProtocolBuffers.InvalidProtocolBufferException: Message missing required fields: Latitude
+   在 Google.ProtocolBuffers.GeneratedBuilder`2.BuildParsed()
+   在 SendLogin.ParseFrom(Byte[] data) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\proto\DNL.cs:行号 1005
+   在 ListBLL.Logic.Login.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Login.cs:行号 41
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)

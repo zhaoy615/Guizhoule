@@ -1,0 +1,3892 @@
+﻿2017-10-22 10:25:08,313 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 38,907,904.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:25:08
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 10:26:08,281 Performance - ---------------------------------------------------
+CPU Usage: 0.02%, Physical Memory Usage: 40,394,752.00, Total Thread Count: 30
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:25:08
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 10:27:08,288 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 40,726,528.00, Total Thread Count: 30
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:25:08
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 10:28:08,294 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 41,304,064.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:25:08
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 10:29:08,324 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 42,446,848.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:25:08
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 10:30:08,318 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 42,696,704.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:25:08
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 10:31:08,348 Performance - ---------------------------------------------------
+CPU Usage: 0.17%, Physical Memory Usage: 65,200,128.00, Total Thread Count: 33
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:25:08
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 10:32:08,949 Performance - ---------------------------------------------------
+CPU Usage: 0.06%, Physical Memory Usage: 67,567,616.00, Total Thread Count: 36
+AvailableWorkingThreads: 2044, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:25:08
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 10:32:41,521 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 36,261,888.00, Total Thread Count: 24
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:32:41
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 10:34:10,633 Performance - ---------------------------------------------------
+CPU Usage: 0.22%, Physical Memory Usage: 65,093,632.00, Total Thread Count: 38
+AvailableWorkingThreads: 2043, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:32:41
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 10:35:34,762 Performance - ---------------------------------------------------
+CPU Usage: 0.06%, Physical Memory Usage: 66,326,528.00, Total Thread Count: 38
+AvailableWorkingThreads: 2043, AvailableCompletionPortThreads: 998
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:32:41
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 10:36:34,721 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 67,186,688.00, Total Thread Count: 33
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:32:41
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 10:37:34,712 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 68,329,472.00, Total Thread Count: 33
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:32:41
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 10:38:34,716 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 68,395,008.00, Total Thread Count: 33
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:32:41
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 10:39:34,721 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 68,837,376.00, Total Thread Count: 33
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:32:41
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 10:40:34,728 Performance - ---------------------------------------------------
+CPU Usage: 0.11%, Physical Memory Usage: 75,821,056.00, Total Thread Count: 35
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:32:41
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 7
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 10:41:34,756 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 76,345,344.00, Total Thread Count: 34
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:32:41
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 11
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 10:42:34,764 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 76,963,840.00, Total Thread Count: 34
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:32:41
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 11
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 10:43:34,764 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 77,697,024.00, Total Thread Count: 33
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:32:41
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 11
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 10:44:34,758 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 78,729,216.00, Total Thread Count: 33
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:32:41
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 11
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 10:45:34,772 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 79,097,856.00, Total Thread Count: 33
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:32:41
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 11
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 10:46:37,312 Performance - ---------------------------------------------------
+CPU Usage: 0.05%, Physical Memory Usage: 78,680,064.00, Total Thread Count: 34
+AvailableWorkingThreads: 2043, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:32:41
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 11
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 10:48:21,161 Performance - ---------------------------------------------------
+CPU Usage: 0.03%, Physical Memory Usage: 78,819,328.00, Total Thread Count: 34
+AvailableWorkingThreads: 2043, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:32:41
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 11
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 10:49:23,487 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 38,559,744.00, Total Thread Count: 24
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:49:23
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 10:50:23,485 Performance - ---------------------------------------------------
+CPU Usage: 0.13%, Physical Memory Usage: 60,035,072.00, Total Thread Count: 35
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:49:23
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 10:51:23,506 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 61,075,456.00, Total Thread Count: 31
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:49:23
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 10:52:23,499 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 61,853,696.00, Total Thread Count: 30
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:49:23
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 10:53:23,501 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 62,144,512.00, Total Thread Count: 30
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:49:23
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 10:54:23,502 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 63,115,264.00, Total Thread Count: 30
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:49:23
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 10:55:23,525 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 61,542,400.00, Total Thread Count: 30
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:49:23
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 10:56:25,635 Performance - ---------------------------------------------------
+CPU Usage: 0.03%, Physical Memory Usage: 61,292,544.00, Total Thread Count: 30
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:49:23
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 10:57:25,636 Performance - ---------------------------------------------------
+CPU Usage: 0.03%, Physical Memory Usage: 61,726,720.00, Total Thread Count: 31
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:49:23
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 10:58:25,643 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 62,042,112.00, Total Thread Count: 31
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:49:23
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 10:59:25,650 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 62,320,640.00, Total Thread Count: 31
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:49:23
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:00:25,662 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 62,730,240.00, Total Thread Count: 31
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:49:23
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:01:25,660 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 63,111,168.00, Total Thread Count: 31
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:49:23
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:02:25,695 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 64,004,096.00, Total Thread Count: 32
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:49:23
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:03:25,704 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 64,794,624.00, Total Thread Count: 32
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:49:23
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:04:25,713 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 64,974,848.00, Total Thread Count: 32
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:49:23
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:05:25,718 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 65,527,808.00, Total Thread Count: 32
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:49:23
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:06:25,723 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 65,802,240.00, Total Thread Count: 32
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:49:23
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:07:25,729 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 66,715,648.00, Total Thread Count: 32
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 10:49:23
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 11:08:26,617 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 36,380,672.00, Total Thread Count: 28
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 11:09:26,604 Performance - ---------------------------------------------------
+CPU Usage: 0.22%, Physical Memory Usage: 56,537,088.00, Total Thread Count: 34
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:10:26,606 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 56,758,272.00, Total Thread Count: 33
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:11:26,615 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 57,491,456.00, Total Thread Count: 31
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:12:26,607 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 58,589,184.00, Total Thread Count: 31
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:13:26,609 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 59,080,704.00, Total Thread Count: 31
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:14:26,609 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 59,547,648.00, Total Thread Count: 31
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:15:26,627 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 60,063,744.00, Total Thread Count: 31
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:16:26,638 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 60,923,904.00, Total Thread Count: 31
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:17:26,639 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 61,394,944.00, Total Thread Count: 31
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:18:26,652 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 61,657,088.00, Total Thread Count: 31
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:19:26,655 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 62,537,728.00, Total Thread Count: 31
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:20:26,654 Performance - ---------------------------------------------------
+CPU Usage: 0.03%, Physical Memory Usage: 61,665,280.00, Total Thread Count: 31
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:21:26,654 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 62,136,320.00, Total Thread Count: 31
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:22:26,653 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 62,554,112.00, Total Thread Count: 31
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:23:26,666 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 63,455,232.00, Total Thread Count: 31
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:24:26,667 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 63,696,896.00, Total Thread Count: 31
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:25:26,668 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 63,848,448.00, Total Thread Count: 31
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:26:26,684 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 64,090,112.00, Total Thread Count: 31
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:27:26,682 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 64,819,200.00, Total Thread Count: 31
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:28:26,684 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 65,581,056.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:29:26,688 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 66,625,536.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:30:26,690 Performance - ---------------------------------------------------
+CPU Usage: 0.03%, Physical Memory Usage: 63,848,448.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:31:26,686 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 64,180,224.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:32:26,686 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 64,421,888.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:33:26,700 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 64,626,688.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:34:26,700 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 64,905,216.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:35:26,713 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 65,875,968.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:36:26,714 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 66,080,768.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:37:26,714 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 66,318,336.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:38:26,742 Performance - ---------------------------------------------------
+CPU Usage: 0.02%, Physical Memory Usage: 66,502,656.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:39:26,720 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 62,656,512.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:40:26,716 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 59,211,776.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:41:26,719 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 59,269,120.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:42:26,719 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 59,469,824.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:43:26,732 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 59,842,560.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:44:26,732 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 55,664,640.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:45:26,744 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 56,045,568.00, Total Thread Count: 28
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:46:26,745 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 56,860,672.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:47:26,746 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 57,266,176.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:48:26,749 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 57,495,552.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:49:26,749 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 58,187,776.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 11:50:26,765 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 59,842,560.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 11:51:26,769 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 54,853,632.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 11:52:26,776 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 54,894,592.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 11:53:26,779 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 55,173,120.00, Total Thread Count: 30
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 11:54:26,778 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 55,042,048.00, Total Thread Count: 30
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 11:55:26,779 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 55,197,696.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 11:56:26,778 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 55,427,072.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 11:08:26
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 13:54:48,838 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 38,170,624.00, Total Thread Count: 28
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 13:55:48,825 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 39,587,840.00, Total Thread Count: 30
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 13:56:48,831 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 40,296,448.00, Total Thread Count: 30
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 13:57:48,829 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 41,304,064.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 13:58:48,828 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 42,213,376.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 13:59:48,827 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 43,139,072.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 14:00:48,833 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 44,130,304.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 14:01:48,832 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 44,949,504.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 14:02:48,829 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 45,203,456.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 14:03:48,830 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 45,453,312.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 14:04:48,831 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 46,129,152.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 14:05:48,831 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 46,604,288.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 14:06:48,831 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 47,124,480.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 14:07:48,832 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 43,008,000.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 14:08:48,840 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 43,737,088.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 14:09:48,841 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 44,621,824.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 14:10:48,848 Performance - ---------------------------------------------------
+CPU Usage: 0.03%, Physical Memory Usage: 44,425,216.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 14:11:48,843 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 45,092,864.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 14:12:48,843 Performance - ---------------------------------------------------
+CPU Usage: 0.32%, Physical Memory Usage: 66,760,704.00, Total Thread Count: 33
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 11
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 14:13:48,855 Performance - ---------------------------------------------------
+CPU Usage: 0.02%, Physical Memory Usage: 67,067,904.00, Total Thread Count: 32
+AvailableWorkingThreads: 2045, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 22
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 14:14:48,855 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 67,657,728.00, Total Thread Count: 32
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 25
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 14:15:48,857 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 68,771,840.00, Total Thread Count: 32
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 25
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 14:16:48,871 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 69,640,192.00, Total Thread Count: 32
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 27
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 14:17:48,877 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 69,369,856.00, Total Thread Count: 34
+AvailableWorkingThreads: 2045, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 28
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 14:18:48,873 Performance - ---------------------------------------------------
+CPU Usage: 0.02%, Physical Memory Usage: 69,378,048.00, Total Thread Count: 32
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 30
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 14:19:48,886 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 69,586,944.00, Total Thread Count: 32
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 30
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 14:20:48,902 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 70,074,368.00, Total Thread Count: 31
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 30
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 14:21:48,904 Performance - ---------------------------------------------------
+CPU Usage: 0.05%, Physical Memory Usage: 71,573,504.00, Total Thread Count: 35
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 37
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 14:22:48,905 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 71,823,360.00, Total Thread Count: 33
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 37
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 14:23:48,918 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 73,293,824.00, Total Thread Count: 32
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 37
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 14:24:48,944 Performance - ---------------------------------------------------
+CPU Usage: 0.02%, Physical Memory Usage: 73,826,304.00, Total Thread Count: 30
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 37
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 14:25:48,917 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 74,649,600.00, Total Thread Count: 30
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 37
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 14:26:48,923 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 73,588,736.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 37
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 14:27:48,918 Performance - ---------------------------------------------------
+CPU Usage: 0.03%, Physical Memory Usage: 73,748,480.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 37
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 14:28:48,921 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 73,822,208.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 43
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 14:29:48,921 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 73,211,904.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 43
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 14:30:48,932 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 73,211,904.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 43
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 14:31:48,935 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 73,302,016.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 43
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 14:32:48,934 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 73,551,872.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 43
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 14:33:48,937 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 73,605,120.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 43
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 14:34:48,936 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 71,892,992.00, Total Thread Count: 28
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 43
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 14:35:48,936 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 72,146,944.00, Total Thread Count: 28
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 43
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 14:36:48,936 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 72,392,704.00, Total Thread Count: 28
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 43
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 14:37:48,936 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 72,851,456.00, Total Thread Count: 32
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 2
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 43
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 254
+Total Sending Queue Items: 256
+
+2017-10-22 14:38:48,937 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 73,302,016.00, Total Thread Count: 31
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 43
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 14:39:48,936 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 74,092,544.00, Total Thread Count: 31
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 43
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 14:40:48,939 Performance - ---------------------------------------------------
+CPU Usage: 0.03%, Physical Memory Usage: 75,739,136.00, Total Thread Count: 31
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 2
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 43
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 254
+Total Sending Queue Items: 256
+
+2017-10-22 14:41:48,960 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 75,063,296.00, Total Thread Count: 31
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 43
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 14:42:48,954 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 75,018,240.00, Total Thread Count: 30
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 43
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 14:43:48,952 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 75,067,392.00, Total Thread Count: 30
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 43
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 14:44:48,962 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 71,467,008.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 43
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 14:45:48,965 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 71,491,584.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 43
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 14:46:48,966 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 71,528,448.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 43
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 14:47:48,965 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 71,708,672.00, Total Thread Count: 30
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 1
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 255
+Total Sending Queue Items: 256
+
+2017-10-22 14:48:48,971 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 69,820,416.00, Total Thread Count: 30
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 14:49:48,982 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 69,042,176.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 14:50:48,986 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 69,255,168.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 14:51:48,995 Performance - ---------------------------------------------------
+CPU Usage: 0.03%, Physical Memory Usage: 69,222,400.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 14:52:48,996 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 69,476,352.00, Total Thread Count: 30
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 14:53:48,998 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 69,525,504.00, Total Thread Count: 30
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 14:54:49,037 Performance - ---------------------------------------------------
+CPU Usage: 0.02%, Physical Memory Usage: 68,341,760.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 14:55:49,019 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 68,063,232.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 14:56:49,014 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 68,370,432.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 14:57:49,013 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 68,485,120.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 14:58:49,014 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 68,743,168.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 14:59:49,029 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 68,358,144.00, Total Thread Count: 29
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:00:49,029 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 68,325,376.00, Total Thread Count: 28
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:01:49,028 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 68,440,064.00, Total Thread Count: 28
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:02:49,035 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 67,227,648.00, Total Thread Count: 28
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:03:49,031 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 67,461,120.00, Total Thread Count: 28
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:04:49,032 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 67,592,192.00, Total Thread Count: 26
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:05:49,032 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 68,526,080.00, Total Thread Count: 26
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:06:49,042 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 68,857,856.00, Total Thread Count: 26
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:07:49,045 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 69,107,712.00, Total Thread Count: 26
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:08:49,048 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 69,378,048.00, Total Thread Count: 26
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:09:49,049 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 68,517,888.00, Total Thread Count: 26
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:10:49,058 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 69,058,560.00, Total Thread Count: 26
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:11:49,059 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 69,816,320.00, Total Thread Count: 26
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:12:49,062 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 70,311,936.00, Total Thread Count: 26
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:13:49,076 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 70,766,592.00, Total Thread Count: 26
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:14:49,081 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 69,386,240.00, Total Thread Count: 26
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:15:49,092 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 69,386,240.00, Total Thread Count: 26
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:16:49,092 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 69,386,240.00, Total Thread Count: 26
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:17:49,093 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 70,103,040.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:18:49,092 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 71,241,728.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:19:49,108 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 71,180,288.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:20:49,109 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 72,122,368.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:21:49,109 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 73,269,248.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:22:49,122 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 65,441,792.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:23:49,123 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 66,555,904.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:24:49,153 Performance - ---------------------------------------------------
+CPU Usage: 0.02%, Physical Memory Usage: 65,552,384.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:25:49,136 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 65,179,648.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:26:49,137 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 65,810,432.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:27:49,140 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 66,482,176.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:28:49,138 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 67,080,192.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:29:49,138 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 67,690,496.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:30:49,140 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 68,468,736.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:31:49,154 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 69,361,664.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:32:49,155 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 69,480,448.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:33:49,159 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 68,988,928.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:34:49,158 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 67,436,544.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:35:49,158 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 68,276,224.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:36:49,172 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 68,509,696.00, Total Thread Count: 28
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:37:49,170 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 68,833,280.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:38:49,170 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 68,939,776.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:39:49,171 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 69,169,152.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:40:49,172 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 70,189,056.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:41:49,185 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 70,594,560.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:42:49,202 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 68,755,456.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:43:49,215 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 68,878,336.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:44:49,219 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 68,882,432.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:45:49,233 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 69,095,424.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:46:49,232 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 69,562,368.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:47:49,233 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 69,697,536.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:48:49,248 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 69,931,008.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:49:49,247 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 66,547,712.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:50:49,246 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 67,510,272.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:51:49,248 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 68,431,872.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:52:49,251 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 69,292,032.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:53:49,249 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 69,652,480.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:54:49,294 Performance - ---------------------------------------------------
+CPU Usage: 0.02%, Physical Memory Usage: 66,097,152.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:55:49,263 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 66,613,248.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:56:49,265 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 66,617,344.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:57:49,265 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 67,309,568.00, Total Thread Count: 28
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:58:49,280 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 67,674,112.00, Total Thread Count: 28
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 15:59:49,281 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 61,526,016.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:00:49,277 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 61,534,208.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:01:49,280 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 62,287,872.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:02:49,286 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 60,317,696.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:03:49,295 Performance - ---------------------------------------------------
+CPU Usage: 0.03%, Physical Memory Usage: 60,342,272.00, Total Thread Count: 28
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:04:49,299 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 60,076,032.00, Total Thread Count: 28
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:05:49,297 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 60,039,168.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:06:49,298 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 60,239,872.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:07:49,308 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 60,473,344.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:08:49,308 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 61,427,712.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:09:49,311 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 61,427,712.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:10:49,312 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 61,845,504.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:11:49,314 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 62,062,592.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:12:49,323 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 62,394,368.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:13:49,325 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 62,648,320.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:14:49,331 Performance - ---------------------------------------------------
+CPU Usage: 0.03%, Physical Memory Usage: 61,722,624.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:15:49,334 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 61,759,488.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:16:49,332 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 62,136,320.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:17:49,350 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 60,063,744.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:18:49,346 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 60,313,600.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:19:49,346 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 60,551,168.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:20:49,347 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 60,968,960.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:21:49,352 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 60,694,528.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:22:49,348 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 61,247,488.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:23:49,348 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 62,013,440.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:24:49,391 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 59,494,400.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:25:49,362 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 59,498,496.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:26:49,373 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 59,711,488.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:27:49,376 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 59,969,536.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:28:49,378 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 60,166,144.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:29:49,374 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 59,764,736.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:30:49,387 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 60,338,176.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:31:49,387 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 60,907,520.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:32:49,388 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 61,067,264.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:33:49,395 Performance - ---------------------------------------------------
+CPU Usage: 0.03%, Physical Memory Usage: 60,219,392.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:34:49,403 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 59,842,560.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:35:49,403 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 59,924,480.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:36:49,403 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 60,043,264.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:37:49,403 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 54,177,792.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:38:49,405 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 54,571,008.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:39:49,419 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 54,554,624.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:40:49,419 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 54,927,360.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:41:49,425 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 54,554,624.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:42:49,420 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 55,009,280.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:43:49,432 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 56,156,160.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:44:49,433 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 57,212,928.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:45:49,441 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 58,150,912.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:46:49,451 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 59,863,040.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:47:49,455 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 60,485,632.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:48:49,449 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 60,833,792.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:49:49,456 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 61,222,912.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:50:49,451 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 61,509,632.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:51:49,452 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 61,513,728.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:52:49,452 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 61,616,128.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:53:49,453 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 61,644,800.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:54:49,476 Performance - ---------------------------------------------------
+CPU Usage: 0.02%, Physical Memory Usage: 61,788,160.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:55:49,464 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 61,992,960.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:56:49,465 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 63,045,632.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:57:49,477 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 63,229,952.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:58:49,483 Performance - ---------------------------------------------------
+CPU Usage: 0.02%, Physical Memory Usage: 63,467,520.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 16:59:49,487 Performance - ---------------------------------------------------
+CPU Usage: 0.01%, Physical Memory Usage: 59,957,248.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-10-22 17:00:49,497 Performance - ---------------------------------------------------
+CPU Usage: 0.03%, Physical Memory Usage: 60,231,680.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+LISTServer ----------------------------------
+Started Time: 2017/10/22 13:54:48
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 47
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+

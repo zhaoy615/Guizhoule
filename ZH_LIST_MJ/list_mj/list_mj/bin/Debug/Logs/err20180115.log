@@ -1,0 +1,744 @@
+﻿2018-01-15 14:29:59,353 [13] ERROR LISTServer - StackExchange.Redis.RedisTimeoutException: Timeout performing GET Community:UserList:9697486827159f30f5cab73bbab97a1b56966c2a, inst: 1, mgr: ExecuteSelect, err: never, queue: 2, qu: 0, qs: 2, qc: 0, wr: 0, wq: 0, in: 0, ar: 0, clientName: DESKTOP-AQ7QR9L, serverEndpoint: 192.168.2.12:6379, keyHashSlot: 5266, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=2045,Min=4,Max=2047) (Please take a look at this article for some common client-side issues that can cause timeouts: http://stackexchange.github.io/StackExchange.Redis/Timeouts)
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 14:30:00,062 [10] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; It was not possible to connect to the redis server(s); ConnectTimeout; IOCP: (Busy=1,Free=999,Min=4,Max=1000), WORKER: (Busy=3,Free=2044,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s); ConnectTimeout
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 14:30:00,539 [12] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:9697486827159f30f5cab73bbab97a1b56966c2a; It was not possible to connect to the redis server(s); ConnectTimeout; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=2045,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s); ConnectTimeout
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 14:30:24,408 [20] ERROR LISTServer - StackExchange.Redis.RedisTimeoutException: Timeout performing GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d, inst: 1, mgr: ExecuteSelect, err: never, queue: 2, qu: 0, qs: 2, qc: 0, wr: 0, wq: 0, in: 0, ar: 0, clientName: DESKTOP-AQ7QR9L, serverEndpoint: 192.168.2.12:6379, keyHashSlot: 9289, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=1,Free=2046,Min=4,Max=2047) (Please take a look at this article for some common client-side issues that can cause timeouts: http://stackexchange.github.io/StackExchange.Redis/Timeouts)
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 14:31:13,066 [13] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketClosed on 192.168.2.12:6379/Interactive, origin: ProcessReadBytes, input-buffer: 0, outstanding: 0, last-read: 14s ago, last-write: 14s ago, unanswered-write: 275890s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 0, ar: 1, last-heartbeat: 0s ago, last-mbeat: 0s ago, global: 0s ago, mgr: ProcessReadQueue, err: never; IOCP: (Busy=2,Free=998,Min=4,Max=1000), WORKER: (Busy=2,Free=2045,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketClosed on 192.168.2.12:6379/Interactive, origin: ProcessReadBytes, input-buffer: 0, outstanding: 0, last-read: 14s ago, last-write: 14s ago, unanswered-write: 275890s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 0, ar: 1, last-heartbeat: 0s ago, last-mbeat: 0s ago, global: 0s ago, mgr: ProcessReadQueue, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 14:31:13,700 [13] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketClosed on 192.168.2.12:6379/Interactive, origin: ProcessReadBytes, input-buffer: 0, outstanding: 0, last-read: 14s ago, last-write: 14s ago, unanswered-write: 275890s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 0, ar: 1, last-heartbeat: 0s ago, last-mbeat: 0s ago, global: 0s ago, mgr: ProcessReadQueue, err: never; IOCP: (Busy=1,Free=999,Min=4,Max=1000), WORKER: (Busy=4,Free=2043,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketClosed on 192.168.2.12:6379/Interactive, origin: ProcessReadBytes, input-buffer: 0, outstanding: 0, last-read: 14s ago, last-write: 14s ago, unanswered-write: 275890s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 0, ar: 1, last-heartbeat: 0s ago, last-mbeat: 0s ago, global: 0s ago, mgr: ProcessReadQueue, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 14:31:13,891 [13] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketClosed on 192.168.2.12:6379/Interactive, origin: ProcessReadBytes, input-buffer: 0, outstanding: 0, last-read: 14s ago, last-write: 14s ago, unanswered-write: 275890s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 0, ar: 1, last-heartbeat: 0s ago, last-mbeat: 0s ago, global: 0s ago, mgr: ProcessReadQueue, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=2045,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketClosed on 192.168.2.12:6379/Interactive, origin: ProcessReadBytes, input-buffer: 0, outstanding: 0, last-read: 14s ago, last-write: 14s ago, unanswered-write: 275890s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 0, ar: 1, last-heartbeat: 0s ago, last-mbeat: 0s ago, global: 0s ago, mgr: ProcessReadQueue, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 14:31:14,093 [13] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketClosed on 192.168.2.12:6379/Interactive, origin: ProcessReadBytes, input-buffer: 0, outstanding: 0, last-read: 14s ago, last-write: 14s ago, unanswered-write: 275890s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 0, ar: 1, last-heartbeat: 0s ago, last-mbeat: 0s ago, global: 0s ago, mgr: ProcessReadQueue, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=2045,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketClosed on 192.168.2.12:6379/Interactive, origin: ProcessReadBytes, input-buffer: 0, outstanding: 0, last-read: 14s ago, last-write: 14s ago, unanswered-write: 275890s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 0, ar: 1, last-heartbeat: 0s ago, last-mbeat: 0s ago, global: 0s ago, mgr: ProcessReadQueue, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 14:31:14,296 [13] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketClosed on 192.168.2.12:6379/Interactive, origin: ProcessReadBytes, input-buffer: 0, outstanding: 0, last-read: 14s ago, last-write: 14s ago, unanswered-write: 275890s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 0, ar: 1, last-heartbeat: 0s ago, last-mbeat: 0s ago, global: 0s ago, mgr: ProcessReadQueue, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=4,Free=2043,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketClosed on 192.168.2.12:6379/Interactive, origin: ProcessReadBytes, input-buffer: 0, outstanding: 0, last-read: 14s ago, last-write: 14s ago, unanswered-write: 275890s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 0, ar: 1, last-heartbeat: 0s ago, last-mbeat: 0s ago, global: 0s ago, mgr: ProcessReadQueue, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 14:31:14,498 [13] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketClosed on 192.168.2.12:6379/Interactive, origin: ProcessReadBytes, input-buffer: 0, outstanding: 0, last-read: 14s ago, last-write: 14s ago, unanswered-write: 275890s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 0, ar: 1, last-heartbeat: 0s ago, last-mbeat: 0s ago, global: 0s ago, mgr: ProcessReadQueue, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=3,Free=2044,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketClosed on 192.168.2.12:6379/Interactive, origin: ProcessReadBytes, input-buffer: 0, outstanding: 0, last-read: 14s ago, last-write: 14s ago, unanswered-write: 275890s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 0, ar: 1, last-heartbeat: 0s ago, last-mbeat: 0s ago, global: 0s ago, mgr: ProcessReadQueue, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 14:32:58,106 [20] ERROR LISTServer - System.Exception: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+   在 DAL.DBHelp.DbHelperMySQL.Query(String SQLString, MySqlParameter[] cmdParms) 位置 D:\工作\ZH_LIST_MJ\list_mj\DAL\DBHelp\DbHelperMySQL.cs:行号 722
+   在 DAL.DAL.mjuserinfoDAL.GetModel(String openid) 位置 D:\工作\ZH_LIST_MJ\list_mj\DAL\DAL\mjuserinfoDAL.cs:行号 226
+   在 ListBLL.Logic.Login.AddUser(mjuserinfo md, GameSession session) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Login.cs:行号 226
+   在 ListBLL.Logic.Login.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Login.cs:行号 58
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 15:39:10,027 [21] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:9697486827159f30f5cab73bbab97a1b56966c2a; SocketClosed on 192.168.2.12:6379/Interactive, origin: ProcessReadBytes, input-buffer: 0, outstanding: 0, last-read: 24s ago, last-write: 24s ago, unanswered-write: 279967s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 0, ar: 1, last-heartbeat: 0s ago, last-mbeat: 0s ago, global: 0s ago, mgr: ProcessReadQueue, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=2045,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketClosed on 192.168.2.12:6379/Interactive, origin: ProcessReadBytes, input-buffer: 0, outstanding: 0, last-read: 24s ago, last-write: 24s ago, unanswered-write: 279967s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 0, ar: 1, last-heartbeat: 0s ago, last-mbeat: 0s ago, global: 0s ago, mgr: ProcessReadQueue, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 15:39:12,717 [27] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=3,Free=2044,Min=4,Max=2047), Local-CPU: n/a
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 15:39:12,717 [21] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:9697486827159f30f5cab73bbab97a1b56966c2a; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=3,Free=2044,Min=4,Max=2047), Local-CPU: n/a
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 15:47:12,655 [16] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:9697486827159f30f5cab73bbab97a1b56966c2a; SocketClosed on 192.168.2.12:6379/Interactive, origin: ProcessReadBytes, input-buffer: 0, outstanding: 1, last-read: 79s ago, last-write: 79s ago, unanswered-write: 0s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 0, ar: 1, last-heartbeat: 0s ago, last-mbeat: 79s ago, global: 79s ago, mgr: ProcessReadQueue, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=4,Free=2043,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketClosed on 192.168.2.12:6379/Interactive, origin: ProcessReadBytes, input-buffer: 0, outstanding: 1, last-read: 79s ago, last-write: 79s ago, unanswered-write: 0s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 0, ar: 1, last-heartbeat: 0s ago, last-mbeat: 79s ago, global: 79s ago, mgr: ProcessReadQueue, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:05:27,070 [25] ERROR LISTServer - StackExchange.Redis.RedisTimeoutException: Timeout performing GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d, inst: 1, mgr: ExecuteSelect, err: never, queue: 2, qu: 0, qs: 2, qc: 0, wr: 0, wq: 0, in: 0, ar: 0, clientName: DESKTOP-AQ7QR9L, serverEndpoint: 192.168.2.12:6379, keyHashSlot: 9289, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=1,Free=2046,Min=4,Max=2047) (Please take a look at this article for some common client-side issues that can cause timeouts: http://stackexchange.github.io/StackExchange.Redis/Timeouts)
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:05:28,409 [31] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never; IOCP: (Busy=1,Free=999,Min=4,Max=1000), WORKER: (Busy=5,Free=2042,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:05:28,910 [25] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never; IOCP: (Busy=1,Free=999,Min=4,Max=1000), WORKER: (Busy=5,Free=2042,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:05:29,233 [32] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=5,Free=2042,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:05:29,234 [31] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=5,Free=2042,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:05:29,234 [30] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=5,Free=2042,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:05:29,795 [25] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=5,Free=2042,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:05:30,434 [32] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never; IOCP: (Busy=1,Free=999,Min=4,Max=1000), WORKER: (Busy=5,Free=2042,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:05:30,434 [31] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=5,Free=2042,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:05:30,434 [30] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=5,Free=2042,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:05:30,643 [32] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=6,Free=2041,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:05:30,728 [25] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=5,Free=2042,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:05:30,732 [31] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=6,Free=2041,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:05:30,728 [30] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=7,Free=2040,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:05:30,991 [25] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=7,Free=2040,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:05:31,133 [32] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=7,Free=2040,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:05:31,134 [30] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=7,Free=2040,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:05:31,134 [33] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=7,Free=2040,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:05:31,220 [33] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=7,Free=2040,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:05:31,312 [33] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=7,Free=2040,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:05:31,422 [33] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=7,Free=2040,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:05:31,527 [27] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=7,Free=2040,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:05:31,607 [33] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=7,Free=2040,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:05:31,757 [27] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=7,Free=2040,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:05:31,759 [33] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=7,Free=2040,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:05:31,914 [27] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=7,Free=2040,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:05:31,914 [33] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=7,Free=2040,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:05:32,098 [27] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=7,Free=2040,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:05:32,103 [33] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=7,Free=2040,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:05:32,178 [33] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=7,Free=2040,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:05:32,267 [33] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=7,Free=2040,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:05:32,343 [34] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:9697486827159f30f5cab73bbab97a1b56966c2a; SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=7,Free=2040,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.Login.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Login.cs:行号 62
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:05:32,421 [33] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=7,Free=2040,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:05:32,608 [33] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=7,Free=2040,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:05:32,608 [34] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never; IOCP: (Busy=1,Free=999,Min=4,Max=1000), WORKER: (Busy=7,Free=2040,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketFailure on 192.168.2.12:6379/Interactive, origin: CheckForStaleConnection, input-buffer: 0, outstanding: 2, last-read: 3305s ago, last-write: 3302s ago, unanswered-write: 3303s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 148, ar: 0, last-heartbeat: 3302s ago, last-mbeat: 3302s ago, global: 3302s ago, mgr: RecordConnectionFailed_ReportFailure, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:05:35,776 [31] ERROR LISTServer - System.TimeoutException: The sending attempt timed out
+   在 SuperSocket.SocketBase.AppSession`2.InternalSend(ArraySegment`1 segment)
+   在 SuperSocket.SocketBase.AppSession`2.Send(ArraySegment`1 segment)
+   在 ListBLL.Logic.Heartbeat.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Heartbeat.cs:行号 29
+2018-01-15 17:05:36,014 [25] ERROR LISTServer - System.TimeoutException: The sending attempt timed out
+   在 SuperSocket.SocketBase.AppSession`2.InternalSend(ArraySegment`1 segment)
+   在 SuperSocket.SocketBase.AppSession`2.Send(ArraySegment`1 segment)
+   在 ListBLL.Logic.Heartbeat.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Heartbeat.cs:行号 29
+2018-01-15 17:05:36,144 [32] ERROR LISTServer - System.TimeoutException: The sending attempt timed out
+   在 SuperSocket.SocketBase.AppSession`2.InternalSend(ArraySegment`1 segment)
+   在 SuperSocket.SocketBase.AppSession`2.Send(ArraySegment`1 segment)
+   在 ListBLL.Logic.Heartbeat.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Heartbeat.cs:行号 29
+2018-01-15 17:05:36,154 [30] ERROR LISTServer - System.TimeoutException: The sending attempt timed out
+   在 SuperSocket.SocketBase.AppSession`2.InternalSend(ArraySegment`1 segment)
+   在 SuperSocket.SocketBase.AppSession`2.Send(ArraySegment`1 segment)
+   在 ListBLL.Logic.Heartbeat.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Heartbeat.cs:行号 29
+2018-01-15 17:05:37,109 [27] ERROR LISTServer - System.TimeoutException: The sending attempt timed out
+   在 SuperSocket.SocketBase.AppSession`2.InternalSend(ArraySegment`1 segment)
+   在 SuperSocket.SocketBase.AppSession`2.Send(ArraySegment`1 segment)
+   在 ListBLL.Logic.Heartbeat.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Heartbeat.cs:行号 29
+2018-01-15 17:05:40,767 [34] ERROR LISTServer - System.TimeoutException: The sending attempt timed out
+   在 SuperSocket.SocketBase.AppSession`2.InternalSend(ArraySegment`1 segment)
+   在 SuperSocket.SocketBase.AppSession`2.Send(ArraySegment`1 segment)
+   在 ListBLL.Logic.Heartbeat.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Heartbeat.cs:行号 29
+2018-01-15 17:05:40,837 [31] ERROR LISTServer - System.TimeoutException: The sending attempt timed out
+   在 SuperSocket.SocketBase.AppSession`2.InternalSend(ArraySegment`1 segment)
+   在 SuperSocket.SocketBase.AppSession`2.Send(ArraySegment`1 segment)
+   在 ListBLL.Logic.Heartbeat.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Heartbeat.cs:行号 29
+2018-01-15 17:05:41,079 [25] ERROR LISTServer - System.TimeoutException: The sending attempt timed out
+   在 SuperSocket.SocketBase.AppSession`2.InternalSend(ArraySegment`1 segment)
+   在 SuperSocket.SocketBase.AppSession`2.Send(ArraySegment`1 segment)
+   在 ListBLL.Logic.Heartbeat.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Heartbeat.cs:行号 29
+2018-01-15 17:05:41,207 [30] ERROR LISTServer - System.TimeoutException: The sending attempt timed out
+   在 SuperSocket.SocketBase.AppSession`2.InternalSend(ArraySegment`1 segment)
+   在 SuperSocket.SocketBase.AppSession`2.Send(ArraySegment`1 segment)
+   在 ListBLL.Logic.Heartbeat.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Heartbeat.cs:行号 29
+2018-01-15 17:05:41,220 [32] ERROR LISTServer - System.TimeoutException: The sending attempt timed out
+   在 SuperSocket.SocketBase.AppSession`2.InternalSend(ArraySegment`1 segment)
+   在 SuperSocket.SocketBase.AppSession`2.Send(ArraySegment`1 segment)
+   在 ListBLL.Logic.Heartbeat.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Heartbeat.cs:行号 29
+2018-01-15 17:05:42,236 [27] ERROR LISTServer - System.TimeoutException: The sending attempt timed out
+   在 SuperSocket.SocketBase.AppSession`2.InternalSend(ArraySegment`1 segment)
+   在 SuperSocket.SocketBase.AppSession`2.Send(ArraySegment`1 segment)
+   在 ListBLL.Logic.Heartbeat.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Heartbeat.cs:行号 29
+2018-01-15 17:05:45,853 [34] ERROR LISTServer - System.TimeoutException: The sending attempt timed out
+   在 SuperSocket.SocketBase.AppSession`2.InternalSend(ArraySegment`1 segment)
+   在 SuperSocket.SocketBase.AppSession`2.Send(ArraySegment`1 segment)
+   在 ListBLL.Logic.Heartbeat.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Heartbeat.cs:行号 29
+2018-01-15 17:05:45,887 [31] ERROR LISTServer - System.TimeoutException: The sending attempt timed out
+   在 SuperSocket.SocketBase.AppSession`2.InternalSend(ArraySegment`1 segment)
+   在 SuperSocket.SocketBase.AppSession`2.Send(ArraySegment`1 segment)
+   在 ListBLL.Logic.Heartbeat.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Heartbeat.cs:行号 29
+2018-01-15 17:05:46,136 [25] ERROR LISTServer - System.TimeoutException: The sending attempt timed out
+   在 SuperSocket.SocketBase.AppSession`2.InternalSend(ArraySegment`1 segment)
+   在 SuperSocket.SocketBase.AppSession`2.Send(ArraySegment`1 segment)
+   在 ListBLL.Logic.Heartbeat.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Heartbeat.cs:行号 29
+2018-01-15 17:05:46,249 [30] ERROR LISTServer - System.TimeoutException: The sending attempt timed out
+   在 SuperSocket.SocketBase.AppSession`2.InternalSend(ArraySegment`1 segment)
+   在 SuperSocket.SocketBase.AppSession`2.Send(ArraySegment`1 segment)
+   在 ListBLL.Logic.Heartbeat.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Heartbeat.cs:行号 29
+2018-01-15 17:05:46,266 [32] ERROR LISTServer - System.TimeoutException: The sending attempt timed out
+   在 SuperSocket.SocketBase.AppSession`2.InternalSend(ArraySegment`1 segment)
+   在 SuperSocket.SocketBase.AppSession`2.Send(ArraySegment`1 segment)
+   在 ListBLL.Logic.Heartbeat.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Heartbeat.cs:行号 29
+2018-01-15 17:05:47,296 [27] ERROR LISTServer - System.TimeoutException: The sending attempt timed out
+   在 SuperSocket.SocketBase.AppSession`2.InternalSend(ArraySegment`1 segment)
+   在 SuperSocket.SocketBase.AppSession`2.Send(ArraySegment`1 segment)
+   在 ListBLL.Logic.Heartbeat.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Heartbeat.cs:行号 29
+2018-01-15 17:05:50,902 [34] ERROR LISTServer - System.TimeoutException: The sending attempt timed out
+   在 SuperSocket.SocketBase.AppSession`2.InternalSend(ArraySegment`1 segment)
+   在 SuperSocket.SocketBase.AppSession`2.Send(ArraySegment`1 segment)
+   在 ListBLL.Logic.Heartbeat.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Heartbeat.cs:行号 29
+2018-01-15 17:20:04,472 [14] ERROR LISTServer - StackExchange.Redis.RedisTimeoutException: Timeout performing GET Community:UserList:9697486827159f30f5cab73bbab97a1b56966c2a, inst: 0, mgr: ExecuteSelect, err: never, queue: 0, qu: 0, qs: 0, qc: 0, wr: 0, wq: 0, in: 0, ar: 0, clientName: DESKTOP-AQ7QR9L, serverEndpoint: 192.168.2.12:6379, keyHashSlot: 5266, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=2045,Min=4,Max=2047) (Please take a look at this article for some common client-side issues that can cause timeouts: http://stackexchange.github.io/StackExchange.Redis/Timeouts)
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:20:19,527 [14] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:9697486827159f30f5cab73bbab97a1b56966c2a; SocketClosed on 192.168.2.12:6379/Interactive, origin: ProcessReadBytes, input-buffer: 0, outstanding: 0, last-read: 11s ago, last-write: 11s ago, unanswered-write: 286035s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 0, ar: 1, last-heartbeat: 0s ago, last-mbeat: 11s ago, global: 11s ago, mgr: ProcessReadQueue, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=4,Free=2043,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketClosed on 192.168.2.12:6379/Interactive, origin: ProcessReadBytes, input-buffer: 0, outstanding: 0, last-read: 11s ago, last-write: 11s ago, unanswered-write: 286035s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 0, ar: 1, last-heartbeat: 0s ago, last-mbeat: 11s ago, global: 11s ago, mgr: ProcessReadQueue, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:22:14,700 [28] ERROR LISTServer - StackExchange.Redis.RedisTimeoutException: Timeout performing GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d, inst: 1, mgr: CheckForStaleConnections, err: never, queue: 0, qu: 0, qs: 0, qc: 0, wr: 0, wq: 0, in: 0, ar: 1, clientName: DESKTOP-AQ7QR9L, serverEndpoint: 192.168.2.12:6379, keyHashSlot: 9289, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=3,Free=2044,Min=4,Max=2047) (Please take a look at this article for some common client-side issues that can cause timeouts: http://stackexchange.github.io/StackExchange.Redis/Timeouts)
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:22:46,487 [12] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; IOCP: (Busy=1,Free=999,Min=4,Max=1000), WORKER: (Busy=4,Free=2043,Min=4,Max=2047), Local-CPU: n/a
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:24:33,333 [13] ERROR LISTServer - StackExchange.Redis.RedisTimeoutException: Timeout performing GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d, inst: 0, mgr: ExecuteSelect, err: never, queue: 0, qu: 0, qs: 0, qc: 0, wr: 0, wq: 0, in: 0, ar: 0, clientName: DESKTOP-AQ7QR9L, serverEndpoint: 192.168.2.12:6379, keyHashSlot: 9289, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=2045,Min=4,Max=2047) (Please take a look at this article for some common client-side issues that can cause timeouts: http://stackexchange.github.io/StackExchange.Redis/Timeouts)
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:24:39,602 [12] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: SocketClosed on GET
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:24:41,977 [13] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: SocketClosed on GET
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:24:41,979 [12] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:9697486827159f30f5cab73bbab97a1b56966c2a; SocketClosed on 192.168.2.12:6379/Interactive, origin: ProcessReadBytes, input-buffer: 0, outstanding: 2, last-read: 7s ago, last-write: 0s ago, unanswered-write: 0s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 0, ar: 1, last-heartbeat: 0s ago, last-mbeat: 0s ago, global: 0s ago, mgr: ProcessReadQueue, err: never; IOCP: (Busy=1,Free=999,Min=4,Max=1000), WORKER: (Busy=4,Free=2043,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketClosed on 192.168.2.12:6379/Interactive, origin: ProcessReadBytes, input-buffer: 0, outstanding: 2, last-read: 7s ago, last-write: 0s ago, unanswered-write: 0s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 0, ar: 1, last-heartbeat: 0s ago, last-mbeat: 0s ago, global: 0s ago, mgr: ProcessReadQueue, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:24:42,024 [7] ERROR 手动添加日志 - InternalError:Message未将对象引用设置到对象的实例。
+2018-01-15 17:24:42,046 [7] ERROR 手动添加日志 - InternalError:Message未将对象引用设置到对象的实例。
+2018-01-15 17:24:42,060 [7] ERROR 手动添加日志 - InternalError:Message未将对象引用设置到对象的实例。
+2018-01-15 17:24:42,075 [7] ERROR 手动添加日志 - InternalError:Message未将对象引用设置到对象的实例。
+2018-01-15 17:24:42,091 [7] ERROR 手动添加日志 - InternalError:Message未将对象引用设置到对象的实例。
+2018-01-15 17:24:42,108 [7] ERROR 手动添加日志 - InternalError:Message未将对象引用设置到对象的实例。
+2018-01-15 17:24:42,122 [7] ERROR 手动添加日志 - InternalError:Message未将对象引用设置到对象的实例。
+2018-01-15 17:24:42,136 [7] ERROR 手动添加日志 - InternalError:Message未将对象引用设置到对象的实例。
+2018-01-15 17:24:42,150 [7] ERROR 手动添加日志 - InternalError:Message未将对象引用设置到对象的实例。
+2018-01-15 17:24:42,167 [7] ERROR 手动添加日志 - InternalError:Message未将对象引用设置到对象的实例。
+2018-01-15 17:24:42,181 [7] ERROR 手动添加日志 - InternalError:Message未将对象引用设置到对象的实例。
+2018-01-15 17:24:42,195 [7] ERROR 手动添加日志 - InternalError:Message未将对象引用设置到对象的实例。
+2018-01-15 17:24:42,209 [7] ERROR 手动添加日志 - InternalError:Message未将对象引用设置到对象的实例。
+2018-01-15 17:24:42,221 [7] ERROR 手动添加日志 - InternalError:Message未将对象引用设置到对象的实例。
+2018-01-15 17:24:42,235 [7] ERROR 手动添加日志 - InternalError:Message未将对象引用设置到对象的实例。
+2018-01-15 17:24:42,248 [7] ERROR 手动添加日志 - InternalError:Message未将对象引用设置到对象的实例。
+2018-01-15 17:24:42,262 [7] ERROR 手动添加日志 - InternalError:Message未将对象引用设置到对象的实例。
+2018-01-15 17:24:42,275 [7] ERROR 手动添加日志 - InternalError:Message未将对象引用设置到对象的实例。
+2018-01-15 17:24:42,288 [7] ERROR 手动添加日志 - InternalError:Message未将对象引用设置到对象的实例。
+2018-01-15 17:24:42,301 [7] ERROR 手动添加日志 - InternalError:Message未将对象引用设置到对象的实例。
+2018-01-15 17:24:42,314 [7] ERROR 手动添加日志 - InternalError:Message未将对象引用设置到对象的实例。
+2018-01-15 17:24:42,327 [7] ERROR 手动添加日志 - InternalError:Message未将对象引用设置到对象的实例。
+2018-01-15 17:24:42,341 [7] ERROR 手动添加日志 - InternalError:Message未将对象引用设置到对象的实例。
+2018-01-15 17:24:42,356 [7] ERROR 手动添加日志 - InternalError:Message未将对象引用设置到对象的实例。
+2018-01-15 17:24:42,369 [7] ERROR 手动添加日志 - InternalError:Message未将对象引用设置到对象的实例。
+2018-01-15 17:24:42,384 [7] ERROR 手动添加日志 - InternalError:Message未将对象引用设置到对象的实例。
+2018-01-15 17:24:42,397 [7] ERROR 手动添加日志 - InternalError:Message未将对象引用设置到对象的实例。
+2018-01-15 17:24:42,410 [7] ERROR 手动添加日志 - InternalError:Message未将对象引用设置到对象的实例。
+2018-01-15 17:34:13,628 [22] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketClosed on 192.168.2.12:6379/Interactive, origin: ProcessReadBytes, input-buffer: 0, outstanding: 1, last-read: 60s ago, last-write: 0s ago, unanswered-write: 0s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 0, ar: 1, last-heartbeat: 0s ago, last-mbeat: 61s ago, global: 61s ago, mgr: ProcessReadQueue, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=3,Free=2044,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketClosed on 192.168.2.12:6379/Interactive, origin: ProcessReadBytes, input-buffer: 0, outstanding: 1, last-read: 60s ago, last-write: 0s ago, unanswered-write: 0s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 0, ar: 1, last-heartbeat: 0s ago, last-mbeat: 61s ago, global: 61s ago, mgr: ProcessReadQueue, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:34:24,844 [22] ERROR LISTServer - StackExchange.Redis.RedisTimeoutException: Timeout performing GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d, inst: 0, mgr: ExecuteSelect, err: never, queue: 0, qu: 0, qs: 0, qc: 0, wr: 0, wq: 0, in: 0, ar: 0, clientName: DESKTOP-AQ7QR9L, serverEndpoint: 192.168.2.12:6379, keyHashSlot: 9289, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=3,Free=2044,Min=4,Max=2047) (Please take a look at this article for some common client-side issues that can cause timeouts: http://stackexchange.github.io/StackExchange.Redis/Timeouts)
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:34:33,375 [22] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketClosed on 192.168.2.12:6379/Interactive, origin: ProcessReadBytes, input-buffer: 0, outstanding: 0, last-read: 10s ago, last-write: 11s ago, unanswered-write: 286890s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 0, ar: 1, last-heartbeat: 0s ago, last-mbeat: 6s ago, global: 6s ago, mgr: ProcessReadQueue, err: never; IOCP: (Busy=2,Free=998,Min=4,Max=1000), WORKER: (Busy=2,Free=2045,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketClosed on 192.168.2.12:6379/Interactive, origin: ProcessReadBytes, input-buffer: 0, outstanding: 0, last-read: 10s ago, last-write: 11s ago, unanswered-write: 286890s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 0, ar: 1, last-heartbeat: 0s ago, last-mbeat: 6s ago, global: 6s ago, mgr: ProcessReadQueue, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:34:59,522 [7] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: SETEX Community:UserInfo:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketClosed on 192.168.2.12:6379/Interactive, origin: ProcessReadBytes, input-buffer: 0, outstanding: 0, last-read: 18s ago, last-write: 18s ago, unanswered-write: 286912s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 0, ar: 1, last-heartbeat: 0s ago, last-mbeat: 0s ago, global: 0s ago, mgr: ProcessReadQueue, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=2045,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketClosed on 192.168.2.12:6379/Interactive, origin: ProcessReadBytes, input-buffer: 0, outstanding: 0, last-read: 18s ago, last-write: 18s ago, unanswered-write: 286912s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 0, ar: 1, last-heartbeat: 0s ago, last-mbeat: 0s ago, global: 0s ago, mgr: ProcessReadQueue, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringSet(RedisKey key, RedisValue value, Nullable`1 expiry, When when, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Set[T](String key, T t, Int32 hour) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 96
+   在 ListBLL.Logic.ChangeApplyStatus.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\ChangeApplyStatus.cs:行号 73
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:38:38,671 [15] ERROR LISTServer - StackExchange.Redis.RedisTimeoutException: Timeout performing GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d, inst: 0, mgr: EnqueueReadFallback, err: never, queue: 0, qu: 0, qs: 0, qc: 0, wr: 0, wq: 0, in: 0, ar: 1, clientName: DESKTOP-AQ7QR9L, serverEndpoint: 192.168.2.12:6379, keyHashSlot: 9289, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=4,Free=2043,Min=4,Max=2047) (Please take a look at this article for some common client-side issues that can cause timeouts: http://stackexchange.github.io/StackExchange.Redis/Timeouts)
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 17:38:41,260 [15] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d; SocketClosed on 192.168.2.12:6379/Interactive, origin: ProcessReadBytes, input-buffer: 0, outstanding: 0, last-read: 19s ago, last-write: 23s ago, unanswered-write: 287138s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 0, ar: 1, last-heartbeat: 0s ago (mid-beat), last-mbeat: 0s ago, global: 0s ago, mgr: ProcessReadQueue, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=3,Free=2044,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketClosed on 192.168.2.12:6379/Interactive, origin: ProcessReadBytes, input-buffer: 0, outstanding: 0, last-read: 19s ago, last-write: 23s ago, unanswered-write: 287138s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 0, ar: 1, last-heartbeat: 0s ago (mid-beat), last-mbeat: 0s ago, global: 0s ago, mgr: ProcessReadQueue, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 18:00:49,975 [23] ERROR LISTServer - StackExchange.Redis.RedisTimeoutException: Timeout performing GET Community:UserList:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d, inst: 1, mgr: ExecuteSelect, err: never, queue: 2, qu: 0, qs: 2, qc: 0, wr: 0, wq: 0, in: 0, ar: 0, clientName: DESKTOP-AQ7QR9L, serverEndpoint: 192.168.2.12:6379, keyHashSlot: 9289, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=1,Free=2046,Min=4,Max=2047) (Please take a look at this article for some common client-side issues that can cause timeouts: http://stackexchange.github.io/StackExchange.Redis/Timeouts)
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-15 18:00:50,938 [11] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserList:9697486827159f30f5cab73bbab97a1b56966c2a; SocketClosed on 192.168.2.12:6379/Interactive, origin: ProcessReadBytes, input-buffer: 0, outstanding: 2, last-read: 0s ago, last-write: 0s ago, unanswered-write: 0s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 0, ar: 1, last-heartbeat: 0s ago, last-mbeat: 0s ago, global: 0s ago, mgr: ProcessReadQueue, err: never; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=3,Free=2044,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: SocketClosed on 192.168.2.12:6379/Interactive, origin: ProcessReadBytes, input-buffer: 0, outstanding: 2, last-read: 0s ago, last-write: 0s ago, unanswered-write: 0s ago, keep-alive: 180s, pending: 0, state: ConnectedEstablished, in: 0, ar: 1, last-heartbeat: 0s ago, last-mbeat: 0s ago, global: 0s ago, mgr: ProcessReadQueue, err: never
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)

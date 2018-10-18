@@ -1,0 +1,14 @@
+﻿2017-10-18 16:29:01,858 [12] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s); to create a disconnected multiplexer, disable AbortOnConnectFail. UnableToResolvePhysicalConnection on PING
+   在 StackExchange.Redis.ConnectionMultiplexer.ConnectImpl(Func`1 multiplexerFactory, TextWriter log)
+   在 StackExchange.Redis.ConnectionMultiplexer.Connect(ConfigurationOptions configuration, TextWriter log)
+   在 ListBLL.common.RedisUtility.Set[T](String key, T t, Int32 hour) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 151
+   在 ListBLL.Logic.Login.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Login.cs:行号 112
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-10-18 17:06:28,075 [44] ERROR LISTServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 ListBLL.Logic.Login.AddUser(mjuserinfo md) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Login.cs:行号 269
+   在 ListBLL.Logic.Login.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Login.cs:行号 57
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)

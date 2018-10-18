@@ -1,0 +1,87 @@
+
+//获取加密证书  11001
+message GetCertStr{
+required string LoginInfoStr=1;
+}
+//返回加密字符串  11002
+message ReturnCertStr{
+required string CertStr=1;
+}
+//获取用户登录信息  11003
+message GetLoginInfoStr{
+required string CertStr=1;
+}
+//返回登录信息字符串  11004
+message ReturnLoginInfoStr{
+required string LoginInfoStr=1;
+}
+//龙宝用户登录 11005
+message LBUserLogin{
+	required string UserName=1;
+	required string Pwd=2;
+} 
+
+//返回龙宝用户登陆信息  11006
+message ReturnLBUserLoginInfo{
+	required string UserInfoJson=1;
+}
+
+//扣龙宝  11007
+message SendSubtractLongBao{
+	required string UserID=1;
+}
+
+//加龙宝 11008
+message SendAddLongBao{
+	required string UserID=1;
+}
+
+//返回消息 11010
+message ReturnMessage{
+	required int32 State=1;
+	required string message=2;
+}
+
+
+
+//10010   积分业务
+message IntegralBusiness{
+    required string businessID=1;//业务id
+    required string userID=2;//用户id
+    required double counts=3;//数量
+    }
+
+//10020  消费卷业务
+message CouponsBusiness{
+    required string businessID=1;//业务id
+    required string userID=2;//用户id
+    required double counts=3;//数量
+    }
+
+//10030 房卡业务
+message RoomCardBusiness{
+    required string businessID=1;//业务id
+    required string userID=2;//用户id
+   required int32 counts=3;//数量
+    }
+
+//10001  业务处理结果
+message Result{
+    required int32 status=1;//状态   1：业务处理成功   0：业务处理失败，详情见message
+    required string message=2;//消息
+    }
+
+
+//获取用户积分信息  10040
+message RequestUserInfo{
+    required string userID=1;//业务id
+    }
+
+
+//返回用户积分信息  10041
+message ResponseUserInfo{
+    required string userID=1;
+    optional double integral=2;		
+    optional double coupons=3;    
+    optional int32 roomCard=4;
+}

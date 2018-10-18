@@ -1,0 +1,37 @@
+﻿using DAL.DBHelp;
+using System.Data.SqlClient;
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Dapper;
+
+namespace DAL.DAL
+{
+   public class Longbao
+    {
+        IDbConnection conn = new SqlConnection(PubConstant.LongBaoConnStr);
+
+
+        public dynamic GetUserInfo(string name,string pwd)
+        {
+            string str = @"select * from Users where Name=@name and Psw=@pwd ";
+            return conn.QueryFirstOrDefault<dynamic>(str, new { name = name, pwd = pwd });
+        }
+
+        public int SubSubtractLongBao(string id,int count)
+        {
+            string str = @"  update Users set Score-=@count  where ID=@id ";
+            return conn.Execute(str, new { id = id, count = count });
+        }
+
+
+        public int AddLongBao(string id, int count)
+        {
+            string str = @"  update Users set Score+=@count  where ID=@id ";
+            return conn.Execute(str, new { id = id, count = count });
+        }
+    }
+}

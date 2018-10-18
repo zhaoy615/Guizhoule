@@ -1,0 +1,368 @@
+   
+项目文件夹功能介绍：
+    _Scene:存放场景文件。
+    Demigiant：存放DOTween插件代码
+	ShareSDKiOSAutoPackage:存放ShareSDK插件代码。
+	UniWebView：存放UniWebView插件代码。
+	Resources：用于存放游戏资源。
+    Editor：存放编辑模式下脚本代码（暂无）
+    Plugins：存放插件代码。
+        包括：  Android:  1.assets和GCloudVoice属于腾讯游戏语音服务GVoice。
+                             2.	ShareSDK属于Mob的第三方登录和分享服务。	   
+                      
+                    IOS：属于腾讯游戏语音服务GVoice。
+               ShareSDK：属于Mob的第三方登录和分享服务。
+                 Editor：属于UniWebView，使用手机自带浏览器打开网页。
+                    WP8：属于UniWebView,在windowsPhone手机平台的DLL。
+Google.ProtocolBuffers.2.4.1.555：用于存放谷歌的ProtocolBuffer                     数据描述语言的库。用于应用层的自定义通信协议。
+	_Scripts：用于存放代码。				  
+		包括：Pool:interface接口
+              Tools:BMFont处理工具。
+              Common:项目共用的代码。
+              Manager_login:登录界面的代码。
+              Manager_hall:主界面大厅的代码。
+              Manager_GYMJ:贵阳麻将游戏场景的代码。
+              Manager_loading:加载中场景的代码。
+              Manager_DDZ：斗地主麻将场景的代码。
+
+
+
+
+			  
+
+为了无网测试改动的代码有：
+     CreatSocket.cs: Connected固定为了false;注释所有调用Connect()的地方。为了防止程序和服务器建立套接字。
+	 VersionDetection.cs： 在Start()里将Status固定为updateStatus.NO。为了跳过更新程序。
+	 FICReconTips.cs：注释掉了第34行的代码，不再检测是否有网络。
+                FIClogin.cs:ZhanghaoDenglu()方法里注释掉了像服务器发送信息。直接跳转场景。
+                Manager_Hall.cs：注释了89行、91行、236行和442行的方法。
+                FICCreatRoom.cs：199行添加的方法是来自于218行的，为了无网测试。
+
+
+	 
+其他修复性改动：
+    1.将GameInfo.cs里的OpenID=SystemInfo.deviceUniqueIdentifier改到在Manager_Hall.cs的 Start()里获取。
+	原因：get_deviceUniqueIdentifier is not allowed to be called from a MonoBehaviour constructor (or instance field initializer), call it in Awake or Start instead
+	2.将GameInfo.cs里第261行的 UserHearbeat ++给注释掉了。因为UserHearbeat是用来记录异常心跳的。心跳包
+	  发送成功是不需要UserHearbeat ++的。
+	  
+
+
+	
+
+Common代码分析：
+    _Scripts/Common文件夹下：
+	 1.Loom.cs
+        疑似未使用。
+			
+	 2.NetManager.CS
+        疑似未使用。
+	
+	 3.CameraAdapt.cs:
+	 摄像机的适配代码。
+	 
+	 4.UIAdapt.cs:
+	 UI的适配代码。
+	 
+     5.TimeToLong.cs	 
+		提供两个调用的方法。
+		ConvertIntDateTime():将Unix时间戳转换为DateTime类型时间。
+		ConvertDateTimeInt():DateTime时间格式转换为Unix时间戳格式。	 		
+			
+	 6.IntToByte.cs	
+        提供四个调用的方法。		
+ 		intToBytes(): 将int数值转换为占四个字节的byte数组。(低位在前，高位在后)
+	    intToBytes2():将int数值转换为占四个字节的byte数组。(高位在前，低位在后)
+		bytesToInt(): byte数组中取int数值。(低位在前，高位在后)
+		bytesToInt2()： byte数组中取int数值。(低位在后，高位在前)
+			
+	 7.CreateHead.cs
+		创建消息结构体，用于传输自定义通讯协议。
+
+	 8.CreatSocket.cs
+        Connect():用来和服务器连接。
+        ReceiveMessage()：接受从服务器发来的消息，根据不同消息分发给不同的方法。
+        SentUserLoginMessage():发送登录信息。
+	    SendCreatRoomMessage():发送创建房间信息。
+		MethodsByNew()：根据消息号分发给不同的方法。
+		ListNew():将服务器返回的信息储存到gemeinfo.cs上。
+		GYMJNew():将服务器返回的信息储存到gemeinfo.cs上。
+		DDZNew():将服务器返回的信息储存到gemeinfo.cs上。
+		CheckConnectionState(): 检查Socket连接状态。
+		Send():发送信息。
+
+	 9.GameInfo.cs
+        用于储存游戏的大部分信息和服务器返回的通讯信息。
+        提供了几个可以调用的方法：
+        1.ClearAllListsAndChanges()：清空本脚本所涉及的所有集合，更改
+        2.Xintiao()：心跳包，通过调用CreatSocket.cs里的Send()方法向服务器发送自定义协议信息
+		  来确认用户是否断开链接。
+        3.GetFW():根据方位获取座位方向。
+		4.Rfw(): 判断方位。
+	    5.GangType():记录各种杠的方法的代号。	
+	 
+	 
+	 10.Global.cs:挂载在InitScene场景的Globle物体上。
+	    确保Globle物体DontDestroyOnLoad，使场景跳转到"_login"。
+	 
+	 11.FICWaringPanel.cs:挂载在InitScene场景的Globle/warningPanelForWorld物体上。
+        显示信息提示框的方法。
+        Show(string str):显示str里的信息，通过提示框。
+        Hide():关闭信息提示框。
+        ShowQuit():显示退出时的信息提示框。
+        HideQuit():隐藏退出时的信息提示框。
+        OnSureButtonClick():执行WarnningMethods标签里的方法，关闭信息提示框。
+			
+	 12.FICAudioPlay.cs:挂载在InitScene场景的Globle/NetManager物体上。
+		是一个音乐播放控制器，提供了三个可以调用的方法。
+	    PlaySound():播放打牌时的声音。
+		PlayShorVoice():播放短语音。
+        ButtonPlay():播放按钮的声音。
+	
+	 13.FICReconTips.cs:挂载在InitScene场景的Globle/ReConneTips物体上。
+		5秒后ping服务器，每秒执行一次，如果不成功则显示"网络不好，正在重连..."的提示框，
+	    成功则关闭这个提示框。
+	 
+	 14.Outlog.cs:挂载在InitScene场景的Globle/Outlog物体上。
+	    提供两个调用的方法  。log：将日志信息保存到指定目录的"outLog.txt"中。
+        Log:将日志信息显示到GUI上(这个方法现在被注释)。
+
+     15.LoadImage.cs:挂载在InitScene场景的Globle/NetManager物体上。
+     	提供了加载图片的方法 LoadPicture()。
+        当指定目录没有图片文件时，从指定URL下载它，加载它，并缓存至本地 LoadThumbnail()；
+        当它存在时，加载它 LoadLocalImage()。
+	
+	 16.GPSManager.cs:挂载在_login场景的Main Camera物体上。
+        Android:通过和底层代码通讯，获取用户定位。
+        IOS:调用unity自带的获取定位方法。	
+		 
+	 17.VersionDetection.cs:挂载在_login场景的Canvas/update_Pel物体上。
+	     在Start()1.里监听了downloadBtn，当downloadBtn被点击时:
+		            ①显示加载条 
+		            ②从指定路径下载文件 DownLoad()，并委托下载后安装APK InstallAPK()。
+                    ③通过DOTween插件，在0.2秒内将自身大小变为0。
+		            ④隐藏旋转的加载中指示图。
+				  
+				  2.将版本信息显示到文本上。
+                  
+                  3.通过DetectionUpdate()获得当前的更新状态(updateStatus),也就是检测更新。
+
+                  4.一秒后启动switchStatus(),根据更新状态(updateStatus)做出反应。
+                    updateStatus.NO():显示登录按钮。
+                    updateStatus.needUpdated():
+					 ①通过DOTween插件，在0.5秒将物体显示出来；
+					 ②监听closeBtn，当closeBtn被点击时：
+					 a.通过DOTween插件，在0.2秒内将自身大小变为0。
+					 b.显示登录按钮。    
+                    updateStatus.forcedUpdated(): 
+                     ①通过DOTween插件，在0.5秒将物体显示出来；
+					 ②监听closeBtn，当closeBtn被点击时：退出程序。  					
+				    updateStatus.NotNetWork():
+					 ①显示网络异常的标签，通过FICWaringPanel。
+					 ②标签显示后执行的动作WarnningMethods委托为:两秒后自再次
+					 执行switchStatus()。
+					 ③通过DetectionUpdate()获得当前的更新状态(updateStatus),也就是检测更新。
+
+
+
+
+
+					 
+
+场景顺序：InitScene>_login>Scene_Hall>LoadingHall>Game_GYMJ。另有GAME_DDZ场景并未使用
+	   
+通讯方式：CreatSocket.cs负责发送数据，并将接收到的数据储存到Gameinfo.cs中；
+	      步骤：
+		  其它插件通过调用CreatSocket.cs的SentUserLoginMessage(),SendCreatRoomMessage()，Send()发送数据至服务器，然后在Update()里监听Gameinfo.cs里的返回数据，根据Gameinfo.cs里的返回数据行动。
+		  
+其它注意事项：
+           1.GameInfo.SceneID和GameInfo.sceneID是不一样的。
+           2.ReturnRoomAdd()和ReturnAddRoom()是不一样的。
+		   3.服务器状态(ServerType)只有在游戏场景Game_GYMJ，
+		     和选择场景Scene_Hall将要进入游戏场景Game_GYMJ的时候才是
+		     ServerType.GameServer，其它时候都是ServerType.ListServer;
+
+
+
+
+
+
+
+场景解析：		  
+	InitScene场景解析：
+		 Globle物体本身挂了两个插件：
+	     1.Global.cs:将Globle物体设置为不随场景销毁而销毁，跳转场景到_login。
+		 2.ReadConfig.cs:加载配置文件Config.xml。从中获取listIp、listPort和certificate
+		 (certificate译为证明书,第一次登录后会储存在Config.xml文件里,来自于服务器返回的信息)。
+		 
+		在Globle物体上挂了几个工具:
+	     1.warningPanelForWorld:根据调用方法，显示信息提示框。代码FICWaringPanel.cs
+		 2.OutLog:一个工具，①用于将信息显示在GUI上。
+		   ②用于将信息存入到指定文件夹中的outLog.txt文件中。代码OutLog.cs。
+	     3.NetManager:挂有两个工具。FICAudioPlay.cs:一个音乐播放控制器。
+		    LoadImage.cs：从网络上加载图片的工具。
+		 4.ReConneTips：检查是否断网，
+		 断网则自动显示提示框"网络不好，正在重连..."。代码FICReconTips.cs
+
+	_login场景解析：
+            1.BG和logo物体上挂载的CameraMove.cs是为了让BG和logo物体随重力的变化移动，形成一种视觉效果。
+            2.BG物体上挂载的Flutter.cs是为了撒花瓣。
+            3.ParticleSystem是粒子系统。
+            //大部分功能都写在了FIClogin.cs里了。 			
+			4.loginBtn是微信登录按钮。FIClogin.cs的OnPointerClick()。
+			5.loginUserBtn是龙宝登录按钮。FIClogin.cs的LongbaoDenglu()。			6.loginPWB是点击龙宝登录按钮以后，弹出的输入账号和密码的界面。FIClogin.cs的ZhanghaoDenglu()。
+			7.progressCircle是加载圈。代码VersionDetection.cs；
+			8.versionNum是显示版本号的文本框。代码VersionDetection.cs；
+			9.agreementTge提示用户查看用户协议的Toggle。代码FIClogin.cs；
+			10.progressBar是更新用的下载进度条。代码VersionDetection.cs； 
+			11.update_Pel是提醒有下载的提示框。代码VersionDetection.cs；
+            12.agreement是用户协议显示文本框。代码FIClogin.cs；
+            13.hint_Info是显示登录失败的文本框。在FIClogin的LoginError里；
+            14.AuthResultHandler():获取微信登录授权，ShareSDK。
+            15.GetUserInfoResultHandler():获取微信用户信息，ShareSDK。在这里发送登录信息SentUserLoginMessage()。
+
+            在Update()里：   			
+			   if (GameInfo.returnlogin != null)服务器返回登录状态
+			   (1:登录成功,2:登录失败,3证书无效,4证书过期，5账号密码错误，)
+			   1:将服务器的信息保存到Gameinfo.cs，跳转至加载场景LoadingHall。
+			   2：显示登录失败的提示框，清空证书certificate，重新显示微信登录按钮和龙宝登录按钮。
+			   3：
+			   4：证书过期，需要你重新输入密码。
+			   5：显示账号密码错误的提示框。
+			
+			
+
+	LoadingHall场景解析：
+            整个场景只有一个作用，加载当前GameInfo.sceneID指向的场景，并在加载过程中
+            显示百分比。LoadingAlter.cs。
+
+   	Scene_Hall场景解析:
+             1.Game_UI/BG/switchMJ：正中间的旋转麻将，使用unity自带的Animations制作，
+             只是循环播放图片，并不是3D。
+			 2.Game_UI/MessageBox:如果Gameinfo.cs的returnMessgaeList有消息，则创建物体显示它，然后清空returnMessgaeList里消息。代码MessageBox.cs。
+			 
+			 3.ScrollRectControl.cs:添加于用于战绩显示和朋友圈的Scroll View物体。通过调用接口
+			 IEndDragHandler，IBeginDragHandler获得监听方法OnBeginDrag(),OnEndDrag()，通过其它
+			 插件调用InitScrollRect();
+			 InitScrollRect()：初始化滑动栏，并将它们添加到集合中。
+			 OnBeginDrag():开始滑动时记录位置。
+			 OnEndDrag()：结束滑动时根据位置决定是重新调用addItem()还是下拉刷新。
+			 addItem()：存疑，感觉是错的。
+			 
+			 4.ToggleColor.cs：使用于创建房间的Toggle按钮，在Update()里监听，当被选中时显示绿色，
+			 不被选中时显示黑色。
+             
+             5.VoucherCenter.cs:依附于充值界面。通过UniWebView插件显示一个网页，
+			 但是被屏蔽了(why?)。
+			 
+			 6.Manager_Hall.cs：
+			  在Start()里：
+			   1.给大厅所有按钮绑定播放音效的方法allBtnVoiceObj();
+			   2.如果服务器现在连的是游戏服务器，改为连接列表服务器;
+			   3. 0.5秒后，发送心跳包Timer();
+			   4.将本地的用户名称、ID、房卡信息同步为服务器的。
+			   5.加载头像图片LoadImage.Instance.LoadPicture，来源于ShareSDK的微信授权。
+			   6.开启协程，顯示公告欄信息，循环的。StartCoroutine(Show_NoticeInfo());
+			   7.分享按钮委托监听方法OnShareButtonAtHallClick()，在微信里面显示一个分享页面
+			      ，通过ShareSDK实现。
+			   8.根据登录类型，改变金币计量单位图片ChangeLongOrFang();
+			   9.关闭消息提示框FICWaringPanel._instance.Hide()。
+			 
+			   在Update()里：
+			      1.将本地房卡信息同步为服务器上的。
+				  2.从服务器获取公告信息，将它存在本地。
+				  3.将连接的服务器类型从"列表"改为"游戏"，如果GameInfo.status == 2，
+				     则表示有未结束的游戏，然后直接跳转到游戏场景Game_GYMJ。
+				  4.获得服务器状态。//状态1为加入成功，2为非法用户
+				   （非法用户一般是未通过list服务器直接进入游戏服务器的用户）。
+                  5.监听退出按钮。
+				  6.监听进入房间的操作是否成功，返回状态，1是成功，
+				    -1为房卡不足，-2为不是圈子用户,-3圈主房卡不足。
+					
+			  7.Manager_HallAudio.cs:
+			   在Awake()里:
+			      1.给音乐和音效调节按钮委托监听方法MusicClick()，SoundClick()，在设置界面上。
+				  2.设置背景音乐。
+				
+               在Start()里：
+			      1.将音乐和音效的音量保存到本地持久化数据里。
+				  2.播放背景音乐。
+				  
+			  8.UserGamePlayback.cs
+                用于显示用户的战绩列表，可以显示每一局战绩的详情，
+				并且每一局战绩可以回放。
+
+			  9.PengYQ.cs
+                包括加入朋友圈，查看朋友圈战绩，查询朋友圈等和所有朋友圈有关的操作。
+
+              10.FICCreatRoom.cs
+                OnCreatRoomClick()：挂载在Game_UI/Two_UI/CreateRoom_pel
+				/Game_Type/Create_Btn。
+                 点击按钮后 sendGameOperation()。
+				 发送操作，连上lsit服务器后 需要进行的操作
+                
+                在Update()里：
+                 如果GameInfo.operation == 1 && GameInfo.addStatus == 1，则
+                 SendCreatRoomMessage()发送创建房间信息。
+				 
+				  if (GameInfo.returnCreatRoom != null)
+				  如果服务器返回的创建服务器信息不为空，
+                 将服务器的信息保存到Gameinfo.cs，跳转至加载场景LoadingHall。
+				 
+			  11.FICEnterRoom.cs
+                 OnNumberButtonClick():监听Game_UI/Two_UI/Join_Pel/BG/InputField，
+				 当房间号位数等于6时OnSureButtonClick()；
+				 OnSureButtonClick()：sendGameOperation()
+				 发送操作，连上lsit服务器后 需要进行的操作。
+				 
+				 在Update()里：
+				 如果GameInfo.operation == 2 && GameInfo.addStatus == 1，则
+                 addRoomOne()发送客户端请求加入房间的信息。
+				 			 
+          		 if (GameInfo.returnAddRoom != null)服务器返回状态码	
+                 (10001:当前房间号不存在,10002:当前房间人数已满,10000:加入房间成功)
+				 10000:将服务器的信息保存到Gameinfo.cs
+				 10001:显示房间不存在的提示框，将服务器的类型转换为ServerType.ListServer。
+				 10002:显示房间人数已满的提示框，将服务器的类型转换为ServerType.ListServer。
+				 
+				 if (GameInfo.returnRoomAdd != null)服务器返回加入状态
+				 (1:加入成功,2:人数已满，3:房间不存在)
+				 1:转至加载场景LoadingHall。
+				 2:显示房间人数已满的提示框,将服务器的类型转换为ServerType.ListServer。
+				 3:显示房间不存在的提示框,将服务器的类型转换为ServerType.ListServer。
+			
+			
+	Game_GYMJ场景解析:
+                 1.	
+                    				 
+                  			   
+              				
+			 
+			 
+			 
+			 
+              			 
+			   
+			 
+
+            			
+			 
+			
+               		
+              			
+             			
+            		
+     		   
+	 
+
+       	
+	
+	
+	
+	
+			  
+ 			  
+ 			  
+					  
+					  
+					  

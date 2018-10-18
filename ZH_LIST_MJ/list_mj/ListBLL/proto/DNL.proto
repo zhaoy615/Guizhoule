@@ -1,0 +1,1089 @@
+///=========2017-08-01 修改服务端返回退出玩家 +5009 增加一个退出状态。 +1010 添加状态，添加协议1011==========
+///=========2017-08-02 添加协议  +1020  服务器返回 7090==========
+///=========2017-08-03 添加协议 +8000 请求公告 服务器返回+8001  第一次登录不需要请求，服务器会推送+8001===================
+//=========2017-08-09 修改+5001，消息增加了一个属性：麻将对象========================================================
+//=========2017-08-10 修改+2001创建房间，+2003加入游戏 消息。 增加一个经纬度=================================================
+//=========2017-08-10 修改协议+5007 解散房间消息新增 返回信息===================================================
+//=========2017-08-12 修改协议 用户信息实体 增加 累积分数=========================
+//=========2017-08-25 修改协议 5016 增加服务器自己调用的多个胡牌类型，和胡牌方位。 客户端传个空值即可=========================================
+//=========2017-08-25 修改协议 7009 结算信息 增加用户 胡牌类型解决服务器自动倒牌的情况客户端不知道胡牌方式============================
+//=========2017-09-13 修改协议 5021 胡牌信息 添加一炮多响的类型 =========================================
+//=========2017-09-13 新增协议 9001 牌局战绩 =========================================
+//=========2017-09-29 新增协议 2011 2012 是否托管============================== 
+//=========2017-12-7  新增协议 返回摸牌中奖信息  +3004===============================
+//=========2017-12-7  新增协议 1101 1102  用户背包  ============================
+//麻将游戏协议基础号  10000
+
+//客户端发送用户登录信息 +1001
+message SendLogin{
+ required string openid=1;//玩家openid
+ required string nickname=2;//玩家昵称
+ required string sex=3;//玩家性别(1：男，2：女)
+ required string province=4;//省
+ required string city=5;//市
+ required string headimg=6;//头像
+ required string unionid=7;//唯一标示符
+ required string Latitude=8;//经纬度  经度，纬度
+}
+
+//服务器返回登录状态 +1002
+message ReturnLogin{
+ required int32 loginstat=1;//登录状态(1:登录成功,2:登录失败,3证书无效,4证书过期，5账号密码错误，)
+ required int64 UserID=2;//用户ID
+ required int64 UserRoomCard=3;//用户房卡数量
+ optional string Certificate=4; //证书
+ optional string headimg=5; //头像
+ optional string unionid=6; //唯一ID 如果服务器返回则unionid和openid一致
+  optional string UserName=7;//用户名称
+}
+
+//服务器返回登录状态 +1003
+message  SendLoginPW{
+ optional string UserAccount=1;//登录状态(1:登录成功,2:登录失败)
+ optional string pwd=2;//用户密码
+ required string province=3;//省
+ required string city=4;//市
+  required string Latitude=5;//经纬度  经度，纬度
+  optional string Certificate=7; //证书
+}
+
+
+
+///心跳包  +1
+message MaintainHeartbeat
+{
+	required int32  state=1;//内容为1
+    required string openid=2;//openid
+	required string unionid=6;//unionid
+	optional string Latitude=3;//经纬度  经度，纬度
+	optional string RoomID=4; //房间号
+	required int64 userID=5; //用户ID
+}
+
+//服务器返回IP和端口    +1010
+message ReturnServerIP{
+  required string ip=1;//服务器IP
+   required string port=2;//服务器端口
+   required int32 Status =3;//状态 1为正常跳转， 2为有未结束的游戏，需要重新连接
+   optional string RoomID=4; //房间号
+   optional int32  GroupID=5; //圈子ID
+   required int32 RoomType=6;//房间类型 0麻将1斗地主
+}
+
+//连接上服务器后 请求加入服务器 +1011
+message SendAddServer
+{   
+     required string openid=1;//openid
+     required string unionid=2;//唯一标示符
+}
+
+//连接上服务器后 服务器返回状态 +1012
+message ReturnAddServer{
+	required int32 status=1; //状态 1为加入成功， 2为非法用户（非法用户一般是未通过list服务器直接进入游戏服务器的用户）
+}
+
+//发送操作，连上lsit服务器后 需要进行的操作 +1020
+message SendGameOperation{
+	required string openid=1;//openid
+	required string unionid=2;//唯一标示符
+	required int32 Operation=3; //1创建房间，2加入房间
+	optional string RoomID=4; //房间号
+	optional int32  GroupID=5; //圈子ID
+	  required int32 RoomType=6;//房间类型 0麻将1斗地主
+}
+//返回操作是否成功 +1021
+message ReturnGameOperation
+{
+        required string openid=1;//openid
+	required string unionid=2;//唯一标示符
+	required int32 status=3;//返回状态，1是成功，-1为房卡不足，-2为不是圈子用户,-3圈主房卡不足
+}
+//发送请求房卡 +1022
+message SendGetRoomCard{
+	required string openid=1;//openid
+	 required int64 UserID=2;//用户ID
+	 required string unionid=3;//唯一标示符
+  }
+//返回房卡数量 +1023
+message ReturnGetRoomCard{
+required int64 UserRoomCard=1;//用户房卡数量
+}
+//获取朋友圈信息  +1030
+message SendGroupInfo{
+	required string openid=1;//openid
+	required string unionid=2;//唯一标示符
+}
+
+message GroupInfo{
+	required int64 GroupID=1; //圈子ID
+	required string GroupName=2;  //圈子名称
+	required string GroupIntroduction=3; // 圈子简介
+	required string NikeName=4; //圈主昵称
+	required double CreateTime=5;  //创建时间
+	optional bool IsGroupLord=6;   //是否房主
+	required int64 RoomCardCounts=7;//房卡数量
+}
+
+//返回朋友圈信息   +1031
+message ReturnGroupInfo{
+ repeated GroupInfo groupInfo=1;//圈子集合
+}
+
+//根据圈子ID获取朋友圈信息  +1032
+message SendGroupInfoByGroupID{
+	required string openid=1;//openid
+	required string unionid=2;//唯一标示符
+	required int64 GroupID=3; //圈子ID
+}
+//根据圈子ID返回朋友圈信息   +1033
+message ReturnGroupInfoByGroupID{
+optional int64 GroupID=1; //圈子ID
+	optional string GroupName=2;  //圈子名称
+	optional string GroupIntroduction=3; // 圈子简介
+	optional string NikeName=4; //圈主昵称
+	optional double CreateTime=5;  //创建时间
+	optional int32  GroupNumberPeople=6;//圈子人数
+	optional int64 CreateUserID=7;//圈主ID
+	required int32 Status=8;//状态 为0 圈子不存在，或者 不是圈子用户，需要刷新圈子信息。 为1时查看成功
+}
+//根据圈子ID获取朋友圈用户信息  +1034
+message SendGroupUserInfoByGroupID{
+	required string openid=1;//openid
+	required string unionid=2;//唯一标示符
+	required int32 GroupID=3; //圈子ID
+}
+//根据圈子ID返回朋友圈用户信息   +1035
+message ReturnGroupUserInfoByGroupID{
+required int32 Status=1;//状态 为0 圈子不存在，或者 不是圈子用户，需要刷新圈子信息。 为1时查看成功
+	repeated GroupUserInfo userList=2;//朋友圈用户信息集合
+}
+//朋友圈用户信息
+message GroupUserInfo
+{
+	required int64 GroupUserID=1;//用户ID
+	required string NickName=2;//用户昵称
+	required string picture=3;//头像地址
+	required int32 Status=4;//用户状态 0为不在线，1为在线，2为游戏中
+}
+//申请加入圈子   +1040
+message SendApplyToJoin{
+	required int32 GroupID=1; //圈子ID
+	required string openid=2;//openid
+	required string unionid=3;//唯一标示符
+}
+
+//返回申请结果  +1041
+message ReturnApplyToJoin{
+	required int32 Status=1; //状态   1：成功   0：失败
+	required string Message=2;//信息	
+}
+
+
+
+//圈内玩家
+message  Player{
+	required int64 GroupUserID=1;//用户ID
+	required string NickName=2;//用户昵称
+	required string picture=3;//头像地址
+
+}
+
+//获取圈内玩家列表   +1051
+message  ReturnPlayerList{
+	repeated Player PlayerList=1;//用户ID列表
+	required int32 ApplyUsers=2;//待审核用户数量
+}
+
+//开放记录
+message  CreateRommRecord{
+	required int64 GroupID=1;
+    required int32 RoomID=2;
+    required int64 CreateUserID=3;
+	required double CreateDate=4;
+    required int32 UseRoomCard=5;//使用房卡
+}
+
+//圈内玩家最近开房记录 +1052
+message  ReturnRecordList{
+	repeated CreateRommRecord CreateRommRecordList=1;
+}
+
+//圈子管理  +1050
+message SendGroupUsersManager{
+	required string openid=1;//openid
+	required string unionid=2;//唯一标示符
+	required int64	GroupID=3;//群id
+
+
+	//以下传userID
+	optional int64 delByUserID=4; //默认空，传值表删除该用户 
+	optional int64 checkRecordByUserID=5; //默认空，传值表查看该用户开房记录
+	optional int64 addUsers=6;//默认空，传值表添加用户
+}
+
+
+//申请记录  +1060
+message SendApplyRecord{
+	required int64 UserID=1;//用户ID
+	//群ID   默认空 表玩家查看申请入群记录,传值表圈主查看申请入该群的申请记录
+	optional int64 GroupID=2;
+
+}
+
+message  GroupApplyInfo{
+	required int64 GroupID=1; //圈子ID
+	required string GroupName=5; //圈子名称
+	repeated Player PlayerInfo=2;//用户详情
+	required int32 ApplyStatus=3;//申请状态，0申请中，1申请通过，2申请拒绝，5同意退出，6拒绝退出
+	required double ApplyDateTime=4;  //申请时间
+}
+
+
+//返回申请记录    +1061
+message  ReturnGroupApplyInfo{
+	repeated GroupApplyInfo GroupApplyInfoList=1;
+}
+
+//修改申请状态   +1070
+message SendChangeApplyStatus{
+	required int64 GroupID=1;
+	required int64 UserID=2;//通过或拒绝的用户ID
+	required int32 ApplyStatus=3; // 申请状态，0申请中，1申请通过，2申请拒绝，5同意退出，6拒绝退出
+	required int64 OperationUserID=4; //当前操作的用户ID
+}
+
+
+//返回修改申请状态结果  +1071
+message ReturnChangeApplyStatus{
+	required int32 Status=1; //状态   1：成功   0：失败
+	required string Message=2;//信息
+}
+
+
+//获取大厅信息   +1080
+message SendLobbyInfo{
+	required int64 GroupID=1;
+}
+
+//房间信息
+message LobbyRoomInfo{
+	 required  int32 roomID = 1;  // 房间ID
+	 required double CreateDate=2; //创建时间
+	 required int32 is_wgj=3;    // 是否乌骨鸡
+	 required int32 is_xinqiji=4;  // 是否是星期鸡
+	 required int32 is_shangxiaji=5;  // 是否上下鸡
+	 required int32 is_benji=6;  // 是否本鸡
+	 required int32 is_yikousan=7;  // 是否一扣三
+	 required int32 room_peo=8;  // 房间人数
+	 required int32 count=9;  // 房间游戏局数 
+	 required int32 QuickCard=10;   // 快速出牌
+     required int32 IsYuanQue=11;  /// 是否为原缺
+     repeated Player PlayerList=12;//用户ID列表 
+	 required  int32 is_lianzhuang=13;//连庄(1是：2否)
+}
+
+//返回大厅信息 +1081
+message ReturnLobbyInfo{
+	repeated LobbyRoomInfo RoomListInfo=1;
+}
+
+//退出朋友圈   +1090
+message SendQuitGroup{  
+	 required int64 GroupID = 1;  // 圈子ID
+	 required int64 UserID=2; //用户ID
+}
+
+
+//返回退出结果   +1091
+message ReturnQuitGroup{  
+	required int32 Status=1; //状态   1：成功   0：失败
+	required string Message=2;//信息	
+}
+
+
+//获取用户背包  +1101
+message SendUserPackage{
+	 required string openid=1;//玩家openid
+}
+
+message Prize{
+		required int32 PrizeID=1;   // 奖品ID
+        required int32 PrizeCounts=2;   // 奖品数量
+        required string prizeName=3;    // 奖品名称
+        required string prizeImage=4;        // 奖品图标
+        required string prizeDetails=5;        // 奖品详情
+}
+
+//返回用户背包信息  +1102
+message ReturnUserPackage{  
+       required int32 OpenID=1;  // 用户openID
+       repeated Prize PrizeList=2;
+}
+
+//创建盆友圈       +1103
+message  SendCreateGroup{
+	 required int64  UserID=1;         //朋友圈ID   传空表示新建  有值表修改
+	 //required int64  UserID=2;        // 圈主用户ID
+     //required string GroupName=2;    // 圈子名称
+     // required string GroupIntroduction=4; // 圈子简介
+}
+
+//返回消息  +1104
+message  ReturnMessgae{
+	required int32 Statue=1;  //状态码 0：失败    1：成狗
+	required string  Message =2; //  详情见message
+}
+
+//代理后台： 获取朋友圈   +1105
+message  SendAgentGetGroupInfo{
+	required int64 GroupID=1;//圈子id
+	required int64 UserID=2; //圈主ID
+}
+
+//代理后台： 返回朋友圈信息  +1106
+message ReturnAgentGetGroupInfo{
+	required int64 GroupID=1; //圈子ID
+	required string GroupName=2;  //圈子名称
+	//required string GroupIntroduction=3; // 圈子简介
+	required string NikeName=3; //圈主昵称
+	required double CreateTime=4;  //创建时间
+	required int64 RoomCardCounts=5;//房卡数量
+}
+
+
+//代理后台: 圈子管理  +1107   正常返回1051
+message SendAgentGroupUsersManager{
+	required int64	GroupID=1;//群id
+
+
+	//以下传userID
+	optional int64 delByUserID=2; //默认空，传值表删除该用户    返回1104
+	optional int64 addUsers=3;//默认空，传值表添加用户         返回1104
+}
+
+//代理后台： 搜索玩家  +1108  
+message SendSearchPlayer{
+	required int64 UserID=1; //用户ID
+
+
+	//正常：返回player  错误：1104
+}
+
+
+//代理后台： 解散盆友圈   +1109   返回1104
+message SendDeleteGroup{
+	required int64 AdminID=1; //管理员ID
+	required int64 GroupID=2; //圈子ID
+}
+
+
+//代理后台： 注册代理后台，判断是否游戏用户   +1110  返回1104
+message SendAgentSignIn  {
+	 required int64 UserID=1; //游戏ID
+}
+//服务器返回消息集合 +1111 
+message ReturnMessgaeList
+{
+	repeated string MessgaeList=1;
+}
+
+
+
+
+
+
+//#客户端创建房间协议 +2001
+message SendCreateRoom { 
+ required  string openid = 1;//玩家openid
+ required  int32 is_wgj = 2;  // 是否乌骨鸡(1:是,0:否)
+ required  int32 is_xinqiji = 3; //是否星期鸡(1:是,0:否)
+ required  int32 is_shangxiaji = 4; //是否上下鸡(1:是,0:否)
+ required  int32 is_benji = 5; //是否本鸡(1:是,0:否)
+ required  int32 is_yikousan = 6; //是否一扣3(1:是,2:一扣2，3:连庄)
+ optional  int32 room_peo = 7; //房间人数(2厅：2T，3厅:3T)可选，不传为默认4人局
+ required  int32 count = 8; //房间局数
+ required  int32 is_lianzhuang=9;//连庄(1是:0否)
+ required string Latitude=10;//经纬度  经度，纬度
+ optional int32 Is_yuanque = 11;//是否原缺 (1是:0否)
+ optional int32 QuickCard =12 ;//10秒出牌 (1是 : 0否)
+ optional int32  GroupID=13; //圈子ID
+}
+//#服务端返回房间信息 +2002
+message ReturnCreateRoom { 
+ required  int32 roomID = 1;  // 房间ID
+ required  Userinfo userinfo=2;  //当前用户信息
+}
+//#用户信息实体
+message Userinfo{
+ required  string openid = 1;//用户openid
+ required  string nickname=2;//用户昵称
+ required  string headimg=3;//用户头像地址
+ required  int32  sex=4;//用户性别
+ required  int32  user_bean=5;//用户豆
+ required  int32  user_gold=6;//用户乐币
+ required  int32  user_FW=7;//用户就坐方位(1:东,2:北，3：西，4:南)
+ required  int64  UserID=8;//用户ID
+ optional  string  UserIP=9;//用户IP
+ optional int32  CumulativeScore=10;//累积分数
+ optional  string  City=11;//用户IP
+}
+//#客户端加入房间 +2003
+message SendAddRoom{
+  required int32   roomID=1;//要加入的房间号
+  required string  openid=2;//当前用户openid
+  required string Latitude=3;//经纬度  经度，纬度
+}
+//#服务端返回加入信息 +2004
+message ReturnAddRoom{
+  required int32  state=1;//返回状态码(10001:当前房间号不存在,10002:当前房间人数已满,10000:加入房间成功)
+  repeated Userinfo userinfo=2;//返回当前房间内所有用户信息
+}
+//#服务端主动推送加入玩家信息 +2005
+message ReturnUserInfo{
+  repeated Userinfo userinfo=1;//返回房间所有用户信息
+}
+//#麻将实体
+message MaJiang{
+  required int32 PaiID=1;//牌ID
+  required int32 PaiHS=2;//牌花色
+}
+//#服务端返回主动推送游戏开始信息 +2006
+message ReturnStartGame{
+ repeated MaJiang mj=1;//手牌集合
+ required int32   chuuser=2;//当前出牌玩家
+  required int32 gamenumber=3;//当前局数
+}
+
+///请求开始游戏 +2007
+message SendStart{
+    required string openid=1;//用户openid
+	required int32  roomid=2;//房间号
+}
+
+///开始游戏 +2008
+message ReturnStart{
+    required int32  start=1;//开始游戏
+}
+
+
+//返回打出叫牌的集合 +2009
+message ReturnTP{
+  repeated MaJiang mj=1;//打出叫牌的麻将集合
+}
+
+
+//返回天听天胡信息 +2010
+message ReturnTTATH{
+  required int32   state=1;//返回（214）天胡信息(213:天听)
+}
+//返回托管状态 +2011
+message ReturnManaged{
+	required int32   state=1;//返回是否托管 1已托管， 2未托管
+}
+//请求托管状态 +2012
+message SendManaged{
+	required int32   state=1;//请求取消托管 1请求取消， 2请求托管
+	required string openid=2;//用户ID
+}
+//请求取消报听状态 +2013
+message SendNotBaoTing{
+	 required string openid=1;//用户ID
+	required int32  roomid=2;//房间号  
+}
+//请求摸牌 +3002
+message SendMP{
+    required string openid=1;//用户ID
+	required int32  roomid=2;//房间号  
+	optional int32 mType=3;//摸牌状态(0:普通状态;1:杠后摸牌)
+}
+//返回摸牌   +3003
+message ReturnMP{
+    required MaJiang mj=1;//麻将实体
+	optional int32 gang=2;//状态(1:是;2:否)
+	optional int32 hu=3;//状态(1:是;2:否)
+}
+
+
+//返回摸牌中奖信息  +3004
+message ReturnWinning{
+	 required string  prizeName=1;//奖品名称
+	 required string  prizeDetails=2;//奖品详情
+}
+
+//请求出牌 +3001
+message SendCP{
+    required string openid=1;//用户ID
+	required int32  roomid=2;//房间号
+	required MaJiang mj=3;//打出的牌实体
+	required int32 type=4;//默认为0，如果杠过后出的牌为1
+}
+
+///下发碰杠胡消息 +3008
+message ReturnAll{
+    optional int32 peng=1;//(碰1:是；0：否)
+	optional int32 gang=2;//(杠1:是；0：否)
+	optional int32 hu=3;//(胡1:是；0：否)
+	optional int32 mo=4;//(摸1:是；0：否)
+	optional MaJiang mj=5;//(牌：仅碰杠胡有)
+	optional int32 fw=6;//(方位：仅碰杠胡有)
+	optional int32 mType=7;//摸牌状态(0:普通状态;1:杠后摸牌)
+
+}
+
+///下发消息 +3009
+message ReturnMsg{
+   optional string msg=1;//下发的消息(CFJ:冲锋鸡，CFWG：冲锋乌骨鸡)
+   optional MaJiang mj=2;//下发牌
+   optional int32 FW=3;//牌堆方位
+}
+
+///请求碰杠胡 +4001
+message SendPeng{
+   required int32 types=1;//碰杠胡方式（1:碰，2：杠，3：胡，4天听，5天胡）
+   required int32 state=2;//是否过(1；否，2是)
+   required string openid=3;
+   required int32 roomid=4;
+   required int32 FW=5;//打出可以碰牌的方位
+   optional MaJiang mj=6;//麻将
+   optional string Gtype=7;//杠牌方式(A:暗杠，Z：转弯刚，M：明豆)
+}
+
+///下发碰杠胡后消息 +4002
+message ReturnPeng{
+    required int32 state=1;//(1:碰，2:杠，3:胡,4:过)
+	optional MaJiang mj=2;//(牌：仅碰杠胡有)
+	optional int32 fw=3;//(方位：仅碰杠胡有)
+	optional int32 Pfw=4;//碰牌方位
+	optional string Gtype=5;//杠的方式(Z:转弯刚；A:暗杠；M：明杠；H：憨包杠)
+}
+
+
+///发送听牌通知 +5001
+message SendBT{
+  required string openid=1;//openid
+  required int32  type=2;//报听和天听（1：报听，2：天听）
+  required int32  roomID=3;//房间ID
+  required MaJiang mj=4;//(牌,打出后听牌的那张牌)
+}
+///返回听牌方位 +5002
+message ReturnBTMsg{
+  required int32 fw=1;//返回保亭或天听方位
+}
+
+///2017-5-26
+///请求解散房间openid+5003
+message SendJS{
+  required string openid=1;//请求解散的openid
+  required int32 roomid=2;//请求解散的房间ID
+  required string unionid=3;//唯一标示符
+}
+
+///返回请求解散房间信息 +5004(ps所有人接收，客户端自主判断是否显示)
+message ReturnJSMsg{
+  required string NickName=1;//请求解散的用户昵称
+  required int32  fw=2;//请求人的方位
+}
+
+///发送是否同意取消房间 +5005
+message SendJSIdea{
+  required int32 roomid=1;//房间ID
+  required string openid=2;//用户openid
+  required int32 state=3;//状态（1：同意，0：否）
+}
+
+///返回单个用户同意信息 +5006
+message ReturnJSByOnew{
+  required string NickName=1;//用户昵称
+  required int32 state=2;// (1：是；0：否)
+  required int32 fw=3;//用户方位
+}
+///返回集体消息是否解散房间 +5007
+message ReturnAllIdea{
+	required int32 state=1;//是否解散房间(1:是；0:否)
+    required int32 MessgaeType=2;//解散消息，1为房主解散房间，2为房主退出解散房间，3为全部同意解散房间
+}
+
+
+
+///用户请求退出房间 +5008
+message SendRemove{
+  required string openid=1;//用户openid
+  required int32 RoomID=2;//房间号
+  required string unionid=3;//唯一标示符
+}
+
+///服务端返回退出玩家 +5009(如果无返回则不进行任何处理， 有返回的情况 判断状态，)
+message ReturnRemoveUser{
+  required string openid=1;//退出的用户ID
+  required int32 status=2;//退出的状态 0已经开始游戏，1退出成功
+}
+///服务端返回解散房间失败， +5010
+message ReturnDisbandedFailure
+{
+	 required int32 status=1;//解散失败用的状态，1为同一用户申请解散时间间隔不足5秒
+}
+
+///发生缺一门消息 +5011
+message SendQYM{
+  required  int32 type=1;//(1：筒；2：条；3：万)
+  required  string openid=2;//用户OPENID
+}
+
+
+message ReturnQYM{
+   required int32 fw=1;//方位
+   required  int32 type=2;//(1：筒；2：条；3：万)
+}
+///返回缺牌信息 +5012
+message ReturnAYM{
+   repeated ReturnQYM QP=1;//返回缺牌信息
+}
+
+
+
+///返回天听方位(返回所有人) +5013
+message ReturnTT{
+   required int32 fw=1;//返回天听方位s
+}
+
+
+///大结算信息单人
+message UserAJS{
+   required Userinfo user=1;//用户数据
+   required int32 zimo=2;//自摸次数
+   required int32 dianpao=3;//点炮次数
+   required int32 andou=4;//暗斗次数
+   required int32 Mdou=5;//明豆次数
+   required int32 Zdou=6;//转弯豆次数
+   required int32 Scare=7;//分数
+}
+
+////大结算信息  全体+5014
+message ReturnDJS{
+ repeated UserAJS userjs=1;//结算信息
+ required int32   state=2;//结算状态(1:正常；2:非正常)
+}
+
+///修改
+////3001出牌添加required int32 type=4;//默认为0，如果杠过后出的牌为1
+
+///返回胡牌（替换原3008的胡） +5015
+message ReturnHByType{
+   required int32  FWZ=1;//胡的方位
+   required int32  type=2;//胡的方式(1:自摸；2:放炮；3:抢杠；4:热炮;5:杠上开花)
+   optional int32 FWB=3;//放炮的方位
+    required MaJiang  MJ=4;//胡的牌
+}
+///请求胡（替换原4001的胡） +5016
+message SendHu{
+    required int32  FWZ=1;//胡的方位
+    required int32  type=2;//胡的方式(1:自摸；2:胡牌；3:抢杠；4:热炮;5:杠上开花)
+    optional int32 FWB=3;//放炮的方位
+	required MaJiang  MJ=4;//胡的牌
+	required string openid=5;
+   required int32 roomid=6;
+   repeated DuoXiangHu DXInfo=7; //一炮多响
+}
+//一炮多响的类型
+message DuoXiangHu{
+	required int32  DXFW=1;//一炮多响的多个方位
+	required int32 DXType=2;//一炮多响的多个胡牌类型
+}
+
+///请求继续游戏   +5017
+message SendGetGame{
+    required int32 room_ID=1;
+	required int32 fw=2;//方位
+}
+
+
+
+///下发责任鸡消息 +5018
+message ReturnZR{
+   required int32 gtype=1;//(1责任鸡；2责任无骨)
+   required int32 zrfw=2;//责任方位
+   required int32 dzrfw=3;//碰杠人的方位
+}
+///修改请求摸牌:Mtype 发送摸牌:Mtype 添加5018责任级
+
+
+///2017-7-3添加请求断线重连断线重连添加实体是否责任鸡冲锋鸡
+
+///请求断线重连 +5019
+message SendConnData{
+  required string openid=1;//openid
+  required int32 RoomID=2;//房间ID
+}
+
+
+///返回庄 +5020
+message ReturnZhuang{
+   required int32 zhuang=1;//庄方位
+    required string seizi=2;//色子 点数,点数
+	required int32 zhuangCount=3;//庄技术
+}
+
+///返回胡信息 +5021
+message ReturnHType{
+   required int32  FWZ=1;//胡的方位
+    required int32  type=2;//胡的方式(1:自摸；2:胡牌；3:抢杠；4:热炮;5:杠上开花)
+    optional int32 FWB=3;//放炮的方位
+	required MaJiang  MJ=4;//胡的牌
+	  repeated DuoXiangHu DXInfo=5; //一炮多响
+}
+
+message GangMSG{
+   required int32 fw=1;//杠的方位
+   required int32 Type=2;//杠的方式// 1,明杠，2转弯杠，3暗杠，4憨包杠
+   required MaJiang mj=3;//杠的牌
+
+}
+
+///返回杠消息 +5022
+message ReturnGang{
+   repeated GangMSG gang=1;//刚集合
+}
+
+
+
+
+///判断是否断线重连 +6001
+message ReturnRecon{
+    required int32 state=1;//(返回重连信息1：是；0否0)
+}
+
+///玩家手牌集合  +6002
+message UserShou{
+    required int32 FW=1;//(方位信息)
+	repeated MaJiang mj=2;//(返回手牌集合，非当前玩家手牌实体具体数值都为0)
+	required int32 Pcount=3;//(剩余手牌数)
+	required int32 QYM=4;//缺一门  0未选择， 1筒 2条 3万
+	required int32 Tianting=5;//天听 0否 1是，-1待选择
+	required int32 Baoting=6;//报听 0否 1是 	
+	required int32 Scare=7;//游戏得分
+}
+///玩家碰牌集合
+message UserPeng{
+     required int32 FW=1;//(方位信息)
+	 repeated MaJiang mj=2;//(碰牌集合)
+}
+///杠牌集合
+message UserGang{
+     required int32 FW=1;//(方位信息)
+	 required string gang=2;//(碰牌集合牌型为---牌HS|被杠方位|刚牌方式M:名豆，A：安逗，Z：转弯豆)
+}
+//出牌集合
+message UserChu{
+    required int32 FW=1;//(方位信息)
+	 repeated MaJiang mj=2;//(出牌集合)
+}
+//是否冲锋责任
+message JpConn{
+   optional int32 CFJ=1;//是否冲锋鸡(1:冲锋鸡，2：责任鸡)
+   optional int32 WGJ=2;//是否乌骨鸡(1:冲锋乌骨，2：责任乌骨)
+   required int32 FW=3;//方位
+}
+
+
+///返回断线前信息+7001
+message ReturnConnData{
+     
+    repeated UserShou shoupai=1;///手牌
+	repeated UserPeng peng=2;//碰牌
+	repeated UserGang gang=3;//杠牌
+	repeated UserChu chu=4;//出牌
+	required int32 roomID=5;
+    repeated JpConn  jp=6;//是否冲锋责任
+	required ReturnRoomMsg message=7;//返回房间信息
+	required ReturnHyUser hyUser=8;//返回房间活跃用户信息
+	required ReturnUserInfo userInfo=9;//返回房间玩家信息
+	optional ReturnTP tp=10;//听牌集合
+	required ReturnZhuang zhuang=11 ;//庄方位
+	repeated bytes SendData=12;//最后发送的消息
+	optional MaJiang LastMomj=13;//(最后一张摸的牌)
+	optional MaJiang LastChumj=14;//(最后一张出的牌)
+	required int32 GameNumber=15;//游戏局数
+	required int32 JiXuYouXi=16;//是否继续游戏（0否1是）
+	optional int32 PaiCount=17;//剩余牌堆数
+}
+
+
+///返回重发信息 +7002
+message ReturnMsgList{
+    repeated bytes msg=1;//消息体结构
+}
+
+
+///返回房间信息 +7003
+message ReturnRoomMsg{
+     required  int32 is_wgj = 1;  // 是否乌骨鸡(1:是,0:否)
+     required  int32 is_xinqiji = 2; //是否星期鸡(1:是,0:否)
+     required  int32 is_shangxiaji = 3; //是否上下鸡(1:是,0:否)
+     required  int32 is_benji = 4; //是否本鸡(1:是,0:否)
+     required  int32 is_yikousan = 5; //是否一扣3(1:是,0:否，否则默认一扣2)
+     optional  int32 room_peo = 6; //房间人数(2厅：2T，3厅:3T)可选，不传为默认4人局
+     required  int32 count = 7; //房间局数
+	 required  int32 is_lianzhuang=8;//连庄(1是：2否)
+	 required int32 Is_yuanque = 9;//是否原缺 (1是:0否)
+	  optional int32 QuickCard =10 ;//10秒出牌 (1是 : 0否)
+}
+
+///返回活跃用户 +7004
+message ReturnHyUser{
+    required   int32 fw=1;//活跃方位
+	required   string cz=2;//当前操作(3001   出,30081  碰,30082  杠,30083  摸,30084  胡,30086 天听)多条操作以|分割
+	optional   MaJiang mj=3;//麻将
+}
+
+///返回翻鸡牌  +7005
+message ReturnFJ{
+   required int32    HS=1;//牌花色 
+}
+//鸡排对应分数和花色
+message JiPaiF{
+  optional int32 PaiHS=1;//鸡排花色 连庄花色99 天听：100 报听 101 天胡：102  牌型（七对:1；单调大队:2；大队:3；龙七对:4；小牌:5；清七对:6；清单调大队:7；清大对:8清龙七:9;清一色:10;）
+  optional int32 Count=2;//对应分值
+  optional int32 type=3;//(1:幺鸡,2：冲锋鸡,3：乌骨鸡,4:冲锋乌骨,5:星期鸡,6：本机,7：普通鸡,8:责任乌骨,9:责任幺鸡，10:连庄， 11：牌型)
+}
+///豆类型和数量
+message Dou{
+  optional int32 type=1;//豆类型(1:明豆，2：暗豆)
+  optional int32 Count=2;//对应分值
+}
+//返回结算信息(单人)
+message UserJS{
+   required Userinfo userinfo=1;//用户信息
+   repeated JiPaiF jp=2;//鸡排对应分数和花色
+   repeated Dou    dc=3;//豆数量
+   required int32  FS=4;//分数
+   required int32  is_jiao=5;//是否叫牌（1：叫牌，0:没叫牌）
+   optional int32  is_pao=6;//方式(七对:1；单调大队:2；大队:3；龙七对:4；小牌:5；清七对:6；清单调大队:7；清大对:8清龙七:9;清一色:10;放炮:11;)
+   optional int32  dy_fs=7;//胡牌对应分数
+	optional int32  huType=8;//胡牌类型
+}
+//返回结算信息(全体)+7009
+message ReturnJS{
+  repeated UserJS js=1;//结算信息
+}
+
+
+
+//服务端返回剩余牌堆数 +7006
+message ReturnPaiCount{
+   required int32 PaiCount=1;//剩余牌堆数
+}
+
+///单个玩家手牌
+message UserSPai{
+  required int32 fw=1;//方位
+  repeated MaJiang mj=2;//手牌集合
+}
+
+///玩家手牌集合 +7008
+message ReturnUserSPai{
+  repeated  UserSPai usp=1;//
+}
+
+///客户端请求加入房间 +7089
+message SendAddRoomOne{
+   required string openid=1;//用户OPENID
+   required int32 RoomID=2;//房间号
+     optional int32  GroupID=3; //圈子ID
+}
+
+///返回加入状态  +7090
+message ReturnRoomAdd{
+   required int32 Start=1;//1:加入成功,2:人数已满，3:房间不存在
+}
+
+///返回用户距离 +7091
+message ReturnDis{
+   required int32 FW=1;//方位
+   required string dis=2;//距离
+   optional int32 FWT=3;//方位2
+}
+
+///返回是否又相近用户，有责发送  无则不发   +7092
+message ReturnIsJ{
+   required int32 FWO=1;//方位1
+   required int32 FWW=2;//方位2
+}
+///返回是否相同IP，有责发送  无则不发   +7093
+message ReturnIPSame{
+   repeated int32 FW=1;//方位IP相同的多个方位
+}
+
+//=============2017-07-31=======================================================
+//==============弃用 2007请求发牌。
+//==============当用户进入房间以后如果没有距离相近的情况，确认开始后自动发牌。 如果没有距离相近的情况坐满后自动发牌。
+//================================================
+//客户端发送请求，确认开始					+7094
+message SendConfirmationStarts
+{
+	  required string openid=1;//用户OPENID
+	 required int32 RoomID=2;//房间号
+}
+
+/// 每五秒返回返回是否又相近用户，有责发送  无则不发   +7095
+message ReturnIsJ5Seconds{
+  repeated ReturnIsJ isj=1;//多个距离过近的集合
+}
+///每五秒返回返回是否相同IP，有责发送  无则不发   +7096
+message ReturnIPSame5Seconds{
+   repeated int32 FW=1;//方位IP相同的多个方位
+}
+
+///GPS未开启 +7097
+message ReturnCloseGPS
+{
+	 repeated int32 FW=1;//方位1
+}
+///GPS未开启 +7098
+message ReturnCloseGPS5Seconds
+{
+	 repeated int32 FW=1;//方位1
+}
+//请求公告 +8000
+message SendAnnouncement{
+   required string openid=1;//用户OPENID
+	 required int32 RoomID=2;//房间号
+}
+
+
+//返回公告信息 +8001
+message ReturnAnnouncement{
+ repeated AnnouncementInfo announcement=1;//公告信息列表
+}
+
+message AnnouncementInfo
+{
+required string Title=1;//标题
+	 required string Content=2;//内容
+}
+
+//请求语音信息 +8002
+message SendVoice{
+ required int32 RoomID=1;//房间ID
+ required string openid=2;//用户OPENID
+ required int32 VoiceNumber=3;//语音编号
+  optional  int32 FWT=4;//方位2
+}
+
+
+//返回语音信息 +8003
+message ReturnVoice{
+ required int32 FW=1;//方位
+ required int32 VoiceNumber=2;//语音编号
+ optional  int32 FWT=3;//方位2
+}
+//连接状态
+message ConnectionStatusInfo
+{
+required int32 FW=1;//方位
+ required int32 ConnectionStatus=2;//1为连接正常， 0为离线
+}
+//返回连接状态 +8004
+message ReturnConnectionStatus
+{
+	repeated ConnectionStatusInfo ConnectionStatus=1;
+}
+
+//发送连接状态 +8005
+message SendConnectionStatus
+{
+required string openid=1;//用户OPENID
+ required int32 ConnectionStatus=2;//1为连接正常， 0为离线
+}
+
+//游戏操作信息
+message GameOperationInfo
+{
+	required int32 SerialNumber=1;//操作序号， 递增
+	required int32 OperationFW=2;//操作方位
+	required int32 OperationType=3;//0:发牌, 1:摸，2:出,3:碰，4:杠，5:胡，6:听，7:过，8:缺一门，9：翻鸡牌
+	optional int32 PengFW=4;//碰杠牌方位
+	repeated MaJiang MJ=5;//麻将的牌对象
+	optional int32 TingHuType=6;//1:天胡 ,2:报听 3:	天听,4:明杠 ,5: 暗杠，6转弯杠,7:憨包杠
+	optional int32 ChuUser=7;//出牌用户
+	optional int32 QYM=8;//缺一门
+	optional string MJType=9;//麻将类型： //CFWG：冲锋乌骨鸡, CFJ :冲锋鸡 ，ZRJ：责任鸡
+	optional int32 PaoFW=10;//放炮的方位
+	 repeated DuoXiangHu DXInfo=11; //一炮多响
+}
+//游戏保存用游戏操作流程 
+message GameOperationProcess
+{
+	repeated GameOperationInfo gameOperationInfo=1;//游戏操作集合
+	required ReturnRoomMsg message=2;//返回房间信息
+	required ReturnUserInfo userInfo=3;//返回房间玩家信息
+	required bytes JieSuanInfo=4;//结算信息
+}
+//请求获取玩家战绩 +9001
+message SendGetUserRecord
+{
+	required int64 UserID=1;//用户ID
+	required string openid=2;//用户openID
+	required string unionid=3;//唯一标示符
+	optional int32 GroupID=4;//圈子ID
+}
+//战绩用户信息
+message RecordUserInfo
+{
+	 required  string openid = 1;//用户openid
+	 required  string nickname=2;//用户昵称
+	 required  string headimg=3;//用户头像地址
+	 required  int32  sex=4;//用户性别
+	 required  string  Score=6;//得分 示例： 用户ID,得分|用户ID,得分 ：103097,-11|103103,11
+	 required int64 UserID=7;//用户ID
+}
+
+//用户战绩
+message UserRecord
+{
+	repeated RecordUserInfo recordUserInfo=1;//战绩用户信息
+	required string RoomInfoID=2;//游戏牌桌信息ID ，不是牌桌ID
+	required int64 UserID=3;//房主用户ID
+	optional double CreateDate=4;// 游戏开始时间
+	optional double EndTime=5;//	游戏结束时间
+	required ReturnRoomMsg RoomMsg=6;//房间规则
+	
+}
+//返回用户战绩列表 +9002
+message ReturnUserRecord
+{
+	repeated UserRecord userRecord=1;
+}
+//根据牌桌信息ID请求牌局信息 +9003
+message SendGetUserGamePlayback
+{
+	required string RoomInfoID=2;//游戏牌桌信息ID ，不是牌桌ID
+}
+//根据牌桌信息ID返回多局牌集合+9004
+message ReturnGetUserGamePlayback
+{
+	repeated GameOperationProcess gameOperationProcess=1;//牌局回放记录列表
+}
+//游戏反馈 +9005
+message SendFeedback
+{
+	required int64 UserID=1;//用户ID
+	required string Title=2;//标题
+	optional string Content=3;//内容，可以为空
+	optional string GameLog=4;//游戏记录的日志
+	optional string image=5;//玩家截图
+		required string openid=6;//用户openID
+	required string unionid=7;//唯一标示符
+}
+
+//发送用户或房间是否存在 +9901
+message SendRoomExist
+{
+required int32 roomID=1;//房间编号
+	required string openid=2;//用户openID
+	required string unionid=3;//唯一标示符
+}
+//返回用户或房间是否存在 +9902
+message ReturnRoomExist
+{
+	required int32 IsExist=1;//房间是否存在 1：存在 0不存在
+}

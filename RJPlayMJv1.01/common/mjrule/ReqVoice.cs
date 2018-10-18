@@ -1,0 +1,50 @@
+﻿using MJBLL.common;
+using MJBLL.model;
+using SuperSocket.SocketBase.Command;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MJBLL.mjrule
+{  /// <summary>
+   /// 加入房间
+   /// </summary>
+    public class ReqVoice : ICommand<GameSession, ProtobufRequestInfo>
+    {
+        public string Name
+        {
+            get { return "18002"; }
+
+        }
+        
+        public void ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo)
+        {
+           
+                if (!Gongyong.userlist.Any(w => w.session.SessionID.Equals(session.SessionID)))
+                {
+                    session.Logger.Debug("ReqVoice : 非法连接");
+                    session.Close();
+                    return;
+                }
+                var sendData = SendVoice.ParseFrom(requestInfo.Body);
+                Room r = Gongyong.roomlist.Find(u => u.RoomID == sendData.RoomID);
+                if (r == null)
+                    return;
+                var userList = Gongyong.mulist.FindAll(w => w.RoomID == sendData.RoomID);
+                foreach (var item in userList)
+                {
+                    var user = Gongyong.userlist.FirstOrDefault(w => w.openid == item.Openid);
+                var voice = ReturnVoice.CreateBuilder().SetFW(item.ZS_Fw).SetVoiceNumber(sendData.VoiceNumber);
+                if (sendData.HasFWT)
+                    voice.SetFWT(sendData.FWT);
+                    var data = voice.Build().ToByteArray();
+                    user.session.Send(new ArraySegment<byte>(CreateHead.CreateMessage(GameInformationBase.BASEAGREEMENTNUMBER + 8003, data.Length, requestInfo.MessageNum, data)));
+                }
+          
+            
+        }
+    }
+   
+}

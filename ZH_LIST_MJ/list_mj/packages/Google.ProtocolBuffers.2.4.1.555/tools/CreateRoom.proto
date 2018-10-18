@@ -1,0 +1,18 @@
+
+
+//#客户端发送登录信息
+message sendCreateRoom { 
+ optional  string username = 1;//用户名
+ required  int32 is_wgj = 2;  // 是否乌骨鸡(1:是,0:否)
+ required  int32 is_xinqiji = 3; //是否星期鸡(1:是,0:否)
+ required  int32 is_shangxiaji = 4; //是否上下鸡(1:是,0:否)
+ required  int32 is_benji = 5; //是否本鸡(1:是,0:否)
+ required  int32 is_yikousan = 6; //是否一扣3(1:是,0:否，否则默认一扣2)
+ optional  string room_peo = 7; //房间人数(2厅：2T，3厅:3T)可选，不传为默认4人句
+ required  int32 count = 8; //房间局数
+}
+//#返回用户信息
+message returnCreateRoom { 
+ required  int32 roomID = 1;  // 用户ID
+ required  string userinfo=2;  //用户信息
+}

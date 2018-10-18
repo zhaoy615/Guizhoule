@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 9a5303b79d0b64c01a4c75b3706b8755
+timeCreated: 1459134955
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - targetFont: {fileID: 12800000, guid: 5d3c413c386db4d31a0f9ea3ea5313e0, type: 2}
+  - fntData: {fileID: 4900000, guid: 24d88aed3ddaa43d9a12123cdfb63776, type: 3}
+  - fontMaterial: {fileID: 2100000, guid: 8275f9f410efd4fe0af367408a6c4bee, type: 2}
+  - fontTexture: {fileID: 2800000, guid: 019681d974f8745de8d7f729c13fe67f, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

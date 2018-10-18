@@ -1,0 +1,192 @@
+场景顺序
+InitScene>_login>Scene_Hall
+
+公共部分
+  Gameinfo.cs   loom.cs  ProtobufUtility.cs    CreatSocket.cs
+CreateHead.cs(namespace  MJBLL.common )   DDZData.cs
+
+
+                                          InitScene场景     包括以下Scripts
+1.Global.cs
+       确保Globle物体DontDestroyOnLoad，使场景跳转到"_login"
+
+2.ReadConfig.cs
+      当指定目录没有名为"config.xml"的文件时，创建它；当它存在时，
+将GameInfo里的listIp,listPort,certificate改为"config.xml"里的ip,port,certificate
+
+3.Outlog.cs
+      提供两个调用的方法  。log：将日志信息保存到指定目录的"outLog.txt"中。
+Log:将日志信息显示到GUI上。
+
+4.FICAudioPlay.cs
+      提供了播放音乐的方法。PlaySound():牌名与动作播放方法;PlayShorVoice():玩家间对话语音播放方法;ButtonPlay():按键音效播放方法。
+
+5.LoadImage.cs
+      提供了加载头像的方法。LoadImage():当指定目录没有头像文件时，从指定URL下载它，加载，并缓存至本地；当它存在时，加载。
+
+6.FICReconTips.cs
+      Ping网站，如果不成功则弹出提示框，成功则隐藏提示框。
+
+7.FICWaringPanel.cs
+     提供了可供调用的方法。Show(string str):显示有str信息的提示框；hide()：隐藏提示框；ShowQuit():显示有退出游戏询问的提示框；HideQuit():显示btnSure按钮，隐藏btnSureTc按钮和btnSureFh按钮。
+     监听_BtnSure按钮、btnSureFh按钮和btnSureTc按钮，根据
+Action WarnningMethods 做出响应。
+
+                                              
+
+
+                                             _login场景     包括以下Scripts
+1.GPSManager.cs
+      获取定位的方法。
+
+2.ShareSDK.cs
+      Mob的分享SDK的代码，并没有仔细研读。
+
+3.Manager_Login.cs
+     使提示加载中的图片旋转的代码。提供了ShowLoginButton()，用来显示登录按钮和关闭提示加载中的图片。
+
+4.CameraAdapt.cs
+     相机适配方法
+
+5.UIAdapt.cs
+     UI适配方法
+
+6.flutter.cs
+     撒花瓣的方法
+
+7.CameraMove.cs
+     使UI组件随着手机重力感应参数的变化而移动的方法，用于制造视觉效果
+
+8.FLClogin.cs
+     在Update()里监听返回键并处理服务器返回的登录信息。LongbaoDenglu()：监听龙宝登录按钮；ZhanghaoDenglu()：账号密码输入界面-登录按钮监听方法；OnPointerClick()：房卡登录模式处理办法（？微信登录模式），通过AuthResultHandler()和GetUserInfoResultHandler()获取微信登录用户的信息...来自MobSDK。
+    WirteConfigFile()：如果登录成功，则会在指定文件夹下的"Config.xml"文件上保存
+    Certificate(用于使第二次登录，可以快速登录的证书)。
+
+9.VersionDetection.cs
+    ServerVersion():从服务器获取记录有最新版本信息的json文件;
+    DetectionUpdate():从json文件获取当前的"updateStatus"(更新状态),分为:needUpdated(可以更新)、forcedUpdated(强制更新)、NO(不用更新)，根据当前联网状态判断是否NotNetWork(网络异常)；
+    switchStatus()：根据不同的updateStatus，做出不一样的操作。
+    在Start()里委托监听downloadBtn(下载按钮)，并在下载完成后安装。
+     
+
+
+
+                                    Scene_Hall场景     包括以下Scripts
+1.Manager_Hall.cs
+      ChangeLongOrFang():根据当前的登录类型（龙宝or房卡(?微信)），改变计费单位的图片。
+      OnShareButtonAtHallClick():启动协程JiePingTime();  "分享"按钮的监听方法
+      JiePingTime():调用MobSDK的方法，在微信里弹出一个分享页面。
+      allBtnVoiceObj():给所有按键绑定音乐播放方法。
+      Timer():发送心跳包的方法。
+      SendGetRoomCard():发送用户信息。
+      LoadImage.Instance.LoadPicture():下载服务器上的用户头像。
+      Show_NoticeInfo()：循环播放公告栏上的信息
+      update()：包括了几个功能:
+           ①将房卡数量(也就是金币数量)与服务器端同步。
+           ②从服务器获取公告信息；
+           ③  断开Scoket链接，将服务器器类型转换为GameServer(游戏服务器)，重新链接Scoket，将设备信息发送至服务器。判断GameInfo.status(游戏状态)，如果GameInfo.status==2，表示你有尚未结束的牌局，所以直接跳转到游戏场景ReEnterRoom()。
+           ④获取服务器状态。
+           ⑤监听退出键。
+           ⑥ ShowOperationStatus()：根据服务器返回的信息，显示提示信息。
+     GameQuit():可调用的退出登录方法。
+     RoomInfo():一个可调用的方法，根据服务器返回的房间信息，返回一个字符段。
+     HallMusicPlay():播放音乐的方法。
+     btnVoice():播放按钮音效的方法。
+     Play():控制播放游戏所有的音源。
+
+2.Manager_HallAudio.cs
+     MusicClick():调节游戏背景音乐音量。设置里控制
+     SoundClick():调节游戏音效音量。设置里控制
+     AudioClick():控制大厅按钮音效。
+
+3.UserGamePlayback.cs
+     OnSendGetUserRecord():获取玩家战绩。是主界面"战绩"按钮的响应事件。
+     OnDestroyObj()：删除对象的子对象，确保对象的子对象只有1个。
+     ShowUserRecord():创建多个Panel,用于存储并显示用户的过去的游戏成绩。
+     InitFrame():给每一个Panel赋值每局信息。
+     ShowUserGamePlayback():创建多个Panel，存储并显示牌局回放记录列表。
+     InitFrameDetails()：给每一个Panel赋值每局信息。
+
+4.ScrollRectControl.cs
+     将ScrollView的子物体Content的子物体纳入到集合中，并且在滑动到最顶部时，增加一个刷新功能，也就是"下拉刷新"。 
+ 
+5.InputFieldWrapper.cs
+     控制反馈按钮的输入框，当输入框被选中时，清除里面的文本。
+
+6.Feedback.cs
+     "反馈"按钮的监听方法Screenshot()：如果现在是游戏中，则截屏，将图片存到InfoImage物体中，
+     等待上传。本来应该是这样，但是InfoImage物体不存在，所以现在只有打开反馈界面的功能。
+     SendFeedbackInfo():将玩家写的反馈和指定文件夹中的Outlog.txt上传到服务器。
+
+6.VoucherCenter.cs
+     "充值"界面的控制代码，当Start()时调用手机的默认浏览器显示一个webview，
+     网址已经失效，Hide()方法关闭。
+     并且，由于显示webview的方法写在Start()中，网页只能显示一次。
+
+7.MessageBox.cs
+     在Update()中监控，如果服务器返回的returnMessgaeList不为空，则启动协程ShowMessage();
+      ShowMessage():foreach信息列表，如果信息列表不为空，每1.5秒创建一个BOX显示信息，4秒后销毁这个box。 
+
+8.FICEnterRoom.cs
+      OnNumberButtonClick():根据数字按钮传递参数的不同，在界面上显示相应的数字,当数字达到6位以后，启动OnSureButtonClick()；
+      OnSureButtonClick()：将roomID从字符串转为int,启动OnEnterRoomClick()、OnClearButtonClick();
+      OnEnterRoomClick():上传玩家信息还有房间信息至服务器。
+      OnClearButtonClick():将roomid显示框清空，将roomidstr清空。
+      OnCloseButtonClick():关闭按钮被点击的时候，将roomid显示框清空，将roomidstr清空,0.5秒后
+  关闭输入房间号弹框。
+      OnBackSpaceButtonClick()：当删除按钮被点击的时候，将最后一位房间号码文字框清空。
+      Update(): 如果GameInfo.operation == 2 && GameInfo.addStatus == 1，上传房间和用户信息。根据服务器返回的信息GameInfo.returnAddRoom.state来决定是否下一步操作。
+
+9.FICCreatRoom.cs
+     InitRoomInfo():将存储在PlayerPrefs.GetString("roominfo")里json数据转换成为GameInfo.roomInfo，再把创建房间的选项改为GameInfo.roomInfo里面的一致。
+      OnCreatRoomClick():发送创建房间信息。
+      SaveRoomRule():保存创建房间信息。
+      Update():如果GameInfo.operation == 1 && GameInfo.addStatus == 1，则代表加入服务器成功，创建房间。如果GameInfo.returnCreatRoom不为空，则将GameInfo.returnCreatRoom里的信息存储到GameInfo里，然后加载场景"LoadingHall"。
+
+10.PengYQ.cs
+       流程：Start()里委托监听按钮的方法。按钮发送数据包至服务器。Update()里监听服务器返回的信息，根据返回的信息执行按钮的方法。
+         SendGroupInfo()>>>>>ShowPengYouQuan();
+         SendApplyRecord()>>>>>if (record) ShowPengYQApply(); else ShowPengYQApplyRecord();
+         PengYQJoin()>>>>>ApplyToJoinStatus();
+         PengYQJoinUser()>>>>>ShowPengYQUserManager();
+         SendGroupInfoByGroupID()>>>>>ShowPengYQInfo();
+         SendGetUserRecord()>>>>>ShowPengYQUserStatus()    
+         SendQuitGroup()>>>>>QuitPengYQ();
+         SendGroupUserInfoByGroupID()>>>>>ShowPengYQInfo();
+         SendGroupInfoByGroupID()>>>>>ShowPengYQUserExploits()。
+
+                                          LoadingHall场景     包括以下Scripts   
+
+LoadingAlter.cs
+     整个代码只用于异步加载下个场景。整个场景只有这个作用。
+
+                                           Game_GYMJ场景     包括以下Scripts 
+
+1.Manager_Audio.cs
+     Awake():绑定了调节音乐大小和音效大小的方法(MusicClick()和SoundClick())。
+  设置背景音乐循环播放。
+
+     Start():   shortVoiceButton绑定OnShortVoiceButtonClick()方法；
+                  给每一个快捷语音按钮绑定方法(delayQuickVoice())。
+
+     OnShortVoiceButtonClick():弹出快捷语音选择框， shortVoiceButton屏蔽，
+     shortVoiceMask(遮罩)打开，coolDown设为true,延迟3秒后启动CloseShortVoicePanel()。
+
+     CloseShortVoicePanel(): 关闭快捷语音选择框。
+     
+    delayQuickVoice():每一个语音按钮通过SendQuickVoice()传不一样的参数来实现。同时还要
+    关闭快捷语音选择框。
+     
+    Update()：当coolDown等于true的时候， shortVoiceMask(遮罩)会随着时间渐渐不显示(转圈消失)，当shortVoiceMask(遮罩)完全消失的时候，shortVoiceButton重新接受监听，coolDown设为false。
+
+    SendQuickVoice():把要播放的语音的信息上传到服务器。
+
+2.MusicPlayer.cs
+    未使用    
+
+
+
+
+
+
+

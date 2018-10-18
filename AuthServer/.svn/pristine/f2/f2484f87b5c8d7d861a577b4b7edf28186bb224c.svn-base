@@ -1,0 +1,121 @@
+﻿using DAL.DBHelp;
+using Dapper;
+using MySql.Data.MySqlClient;
+using System.Data;
+using System.Data.SqlClient;
+
+namespace DAL.DAL
+{
+    public class Longbao
+    {
+      //  IDbConnection conn = new SqlConnection(PubConstant.LongBaoConnStr);
+
+
+        public dynamic GetUserInfo(string name,string pwd)
+        {
+            using (var conn = new SqlConnection(PubConstant.LongBaoConnStr))
+            {
+                string str = @"select * from Users where Name=@name and Psw=@pwd ";
+                return conn.QueryFirstOrDefault<dynamic>(str, new { name = name, pwd = pwd });
+            }
+        }
+
+        public int SubSubtractLongBao(string id,int count,string logging)
+        {
+            using (var conn = new SqlConnection(PubConstant.LongBaoConnStr))
+            {
+                conn.Open();
+                int i= 0;
+                IDbTransaction transaction = conn.BeginTransaction();
+                try
+                {
+                    string str = @"  update Users set Score-=@count  where ID=@id and  Score>3";
+                    string strLog = @"INSERT INTO [PayList] (UID,InOut, PayType, FromTo,Val,Remark,Status,CreateTime,UpdateTime,PriceType)
+                            VALUES ( @id,0 ,2,10,@count,@logging,1,GETDATE(),GETDATE(),0) ";
+                    i = conn.Execute(str, new { id = id, count = count }, transaction);
+                    conn.Execute(strLog, new { id = id, logging = logging, count = count }, transaction);
+                    transaction.Commit();
+                }
+                catch (System.Exception ex)
+                {
+                    if (i != 0)
+                        transaction.Rollback();
+                    i = 0;
+                }
+                return i;
+
+            }
+
+        }
+
+
+        public int AddLongBao(string id, int count, string logging)
+        {
+        using (var conn = new SqlConnection(PubConstant.LongBaoConnStr))
+        {
+            conn.Open();
+            int i = 0;
+            IDbTransaction transaction = conn.BeginTransaction();
+            try
+            {
+
+                string str = @"update Users set Score+=@count  where ID=@id ";
+                string strLog = @"INSERT INTO [PayList] (UID,InOut, PayType, FromTo,Val,Remark,Status,CreateTime,UpdateTime,PriceType)
+                            VALUES ( @id,1 ,2,10,@count,@logging,1,GETDATE(),GETDATE(),0) ";
+                i = conn.Execute(str, new { id = id, count = count }, transaction);
+                conn.Execute(strLog, new { id = id, logging = logging, count = count }, transaction);
+                transaction.Commit();
+            }
+            catch (System.Exception ex)
+            {
+                if (i != 0)
+                    transaction.Rollback();
+                i = 0;
+            }
+            return i;
+
+        }
+
+        }
+
+
+        public int GetLongBaoCount(string ID )
+        {
+            using (var conn = new SqlConnection(PubConstant.LongBaoConnStr))
+            {
+                string str = @"select Score from Users where ID=@ID";
+                return conn.QueryFirstOrDefault<int>(str, new { ID=ID });
+            }
+        }
+
+        //public void SubLongBaoLog(string userID,string logging,int count)
+        //{
+        //    using (conn)
+        //    {
+        //        string str = @"INSERT INTO [PayList] (UID,InOut, PayType, FromTo,Val,Remark,Status,CreateTime,UpdateTime,PriceType)
+        //                    VALUES ( @userID,0 ,2,8,@count,@logging,1,GETDATE(),GETDATE(),0) ";
+        //        IDbTransaction transaction = conn.BeginTransaction();
+        //        conn.Execute(str, new { userID = userID, logging = logging, count = count });
+
+        //    }
+           
+        //}
+
+
+
+        //public void AddLongBaoLog(string userID, string logging,int count)
+        //{
+
+        //    using (conn)
+        //    {
+        //        IDbTransaction transaction = conn.BeginTransaction();
+        //        string str = @"INSERT INTO [PayList] (UID,InOut, PayType, FromTo,Val,Remark,Status,CreateTime,UpdateTime,PriceType)
+        //                    VALUES ( @userID,1 ,2,8,@count,@logging,1,GETDATE(),GETDATE(),0) ";
+        //         conn.Execute(str, new { userID = userID, logging = logging, count = count });
+        //        transaction.Commit();
+
+        //    }
+         
+        //}
+    }
+}

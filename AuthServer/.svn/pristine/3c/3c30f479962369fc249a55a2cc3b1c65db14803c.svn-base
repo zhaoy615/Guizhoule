@@ -1,0 +1,252 @@
+﻿2017-11-15 10:54:10,875 Performance - ---------------------------------------------------
+CPU Usage: 0.00%, Physical Memory Usage: 42,930,176.00, Total Thread Count: 27
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+DBServer ----------------------------------
+Started Time: 2017/11/15 10:54:10
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-11-15 10:55:10,893 Performance - ---------------------------------------------------
+CPU Usage: 0.04%, Physical Memory Usage: 47,464,448.00, Total Thread Count: 30
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+DBServer ----------------------------------
+Started Time: 2017/11/15 10:54:10
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-11-15 10:56:10,854 Performance - ---------------------------------------------------
+CPU Usage: 0.05%, Physical Memory Usage: 47,759,360.00, Total Thread Count: 33
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+DBServer ----------------------------------
+Started Time: 2017/11/15 10:54:10
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-11-15 10:57:10,859 Performance - ---------------------------------------------------
+CPU Usage: 0.02%, Physical Memory Usage: 49,278,976.00, Total Thread Count: 32
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+DBServer ----------------------------------
+Started Time: 2017/11/15 10:54:10
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-11-15 10:58:10,862 Performance - ---------------------------------------------------
+CPU Usage: 0.02%, Physical Memory Usage: 49,635,328.00, Total Thread Count: 32
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+DBServer ----------------------------------
+Started Time: 2017/11/15 10:54:10
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-11-15 10:59:10,848 Performance - ---------------------------------------------------
+CPU Usage: 0.02%, Physical Memory Usage: 49,778,688.00, Total Thread Count: 32
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+DBServer ----------------------------------
+Started Time: 2017/11/15 10:54:10
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-11-15 11:00:10,866 Performance - ---------------------------------------------------
+CPU Usage: 0.03%, Physical Memory Usage: 50,073,600.00, Total Thread Count: 32
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+DBServer ----------------------------------
+Started Time: 2017/11/15 10:54:10
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-11-15 11:01:10,864 Performance - ---------------------------------------------------
+CPU Usage: 0.02%, Physical Memory Usage: 50,393,088.00, Total Thread Count: 32
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+DBServer ----------------------------------
+Started Time: 2017/11/15 10:54:10
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-11-15 11:02:10,861 Performance - ---------------------------------------------------
+CPU Usage: 0.02%, Physical Memory Usage: 51,277,824.00, Total Thread Count: 32
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+DBServer ----------------------------------
+Started Time: 2017/11/15 10:54:10
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-11-15 11:03:10,880 Performance - ---------------------------------------------------
+CPU Usage: 0.02%, Physical Memory Usage: 52,043,776.00, Total Thread Count: 32
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+DBServer ----------------------------------
+Started Time: 2017/11/15 10:54:10
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-11-15 11:04:10,878 Performance - ---------------------------------------------------
+CPU Usage: 0.03%, Physical Memory Usage: 52,895,744.00, Total Thread Count: 32
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+DBServer ----------------------------------
+Started Time: 2017/11/15 10:54:10
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-11-15 11:05:10,891 Performance - ---------------------------------------------------
+CPU Usage: 0.03%, Physical Memory Usage: 54,120,448.00, Total Thread Count: 32
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+DBServer ----------------------------------
+Started Time: 2017/11/15 10:54:10
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-11-15 11:06:10,864 Performance - ---------------------------------------------------
+CPU Usage: 0.02%, Physical Memory Usage: 55,369,728.00, Total Thread Count: 32
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+DBServer ----------------------------------
+Started Time: 2017/11/15 10:54:10
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-11-15 11:07:10,881 Performance - ---------------------------------------------------
+CPU Usage: 0.02%, Physical Memory Usage: 56,627,200.00, Total Thread Count: 32
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+DBServer ----------------------------------
+Started Time: 2017/11/15 10:54:10
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-11-15 11:08:10,896 Performance - ---------------------------------------------------
+CPU Usage: 0.04%, Physical Memory Usage: 56,020,992.00, Total Thread Count: 32
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+DBServer ----------------------------------
+Started Time: 2017/11/15 10:54:10
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-11-15 11:09:10,895 Performance - ---------------------------------------------------
+CPU Usage: 0.03%, Physical Memory Usage: 50,823,168.00, Total Thread Count: 32
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+DBServer ----------------------------------
+Started Time: 2017/11/15 10:54:10
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-11-15 11:10:10,892 Performance - ---------------------------------------------------
+CPU Usage: 0.03%, Physical Memory Usage: 51,224,576.00, Total Thread Count: 32
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+DBServer ----------------------------------
+Started Time: 2017/11/15 10:54:10
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+
+2017-11-15 11:11:10,867 Performance - ---------------------------------------------------
+CPU Usage: 0.02%, Physical Memory Usage: 52,289,536.00, Total Thread Count: 32
+AvailableWorkingThreads: 2046, AvailableCompletionPortThreads: 1000
+MaxWorkingThreads: 2047, MaxCompletionPortThreads: 1000
+DBServer ----------------------------------
+Started Time: 2017/11/15 10:54:10
+Is Running: True
+Total Connections: 0
+Maximum Allowed Connection Number: 1000
+Total Handled Requests: 0
+Request Handling Speed (#/second): 0
+Avialable Sending Queue Items: 256
+Total Sending Queue Items: 256
+

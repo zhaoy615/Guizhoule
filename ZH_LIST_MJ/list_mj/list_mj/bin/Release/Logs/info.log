@@ -1,0 +1,6 @@
+﻿2018-10-15 10:10:28,607 [1] INFO  LISTServer - The server instance LISTServer has been started!
+2018-10-15 10:10:50,145 [3] INFO  LISTServer - Session: dd09d104-c445-4e08-80ca-fb4d6876ee59/127.0.0.1:57564
+A new session connected!
+2018-10-15 10:11:07,163 [7] INFO  LISTServer - Session: dd09d104-c445-4e08-80ca-fb4d6876ee59/127.0.0.1:57564
+This session was closed for ClientClosing!
+2018-10-15 10:17:21,659 [1] INFO  LISTServer - The server instance LISTServer has been started!

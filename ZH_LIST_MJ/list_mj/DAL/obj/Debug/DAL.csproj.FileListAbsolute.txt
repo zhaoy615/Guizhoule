@@ -1,0 +1,5 @@
+F:\工作\ZHSVN\Play_Hours\Play_mj\DAL\bin\Debug\DAL.dll
+F:\工作\ZHSVN\Play_Hours\Play_mj\DAL\bin\Debug\DAL.pdb
+F:\工作\ZHSVN\Play_Hours\Play_mj\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\工作\ZHSVN\Play_Hours\Play_mj\DAL\obj\Debug\DAL.dll
+F:\工作\ZHSVN\Play_Hours\Play_mj\DAL\obj\Debug\DAL.pdb

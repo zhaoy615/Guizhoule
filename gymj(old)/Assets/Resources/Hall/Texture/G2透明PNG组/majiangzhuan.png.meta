@@ -1,0 +1,358 @@
+fileFormatVersion: 2
+guid: 570a0707ef474064487a55814d7e5469
+timeCreated: 1512631540
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: majiangzhuan_0
+    21300002: majiangzhuan_1
+    21300004: majiangzhuan_2
+    21300006: majiangzhuan_3
+    21300008: majiangzhuan_4
+    21300010: majiangzhuan_5
+    21300012: majiangzhuan_6
+    21300014: majiangzhuan_7
+    21300016: majiangzhuan_8
+    21300018: majiangzhuan_9
+    21300020: majiangzhuan_10
+    21300022: majiangzhuan_11
+    21300024: majiangzhuan_6
+    21300026: majiangzhuan_7
+    21300028: majiangzhuan_11
+    21300030: majiangzhuan_9
+    21300032: majiangzhuan_10
+    21300034: majiangzhuan_17
+    21300036: majiangzhuan_18
+    21300038: majiangzhuan_19
+    21300040: majiangzhuan_20
+    21300042: majiangzhuan_12
+    21300044: majiangzhuan_13
+    21300046: majiangzhuan_14
+    21300048: majiangzhuan_15
+    21300050: majiangzhuan_16
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: majiangzhuan_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 807
+        width: 120
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: majiangzhuan_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 816
+        width: 126
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: majiangzhuan_2
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 812
+        width: 130
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: majiangzhuan_3
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 814
+        width: 130
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: majiangzhuan_4
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 812
+        width: 126
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: majiangzhuan_5
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 815
+        width: 112
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: majiangzhuan_8
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 597
+        width: 116
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: majiangzhuan_6
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 605
+        width: 95
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: majiangzhuan_7
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 601
+        width: 93
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: majiangzhuan_9
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 600
+        width: 113
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: majiangzhuan_10
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 598
+        width: 125
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: majiangzhuan_11
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 597
+        width: 131
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: majiangzhuan_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 385
+        width: 131
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: majiangzhuan_13
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 384
+        width: 131
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: majiangzhuan_14
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 382
+        width: 121
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: majiangzhuan_15
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 382
+        width: 105
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: majiangzhuan_16
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 382
+        width: 100
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: majiangzhuan_17
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 382
+        width: 93
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: majiangzhuan_18
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 149
+        width: 96
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: majiangzhuan_19
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 150
+        width: 111
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: majiangzhuan_20
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 150
+        width: 119
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

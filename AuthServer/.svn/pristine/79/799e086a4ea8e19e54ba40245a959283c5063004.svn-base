@@ -1,0 +1,356 @@
+﻿2017-11-22 10:28:20,125 [15] ERROR DBServer - Google.ProtocolBuffers.InvalidProtocolBufferException: Message missing required fields: userID, counts
+   在 Google.ProtocolBuffers.GeneratedBuilder`2.BuildParsed()
+   在 RoomCardBusiness.ParseFrom(Byte[] data) 位置 C:\DotWork\JPlayMJv1.01\common\proto\Business.cs:行号 930
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 24
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 10:32:49,155 [14] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 10:37:38,691 [11] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 10:40:03,669 [11] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 10:46:53,930 [17] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 10:49:49,458 [8] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 10:52:45,184 [8] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 11:00:13,423 [8] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 11:01:04,561 [8] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 11:03:03,271 [8] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 11:22:11,390 [8] ERROR DBServer - MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.Net.Sockets.SocketException (0x80004005): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.2.215:3306
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 MySql.Data.Common.StreamCreator.CreateSocketStream(IPAddress ip, Boolean unix)
+   在 MySql.Data.Common.StreamCreator.GetStreamFromHost(String pipeName, String hostName, UInt32 timeout)
+   在 MySql.Data.Common.StreamCreator.GetStream(UInt32 timeout)
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType)
+   在 Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 DAL.DAL.Business.GetIntegralInfo(String userID) 位置 C:\DotWork\JPlayMJv1.01\DAL\DAL\Business.cs:行号 27
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 11:25:38,135 [8] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 11:25:38,138 [8] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 11:48:35,296 [10] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 11:48:35,297 [10] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 11:58:12,820 [16] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 11:58:12,820 [16] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 12:00:09,654 [10] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 12:00:09,654 [10] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 12:03:23,421 [8] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 12:03:23,421 [8] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 12:58:30,263 [10] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 12:58:30,263 [10] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 12:58:41,330 [10] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 12:58:41,330 [10] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 12:58:44,309 [10] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 12:58:44,309 [10] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 12:58:45,621 [15] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 12:58:45,621 [15] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 13:44:58,868 [3] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 13:44:58,869 [3] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 13:51:15,938 [3] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 13:51:15,938 [3] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 14:12:15,601 [3] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 14:12:15,601 [3] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 14:16:33,253 [8] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 14:16:33,253 [8] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 14:22:00,260 [19] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 14:22:00,260 [19] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 14:26:43,963 [19] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 14:26:43,963 [19] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 14:46:11,190 [8] ERROR DBServer - MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.Net.Sockets.SocketException (0x80004005): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.2.215:3306
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 MySql.Data.Common.StreamCreator.CreateSocketStream(IPAddress ip, Boolean unix)
+   在 MySql.Data.Common.StreamCreator.GetStreamFromHost(String pipeName, String hostName, UInt32 timeout)
+   在 MySql.Data.Common.StreamCreator.GetStream(UInt32 timeout)
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType)
+   在 Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 DAL.DAL.Business.GetIntegralInfo(String userID) 位置 C:\DotWork\JPlayMJv1.01\DAL\DAL\Business.cs:行号 27
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 28
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 14:56:43,654 [3] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 14:56:43,655 [3] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 14:57:51,327 [8] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 14:57:51,328 [8] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 14:58:58,770 [19] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 14:58:58,770 [19] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 15:04:21,975 [3] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 15:04:21,975 [3] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 15:06:45,299 [8] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 15:06:45,299 [8] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 15:30:13,274 [3] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 15:30:13,274 [3] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 15:34:59,790 [8] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 15:34:59,790 [8] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 15:34:59,908 [18] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 15:34:59,908 [18] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 15:51:40,596 [17] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 15:51:40,596 [17] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 15:59:20,392 [18] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 15:59:20,392 [18] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 15:59:24,921 [10] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 15:59:24,921 [10] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 16:17:31,223 [20] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 16:17:31,223 [20] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 16:18:09,503 [20] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 16:18:09,503 [20] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 16:18:39,048 [10] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 16:18:39,049 [10] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 16:20:14,681 [9] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 16:20:14,682 [9] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 16:20:43,371 [20] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 16:20:43,371 [20] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 16:22:52,616 [16] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 16:22:52,616 [16] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 16:23:27,609 [20] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 16:23:27,609 [20] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 16:24:18,948 [25] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 16:24:18,948 [25] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 16:26:12,790 [10] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 16:26:12,790 [10] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 16:27:11,495 [10] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 16:27:11,496 [10] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 16:44:13,171 [10] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 16:44:13,171 [10] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 16:45:20,845 [10] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 16:45:20,845 [10] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 16:55:17,102 [25] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 16:55:17,102 [25] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 16:59:08,748 [25] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 16:59:08,748 [25] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 17:03:23,108 [25] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 17:03:23,108 [25] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 17:06:11,688 [25] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 17:06:11,688 [25] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 17:07:07,609 [25] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 17:07:07,609 [25] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 17:12:25,398 [10] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 17:12:25,399 [10] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 17:16:30,999 [25] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 17:16:30,999 [25] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 17:25:39,627 [27] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 17:25:39,627 [27] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 17:44:03,870 [10] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 17:44:03,873 [10] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 17:50:16,873 [8] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 17:50:16,873 [8] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 17:54:48,238 [9] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 17:54:48,238 [9] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-11-22 17:57:47,286 [8] ERROR ColoredConsoleAppender - 用户不存在
+2017-11-22 17:57:47,286 [8] ERROR DBServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MJBLL.mjrule.BizCommon.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 C:\DotWork\JPlayMJv1.01\common\mjrule\BizCommon.cs:行号 35
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)

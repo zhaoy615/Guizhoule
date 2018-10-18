@@ -1,0 +1,92 @@
+﻿2017-10-09 10:05:21,583 [8] ERROR LISTServer - MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'DESKTOP-AQ7QR9L' (using password: YES)
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.AuthenticateNew(Boolean reset)
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate(Boolean reset)
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 DAL.DBHelp.DbHelperMySQL.PrepareCommand(MySqlCommand cmd, MySqlConnection conn, MySqlTransaction trans, String cmdText, MySqlParameter[] cmdParms) 位置 D:\工作\ZH_LIST_MJ\list_mj\DAL\DBHelp\DbHelperMySQL.cs:行号 733
+   在 DAL.DBHelp.DbHelperMySQL.Query(String SQLString, MySqlParameter[] cmdParms) 位置 D:\工作\ZH_LIST_MJ\list_mj\DAL\DBHelp\DbHelperMySQL.cs:行号 711
+   在 DAL.DAL.mjuserinfoDAL.GetModel(String openid) 位置 D:\工作\ZH_LIST_MJ\list_mj\DAL\DAL\mjuserinfoDAL.cs:行号 226
+   在 ListBLL.Logic.Login.AddUser(mjuserinfo md) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Login.cs:行号 214
+   在 ListBLL.Logic.Login.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Login.cs:行号 57
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-10-09 10:05:31,626 [9] ERROR LISTServer - MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'DESKTOP-AQ7QR9L' (using password: YES)
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.AuthenticateNew(Boolean reset)
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate(Boolean reset)
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 DAL.DBHelp.DbHelperMySQL.PrepareCommand(MySqlCommand cmd, MySqlConnection conn, MySqlTransaction trans, String cmdText, MySqlParameter[] cmdParms) 位置 D:\工作\ZH_LIST_MJ\list_mj\DAL\DBHelp\DbHelperMySQL.cs:行号 733
+   在 DAL.DBHelp.DbHelperMySQL.Query(String SQLString, MySqlParameter[] cmdParms) 位置 D:\工作\ZH_LIST_MJ\list_mj\DAL\DBHelp\DbHelperMySQL.cs:行号 711
+   在 DAL.DAL.mjuserinfoDAL.GetModel(String openid) 位置 D:\工作\ZH_LIST_MJ\list_mj\DAL\DAL\mjuserinfoDAL.cs:行号 226
+   在 ListBLL.Logic.Login.AddUser(mjuserinfo md) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Login.cs:行号 214
+   在 ListBLL.Logic.Login.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Login.cs:行号 57
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-10-09 10:05:59,425 [9] ERROR LISTServer - MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'DESKTOP-AQ7QR9L' (using password: YES)
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.AuthenticateNew(Boolean reset)
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate(Boolean reset)
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 DAL.DBHelp.DbHelperMySQL.PrepareCommand(MySqlCommand cmd, MySqlConnection conn, MySqlTransaction trans, String cmdText, MySqlParameter[] cmdParms) 位置 D:\工作\ZH_LIST_MJ\list_mj\DAL\DBHelp\DbHelperMySQL.cs:行号 733
+   在 DAL.DBHelp.DbHelperMySQL.Query(String SQLString, MySqlParameter[] cmdParms) 位置 D:\工作\ZH_LIST_MJ\list_mj\DAL\DBHelp\DbHelperMySQL.cs:行号 711
+   在 DAL.DAL.mjuserinfoDAL.GetModel(String openid) 位置 D:\工作\ZH_LIST_MJ\list_mj\DAL\DAL\mjuserinfoDAL.cs:行号 226
+   在 ListBLL.Logic.Login.AddUser(mjuserinfo md) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Login.cs:行号 214
+   在 ListBLL.Logic.Login.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Login.cs:行号 57
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-10-09 10:06:56,193 [10] ERROR LISTServer - MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'DESKTOP-AQ7QR9L' (using password: YES)
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.AuthenticateNew(Boolean reset)
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate(Boolean reset)
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 DAL.DBHelp.DbHelperMySQL.PrepareCommand(MySqlCommand cmd, MySqlConnection conn, MySqlTransaction trans, String cmdText, MySqlParameter[] cmdParms) 位置 D:\工作\ZH_LIST_MJ\list_mj\DAL\DBHelp\DbHelperMySQL.cs:行号 733
+   在 DAL.DBHelp.DbHelperMySQL.Query(String SQLString, MySqlParameter[] cmdParms) 位置 D:\工作\ZH_LIST_MJ\list_mj\DAL\DBHelp\DbHelperMySQL.cs:行号 711
+   在 DAL.DAL.mjuserinfoDAL.GetModel(String openid) 位置 D:\工作\ZH_LIST_MJ\list_mj\DAL\DAL\mjuserinfoDAL.cs:行号 226
+   在 ListBLL.Logic.Login.AddUser(mjuserinfo md) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Login.cs:行号 214
+   在 ListBLL.Logic.Login.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Login.cs:行号 57
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-10-09 14:01:50,702 [53] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s); to create a disconnected multiplexer, disable AbortOnConnectFail. SocketFailure on PING
+   在 StackExchange.Redis.ConnectionMultiplexer.ConnectImpl(Func`1 multiplexerFactory, TextWriter log)
+   在 StackExchange.Redis.ConnectionMultiplexer.Connect(ConfigurationOptions configuration, TextWriter log)
+   在 ListBLL.common.RedisUtility.Set[T](String key, T t, Int32 hour) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 151
+   在 ListBLL.Logic.Login.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Login.cs:行号 112
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2017-10-09 15:16:48,453 [31] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s); to create a disconnected multiplexer, disable AbortOnConnectFail. UnableToResolvePhysicalConnection on PING
+   在 StackExchange.Redis.ConnectionMultiplexer.ConnectImpl(Func`1 multiplexerFactory, TextWriter log)
+   在 StackExchange.Redis.ConnectionMultiplexer.Connect(ConfigurationOptions configuration, TextWriter log)
+   在 ListBLL.common.RedisUtility.Set[T](String key, T t, Int32 hour) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 151
+   在 ListBLL.Logic.Login.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Login.cs:行号 112
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)

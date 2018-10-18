@@ -1,0 +1,29 @@
+﻿2017-12-18 16:58:43,204 [1] INFO  LISTServer - The server instance LISTServer has been started!
+2017-12-18 18:36:51,627 [5] INFO  LISTServer - Session: a7e93c27-f541-4a87-8f3f-15a38d9d5494/192.168.2.6:50116
+A new session connected!
+2017-12-18 18:37:21,354 [13] INFO  LISTServer - Session: a7e93c27-f541-4a87-8f3f-15a38d9d5494/192.168.2.6:50116
+This session was closed for ClientClosing!
+2017-12-18 18:43:44,748 [5] INFO  LISTServer - Session: b35e32ab-92c4-4bec-a7fb-cbd6ff4f7f8a/192.168.2.167:4481
+A new session connected!
+2017-12-18 18:44:23,357 [25] INFO  LISTServer - Session: b35e32ab-92c4-4bec-a7fb-cbd6ff4f7f8a/192.168.2.167:4481
+This session was closed for ClientClosing!
+2017-12-18 19:02:54,622 [15] INFO  LISTServer - Session: d9ec725b-7e9c-41ab-a228-207f0ef2c74a/192.168.2.167:11248
+A new session connected!
+2017-12-18 19:06:10,622 [13] INFO  LISTServer - Session: d9ec725b-7e9c-41ab-a228-207f0ef2c74a/192.168.2.167:11248
+This session was closed for SocketError!
+2017-12-18 19:14:57,057 [21] INFO  LISTServer - Session: cd1789a8-841c-4a13-b26b-7346be072a8e/192.168.2.167:3752
+A new session connected!
+2017-12-18 19:15:10,172 [13] INFO  LISTServer - Session: cd1789a8-841c-4a13-b26b-7346be072a8e/192.168.2.167:3752
+This session was closed for ClientClosing!
+2017-12-18 19:15:26,035 [21] INFO  LISTServer - Session: 422bc037-a2e4-4284-b258-a27246882a76/192.168.2.167:3899
+A new session connected!
+2017-12-18 19:15:49,782 [13] INFO  LISTServer - Session: 422bc037-a2e4-4284-b258-a27246882a76/192.168.2.167:3899
+This session was closed for SocketError!
+2017-12-18 19:16:17,226 [34] INFO  LISTServer - Session: 5bf19f8e-7571-4ae3-981a-c8690e01d105/192.168.2.167:4146
+A new session connected!
+2017-12-18 19:16:27,624 [37] INFO  LISTServer - Session: 5bf19f8e-7571-4ae3-981a-c8690e01d105/192.168.2.167:4146
+This session was closed for ClientClosing!
+2017-12-18 19:17:53,855 [34] INFO  LISTServer - Session: d501e4a0-ab67-4e20-b841-a58d7b13b487/192.168.2.167:4599
+A new session connected!
+2017-12-18 19:18:01,456 [50] INFO  LISTServer - Session: d501e4a0-ab67-4e20-b841-a58d7b13b487/192.168.2.167:4599
+This session was closed for ClientClosing!

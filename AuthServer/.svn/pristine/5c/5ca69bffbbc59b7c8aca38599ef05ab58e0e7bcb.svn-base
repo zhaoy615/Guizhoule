@@ -1,0 +1,82 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using SuperSocket.SocketBase;
+using SuperSocket.SocketBase.Protocol;
+using SuperSocket.SocketBase.Command;
+using MJBLL.common;
+using MJBLL.model;
+
+namespace MJBLL.mjrule
+{
+    public class AddRoomOne : ICommand<GameSession, ProtobufRequestInfo>
+    {
+
+        public string Name
+        {
+            get { return "17089"; }
+
+        }
+
+        /// <summary>
+        /// 加入房间判断，先加入房间
+        /// </summary>
+        /// <param name="session"></param>
+        /// <param name="requestInfo"></param>
+        public void ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo)
+        {
+            
+                if (!Gongyong.userlist.Any(w => w.session.SessionID.Equals(session.SessionID)))
+                {
+                    session.Logger.Debug("非法连接");
+                    session.Close();
+                    return;
+                }
+                var getdata = SendAddRoomOne.ParseFrom(requestInfo.Body);
+                var senddata = ReturnRoomAdd.CreateBuilder();
+                UserInfo user = Gongyong.userlist.Find(u => u.openid == getdata.Openid);
+                if (user == null)
+                    return;
+                Room r = Gongyong.roomlist.Find(u => u.RoomID == getdata.RoomID);
+                session.Logger.Debug("申请加入房间" + getdata.Openid);
+
+                if (r == null)
+                {
+                    senddata.SetStart(3);//3:房间不存在
+                }
+                //else if (r.listOpenid.Any(w => w.Equals(getdata.Openid)))
+                //{
+                //    senddata.SetStart(1);//1:加入成功 如果本来就在房间内则不占一个位置
+                //}
+                else if (r.listOpenid.Count + 1 == r.room_peo)
+                {
+                    senddata.SetStart(2);//2:人数已满
+                }
+                else
+                {
+                    senddata.SetStart(1);//1:加入成功
+                    r.listOpenid.Add(getdata.Openid);
+
+                    try
+                    {
+                        //将牌桌信息保存
+                        RedisUtility.Set<RedisGameModel>(RedisUtility.GetKey(GameInformationBase.COMMUNITYUSERGAME, user.openid, user.unionid),
+                                    new RedisGameModel { RoomID = r.RoomID, ServerName = GameInformationBase.serverName, Openid = user.openid, Unionid = user.unionid });
+                    }
+                    catch (Exception ex)//用户加入房间时有可能redis 异常导致服务器内加入成功但是消息并未发送。
+                    {
+                        session.Logger.Error(ex);
+                        r.listOpenid.Remove(getdata.Openid);
+                        return;
+                    }
+
+                    byte[] arr = senddata.Build().ToByteArray();
+
+                    session.TrySend(new ArraySegment<byte>(CreateHead.CreateMessage(GameInformationBase.BASEAGREEMENTNUMBER + 7090, arr.Length, requestInfo.MessageNum, arr)));
+                }
+          
+        }
+    }
+}

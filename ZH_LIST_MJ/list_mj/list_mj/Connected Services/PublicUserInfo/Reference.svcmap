@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="73d31f62-2c75-4f7d-aa89-58331b20e90c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://120.77.84.15:8086//UserCenter/User.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="User.xsd" MetadataType="Schema" ID="3661ae77-8614-4d45-9d05-c22137508205" SourceId="1" SourceUrl="http://120.77.84.15:8086/UserCenter/User.svc?xsd=xsd1" />
+    <MetadataFile FileName="User.disco" MetadataType="Disco" ID="cacbee51-1743-4373-bf7e-606fbf60b6c1" SourceId="1" SourceUrl="http://120.77.84.15:8086/UserCenter/User.svc?disco" />
+    <MetadataFile FileName="User1.xsd" MetadataType="Schema" ID="031dc943-5ef4-44e9-bf51-cff69b8ad371" SourceId="1" SourceUrl="http://120.77.84.15:8086/UserCenter/User.svc?xsd=xsd2" />
+    <MetadataFile FileName="User.wsdl" MetadataType="Wsdl" ID="79cab414-628b-4062-9129-37ad0726d0d0" SourceId="1" SourceUrl="http://120.77.84.15:8086/UserCenter/User.svc?wsdl" />
+    <MetadataFile FileName="User2.xsd" MetadataType="Schema" ID="5c609f6d-0cac-47a0-9e06-60182540da95" SourceId="1" SourceUrl="http://120.77.84.15:8086/UserCenter/User.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

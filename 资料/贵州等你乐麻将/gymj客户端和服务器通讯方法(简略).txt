@@ -1,0 +1,117 @@
+麻将游戏协议基础号  10000
+客户端发送用户登录信息 +1001                                                      SendLogin
+服务器返回登录状态 +1002                                                           ReturnLogin
+心跳包  +1                                                                                      MaintainHeartbeat
+服务器返回IP和端口    +1010                                                        ReturnServerIP
+连接上服务器后 请求加入服务器 +1011                                          SendAddServer
+发送操作，连上lsit服务器后 需要进行的操作 +1020                      SendGameOperation
+#客户端创建房间协议 +2001                                                         SendCreateRoom
+#服务端返回房间信息 +2002                                                          ReturnCreateRoom 
+   
+#用户信息实体                                                                      Userinfo
+
+#客户端加入房间 +2003                                                                SendAddRoom
+#服务端返回加入信息 +2004                                                         ReturnAddRoom
+#服务端主动推送加入玩家信息 +2005                                           ReturnUserInfo
+
+#麻将实体                                                                                      MaJiang
+
+#服务端返回主动推送游戏开始信息 +2006                                   ReturnStartGame
+请求开始游戏 +2007                                                                    SendStart 
+开始游戏 +2008                                                                           ReturnStart
+返回打出叫牌的集合 +2009                                                          ReturnTP
+返回打出叫牌的集合 +2010                                                          ReturnTTATH
+请求摸牌 +3002                                                                           SendMP
+返回摸牌   +3003                                                                         ReturnMP
+请求出牌 +3001                                                                           SendCP
+下发碰杠胡消息 +3008                                                                 ReturnAll
+下发消息 +3009                                                                           ReturnMsg
+请求碰杠胡 +4001                                                                       SendPeng
+下发碰杠胡后消息 +4002                                                             ReturnPeng
+发送听牌通知 +5001                                                                    SendBT
+返回听牌方位 +5002                                                                    ReturnBTMsg
+请求解散房间openid+5003                                                         SendJS
+返回请求解散房间信息 +5004                                                       ReturnJSMsg 
+发送是否同意取消房间 +5005                                                       SendJSIdea
+返回单个用户同意信息 +5006                                                       ReturnJSByOnew
+返回集体消息是否解散房间 +5007                                               ReturnAllIdea  
+用户请求退出房间 +5008                                                             SendRemove
+服务端返回退出玩家 +5009(如果无返回则不进行任何处理， 有返回的情况 判断状态，)
+                                                                                                    ReturnRemoveUser
+发生缺一门消息 +5011                                                                 SendQYM
+
+                                                                                                    ReturnQYM
+
+返回缺牌信息 +5012                                                                    ReturnAYM
+返回天听方位(返回所有人) +5013                                                 ReturnTT
+大结算信息单人                                                                             UserAJS
+大结算信息  全体+5014                                                                ReturnDJS
+返回胡牌（替换原3008的胡） +5015                                            ReturnHByType
+请求胡（替换原4001的胡） +5016                                                SendHu
+一炮多响的类型                                                                             DuoXiangHu
+请求继续游戏   +5017                                                                   SendGetGame  
+下发责任鸡消息 +5018                                                                 ReturnZR
+修改请求摸牌:Mtype 发送摸牌:Mtype 添加5018责任级
+添加请求断线重连断线重连添加实体是否责任鸡冲锋鸡
+请求断线重连 +5019                                                                    SendConnData
+返回庄 +5020                                                                              ReturnZhuang
+返回胡信息 +5021                                                                       ReturnHType
+
+                                                                                                    GangMSG
+
+返回杠消息 +5022                                                                       ReturnGang
+
+判断是否断线重连 +6001                                                             ReturnRecon
+玩家手牌集合  +6002                                                                   UserShou 
+玩家碰牌集合                                                                                UserPeng
+杠牌集合                                                                                       UserGang
+出牌集合                                                                                       UserChu
+是否冲锋责任                                                                                JpConn
+返回断线前信息+7001                                                                  ReturnConnData
+返回重发信息 +7002                                                                     ReturnMsgList
+返回房间信息 +7003                                                                     ReturnRoomMsg
+返回活跃用户 +7004                                                                     ReturnHyUser
+返回翻鸡牌  +7005                                                                        ReturnFJ
+鸡排对应分数和花色                                                                       JiPaiF
+豆类型和数量                                                                                  Dou
+返回结算信息(单人)                                                                         UserJS
+返回结算信息(全体)+7009                                                              ReturnJS
+服务端返回剩余牌堆数 +7006                                                        ReturnPaiCount
+单个玩家手牌                                                                                UserSPai
+玩家手牌集合 +7008                                                                    ReturnUserSPai
+客户端请求加入房间 +7089                                                          SendAddRoomOne    
+返回加入状态  +7090                                                                   ReturnRoomAdd
+返回用户距离 +7091                                                                    ReturnDis  
+返回是否又相近用户，有则发送  无则不发   +7092                       ReturnIsJ
+返回是否相同IP，有责发送  无则不发   +7093                               ReturnIPSame 
+请求公告 +8000                                                                            SendAnnouncement
+返回公告信息 +8001                                                                    ReturnAnnouncement
+
+                                                                                                    AnnouncementInfo
+
+请求语音信息 +8002                                                                    SendVoice
+返回语音信息 +8003                                                                    ReturnVoice
+
+                                                                                                    ConnectionStatusInfo
+ 
+返回连接状态 +8004                                                                    ReturnConnectionStatus
+发送连接状态 +8005                                                                    SendConnectionStatus
+
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

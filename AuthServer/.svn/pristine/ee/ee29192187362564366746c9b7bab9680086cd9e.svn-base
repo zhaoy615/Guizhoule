@@ -1,0 +1,11 @@
+﻿2017-11-13 17:28:33,403 [1] INFO  DBServer - The server instance DBServer has been started!
+2017-11-13 17:31:24,497 [1] INFO  DBServer - The server instance DBServer has been started!
+2017-11-13 17:35:37,034 [1] INFO  DBServer - The server instance DBServer has been started!
+2017-11-13 17:35:42,650 [3] INFO  DBServer - Session: 370fec20-2cb1-42e4-bf78-c1dff0907464/192.168.2.12:6525
+A new session connected!
+2017-11-13 17:35:42,650 [11] INFO  DBServer - Session: 5fa81e01-dcf8-4c73-9340-34ba8c906c7b/192.168.2.12:6526
+A new session connected!
+2017-11-13 17:35:55,325 [3] INFO  DBServer - Session: 370fec20-2cb1-42e4-bf78-c1dff0907464/192.168.2.12:6525
+This session was closed for ServerClosing!
+2017-11-13 17:35:55,327 [11] INFO  DBServer - Session: 5fa81e01-dcf8-4c73-9340-34ba8c906c7b/192.168.2.12:6526
+This session was closed for ServerClosing!

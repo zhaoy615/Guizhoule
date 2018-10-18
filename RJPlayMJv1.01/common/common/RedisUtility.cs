@@ -1,0 +1,180 @@
+﻿
+using MJBLL.model;
+using Newtonsoft.Json;
+using StackExchange.Redis;
+using System;
+using System.Collections.Generic;
+using System.Configuration;
+using System.Xml;
+
+namespace MJBLL.common
+{
+    public class RedisUtility
+    {
+        static string host = ConfigurationManager.AppSettings["redisIP"];
+        static int port = int.Parse(ConfigurationManager.AppSettings["redisport"]);
+        static string password = ConfigurationManager.AppSettings["redispassword"]; /*密码*/
+        static int Database = int.Parse(ConfigurationManager.AppSettings["dbbase"]);  //默认dbbase
+        static ConnectionMultiplexer client = null;
+        static ConfigurationOptions config = new ConfigurationOptions()
+        {
+            Password = password,
+            EndPoints = { { host, port } },
+            KeepAlive = 180
+        };
+        public static IDatabase GetClient()
+        {
+            if (client == null)
+                client = ConnectionMultiplexer.Connect(config);
+            return client.GetDatabase(Database);
+        }
+
+        public static string GetKey(string mainNode, string openid, string unionid)
+        {
+            return mainNode + ":" + (string.IsNullOrEmpty(unionid) ? openid : unionid);
+        }
+        /// <summary>
+        /// 根据服务器名称获取并发送给客户端 ip和端口
+        /// </summary>
+        /// <param name="serverName">服务器名称</param>
+        /// <param name="messageNum">收到的消息号</param>
+        /// <param name="session"></param>
+        /// <param name="status">状态 1为正常切换服务器，2为有牌局为结束</param>
+        /// <returns></returns>
+        public static bool GetServerIP(string serverName, int messageNum, GameSession session, int status, UserInfo userinfo)
+        {
+            XmlDocument doc = new XmlDocument();
+            XmlReaderSettings settings = new XmlReaderSettings();
+            settings.IgnoreComments = true;//忽略文档里面的注释
+            string ip = string.Empty;
+            string port = string.Empty;
+            using (var reader = XmlReader.Create(@"ServerNameList.xml", settings))
+            {
+                doc.Load(reader);
+                XmlNode nodeList = doc.SelectSingleNode("servers");
+                foreach (XmlNode item in nodeList.ChildNodes)
+                {
+                    XmlElement xe = (XmlElement)item;
+                    if (xe.GetAttribute("name").Equals(serverName))
+                    {
+                        ip = xe.ChildNodes[0].InnerText;
+                        port = xe.ChildNodes[1].InnerText;
+                    }
+                }
+            }
+            if (string.IsNullOrEmpty(ip) || string.IsNullOrEmpty(port))
+            {
+                session.Logger.Error(string.Format("服务器配置文件不存在 {0} 服务器", serverName));
+                XmlNode nodeList = doc.SelectSingleNode("servers");
+                foreach (XmlNode item in nodeList.ChildNodes)
+                {
+                    XmlElement xe = (XmlElement)item;
+                    if (xe.GetAttribute("name").Equals(GameInformationBase.DEFAULTGAMESERVERNAME))
+                    {
+                        ip = xe.ChildNodes[0].InnerText;
+                        port = xe.ChildNodes[1].InnerText;
+                    }
+                }
+                GetClient().KeyDelete(RedisUtility.GetKey(GameInformationBase.COMMUNITYUSERGAME, userinfo.openid, userinfo.unionid));
+            }
+            ReturnServerIP.Builder serverIP = ReturnServerIP.CreateBuilder();
+            serverIP.SetIp(ip).SetPort(port).SetStatus(status);
+            byte[] serverIPData = serverIP.Build().ToByteArray();
+            return session.TrySend(new ArraySegment<byte>(CreateHead.CreateMessage(GameInformationBase.BASEAGREEMENTNUMBER + 1010, serverIPData.Length, messageNum, serverIPData)));
+
+
+        }
+
+        /// <summary>
+        /// 存值并设置过期时间
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="key">key</param>
+        /// <param name="t">实体</param>
+        /// <param name="ts">过期时间间隔</param>
+        /// <returns><c>true</c> if XXXX, <c>false</c> otherwise.</returns>
+        public static bool Set<T>(string key, T t, int hour = 24)
+        {
+            TimeSpan ts = new TimeSpan(hour, 0, 0);
+            var str = JsonConvert.SerializeObject(t);
+            using (var client = ConnectionMultiplexer.Connect(config))
+            {
+                return client.GetDatabase(Database).StringSet(key, str, ts);
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// 根据Key获取值
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="key">The key.</param>
+        /// <returns>T.</returns>
+        public static T Get<T>(string key) where T : class
+        {
+            using (var client = ConnectionMultiplexer.Connect(config))
+            {
+                var strValue = client.GetDatabase(Database).StringGet(key);
+                return string.IsNullOrEmpty(strValue) ? null : JsonConvert.DeserializeObject<T>(strValue);
+            }
+        }
+        /// <summary>
+
+        /// 存储List
+
+        /// </summary>
+
+        /// <typeparam name="T"></typeparam>
+
+        /// <param name="key"></param>
+
+        /// <param name="value"></param>
+
+        public static void ListSet<T>(string key, List<T> value, int hour = 24)
+        {
+            TimeSpan ts = new TimeSpan(hour, 0, 0);
+            using (var client = ConnectionMultiplexer.Connect(config))
+            {
+
+                client.GetDatabase(Database).StringSet(key, JsonConvert.SerializeObject(value), ts);
+            }
+        }
+
+        /// <summary>
+
+        /// 获取指定key的List
+
+        /// </summary>
+
+        /// <param name="key"></param>
+
+        /// <returns></returns>
+
+        public static List<T> ListGet<T>(string key)
+        {
+            using (var client = ConnectionMultiplexer.Connect(config))
+            {
+
+                return JsonConvert.DeserializeObject<List<T>>(client.GetDatabase(Database).StringGet(key));
+            }
+        }
+        public static void Remove(string key)
+        {
+            using (var client = ConnectionMultiplexer.Connect(config))
+            {
+                client.GetDatabase(Database).KeyDelete(key);
+            }
+        }
+
+        public static bool ExistKey(string key)
+        {
+            //using (var client = ConnectionMultiplexer.Connect(config))
+            //{
+            //    var strValue = client.GetDatabase().HashExists(key);
+
+            //}
+            return false;
+        }
+
+    }
+}

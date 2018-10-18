@@ -1,0 +1,271 @@
+﻿2018-01-29 16:11:10,516 [15] ERROR LISTServer - Google.ProtocolBuffers.InvalidProtocolBufferException: Message missing required fields: province, city
+   在 Google.ProtocolBuffers.GeneratedBuilder`2.BuildParsed()
+   在 SendLoginPW.ParseFrom(Byte[] data) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\proto\DNL.cs:行号 2306
+   在 ListBLL.Logic.LoginPW.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\LoginPW.cs:行号 19
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-29 16:12:52,006 [13] ERROR LISTServer - Google.ProtocolBuffers.InvalidProtocolBufferException: Message missing required fields: province, city
+   在 Google.ProtocolBuffers.GeneratedBuilder`2.BuildParsed()
+   在 SendLoginPW.ParseFrom(Byte[] data) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\proto\DNL.cs:行号 2306
+   在 ListBLL.Logic.LoginPW.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\LoginPW.cs:行号 19
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-29 16:18:55,283 [13] ERROR LISTServer - Google.ProtocolBuffers.InvalidProtocolBufferException: Message missing required fields: province, city
+   在 Google.ProtocolBuffers.GeneratedBuilder`2.BuildParsed()
+   在 SendLoginPW.ParseFrom(Byte[] data) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\proto\DNL.cs:行号 2306
+   在 ListBLL.Logic.LoginPW.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\LoginPW.cs:行号 19
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-29 16:18:57,017 [21] ERROR LISTServer - Google.ProtocolBuffers.InvalidProtocolBufferException: Message missing required fields: province, city
+   在 Google.ProtocolBuffers.GeneratedBuilder`2.BuildParsed()
+   在 SendLoginPW.ParseFrom(Byte[] data) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\proto\DNL.cs:行号 2306
+   在 ListBLL.Logic.LoginPW.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\LoginPW.cs:行号 19
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-29 16:44:33,557 [11] ERROR LISTServer - Google.ProtocolBuffers.InvalidProtocolBufferException: Message missing required fields: unionid
+   在 Google.ProtocolBuffers.GeneratedBuilder`2.BuildParsed()
+   在 SendGetRoomCard.ParseFrom(Byte[] data) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\proto\DNL.cs:行号 5125
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 21
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-29 16:48:34,934 [21] ERROR LISTServer - StackExchange.Redis.RedisTimeoutException: Timeout performing SETEX Community:UserList:9b2944cdf162ca7c468bf2b136b4a80e, inst: 1, mgr: ExecuteSelect, err: never, queue: 2, qu: 0, qs: 2, qc: 0, wr: 0, wq: 0, in: 0, ar: 0, clientName: DESKTOP-AQ7QR9L, serverEndpoint: 192.168.2.12:6379, keyHashSlot: 671, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=2045,Min=4,Max=2047) (Please take a look at this article for some common client-side issues that can cause timeouts: http://stackexchange.github.io/StackExchange.Redis/Timeouts)
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringSet(RedisKey key, RedisValue value, Nullable`1 expiry, When when, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Set[T](String key, T t, Int32 hour) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 96
+   在 ListBLL.Logic.Login.NewUserLogin(SendLogin userinfo, mjuserinfo usermodel, GameSession session, IPEndPoint clientipe, String serverName, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Login.cs:行号 199
+   在 ListBLL.Logic.Login.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Login.cs:行号 74
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-29 16:48:36,088 [13] ERROR LISTServer - StackExchange.Redis.RedisTimeoutException: Timeout performing SETEX Community:UserList:9b2944cdf162ca7c468bf2b136b4a80e, inst: 1, mgr: EnqueueReadFallback, err: never, queue: 1, qu: 0, qs: 1, qc: 0, wr: 0, wq: 0, in: 0, ar: 1, clientName: DESKTOP-AQ7QR9L, serverEndpoint: 192.168.2.12:6379, keyHashSlot: 671, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=3,Free=2044,Min=4,Max=2047) (Please take a look at this article for some common client-side issues that can cause timeouts: http://stackexchange.github.io/StackExchange.Redis/Timeouts)
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringSet(RedisKey key, RedisValue value, Nullable`1 expiry, When when, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Set[T](String key, T t, Int32 hour) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 96
+   在 ListBLL.Logic.Login.NewUserLogin(SendLogin userinfo, mjuserinfo usermodel, GameSession session, IPEndPoint clientipe, String serverName, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Login.cs:行号 199
+   在 ListBLL.Logic.Login.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Login.cs:行号 74
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-29 16:55:06,951 [19] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 192.168.2.222:2000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-01-29 16:55:10,999 [19] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 192.168.2.222:2000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-01-29 16:55:14,430 [21] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 192.168.2.222:2000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-01-29 16:55:19,411 [19] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 192.168.2.222:2000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-01-29 16:55:23,044 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 192.168.2.222:2000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-01-29 16:55:24,221 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 192.168.2.222:2000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-01-29 16:55:25,603 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 192.168.2.222:2000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-01-29 16:55:26,740 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 192.168.2.222:2000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-01-29 16:55:27,891 [21] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 192.168.2.222:2000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-01-29 16:55:30,883 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 192.168.2.222:2000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-01-29 16:55:32,161 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 192.168.2.222:2000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-01-29 16:55:33,441 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 192.168.2.222:2000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-01-29 16:55:34,639 [21] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 192.168.2.222:2000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-01-29 16:55:36,403 [21] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 192.168.2.222:2000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-01-29 17:06:02,523 [13] ERROR LISTServer - Google.ProtocolBuffers.InvalidProtocolBufferException: Message missing required fields: unionid
+   在 Google.ProtocolBuffers.GeneratedBuilder`2.BuildParsed()
+   在 SendGetRoomCard.ParseFrom(Byte[] data) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\proto\DNL.cs:行号 5125
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 21
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-29 17:06:09,774 [13] ERROR LISTServer - Google.ProtocolBuffers.InvalidProtocolBufferException: Message missing required fields: unionid
+   在 Google.ProtocolBuffers.GeneratedBuilder`2.BuildParsed()
+   在 SendGetRoomCard.ParseFrom(Byte[] data) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\proto\DNL.cs:行号 5125
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 21
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-29 17:16:07,133 [26] ERROR LISTServer - Session: 13d44913-5045-41fd-ba0b-8534fd50e78c/192.168.2.167:4248
+Max request length: 1024, current processed length: 1400
+2018-01-29 17:17:30,137 [13] ERROR LISTServer - Session: 2f215a02-8e95-449c-ac6f-e62b26a27383/192.168.2.167:4282
+Max request length: 1024, current processed length: 1400
+2018-01-29 17:18:37,351 [13] ERROR LISTServer - Session: cf9e54e1-82b5-4b3e-b22f-20699fcb70d6/192.168.2.167:4296
+Max request length: 1024, current processed length: 1400
+2018-01-29 17:19:25,984 [13] ERROR LISTServer - Session: 8bede21a-8284-4bc8-935f-d03f06c68a6b/192.168.2.167:4305
+Max request length: 1024, current processed length: 1400
+2018-01-29 17:21:03,156 [26] ERROR LISTServer - Session: 6c5d6ff4-95a9-4e31-a460-50476124c3be/192.168.2.167:4320
+Max request length: 1024, current processed length: 1416
+2018-01-29 17:21:46,312 [26] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 192.168.2.222:2000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-01-29 17:21:49,014 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 192.168.2.222:2000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-01-29 17:21:55,463 [26] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 192.168.2.222:2000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-01-29 17:21:56,625 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 192.168.2.222:2000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-01-29 17:21:57,892 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 192.168.2.222:2000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-01-29 17:21:59,795 [3] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 192.168.2.222:2000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-01-29 17:24:41,304 [13] ERROR LISTServer - Session: 577cb194-00ac-47a9-a81a-fdfa78c65fca/192.168.2.167:4348
+Max request length: 1024, current processed length: 1416
+2018-01-29 17:25:56,235 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 192.168.2.222:2000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-01-29 17:25:58,444 [25] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 192.168.2.222:2000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-01-29 17:28:02,565 [13] ERROR LISTServer - Google.ProtocolBuffers.InvalidProtocolBufferException: Message missing required fields: unionid
+   在 Google.ProtocolBuffers.GeneratedBuilder`2.BuildParsed()
+   在 SendGetRoomCard.ParseFrom(Byte[] data) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\proto\DNL.cs:行号 5125
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 21
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-29 17:31:55,776 [23] ERROR LISTServer - Session: 0cb642a0-22c8-40eb-8179-661bd6e55f57/192.168.2.167:4478
+Max request length: 1024, current processed length: 1416
+2018-01-29 17:34:34,956 [12] ERROR LISTServer - Session: c3f4ae5a-5a8c-4792-84c7-3e338164532a/192.168.2.167:5587
+Max request length: 1024, current processed length: 1431
+2018-01-29 17:35:42,603 [13] ERROR LISTServer - Session: 872ebb39-fd57-4c1d-b90c-e6e00d1c2485/192.168.2.167:5663
+Max request length: 1024, current processed length: 1431
+2018-01-29 17:37:06,666 [3] ERROR LISTServer - Google.ProtocolBuffers.InvalidProtocolBufferException: Message missing required fields: unionid
+   在 Google.ProtocolBuffers.GeneratedBuilder`2.BuildParsed()
+   在 SendGetRoomCard.ParseFrom(Byte[] data) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\proto\DNL.cs:行号 5125
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 21
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-29 17:38:49,357 [14] ERROR LISTServer - Session: 77494a6e-cc44-4e85-bc3b-3543d27693d4/192.168.2.167:5729
+Max request length: 1024, current processed length: 1416
+2018-01-29 17:45:51,803 [11] ERROR LISTServer - Google.ProtocolBuffers.InvalidProtocolBufferException: Message missing required fields: unionid
+   在 Google.ProtocolBuffers.GeneratedBuilder`2.BuildParsed()
+   在 SendGetRoomCard.ParseFrom(Byte[] data) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\proto\DNL.cs:行号 5125
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 21
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-29 17:46:55,278 [11] ERROR LISTServer - Session: 77c9bf13-0e2c-4284-8808-a53365b5c204/192.168.2.167:5819
+Max request length: 1024, current processed length: 1880
+2018-01-29 17:57:49,922 [13] ERROR LISTServer - Google.ProtocolBuffers.InvalidProtocolBufferException: Message missing required fields: unionid
+   在 Google.ProtocolBuffers.GeneratedBuilder`2.BuildParsed()
+   在 SendGetRoomCard.ParseFrom(Byte[] data) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\proto\DNL.cs:行号 5125
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 21
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-29 17:59:07,791 [11] ERROR LISTServer - Session: ce613046-1177-4e4b-bf0a-0c27901f7a9d/192.168.2.167:6671
+Max request length: 1024, current processed length: 1080
+2018-01-29 17:59:44,623 [13] ERROR LISTServer - Session: fda394ad-3a28-41d9-a06b-0ef7adab96eb/192.168.2.167:6674
+Max request length: 1024, current processed length: 1080
+2018-01-29 18:08:26,729 [13] ERROR LISTServer - Google.ProtocolBuffers.InvalidProtocolBufferException: Message missing required fields: unionid
+   在 Google.ProtocolBuffers.GeneratedBuilder`2.BuildParsed()
+   在 SendGetRoomCard.ParseFrom(Byte[] data) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\proto\DNL.cs:行号 5125
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 21
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-29 18:10:51,561 [7] ERROR LISTServer - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: o. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 ListBLL.Logic.LoginPW.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\LoginPW.cs:行号 35
+2018-01-29 18:17:20,757 [8] ERROR LISTServer - Google.ProtocolBuffers.InvalidProtocolBufferException: Message missing required fields: unionid
+   在 Google.ProtocolBuffers.GeneratedBuilder`2.BuildParsed()
+   在 SendGetRoomCard.ParseFrom(Byte[] data) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\proto\DNL.cs:行号 5125
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 21
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-29 18:22:14,676 [7] ERROR LISTServer - Google.ProtocolBuffers.InvalidProtocolBufferException: Message missing required fields: unionid
+   在 Google.ProtocolBuffers.GeneratedBuilder`2.BuildParsed()
+   在 SendGetRoomCard.ParseFrom(Byte[] data) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\proto\DNL.cs:行号 5125
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 21
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-29 18:25:09,939 [18] ERROR LISTServer - Google.ProtocolBuffers.InvalidProtocolBufferException: Message missing required fields: unionid
+   在 Google.ProtocolBuffers.GeneratedBuilder`2.BuildParsed()
+   在 SendGetRoomCard.ParseFrom(Byte[] data) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\proto\DNL.cs:行号 5125
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 21
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)

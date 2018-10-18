@@ -1,0 +1,36 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MJBLL.common
+{
+    public class Erth
+    {
+
+        private const double EARTH_RADIUS = 6378.137;//地球半径
+        private static double rad(double d)
+        {
+            return d * Math.PI / 180.0;
+        }
+        /// <summary>
+        /// 获取相对距离单位米
+        /// </summary>
+        /// <param name="lat1"></param>
+        /// <param name="lat2"></param>
+        /// <returns></returns>
+        public static double GetDistance(string lat1, string lat2)
+        {
+            double radLat1 = rad(double.Parse(lat1.Split(',')[0]));
+            double radLat2 = rad(double.Parse(lat2.Split(',')[0]));
+            double a = radLat1 - radLat2;
+            double b = rad(double.Parse(lat1.Split(',')[1])) - rad(double.Parse(lat2.Split(',')[1]));
+            double s = 2 * Math.Asin(Math.Sqrt(Math.Pow(Math.Sin(a / 2), 2) +
+             Math.Cos(radLat1) * Math.Cos(radLat2) * Math.Pow(Math.Sin(b / 2), 2)));
+            s = s * EARTH_RADIUS;
+            s = Math.Round(s * 10000) / 10000;
+            return s*1000;
+        }
+    }
+}

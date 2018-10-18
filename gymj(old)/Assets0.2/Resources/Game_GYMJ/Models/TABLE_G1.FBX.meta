@@ -1,0 +1,129 @@
+fileFormatVersion: 2
+guid: 549113040e074b748b3f91689ca01f97
+timeCreated: 1502950412
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ChamferBox003
+    100002: ChamferBox004
+    100004: MJbox300
+    100006: PhysCamera001
+    100008: PhysCamera001.Target
+    100010: Plane001
+    100012: //RootNode
+    100014: "\u76D6\u677F"
+    100016: "\u9AB0\u5B50\u5668_\u4E1C"
+    100018: "\u9AB0\u5B50\u5668_\u5317"
+    100020: "\u9AB0\u5B50\u5668_\u5357"
+    100022: "\u9AB0\u5B50\u5668_\u897F"
+    100024: "\u9AB0\u5B50\u5668_\u8BA1\u65F6"
+    400000: ChamferBox003
+    400002: ChamferBox004
+    400004: MJbox300
+    400006: PhysCamera001
+    400008: PhysCamera001.Target
+    400010: Plane001
+    400012: //RootNode
+    400014: "\u76D6\u677F"
+    400016: "\u9AB0\u5B50\u5668_\u4E1C"
+    400018: "\u9AB0\u5B50\u5668_\u5317"
+    400020: "\u9AB0\u5B50\u5668_\u5357"
+    400022: "\u9AB0\u5B50\u5668_\u897F"
+    400024: "\u9AB0\u5B50\u5668_\u8BA1\u65F6"
+    2300000: ChamferBox003
+    2300002: ChamferBox004
+    2300004: MJbox300
+    2300006: Plane001
+    2300008: "\u76D6\u677F"
+    2300010: "\u9AB0\u5B50\u5668_\u4E1C"
+    2300012: "\u9AB0\u5B50\u5668_\u5317"
+    2300014: "\u9AB0\u5B50\u5668_\u5357"
+    2300016: "\u9AB0\u5B50\u5668_\u897F"
+    2300018: "\u9AB0\u5B50\u5668_\u8BA1\u65F6"
+    3300000: ChamferBox003
+    3300002: ChamferBox004
+    3300004: MJbox300
+    3300006: Plane001
+    3300008: "\u76D6\u677F"
+    3300010: "\u9AB0\u5B50\u5668_\u4E1C"
+    3300012: "\u9AB0\u5B50\u5668_\u5317"
+    3300014: "\u9AB0\u5B50\u5668_\u5357"
+    3300016: "\u9AB0\u5B50\u5668_\u897F"
+    3300018: "\u9AB0\u5B50\u5668_\u8BA1\u65F6"
+    4300000: Plane001
+    4300002: "\u9AB0\u5B50\u5668_\u4E1C"
+    4300004: "\u76D6\u677F"
+    4300006: ChamferBox003
+    4300008: ChamferBox004
+    4300010: "\u9AB0\u5B50\u5668_\u8BA1\u65F6"
+    4300012: "\u9AB0\u5B50\u5668_\u5357"
+    4300014: "\u9AB0\u5B50\u5668_\u897F"
+    4300016: "\u9AB0\u5B50\u5668_\u5317"
+    4300018: MJbox300
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,191 @@
+﻿2018-01-29 16:09:41,659 [1] INFO  LISTServer - The server instance LISTServer has been started!
+2018-01-29 16:10:22,882 [5] INFO  LISTServer - Session: fa6af8e9-2f0d-4c23-91b5-7bc7c4f58b34/192.168.2.167:3328
+A new session connected!
+2018-01-29 16:11:10,565 [5] INFO  LISTServer - Session: fa6af8e9-2f0d-4c23-91b5-7bc7c4f58b34/192.168.2.167:3328
+This session was closed for ClientClosing!
+2018-01-29 16:12:33,852 [5] INFO  LISTServer - Session: dcc57679-3ceb-49ef-8424-0ff9db85d541/192.168.2.167:3349
+A new session connected!
+2018-01-29 16:13:10,344 [13] INFO  LISTServer - Session: dcc57679-3ceb-49ef-8424-0ff9db85d541/192.168.2.167:3349
+This session was closed for ClientClosing!
+2018-01-29 16:14:07,071 [17] INFO  LISTServer - Session: 61f1e6ec-f388-4494-99c6-f6417ccd2972/192.168.2.167:3367
+A new session connected!
+2018-01-29 16:18:34,468 [18] INFO  LISTServer - Session: 02b2b706-0864-410c-b4c3-f7a0a11b9def/192.168.2.167:3394
+A new session connected!
+2018-01-29 16:18:34,468 [18] INFO  LISTServer - Session: a99701ae-110e-4018-9623-6e203491dce4/192.168.2.167:3416
+A new session connected!
+2018-01-29 16:18:57,019 [21] INFO  LISTServer - Session: 02b2b706-0864-410c-b4c3-f7a0a11b9def/192.168.2.167:3394
+This session was closed for SocketError!
+2018-01-29 16:18:58,018 [13] INFO  LISTServer - Session: 61f1e6ec-f388-4494-99c6-f6417ccd2972/192.168.2.167:3367
+This session was closed for SocketError!
+2018-01-29 16:21:48,050 [1] INFO  LISTServer - The server instance LISTServer has been started!
+2018-01-29 16:22:13,843 [3] INFO  LISTServer - Session: 69a41b8a-4249-4572-bae2-85d4fdd2c0d9/192.168.2.167:3457
+A new session connected!
+2018-01-29 16:22:20,496 [14] INFO  手动添加日志 - 请求用户登录:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 192.168.2.222:2000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetloginInfoByPWD(String loginInfoStr, String pwd) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 125
+2018-01-29 16:23:41,608 [11] INFO  LISTServer - Session: 69a41b8a-4249-4572-bae2-85d4fdd2c0d9/192.168.2.167:3457
+This session was closed for ClientClosing!
+2018-01-29 16:24:05,056 [15] INFO  LISTServer - Session: 37548b15-a699-4e42-9080-494e7fdbc77d/192.168.2.167:3480
+A new session connected!
+2018-01-29 16:24:10,689 [11] INFO  手动添加日志 - 请求用户登录:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 192.168.2.222:2000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetloginInfoByPWD(String loginInfoStr, String pwd) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 125
+2018-01-29 16:26:04,304 [11] INFO  手动添加日志 - 请求用户登录:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 192.168.2.222:2000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetloginInfoByPWD(String loginInfoStr, String pwd) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 125
+2018-01-29 16:28:50,891 [1] INFO  LISTServer - The server instance LISTServer has been started!
+2018-01-29 16:29:18,896 [3] INFO  LISTServer - Session: 630c45a6-4ab6-468e-b210-818b441bac7b/192.168.2.167:3584
+A new session connected!
+2018-01-29 16:31:19,917 [1] INFO  LISTServer - The server instance LISTServer has been started!
+2018-01-29 16:31:42,071 [3] INFO  LISTServer - Session: 595bfa0a-1bfc-46f5-bf47-bcde139bd998/192.168.2.167:3610
+A new session connected!
+2018-01-29 16:34:53,463 [1] INFO  LISTServer - The server instance LISTServer has been started!
+2018-01-29 16:36:56,239 [3] INFO  LISTServer - Session: ac117a1f-61f3-4186-82f6-03a03cab34ed/192.168.2.167:3684
+A new session connected!
+2018-01-29 16:38:44,687 [1] INFO  LISTServer - The server instance LISTServer has been started!
+2018-01-29 16:39:29,989 [3] INFO  LISTServer - Session: 67ee97da-8b77-4ef2-9fc8-a44c71404997/192.168.2.167:3699
+A new session connected!
+2018-01-29 16:40:21,926 [1] INFO  LISTServer - The server instance LISTServer has been started!
+2018-01-29 16:41:54,000 [3] INFO  LISTServer - Session: aa21762f-eacd-4404-8a8b-a0c708f5308c/192.168.2.167:3741
+A new session connected!
+2018-01-29 16:44:33,577 [11] INFO  LISTServer - Session: aa21762f-eacd-4404-8a8b-a0c708f5308c/192.168.2.167:3741
+This session was closed for ClientClosing!
+2018-01-29 16:46:33,252 [24] INFO  LISTServer - Session: ee1367d4-f969-4bef-bde6-71b1d1e8f9fe/192.168.2.167:3828
+A new session connected!
+2018-01-29 16:47:39,127 [24] INFO  LISTServer - Session: 1853b204-e7f8-416e-8bd3-b47fc73b0a72/192.168.2.167:3848
+A new session connected!
+2018-01-29 16:48:36,089 [18] INFO  LISTServer - Session: ee1367d4-f969-4bef-bde6-71b1d1e8f9fe/192.168.2.167:3828
+This session was closed for ClientClosing!
+2018-01-29 16:48:43,578 [13] INFO  LISTServer - Session: 1853b204-e7f8-416e-8bd3-b47fc73b0a72/192.168.2.167:3848
+This session was closed for ClientClosing!
+2018-01-29 16:54:58,680 [16] INFO  LISTServer - Session: c115dd01-bf6f-4214-865c-6e9fe75b6153/192.168.2.167:3923
+A new session connected!
+2018-01-29 16:55:36,551 [19] INFO  LISTServer - Session: c115dd01-bf6f-4214-865c-6e9fe75b6153/192.168.2.167:3923
+This session was closed for ClientClosing!
+2018-01-29 16:56:14,870 [16] INFO  LISTServer - Session: 76de8c50-6355-438a-8b3d-7c44b7f9df67/192.168.2.167:3941
+A new session connected!
+2018-01-29 16:56:39,989 [13] INFO  LISTServer - Session: 76de8c50-6355-438a-8b3d-7c44b7f9df67/192.168.2.167:3941
+This session was closed for ClientClosing!
+2018-01-29 17:03:41,177 [16] INFO  LISTServer - Session: 2ba0ced7-8f5f-4a75-b0ac-f1119d7084f4/192.168.2.167:4025
+A new session connected!
+2018-01-29 17:06:02,563 [25] INFO  LISTServer - Session: b10449b2-d546-4fc1-a051-a8de079d7817/192.168.2.167:4057
+A new session connected!
+2018-01-29 17:06:02,571 [28] INFO  LISTServer - Session: 2ba0ced7-8f5f-4a75-b0ac-f1119d7084f4/192.168.2.167:4025
+This session was closed for ClientClosing!
+2018-01-29 17:06:53,674 [13] INFO  LISTServer - Session: b10449b2-d546-4fc1-a051-a8de079d7817/192.168.2.167:4057
+This session was closed for ClientClosing!
+2018-01-29 17:16:07,118 [31] INFO  LISTServer - Session: 13d44913-5045-41fd-ba0b-8534fd50e78c/192.168.2.167:4248
+A new session connected!
+2018-01-29 17:16:07,133 [26] INFO  LISTServer - Session: 13d44913-5045-41fd-ba0b-8534fd50e78c/192.168.2.167:4248
+This session was closed for ProtocolError!
+2018-01-29 17:17:30,131 [31] INFO  LISTServer - Session: 2f215a02-8e95-449c-ac6f-e62b26a27383/192.168.2.167:4282
+A new session connected!
+2018-01-29 17:17:30,138 [13] INFO  LISTServer - Session: 2f215a02-8e95-449c-ac6f-e62b26a27383/192.168.2.167:4282
+This session was closed for ProtocolError!
+2018-01-29 17:18:37,334 [28] INFO  LISTServer - Session: cf9e54e1-82b5-4b3e-b22f-20699fcb70d6/192.168.2.167:4296
+A new session connected!
+2018-01-29 17:18:37,351 [13] INFO  LISTServer - Session: cf9e54e1-82b5-4b3e-b22f-20699fcb70d6/192.168.2.167:4296
+This session was closed for ProtocolError!
+2018-01-29 17:19:25,974 [30] INFO  LISTServer - Session: 8bede21a-8284-4bc8-935f-d03f06c68a6b/192.168.2.167:4305
+A new session connected!
+2018-01-29 17:19:25,984 [13] INFO  LISTServer - Session: 8bede21a-8284-4bc8-935f-d03f06c68a6b/192.168.2.167:4305
+This session was closed for ProtocolError!
+2018-01-29 17:21:03,144 [27] INFO  LISTServer - Session: 6c5d6ff4-95a9-4e31-a460-50476124c3be/192.168.2.167:4320
+A new session connected!
+2018-01-29 17:21:03,156 [26] INFO  LISTServer - Session: 6c5d6ff4-95a9-4e31-a460-50476124c3be/192.168.2.167:4320
+This session was closed for ProtocolError!
+2018-01-29 17:21:42,954 [27] INFO  LISTServer - Session: 615a33a0-fce4-4cd3-88b4-0a65719cb6eb/192.168.2.167:4329
+A new session connected!
+2018-01-29 17:21:59,835 [26] INFO  LISTServer - Session: 615a33a0-fce4-4cd3-88b4-0a65719cb6eb/192.168.2.167:4329
+This session was closed for ClientClosing!
+2018-01-29 17:24:18,739 [24] INFO  LISTServer - Session: 577cb194-00ac-47a9-a81a-fdfa78c65fca/192.168.2.167:4348
+A new session connected!
+2018-01-29 17:24:41,304 [13] INFO  LISTServer - Session: 577cb194-00ac-47a9-a81a-fdfa78c65fca/192.168.2.167:4348
+This session was closed for ProtocolError!
+2018-01-29 17:25:54,852 [27] INFO  LISTServer - Session: 3c2bd77b-08f9-4cf5-9af0-21ac7cd016b6/192.168.2.167:4375
+A new session connected!
+2018-01-29 17:26:00,410 [3] INFO  LISTServer - Session: 3c2bd77b-08f9-4cf5-9af0-21ac7cd016b6/192.168.2.167:4375
+This session was closed for ClientClosing!
+2018-01-29 17:26:35,790 [27] INFO  LISTServer - Session: c5d03488-9d61-42d9-86da-b4f282afa867/192.168.2.167:4382
+A new session connected!
+2018-01-29 17:28:02,605 [23] INFO  LISTServer - Session: c5d03488-9d61-42d9-86da-b4f282afa867/192.168.2.167:4382
+This session was closed for ClientClosing!
+2018-01-29 17:31:23,726 [27] INFO  LISTServer - Session: 0cb642a0-22c8-40eb-8179-661bd6e55f57/192.168.2.167:4478
+A new session connected!
+2018-01-29 17:31:55,777 [23] INFO  LISTServer - Session: 0cb642a0-22c8-40eb-8179-661bd6e55f57/192.168.2.167:4478
+This session was closed for ProtocolError!
+2018-01-29 17:34:34,945 [27] INFO  LISTServer - Session: c3f4ae5a-5a8c-4792-84c7-3e338164532a/192.168.2.167:5587
+A new session connected!
+2018-01-29 17:34:34,956 [12] INFO  LISTServer - Session: c3f4ae5a-5a8c-4792-84c7-3e338164532a/192.168.2.167:5587
+This session was closed for ProtocolError!
+2018-01-29 17:34:53,850 [27] INFO  LISTServer - Session: d8a37103-b575-4a4c-b5a2-c452d887eb71/192.168.2.167:5623
+A new session connected!
+2018-01-29 17:34:58,036 [23] INFO  LISTServer - Session: d8a37103-b575-4a4c-b5a2-c452d887eb71/192.168.2.167:5623
+This session was closed for ClientClosing!
+2018-01-29 17:35:42,594 [11] INFO  LISTServer - Session: 872ebb39-fd57-4c1d-b90c-e6e00d1c2485/192.168.2.167:5663
+A new session connected!
+2018-01-29 17:35:42,603 [13] INFO  LISTServer - Session: 872ebb39-fd57-4c1d-b90c-e6e00d1c2485/192.168.2.167:5663
+This session was closed for ProtocolError!
+2018-01-29 17:36:47,564 [22] INFO  LISTServer - Session: f706c9db-3036-42bf-a2df-fee5d93e273b/192.168.2.167:5709
+A new session connected!
+2018-01-29 17:37:47,161 [1] INFO  LISTServer - The server instance LISTServer has been started!
+2018-01-29 17:38:17,335 [3] INFO  LISTServer - Session: 77494a6e-cc44-4e85-bc3b-3543d27693d4/192.168.2.167:5729
+A new session connected!
+2018-01-29 17:38:49,360 [14] INFO  LISTServer - Session: 77494a6e-cc44-4e85-bc3b-3543d27693d4/192.168.2.167:5729
+This session was closed for ProtocolError!
+2018-01-29 17:44:30,192 [1] INFO  LISTServer - The server instance LISTServer has been started!
+2018-01-29 17:45:11,211 [3] INFO  LISTServer - Session: 9d4593c4-f0e8-4054-a1fc-f73978f39ea1/192.168.2.167:5805
+A new session connected!
+2018-01-29 17:45:51,817 [17] INFO  LISTServer - Session: 9d4593c4-f0e8-4054-a1fc-f73978f39ea1/192.168.2.167:5805
+This session was closed for ClientClosing!
+2018-01-29 17:46:43,377 [17] INFO  LISTServer - Session: 77c9bf13-0e2c-4284-8808-a53365b5c204/192.168.2.167:5819
+A new session connected!
+2018-01-29 17:46:55,278 [11] INFO  LISTServer - Session: 77c9bf13-0e2c-4284-8808-a53365b5c204/192.168.2.167:5819
+This session was closed for ProtocolError!
+2018-01-29 17:55:56,473 [1] INFO  LISTServer - The server instance LISTServer has been started!
+2018-01-29 17:56:47,820 [3] INFO  LISTServer - Session: 76dd61f5-07e1-49d3-a748-71ad4af07968/192.168.2.167:6649
+A new session connected!
+2018-01-29 17:57:49,934 [13] INFO  LISTServer - Session: 76dd61f5-07e1-49d3-a748-71ad4af07968/192.168.2.167:6649
+This session was closed for ClientClosing!
+2018-01-29 17:59:07,649 [3] INFO  LISTServer - Session: ce613046-1177-4e4b-bf0a-0c27901f7a9d/192.168.2.167:6671
+A new session connected!
+2018-01-29 17:59:07,791 [11] INFO  LISTServer - Session: ce613046-1177-4e4b-bf0a-0c27901f7a9d/192.168.2.167:6671
+This session was closed for ProtocolError!
+2018-01-29 17:59:27,437 [17] INFO  LISTServer - Session: fda394ad-3a28-41d9-a06b-0ef7adab96eb/192.168.2.167:6674
+A new session connected!
+2018-01-29 17:59:44,623 [13] INFO  LISTServer - Session: fda394ad-3a28-41d9-a06b-0ef7adab96eb/192.168.2.167:6674
+This session was closed for ProtocolError!
+2018-01-29 18:03:50,180 [17] INFO  LISTServer - Session: 1424eddf-9fe5-49ea-8daa-38c6e97213fe/192.168.2.167:7083
+A new session connected!
+2018-01-29 18:07:15,709 [1] INFO  LISTServer - The server instance LISTServer has been started!
+2018-01-29 18:07:43,784 [3] INFO  LISTServer - Session: 7ecfc307-1900-4204-988f-0baa7410d3d1/192.168.2.167:7129
+A new session connected!
+2018-01-29 18:08:26,740 [15] INFO  LISTServer - Session: 7ecfc307-1900-4204-988f-0baa7410d3d1/192.168.2.167:7129
+This session was closed for ClientClosing!
+2018-01-29 18:09:09,529 [16] INFO  LISTServer - Session: 5e639b55-f30d-4c62-b80c-52072f8ee7d2/192.168.2.167:7158
+A new session connected!
+2018-01-29 18:11:47,892 [1] INFO  LISTServer - The server instance LISTServer has been started!
+2018-01-29 18:12:22,287 [3] INFO  LISTServer - Session: c0e7acf8-5eb6-467b-a9db-616b70ac69bb/192.168.2.167:7197
+A new session connected!
+2018-01-29 18:16:26,820 [1] INFO  LISTServer - The server instance LISTServer has been started!
+2018-01-29 18:16:51,542 [3] INFO  LISTServer - Session: 55b4f322-a92a-4a8b-8078-aa61a6790af8/192.168.2.167:7225
+A new session connected!
+2018-01-29 18:18:03,887 [7] INFO  LISTServer - Session: 55b4f322-a92a-4a8b-8078-aa61a6790af8/192.168.2.167:7225
+This session was closed for ClientClosing!
+2018-01-29 18:18:15,956 [9] INFO  LISTServer - Session: 1f30d10c-d511-4b53-8ef7-35f6418f8c82/192.168.2.167:7235
+A new session connected!
+2018-01-29 18:19:43,937 [1] INFO  LISTServer - The server instance LISTServer has been started!
+2018-01-29 18:20:54,163 [3] INFO  LISTServer - Session: aa7ad812-00c7-4d2b-842c-6e35c202d730/192.168.2.167:7257
+A new session connected!
+2018-01-29 18:22:39,925 [7] INFO  LISTServer - Session: aa7ad812-00c7-4d2b-842c-6e35c202d730/192.168.2.167:7257
+This session was closed for ClientClosing!
+2018-01-29 18:24:01,111 [3] INFO  LISTServer - Session: 062b7060-8536-4ace-b1d1-dedcdc256d4f/192.168.2.167:7293
+A new session connected!
+2018-01-29 18:25:09,940 [3] INFO  LISTServer - Session: 062b7060-8536-4ace-b1d1-dedcdc256d4f/192.168.2.167:7293
+This session was closed for ClientClosing!

@@ -1,0 +1,107 @@
+﻿2017-12-06 13:28:17,915 [1] DEBUG DefaultBootstrap - The server instance LISTServer has been created!
+2017-12-06 13:28:18,763 [1] DEBUG LISTServer - The command 11060(ListBLL.Logic.ApplyRecord) has been discovered
+2017-12-06 13:28:18,763 [1] DEBUG LISTServer - The command 11040(ListBLL.Logic.ApplyToJoin) has been discovered
+2017-12-06 13:28:18,764 [1] DEBUG LISTServer - The command 11070(ListBLL.Logic.ChangeApplyStatus) has been discovered
+2017-12-06 13:28:18,764 [1] DEBUG LISTServer - The command 19005(ListBLL.Logic.Feedback) has been discovered
+2017-12-06 13:28:18,764 [1] DEBUG LISTServer - The command 11020(ListBLL.Logic.GameOperation) has been discovered
+2017-12-06 13:28:18,764 [1] DEBUG LISTServer - The command 11030(ListBLL.Logic.GetGroupInfo) has been discovered
+2017-12-06 13:28:18,764 [1] DEBUG LISTServer - The command 11050(ListBLL.Logic.GroupUsersManager) has been discovered
+2017-12-06 13:28:18,764 [1] DEBUG LISTServer - The command 10001(ListBLL.Logic.Heartbeat) has been discovered
+2017-12-06 13:28:18,764 [1] DEBUG LISTServer - The command 11080(ListBLL.Logic.LobbyInfo) has been discovered
+2017-12-06 13:28:18,765 [1] DEBUG LISTServer - The command 11001(ListBLL.Logic.Login) has been discovered
+2017-12-06 13:28:18,765 [1] DEBUG LISTServer - The command 19003(ListBLL.Logic.UserGamePlaybackLogic) has been discovered
+2017-12-06 13:28:18,765 [1] DEBUG LISTServer - The command 19001(ListBLL.Logic.UserRecordLogic) has been discovered
+2017-12-06 13:28:18,778 [1] DEBUG DefaultBootstrap - The server instance LISTServer has been initialized!
+2017-12-06 13:28:19,856 [1] DEBUG DefaultBootstrap - The PerformanceMonitor has been initialized!
+2017-12-06 13:28:19,856 [1] DEBUG DefaultBootstrap - The Bootstrap has been initialized!
+2017-12-06 13:28:19,904 [1] DEBUG LISTServer - Listener (0.0.0.0:2018) was started
+2017-12-06 13:28:19,909 [1] DEBUG DefaultBootstrap - The PerformanceMonitor has been started!
+2017-12-06 13:38:08,029 [14] DEBUG LISTServer - 登陆sssionID--------1414d128-4a01-4d2e-a4c0-3883616e2c70
+2017-12-06 13:38:08,029 [14] DEBUG LISTServer - 登录游戏----------2017/12/6 13:38:08
+2017-12-06 13:38:09,464 [14] DEBUG LISTServer - 登录用户openid:9697486827159f30f5cab73bbab97a1b56966c2a|昵称:测试用户969----------2017/12/6 13:38:09
+2017-12-06 13:38:35,481 [14] DEBUG LISTServer - 登录游戏成功----------2017/12/6 13:38:35
+2017-12-06 13:38:35,481 [14] DEBUG LISTServer - 新登录用户openid:9697486827159f30f5cab73bbab97a1b56966c2a
+2017-12-06 13:40:18,155 [8] DEBUG LISTServer - 登陆sssionID--------90e0b8b1-d032-44ac-8ee3-c3e2d7554a23
+2017-12-06 13:40:18,155 [8] DEBUG LISTServer - 登录游戏----------2017/12/6 13:40:18
+2017-12-06 13:40:18,201 [8] DEBUG LISTServer - 登录用户openid:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d|昵称:测试用户cb0----------2017/12/6 13:40:18
+2017-12-06 13:40:39,528 [8] DEBUG LISTServer - 登录游戏成功----------2017/12/6 13:40:39
+2017-12-06 13:40:39,528 [8] DEBUG LISTServer - 新登录用户openid:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d
+2017-12-06 13:48:27,440 [8] DEBUG LISTServer - 登陆sssionID--------d43c74c9-4983-4d19-8f0c-5320a6769fdc
+2017-12-06 13:48:27,440 [8] DEBUG LISTServer - 登录游戏----------2017/12/6 13:48:27
+2017-12-06 13:48:27,641 [8] DEBUG LISTServer - 登录用户openid:2be4087248667baee875b4dd4e4e388e|昵称:测试用户2be----------2017/12/6 13:48:27
+2017-12-06 13:48:36,491 [50] DEBUG LISTServer - 登陆sssionID--------2e1aa12a-e5de-4808-85e2-2799b78381ae
+2017-12-06 13:48:36,491 [50] DEBUG LISTServer - 登录游戏----------2017/12/6 13:48:36
+2017-12-06 13:48:36,539 [50] DEBUG LISTServer - 登录用户openid:724bb3ec1355840ed0e3fb88b56b9197|昵称:测试用户724----------2017/12/6 13:48:36
+2017-12-06 13:48:48,893 [8] DEBUG LISTServer - 登录游戏成功----------2017/12/6 13:48:48
+2017-12-06 13:48:48,893 [8] DEBUG LISTServer - 新登录用户openid:2be4087248667baee875b4dd4e4e388e
+2017-12-06 13:48:57,749 [50] DEBUG LISTServer - 登录游戏成功----------2017/12/6 13:48:57
+2017-12-06 13:48:57,749 [50] DEBUG LISTServer - 新登录用户openid:724bb3ec1355840ed0e3fb88b56b9197
+2017-12-06 14:00:35,516 [8] DEBUG LISTServer - 登陆sssionID--------119c2b7d-08e2-4334-91f1-59a52d6ae254
+2017-12-06 14:00:35,516 [8] DEBUG LISTServer - 登录游戏----------2017/12/6 14:00:35
+2017-12-06 14:00:35,701 [8] DEBUG LISTServer - 登录用户openid:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d|昵称:测试用户cb0----------2017/12/6 14:00:35
+2017-12-06 14:00:35,732 [8] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2017/12/6 14:00:35
+2017-12-06 14:00:57,641 [8] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2017/12/6 14:00:57
+2017-12-06 14:09:15,666 [8] DEBUG LISTServer - 登陆sssionID--------08f88995-aa5b-41a8-9073-d5a7e85380e6
+2017-12-06 14:09:15,666 [8] DEBUG LISTServer - 登录游戏----------2017/12/6 14:09:15
+2017-12-06 14:09:15,764 [8] DEBUG LISTServer - 登录用户openid:cb02228dfbbc35594d8f3b7bdaa129cfedd86e9d|昵称:测试用户cb0----------2017/12/6 14:09:15
+2017-12-06 14:09:15,795 [8] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2017/12/6 14:09:15
+2017-12-06 14:09:36,915 [8] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2017/12/6 14:09:36
+2017-12-06 14:11:50,195 [8] DEBUG LISTServer - 登陆sssionID--------c5d3d965-90cf-41bd-805c-65151edc4f5b
+2017-12-06 14:11:50,195 [8] DEBUG LISTServer - 登录游戏----------2017/12/6 14:11:50
+2017-12-06 14:11:50,266 [8] DEBUG LISTServer - 登录用户openid:2be4087248667baee875b4dd4e4e388e|昵称:测试用户2be----------2017/12/6 14:11:50
+2017-12-06 14:11:50,329 [8] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2017/12/6 14:11:50
+2017-12-06 14:12:11,448 [8] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2017/12/6 14:12:11
+2017-12-06 14:38:48,980 [8] DEBUG LISTServer - 登陆sssionID--------79ff97e0-1237-40c5-9402-3459a984294e
+2017-12-06 14:38:48,980 [8] DEBUG LISTServer - 登录游戏----------2017/12/6 14:38:48
+2017-12-06 14:38:49,111 [8] DEBUG LISTServer - 登录用户openid:724bb3ec1355840ed0e3fb88b56b9197|昵称:测试用户724----------2017/12/6 14:38:49
+2017-12-06 14:38:49,138 [8] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2017/12/6 14:38:49
+2017-12-06 14:39:10,326 [8] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2017/12/6 14:39:10
+2017-12-06 14:44:39,922 [8] DEBUG LISTServer - 登陆sssionID--------7ee79670-a755-4224-9cea-ed7197a598d9
+2017-12-06 14:44:39,922 [8] DEBUG LISTServer - 登录游戏----------2017/12/6 14:44:39
+2017-12-06 14:44:39,982 [8] DEBUG LISTServer - 登录用户openid:9697486827159f30f5cab73bbab97a1b56966c2a|昵称:测试用户969----------2017/12/6 14:44:39
+2017-12-06 14:44:39,999 [8] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2017/12/6 14:44:39
+2017-12-06 14:45:01,510 [8] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2017/12/6 14:45:01
+2017-12-06 15:31:10,118 [1] DEBUG DefaultBootstrap - The server instance LISTServer has been created!
+2017-12-06 15:31:10,334 [1] DEBUG LISTServer - The command 11060(ListBLL.Logic.ApplyRecord) has been discovered
+2017-12-06 15:31:10,335 [1] DEBUG LISTServer - The command 11040(ListBLL.Logic.ApplyToJoin) has been discovered
+2017-12-06 15:31:10,335 [1] DEBUG LISTServer - The command 11070(ListBLL.Logic.ChangeApplyStatus) has been discovered
+2017-12-06 15:31:10,335 [1] DEBUG LISTServer - The command 19005(ListBLL.Logic.Feedback) has been discovered
+2017-12-06 15:31:10,335 [1] DEBUG LISTServer - The command 11020(ListBLL.Logic.GameOperation) has been discovered
+2017-12-06 15:31:10,335 [1] DEBUG LISTServer - The command 11030(ListBLL.Logic.GetGroupInfo) has been discovered
+2017-12-06 15:31:10,335 [1] DEBUG LISTServer - The command 11050(ListBLL.Logic.GroupUsersManager) has been discovered
+2017-12-06 15:31:10,335 [1] DEBUG LISTServer - The command 10001(ListBLL.Logic.Heartbeat) has been discovered
+2017-12-06 15:31:10,335 [1] DEBUG LISTServer - The command 11080(ListBLL.Logic.LobbyInfo) has been discovered
+2017-12-06 15:31:10,335 [1] DEBUG LISTServer - The command 11001(ListBLL.Logic.Login) has been discovered
+2017-12-06 15:31:10,335 [1] DEBUG LISTServer - The command 11090(ListBLL.Logic.QuitGroup) has been discovered
+2017-12-06 15:31:10,336 [1] DEBUG LISTServer - The command 19003(ListBLL.Logic.UserGamePlaybackLogic) has been discovered
+2017-12-06 15:31:10,336 [1] DEBUG LISTServer - The command 19001(ListBLL.Logic.UserRecordLogic) has been discovered
+2017-12-06 15:31:10,348 [1] DEBUG DefaultBootstrap - The server instance LISTServer has been initialized!
+2017-12-06 15:31:11,060 [1] DEBUG DefaultBootstrap - The PerformanceMonitor has been initialized!
+2017-12-06 15:31:11,060 [1] DEBUG DefaultBootstrap - The Bootstrap has been initialized!
+2017-12-06 15:31:11,082 [1] DEBUG LISTServer - Listener (0.0.0.0:2018) was started
+2017-12-06 15:31:11,086 [1] DEBUG DefaultBootstrap - The PerformanceMonitor has been started!
+2017-12-06 15:31:49,305 [10] DEBUG LISTServer - 登陆sssionID--------739762e5-bb04-4f60-8ef5-8fcfd7f2fee7
+2017-12-06 15:31:49,305 [10] DEBUG LISTServer - 登录游戏----------2017/12/6 15:31:49
+2017-12-06 15:31:50,177 [10] DEBUG LISTServer - 登录用户openid:9697486827159f30f5cab73bbab97a1b56966c2a|昵称:测试用户969----------2017/12/6 15:31:50
+2017-12-06 15:31:52,285 [10] DEBUG LISTServer - 登录游戏成功----------2017/12/6 15:31:52
+2017-12-06 15:31:52,285 [10] DEBUG LISTServer - 新登录用户openid:9697486827159f30f5cab73bbab97a1b56966c2a
+2017-12-06 15:32:00,987 [11] DEBUG LISTServer - 登陆sssionID--------87ef95d0-6c82-437f-a281-ae5bdb5b4511
+2017-12-06 15:32:00,987 [11] DEBUG LISTServer - 登录游戏----------2017/12/6 15:32:00
+2017-12-06 15:32:01,061 [11] DEBUG LISTServer - 登录用户openid:724bb3ec1355840ed0e3fb88b56b9197|昵称:测试用户724----------2017/12/6 15:32:01
+2017-12-06 15:32:02,542 [11] DEBUG LISTServer - 登录游戏成功----------2017/12/6 15:32:02
+2017-12-06 15:32:02,542 [11] DEBUG LISTServer - 新登录用户openid:724bb3ec1355840ed0e3fb88b56b9197
+2017-12-06 15:32:07,159 [10] DEBUG LISTServer - 登陆sssionID--------29d3d2b3-2854-43dd-8529-dc265190c2c0
+2017-12-06 15:32:07,159 [10] DEBUG LISTServer - 登录游戏----------2017/12/6 15:32:07
+2017-12-06 15:32:07,214 [10] DEBUG LISTServer - 登录用户openid:2be4087248667baee875b4dd4e4e388e|昵称:测试用户2be----------2017/12/6 15:32:07
+2017-12-06 15:32:08,432 [10] DEBUG LISTServer - 登录游戏成功----------2017/12/6 15:32:08
+2017-12-06 15:32:08,432 [10] DEBUG LISTServer - 新登录用户openid:2be4087248667baee875b4dd4e4e388e
+2017-12-06 15:36:46,807 [7] DEBUG LISTServer - 登陆sssionID--------df2f5068-7cb2-423a-a3e8-089fa8e933b6
+2017-12-06 15:36:46,808 [7] DEBUG LISTServer - 登录游戏----------2017/12/6 15:36:46
+2017-12-06 15:36:47,776 [7] DEBUG LISTServer - 登录用户openid:9697486827159f30f5cab73bbab97a1b56966c2a|昵称:测试用户969----------2017/12/6 15:36:47
+2017-12-06 15:36:47,801 [7] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2017/12/6 15:36:47
+2017-12-06 15:36:48,970 [7] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2017/12/6 15:36:48
+2017-12-06 15:53:01,580 [7] DEBUG LISTServer - 登陆sssionID--------ec0400bb-727d-4ac8-9f28-fc608da9db0b
+2017-12-06 15:53:01,581 [7] DEBUG LISTServer - 登录游戏----------2017/12/6 15:53:01
+2017-12-06 15:53:01,757 [7] DEBUG LISTServer - 登录用户openid:9697486827159f30f5cab73bbab97a1b56966c2a|昵称:测试用户969----------2017/12/6 15:53:01
+2017-12-06 15:53:01,797 [7] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2017/12/6 15:53:01
+2017-12-06 15:53:03,173 [7] DEBUG LISTServer - 登录游戏成功,当前对象存在----------2017/12/6 15:53:03

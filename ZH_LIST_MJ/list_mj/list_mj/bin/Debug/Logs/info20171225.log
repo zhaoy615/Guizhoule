@@ -1,0 +1,224 @@
+﻿2017-12-25 09:43:14,204 [1] INFO  LISTServer - The server instance LISTServer has been started!
+2017-12-25 10:04:35,574 [4] INFO  LISTServer - Session: b7da28e8-4ed2-4161-81d8-38cce7800dd6/192.168.2.126:54876
+A new session connected!
+2017-12-25 10:04:36,465 [4] INFO  LISTServer - Session: b13260e9-2665-438b-a7c1-4e95502300c8/192.168.2.167:9357
+A new session connected!
+2017-12-25 10:04:41,353 [12] INFO  手动添加日志 - 请求扣除房卡:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 192.168.2.54:2000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2017-12-25 10:04:41,431 [3] INFO  手动添加日志 - 请求扣除房卡:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 192.168.2.54:2000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2017-12-25 10:04:43,963 [12] INFO  手动添加日志 - 请求扣除房卡:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 192.168.2.54:2000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2017-12-25 10:04:45,291 [3] INFO  手动添加日志 - 请求扣除房卡:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 192.168.2.54:2000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2017-12-25 10:04:47,667 [3] INFO  LISTServer - Session: b7da28e8-4ed2-4161-81d8-38cce7800dd6/192.168.2.126:54876
+This session was closed for ClientClosing!
+2017-12-25 10:04:55,664 [4] INFO  LISTServer - Session: ef0e436f-fed4-40e0-85c4-ae5c1b0691a2/192.168.2.126:54894
+A new session connected!
+2017-12-25 10:04:55,898 [12] INFO  LISTServer - Session: ef0e436f-fed4-40e0-85c4-ae5c1b0691a2/192.168.2.126:54894
+This session was closed for ClientClosing!
+2017-12-25 10:07:00,294 [4] INFO  LISTServer - Session: b6481165-f3ae-440c-8627-ca1d7d9131bf/192.168.2.126:54998
+A new session connected!
+2017-12-25 10:07:07,202 [12] INFO  LISTServer - Session: b6481165-f3ae-440c-8627-ca1d7d9131bf/192.168.2.126:54998
+This session was closed for ClientClosing!
+2017-12-25 10:07:31,360 [4] INFO  LISTServer - Session: 06846bb2-caf6-4bda-8458-beae4612540d/192.168.2.126:55022
+A new session connected!
+2017-12-25 10:07:41,414 [12] INFO  LISTServer - Session: 06846bb2-caf6-4bda-8458-beae4612540d/192.168.2.126:55022
+This session was closed for ClientClosing!
+2017-12-25 10:07:48,948 [12] INFO  LISTServer - Session: b13260e9-2665-438b-a7c1-4e95502300c8/192.168.2.167:9357
+This session was closed for ClientClosing!
+2017-12-25 10:12:06,462 [44] INFO  LISTServer - Session: 25456286-68c2-4be1-9d2c-57044208d74d/192.168.2.126:55201
+A new session connected!
+2017-12-25 11:31:11,373 [1] INFO  LISTServer - The server instance LISTServer has been started!
+2017-12-25 11:31:21,359 [3] INFO  LISTServer - Session: 17ed1ba7-1459-485d-9efe-471fefc6a79d/192.168.2.126:61317
+A new session connected!
+2017-12-25 11:32:17,078 [3] INFO  LISTServer - Session: d1b3f9de-164e-4c5f-8c9d-3c3b39ef09da/192.168.2.167:10881
+A new session connected!
+2017-12-25 11:50:38,005 [29] INFO  LISTServer - Session: d1b3f9de-164e-4c5f-8c9d-3c3b39ef09da/192.168.2.167:10881
+This session was closed for ClientClosing!
+2017-12-25 11:53:04,052 [12] INFO  LISTServer - Session: 17ed1ba7-1459-485d-9efe-471fefc6a79d/192.168.2.126:61317
+This session was closed for SocketError!
+2017-12-25 14:02:09,447 [1] INFO  LISTServer - The server instance LISTServer has been started!
+2017-12-25 14:13:20,153 [3] INFO  LISTServer - Session: e05d112d-cc15-47fe-9434-b7278b8a7684/192.168.2.126:54763
+A new session connected!
+2017-12-25 14:13:25,087 [3] INFO  LISTServer - Session: dc1f1745-5c8c-40ff-9989-4947681e015b/192.168.2.167:12672
+A new session connected!
+2017-12-25 14:13:31,104 [14] INFO  LISTServer - Session: dc1f1745-5c8c-40ff-9989-4947681e015b/192.168.2.167:12672
+This session was closed for ClientClosing!
+2017-12-25 14:13:40,259 [7] INFO  LISTServer - Session: e05d112d-cc15-47fe-9434-b7278b8a7684/192.168.2.126:54763
+This session was closed for ClientClosing!
+2017-12-25 14:14:42,446 [3] INFO  LISTServer - Session: 5d0d6378-8329-49b4-acda-e48b9a58acc3/192.168.2.126:54873
+A new session connected!
+2017-12-25 14:14:43,628 [8] INFO  LISTServer - Session: 5d0d6378-8329-49b4-acda-e48b9a58acc3/192.168.2.126:54873
+This session was closed for ClientClosing!
+2017-12-25 14:14:52,586 [3] INFO  LISTServer - Session: dde0137e-efae-4ca1-87c5-a758973c62a1/192.168.2.126:54886
+A new session connected!
+2017-12-25 14:14:57,240 [3] INFO  LISTServer - Session: bf32bca4-9ee6-4981-8cd8-ea46e9b2ccaf/192.168.2.167:12710
+A new session connected!
+2017-12-25 14:15:02,528 [48] INFO  LISTServer - Session: bf32bca4-9ee6-4981-8cd8-ea46e9b2ccaf/192.168.2.167:12710
+This session was closed for ClientClosing!
+2017-12-25 14:15:16,307 [7] INFO  LISTServer - Session: dde0137e-efae-4ca1-87c5-a758973c62a1/192.168.2.126:54886
+This session was closed for ClientClosing!
+2017-12-25 14:26:54,711 [3] INFO  LISTServer - Session: e43dca9b-9962-41b9-aaee-c00ec386123a/192.168.2.126:50205
+A new session connected!
+2017-12-25 14:28:14,328 [3] INFO  LISTServer - Session: 714c7388-12d7-400f-832a-aa3227a7f2a1/192.168.2.167:12847
+A new session connected!
+2017-12-25 14:28:22,317 [7] INFO  LISTServer - Session: 714c7388-12d7-400f-832a-aa3227a7f2a1/192.168.2.167:12847
+This session was closed for ClientClosing!
+2017-12-25 14:29:05,077 [3] INFO  LISTServer - Session: 412a1c57-ff37-45a2-b7df-cfb238118640/192.168.2.167:12861
+A new session connected!
+2017-12-25 14:29:08,957 [7] INFO  LISTServer - Session: 412a1c57-ff37-45a2-b7df-cfb238118640/192.168.2.167:12861
+This session was closed for ClientClosing!
+2017-12-25 14:29:18,697 [7] INFO  LISTServer - Session: e43dca9b-9962-41b9-aaee-c00ec386123a/192.168.2.126:50205
+This session was closed for ClientClosing!
+2017-12-25 14:37:29,621 [3] INFO  LISTServer - Session: a614a95d-546e-4cb7-8d73-10ede108cf3c/192.168.2.126:50608
+A new session connected!
+2017-12-25 14:42:36,764 [18] INFO  LISTServer - Session: a614a95d-546e-4cb7-8d73-10ede108cf3c/192.168.2.126:50608
+This session was closed for SocketError!
+2017-12-25 14:51:52,092 [1] INFO  LISTServer - The server instance LISTServer has been started!
+2017-12-25 14:51:59,636 [3] INFO  LISTServer - Session: 86085dc3-906e-4029-ad13-579eab259498/192.168.2.167:13051
+A new session connected!
+2017-12-25 15:24:38,280 [1] INFO  LISTServer - The server instance LISTServer has been started!
+2017-12-25 15:24:48,219 [15] INFO  LISTServer - Session: fb34a431-29b2-4756-8fb3-e01fbe524e63/192.168.2.222:10289
+A new session connected!
+2017-12-25 15:24:48,219 [3] INFO  LISTServer - Session: fe167f09-e994-4504-b489-667fe03316b2/192.168.2.222:10290
+A new session connected!
+2017-12-25 15:24:48,219 [16] INFO  LISTServer - Session: 5e644181-e257-44cd-8159-af82353821ad/192.168.2.222:10288
+A new session connected!
+2017-12-25 15:24:50,777 [12] INFO  LISTServer - Session: 5e644181-e257-44cd-8159-af82353821ad/192.168.2.222:10288
+This session was closed for ClientClosing!
+2017-12-25 15:30:25,029 [1] INFO  LISTServer - The server instance LISTServer has been started!
+2017-12-25 15:31:03,112 [3] INFO  LISTServer - Session: 85cdd8de-cc01-4b30-86b2-d85fbd23d941/192.168.2.222:10558
+A new session connected!
+2017-12-25 15:31:03,129 [13] INFO  LISTServer - Session: 8d5c05b1-30cb-4a8d-b726-cdd482ca7554/192.168.2.222:10559
+A new session connected!
+2017-12-25 15:31:03,142 [13] INFO  LISTServer - Session: 02eed4bc-993b-4fd3-a52b-ac5ecf0514bb/192.168.2.222:10560
+A new session connected!
+2017-12-25 15:32:12,852 [14] INFO  LISTServer - Session: 8d5c05b1-30cb-4a8d-b726-cdd482ca7554/192.168.2.222:10559
+This session was closed for SocketError!
+2017-12-25 15:32:12,852 [7] INFO  LISTServer - Session: 85cdd8de-cc01-4b30-86b2-d85fbd23d941/192.168.2.222:10558
+This session was closed for SocketError!
+2017-12-25 15:32:12,852 [17] INFO  LISTServer - Session: 02eed4bc-993b-4fd3-a52b-ac5ecf0514bb/192.168.2.222:10560
+This session was closed for ClientClosing!
+2017-12-25 15:32:32,498 [26] INFO  LISTServer - Session: c0ffdf9a-d0ff-47ea-a61c-364dddacf530/192.168.2.222:10604
+A new session connected!
+2017-12-25 15:32:32,511 [26] INFO  LISTServer - Session: 3997ba1d-673e-435e-9c22-c962b885d63a/192.168.2.222:10605
+A new session connected!
+2017-12-25 15:32:32,511 [27] INFO  LISTServer - Session: 5ae8f065-ae9c-4f2b-ac56-7b2dd6bc5acc/192.168.2.222:10606
+A new session connected!
+2017-12-25 15:33:16,393 [7] INFO  LISTServer - Session: 5ae8f065-ae9c-4f2b-ac56-7b2dd6bc5acc/192.168.2.222:10606
+This session was closed for SocketError!
+2017-12-25 15:33:16,393 [18] INFO  LISTServer - Session: c0ffdf9a-d0ff-47ea-a61c-364dddacf530/192.168.2.222:10604
+This session was closed for SocketError!
+2017-12-25 15:33:16,393 [14] INFO  LISTServer - Session: 3997ba1d-673e-435e-9c22-c962b885d63a/192.168.2.222:10605
+This session was closed for SocketError!
+2017-12-25 15:40:46,203 [1] INFO  LISTServer - The server instance LISTServer has been started!
+2017-12-25 15:41:07,706 [14] INFO  LISTServer - Session: b787ce87-2e0c-4a01-a9b2-459859ac40eb/192.168.2.222:10842
+A new session connected!
+2017-12-25 15:41:07,706 [3] INFO  LISTServer - Session: e6873b1f-5919-4e31-a806-9995d2a15f9d/192.168.2.222:10840
+A new session connected!
+2017-12-25 15:41:07,706 [13] INFO  LISTServer - Session: 0e370734-ff54-4e9a-ab36-cbd786c12aad/192.168.2.222:10841
+A new session connected!
+2017-12-25 15:41:16,363 [17] INFO  LISTServer - Session: 0e370734-ff54-4e9a-ab36-cbd786c12aad/192.168.2.222:10841
+This session was closed for ClientClosing!
+2017-12-25 15:41:19,229 [7] INFO  LISTServer - Session: e6873b1f-5919-4e31-a806-9995d2a15f9d/192.168.2.222:10840
+This session was closed for ClientClosing!
+2017-12-25 15:41:19,250 [18] INFO  LISTServer - Session: b787ce87-2e0c-4a01-a9b2-459859ac40eb/192.168.2.222:10842
+This session was closed for ClientClosing!
+2017-12-25 15:41:27,674 [3] INFO  LISTServer - Session: 5fb0f7f3-4bb3-43e6-b589-c5419a247b9b/192.168.2.222:10853
+A new session connected!
+2017-12-25 15:41:27,674 [14] INFO  LISTServer - Session: e4b8657f-063c-4065-953c-07b3448c2538/192.168.2.222:10852
+A new session connected!
+2017-12-25 15:41:27,674 [13] INFO  LISTServer - Session: 9284bb9b-9d98-4c07-92f8-0c1f8c9e636a/192.168.2.222:10854
+A new session connected!
+2017-12-25 15:41:46,450 [17] INFO  LISTServer - Session: 5fb0f7f3-4bb3-43e6-b589-c5419a247b9b/192.168.2.222:10853
+This session was closed for SocketError!
+2017-12-25 15:41:53,172 [16] INFO  LISTServer - Session: e4b8657f-063c-4065-953c-07b3448c2538/192.168.2.222:10852
+This session was closed for SocketError!
+2017-12-25 15:41:53,211 [32] INFO  LISTServer - Session: 9284bb9b-9d98-4c07-92f8-0c1f8c9e636a/192.168.2.222:10854
+This session was closed for SocketError!
+2017-12-25 15:42:45,415 [13] INFO  LISTServer - Session: 3f81732c-9df2-49f8-b8c2-387d0d418a7f/192.168.2.222:10893
+A new session connected!
+2017-12-25 15:42:45,419 [13] INFO  LISTServer - Session: e191b529-883c-4261-badd-1de0e67b974b/192.168.2.222:10891
+A new session connected!
+2017-12-25 15:42:45,421 [156] INFO  LISTServer - Session: ef6a4774-8d63-48ee-ba26-1b8beb94b821/192.168.2.222:10892
+A new session connected!
+2017-12-25 15:43:19,435 [155] INFO  LISTServer - Session: ef6a4774-8d63-48ee-ba26-1b8beb94b821/192.168.2.222:10892
+This session was closed for SocketError!
+2017-12-25 15:43:19,500 [480] INFO  LISTServer - Session: e191b529-883c-4261-badd-1de0e67b974b/192.168.2.222:10891
+This session was closed for SocketError!
+2017-12-25 15:43:19,538 [7] INFO  LISTServer - Session: 3f81732c-9df2-49f8-b8c2-387d0d418a7f/192.168.2.222:10893
+This session was closed for SocketError!
+2017-12-25 15:43:29,133 [156] INFO  LISTServer - Session: e0fc29b5-4667-4338-9f79-91aba08778f1/192.168.2.222:10915
+A new session connected!
+2017-12-25 15:43:29,133 [13] INFO  LISTServer - Session: ead562ce-1916-4752-a13c-0cb23cd58fad/192.168.2.222:10916
+A new session connected!
+2017-12-25 15:43:29,133 [478] INFO  LISTServer - Session: 71198db4-be8c-46dd-a49c-12df7189ec2d/192.168.2.222:10917
+A new session connected!
+2017-12-25 15:43:30,188 [7] INFO  LISTServer - Session: e0fc29b5-4667-4338-9f79-91aba08778f1/192.168.2.222:10915
+This session was closed for ClientClosing!
+2017-12-25 15:44:13,437 [7] INFO  LISTServer - Session: 71198db4-be8c-46dd-a49c-12df7189ec2d/192.168.2.222:10917
+This session was closed for ClientClosing!
+2017-12-25 15:44:16,521 [7] INFO  LISTServer - Session: ead562ce-1916-4752-a13c-0cb23cd58fad/192.168.2.222:10916
+This session was closed for ClientClosing!
+2017-12-25 15:44:39,424 [478] INFO  LISTServer - Session: 97a644a2-da17-47c0-955b-e02420f3a44f/192.168.2.222:10969
+A new session connected!
+2017-12-25 15:44:39,426 [478] INFO  LISTServer - Session: 8c3d7697-36e9-46d2-873c-551338f6f8a8/192.168.2.222:10970
+A new session connected!
+2017-12-25 15:44:39,428 [478] INFO  LISTServer - Session: ad94acb3-56ed-4ec8-be1e-7c190942ba6e/192.168.2.222:10971
+A new session connected!
+2017-12-25 15:45:07,347 [480] INFO  LISTServer - Session: ad94acb3-56ed-4ec8-be1e-7c190942ba6e/192.168.2.222:10971
+This session was closed for ClientClosing!
+2017-12-25 15:45:41,760 [961] INFO  LISTServer - Session: 97a644a2-da17-47c0-955b-e02420f3a44f/192.168.2.222:10969
+This session was closed for SocketError!
+2017-12-25 15:45:41,782 [481] INFO  LISTServer - Session: 8c3d7697-36e9-46d2-873c-551338f6f8a8/192.168.2.222:10970
+This session was closed for SocketError!
+2017-12-25 15:45:44,512 [1047] INFO  LISTServer - Session: eae61094-8601-4c6b-865c-588036a2849e/192.168.2.222:11017
+A new session connected!
+2017-12-25 15:45:44,512 [1028] INFO  LISTServer - Session: 0d450cc2-b255-4eee-8462-39c4ec4f13d9/192.168.2.222:11016
+A new session connected!
+2017-12-25 15:45:44,512 [1026] INFO  LISTServer - Session: ffb1deb1-0a40-4699-9279-7abd56445ad1/192.168.2.222:11018
+A new session connected!
+2017-12-25 15:46:49,541 [7] INFO  手动添加日志 - 请求扣除房卡:System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 ListBLL.common.MySocket.SendReceive(Byte[] data) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 38
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2017-12-25 15:47:01,198 [480] INFO  LISTServer - Session: eae61094-8601-4c6b-865c-588036a2849e/192.168.2.222:11017
+This session was closed for SocketError!
+2017-12-25 15:47:01,249 [1059] INFO  LISTServer - Session: 0d450cc2-b255-4eee-8462-39c4ec4f13d9/192.168.2.222:11016
+This session was closed for SocketError!
+2017-12-25 15:47:01,326 [481] INFO  LISTServer - Session: ffb1deb1-0a40-4699-9279-7abd56445ad1/192.168.2.222:11018
+This session was closed for SocketError!
+2017-12-25 17:56:35,902 [1] INFO  LISTServer - The server instance LISTServer has been started!
+2017-12-25 17:57:06,653 [3] INFO  LISTServer - Session: 594eb78b-be43-450d-9054-9cc246c0c83a/192.168.2.126:63109
+A new session connected!
+2017-12-25 17:57:08,870 [14] INFO  手动添加日志 - 请求扣除房卡:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 192.168.2.54:2000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2017-12-25 17:57:12,457 [14] INFO  手动添加日志 - 请求扣除房卡:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 192.168.2.54:2000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2017-12-25 17:57:25,260 [14] INFO  手动添加日志 - 请求扣除房卡:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 192.168.2.54:2000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2017-12-25 17:59:59,348 [11] INFO  LISTServer - Session: 594eb78b-be43-450d-9054-9cc246c0c83a/192.168.2.126:63109
+This session was closed for ClientClosing!

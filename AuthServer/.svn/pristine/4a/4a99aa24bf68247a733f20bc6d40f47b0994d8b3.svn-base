@@ -1,0 +1,286 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using SuperSocket.SocketBase;
+using SuperSocket.SocketBase.Protocol;
+using SuperSocket.SocketBase.Command;
+using MJBLL.common;
+using Google.ProtocolBuffers;
+using MJBLL.model;
+
+namespace MJBLL.mjrule
+{
+    public class ConnData : ICommand<GameSession, ProtobufRequestInfo>
+    {
+        public string Name
+        {
+            get { return "15019"; }
+        }
+
+        public void ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo)
+        {
+           
+                if (!Gongyong.userlist.Any(w => w.session.SessionID.Equals(session.SessionID)))
+                {
+                    session.Logger.Debug("非法连接");
+                    session.Close();
+                    return;
+                }
+                var getinfo = SendConnData.ParseFrom(requestInfo.Body);
+
+                var userInfo = Gongyong.userlist.Find(u => u.openid == getinfo.Openid);
+                if (userInfo == null)
+                    session.Close();
+                userInfo.session = session;
+
+                mjuser mj = Gongyong.mulist.Find(u => u.Openid == getinfo.Openid);
+                if (mj == null)
+                    return;
+                List<mjuser> mjlist = Gongyong.mulist.FindAll(u => u.RoomID == mj.RoomID);
+                var roommsg = ReturnRoomMsg.CreateBuilder();
+
+                Room rm = Gongyong.roomlist.Find(u => u.RoomID == mj.RoomID);
+            if (rm == null)
+                return;
+                var userinfo = Userinfo.CreateBuilder();
+                ///返回重连状态
+                //  var ifconn = ReturnRecon.CreateBuilder().SetState(1).Build();
+                ///返回房间用户信息
+                var userinfobyroom = ReturnUserInfo.CreateBuilder();
+                var mjhy = MaJiang.CreateBuilder();
+                var hyyh = ReturnHyUser.CreateBuilder();
+                if (!string.IsNullOrEmpty(rm.DQHY.ToString()))
+                {
+                    hyyh.SetFw(rm.DQHY);
+                }
+                else
+                {
+                    hyyh.SetFw(0);
+                }
+
+
+                if (!string.IsNullOrEmpty(rm.DQcz))
+                {
+                    hyyh.SetCz(rm.DQcz);
+                }
+                else
+                {
+                    hyyh.SetCz("");
+                }
+
+                if (rm.PaiHSCZ != null)
+                {
+                    mjhy.SetPaiID(rm.PaiHSCZ.PaiId);
+                    mjhy.SetPaiHS(rm.PaiHSCZ.PaiHs);
+                }
+                else
+                {
+                    mjhy.SetPaiID(0);
+                    mjhy.SetPaiHS(0);
+                }
+                hyyh.SetMj(mjhy);
+
+                var returndata = ReturnConnData.CreateBuilder();
+                List<byte> returnzhuang = new List<byte>();
+                List<model.ServerMaJiang> Ruturnjsmj = new List<model.ServerMaJiang>();
+                int myFW = 0;
+                foreach (mjuser mjuseritem in mjlist)
+                {
+
+                    var MJ = MaJiang.CreateBuilder();
+                    ///手牌集合
+                    var shoupai = UserShou.CreateBuilder();
+                    //碰牌集合
+                    var pengpai = UserPeng.CreateBuilder();
+                    ///出牌集合
+                    var chupai = UserChu.CreateBuilder();
+                    ///杠
+                    var gangpai = UserGang.CreateBuilder();
+
+
+                    var userzrj = JpConn.CreateBuilder();
+                    userzrj.SetFW(mjuseritem.ZS_Fw);
+                    if (mjuseritem.Is_cfj == true)
+                    {
+                        userzrj.SetCFJ(1);
+                    }
+
+                    if (mjuseritem.Is_zrj == -1)
+                    {
+                        userzrj.SetCFJ(2);
+                    }
+
+
+                    if (mjuseritem.is_cfwg == true)
+                    {
+                        userzrj.SetWGJ(1);
+                    }
+
+                    if (mjuseritem.is_zrwg == -1)
+                    {
+                        userzrj.SetWGJ(2);
+                    }
+
+                    /**********************返回房间用户信息************************************************/
+                    UserInfo user = Gongyong.userlist.Find(u => u.openid == mjuseritem.Openid);
+                    userinfo.SetOpenid(user.openid);
+                    userinfo.SetNickname(user.nickname);
+                    userinfo.SetHeadimg(user.headimg);
+                    userinfo.SetSex(int.Parse(user.sex));
+                    userinfo.SetUserBean(0);
+                    userinfo.SetUserGold(0);
+                    userinfo.SetUserFW(mjuseritem.ZS_Fw);
+                    userinfo.SetUserID(user.UserID);
+                    CardUser card = Gongyong.FKUser.Find(u => u.roomid == mjuseritem.RoomID);
+                    if (card != null)
+                    {
+                        userinfo.SetCumulativeScore(card.GetScoreByPosition(mjuseritem.ZS_Fw));
+                        //if (returnzhuang.Count == 0)
+                        //    returnzhuang.AddRange(ReturnZhuang.CreateBuilder().SetZhuang(card.win).Build().ToByteArray());
+                        if (!returndata.HasZhuang)
+                        {
+                            returndata.SetZhuang(ReturnZhuang.CreateBuilder().SetZhuang(card.win).SetSeizi(card.Points).SetZhuangCount(card.lianzCount));
+
+                        }
+                        shoupai.SetScare(card.GetScoreByPosition(mjuseritem.ZS_Fw));
+                    }
+                    else
+                        shoupai.SetScare(0);
+                    userinfobyroom.AddUserinfo(userinfo);
+                    /***********************返回手牌集合***************************************/
+                   // int paicount = 0;
+                    if (mjuseritem.Openid == getinfo.Openid)
+                    {
+                        //foreach (var item in mjuseritem.majiangs)
+                        //{
+                        //    paicount++;
+                        //    MJ.SetPaiHS(item.PaiHs);
+                        //    MJ.SetPaiID(item.PaiId);
+                        //    shoupai.AddMj(MJ);
+                        //}
+                        myFW = mjuseritem.ZS_Fw;
+                        shoupai.AddRangeMj(mjuseritem.majiangs.Select(w => MaJiang.CreateBuilder().SetPaiHS(w.PaiHs).SetPaiID(w.PaiId).Build()));
+                        List<model.ServerMaJiang> majongList = new List<model.ServerMaJiang>();
+                        majongList.AddRange(mjuseritem.majiangs.ToArray());
+                        if (mjuseritem.majiangs.Count == 14 && mjuseritem.MopaiNumber <= 1 && mjuseritem.Peng.Count == 0 && string.IsNullOrEmpty(mjuseritem.Gong))
+                            Ruturnjsmj = new Ting().ReturnJMJ(majongList);
+                    }
+                    else
+                    {
+                        //foreach (var item in mjuseritem.majiangs)
+                        //{
+                        //    paicount++;
+                        //    MJ.SetPaiHS(0);
+                        //    MJ.SetPaiID(0);
+                        //    shoupai.AddMj(MJ);
+                        //}
+                        shoupai.AddRangeMj(mjuseritem.majiangs.Select(w => MaJiang.CreateBuilder().SetPaiHS(0).SetPaiID(0).Build()));
+                    }
+                    shoupai.SetFW(mjuseritem.ZS_Fw);
+                    shoupai.SetPcount(mjuseritem.majiangs.Count);
+                    shoupai.SetQYM(mjuseritem.QYM);
+                    shoupai.SetTianting(mjuseritem.Is_tiantX);
+                    shoupai.SetBaoting(mjuseritem.Is_baotin ? 1 : 0);
+                    /*****碰牌集合*****************************/
+                    foreach (var itemP in mjuseritem.Peng)
+                    {
+                        MJ.SetPaiHS(itemP.PaiHs);
+                        MJ.SetPaiID(itemP.PaiId);
+                        pengpai.AddMj(MJ);
+                    }
+                    pengpai.SetFW(mjuseritem.ZS_Fw);
+
+                    /****************出牌集合*********************************/
+                    foreach (var itemC in mjuseritem.chuda)
+                    {
+                        MJ.SetPaiHS(itemC.PaiHs);
+                        MJ.SetPaiID(itemC.PaiId);
+                        chupai.AddMj(MJ);
+                    }
+                    chupai.SetFW(mjuseritem.ZS_Fw);
+
+                    gangpai.SetFW(mjuseritem.ZS_Fw);
+                    if (!string.IsNullOrEmpty(mjuseritem.Gong))
+                    {
+                        gangpai.SetGang(mjuseritem.Gong);
+
+                    }
+                    else
+                    {
+                        gangpai.SetGang("");
+                    }
+                    returndata.AddChu(chupai);
+                    returndata.AddPeng(pengpai);
+                    returndata.AddGang(gangpai);
+                    returndata.AddShoupai(shoupai);
+                    returndata.AddJp(userzrj);
+
+
+                    //chupai.Clear();
+                    //pengpai.Clear();
+                    //gangpai.Clear();
+                    //shoupai.Clear();
+                }
+                roommsg.SetCount(rm.count).SetIsBenji(rm.is_benji == true ? 1 : 0).SetIsShangxiaji(rm.is_shangxiaji == true ? 1 : 0).SetIsWgj(rm.is_wgj == true ? 1 : 0).SetIsXinqiji(rm.is_xinqiji == true ? 1 : 0).SetIsYikousan(rm.is_yikousan == true ? 1 : 0).SetRoomPeo(rm.room_peo).SetIsLianzhuang(rm.is_lianz == true ? 1 : 0).SetIsYuanque(rm.IsYuanQue?1:0);
+                returndata.SetRoomID(mj.RoomID);
+
+                returndata.SetHyUser(hyyh);
+                returndata.SetMessage(roommsg);
+                returndata.SetUserInfo(userinfobyroom);
+                //byte[] hyczall = hyyh.Build().ToByteArray();
+                //session.TrySend(new ArraySegment<byte>(CreateHead.CreateMessage(GameInformationBase.BASEAGREEMENTNUMBER + 7004, hyczall.Length, requestInfo.MessageNum, hyczall)));
+                //byte[] roommsgb = roommsg.Build().ToByteArray();
+                //session.TrySend(new ArraySegment<byte>(CreateHead.CreateMessage(GameInformationBase.BASEAGREEMENTNUMBER + 7003, roommsgb.Length, requestInfo.MessageNum, roommsgb)));
+
+
+                //byte[] cState = ifconn.ToByteArray();
+                //session.TrySend(new ArraySegment<byte>(CreateHead.CreateMessage(GameInformationBase.BASEAGREEMENTNUMBER + 6001, cState.Length, requestInfo.MessageNum, cState)));
+
+                //byte[] uData = userinfobyroom.Build().ToByteArray();
+                //session.TrySend(new ArraySegment<byte>(CreateHead.CreateMessage(GameInformationBase.BASEAGREEMENTNUMBER + 2005, uData.Length, requestInfo.MessageNum, uData)));
+                if (Ruturnjsmj.Count > 0)
+                {
+                    var returntp = ReturnTP.CreateBuilder();
+                    var tmj = MaJiang.CreateBuilder();
+                    foreach (var mjItem in Ruturnjsmj)
+                    {
+                        tmj.SetPaiHS(mjItem.PaiHs);
+                        tmj.SetPaiID(mjItem.PaiId);
+                        returntp.AddMj(tmj);
+                    }
+                    returndata.SetTp(returntp);
+                    //byte[] tmjsr = returntp.Build().ToByteArray();
+                    //session.TrySend(new ArraySegment<byte>(CreateHead.CreateMessage(GameInformationBase.BASEAGREEMENTNUMBER + 2009, tmjsr.Length, requestInfo.MessageNum, tmjsr)));
+                }
+
+                // session.TrySend(new ArraySegment<byte>(CreateHead.CreateMessage(GameInformationBase.BASEAGREEMENTNUMBER + 5020, returnzhuang.Count, GameInformationBase.BASEAGREEMENTNUMBER + 7093, returnzhuang.ToArray())));
+                //if (mj.SendData != null)
+                //    session.TrySend(mj.SendData);
+                if (mj.SendData != null)
+                    returndata.AddRangeSendData(mj.SendData.Select(w => ByteString.CopyFrom(w.ToArray())));
+                if (rm.LastMoMJ != null)
+                    returndata.SetLastMomj(MaJiang.CreateBuilder().SetPaiHS(rm.LastMoMJ.PaiHs).SetPaiID(rm.LastMoMJ.PaiId));
+                if (rm.LastChuMJ != null)
+                    returndata.SetLastChumj(MaJiang.CreateBuilder().SetPaiHS(rm.LastChuMJ.PaiHs).SetPaiID(rm.LastChuMJ.PaiId));
+                returndata.SetGameNumber(rm.Dcount);
+                var jxRoom = Gongyong.room_JX.Find(u => u.room_id == returndata.RoomID);
+                if (jxRoom == null)
+                    returndata.SetJiXuYouXi(0);
+                else
+                    returndata.SetJiXuYouXi(jxRoom.UsersFW.Any(w => w == myFW) ? 1 : 0);
+                returndata.SetPaiCount(rm.RoomPai.Count);
+            if (!returndata.HasZhuang)
+            {
+                returndata.SetZhuang(ReturnZhuang.CreateBuilder().SetZhuang(1).SetSeizi("").SetZhuangCount(1));
+
+            }
+            byte[] rData = returndata.Build().ToByteArray();
+                session.TrySend(new ArraySegment<byte>(CreateHead.CreateMessage(GameInformationBase.BASEAGREEMENTNUMBER + 7001, rData.Length, requestInfo.MessageNum, rData)));
+            Gongyong.msg.RemoveAll(w => w.openid.Equals(userInfo.openid));
+            session.Logger.Debug("断线重连结束"+userInfo.openid);
+           
+        }
+    }
+}

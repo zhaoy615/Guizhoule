@@ -1,0 +1,90 @@
+﻿2018-01-12 16:38:47,070 [9] ERROR LISTServer - StackExchange.Redis.RedisTimeoutException: Timeout performing GET Community:UserInfo:9697486827159f30f5cab73bbab97a1b56966c2a, inst: 1, mgr: ExecuteSelect, err: never, queue: 3, qu: 0, qs: 3, qc: 0, wr: 0, wq: 0, in: 0, ar: 0, clientName: DESKTOP-AQ7QR9L, serverEndpoint: 192.168.2.12:6379, keyHashSlot: 7848, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=1,Free=2046,Min=4,Max=2047) (Please take a look at this article for some common client-side issues that can cause timeouts: http://stackexchange.github.io/StackExchange.Redis/Timeouts)
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetGroupUserInfoByGroupID.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetGroupUserInfoByGroupID.cs:行号 24
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-12 16:38:54,988 [20] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserInfo:9697486827159f30f5cab73bbab97a1b56966c2a; It was not possible to connect to the redis server(s); ConnectTimeout; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=1,Free=2046,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s); ConnectTimeout
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetGroupUserInfoByGroupID.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetGroupUserInfoByGroupID.cs:行号 24
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-12 16:38:55,846 [20] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserInfo:9697486827159f30f5cab73bbab97a1b56966c2a; It was not possible to connect to the redis server(s); ConnectTimeout; IOCP: (Busy=1,Free=999,Min=4,Max=1000), WORKER: (Busy=1,Free=2046,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s); ConnectTimeout
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetGroupUserInfoByGroupID.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetGroupUserInfoByGroupID.cs:行号 24
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-12 16:38:58,099 [20] ERROR LISTServer - StackExchange.Redis.RedisTimeoutException: Timeout performing GET Community:UserInfo:9697486827159f30f5cab73bbab97a1b56966c2a, inst: 1, mgr: ExecuteSelect, err: never, queue: 7, qu: 0, qs: 7, qc: 0, wr: 0, wq: 0, in: 0, ar: 0, clientName: DESKTOP-AQ7QR9L, serverEndpoint: 192.168.2.12:6379, keyHashSlot: 7848, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=1,Free=2046,Min=4,Max=2047) (Please take a look at this article for some common client-side issues that can cause timeouts: http://stackexchange.github.io/StackExchange.Redis/Timeouts)
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetGroupUserInfoByGroupID.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetGroupUserInfoByGroupID.cs:行号 24
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-12 16:38:59,127 [20] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserInfo:9697486827159f30f5cab73bbab97a1b56966c2a; It was not possible to connect to the redis server(s); ConnectTimeout; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=1,Free=2046,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s); ConnectTimeout
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetGroupInfoByGroupID.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetGroupInfoByGroupID.cs:行号 23
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-12 16:38:59,686 [20] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserInfo:9697486827159f30f5cab73bbab97a1b56966c2a; It was not possible to connect to the redis server(s); ConnectTimeout; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=1,Free=2046,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s); ConnectTimeout
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetGroupInfoByGroupID.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetGroupInfoByGroupID.cs:行号 23
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-12 16:39:05,254 [20] ERROR LISTServer - System.TimeoutException: The sending attempt timed out
+   在 SuperSocket.SocketBase.AppSession`2.InternalSend(ArraySegment`1 segment)
+   在 SuperSocket.SocketBase.AppSession`2.Send(ArraySegment`1 segment)
+   在 ListBLL.Logic.Heartbeat.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\Heartbeat.cs:行号 29
+2018-01-12 17:23:59,970 [27] ERROR LISTServer - StackExchange.Redis.RedisTimeoutException: Timeout performing GET Community:UserList:9697486827159f30f5cab73bbab97a1b56966c2a, inst: 1, mgr: ExecuteSelect, err: never, queue: 2, qu: 0, qs: 2, qc: 0, wr: 0, wq: 0, in: 0, ar: 0, clientName: DESKTOP-AQ7QR9L, serverEndpoint: 192.168.2.12:6379, keyHashSlot: 5266, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=1,Free=2046,Min=4,Max=2047) (Please take a look at this article for some common client-side issues that can cause timeouts: http://stackexchange.github.io/StackExchange.Redis/Timeouts)
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 22
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-12 17:24:01,077 [12] ERROR LISTServer - StackExchange.Redis.RedisConnectionException: No connection is available to service this operation: GET Community:UserInfo:9697486827159f30f5cab73bbab97a1b56966c2a; It was not possible to connect to the redis server(s); ConnectTimeout; IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=4,Free=2043,Min=4,Max=2047), Local-CPU: n/a ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s); ConnectTimeout
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetGroupInfo.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetGroupInfo.cs:行号 26
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-01-12 17:50:53,662 [9] ERROR LISTServer - StackExchange.Redis.RedisTimeoutException: Timeout performing GET Community:UserInfo:9697486827159f30f5cab73bbab97a1b56966c2a, inst: 1, mgr: ExecuteSelect, err: never, queue: 2, qu: 0, qs: 2, qc: 0, wr: 0, wq: 0, in: 0, ar: 0, clientName: DESKTOP-AQ7QR9L, serverEndpoint: 192.168.2.12:6379, keyHashSlot: 7848, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=1,Free=2046,Min=4,Max=2047) (Please take a look at this article for some common client-side issues that can cause timeouts: http://stackexchange.github.io/StackExchange.Redis/Timeouts)
+   在 StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server)
+   在 StackExchange.Redis.RedisDatabase.StringGet(RedisKey key, CommandFlags flags)
+   在 ListBLL.common.RedisUtility.Get[T](String key) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\common\RedisUtility.cs:行号 109
+   在 ListBLL.Logic.GetGroupInfoByGroupID.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\工作\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetGroupInfoByGroupID.cs:行号 23
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
