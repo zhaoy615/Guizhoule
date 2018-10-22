@@ -283,7 +283,9 @@ public class FIClogin : MonoBehaviour
         GameInfo.province = "贵州";
         GameInfo.city = "贵阳";
         Debug.Log(GameInfo.Latitude);
-        GameInfo.Latitude = "0,0";
+        //GameInfo.Latitude = "0,0";
+        GameInfo.Latitude = UnityEngine.Random.Range(1f, 100f).ToString() + " , " + UnityEngine.Random.Range(1f, 100f).ToString();
+        Debug.Log("lit : " + GameInfo.Latitude); 
 #endif
         GameInfo.Sex = 0;// UnityEngine.Random.Range(1,3);
         

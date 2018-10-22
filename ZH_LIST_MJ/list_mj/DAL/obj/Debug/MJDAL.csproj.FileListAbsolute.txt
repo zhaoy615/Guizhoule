@@ -82,3 +82,12 @@ D:\千羽瑞佳-白\ZH_LIST_MJ\list_mj\DAL\obj\Debug\MJDAL.csproj.CoreCompileInp
 D:\千羽瑞佳-白\ZH_LIST_MJ\list_mj\DAL\obj\Debug\MJDAL.csproj.CopyComplete
 D:\千羽瑞佳-白\ZH_LIST_MJ\list_mj\DAL\obj\Debug\DAL.dll
 D:\千羽瑞佳-白\ZH_LIST_MJ\list_mj\DAL\obj\Debug\DAL.pdb
+D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\DAL\bin\Debug\DAL.dll
+D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\DAL\bin\Debug\DAL.pdb
+D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\DAL\bin\Debug\Dapper.dll
+D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\DAL\bin\Debug\Dapper.xml
+D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\DAL\obj\Debug\MJDAL.csprojAssemblyReference.cache
+D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\DAL\obj\Debug\MJDAL.csproj.CoreCompileInputs.cache
+D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\DAL\obj\Debug\MJDAL.csproj.CopyComplete
+D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\DAL\obj\Debug\DAL.dll
+D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\DAL\obj\Debug\DAL.pdb

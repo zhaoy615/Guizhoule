@@ -53,12 +53,14 @@ namespace MJBLL.logic
                                     }
                                     if (userjuliInfo.Lat.Equals("0,0") || string.IsNullOrEmpty(userjuliInfo.Lat))
                                     {
+                                        Console.WriteLine("ConnectionStatusLogic : " + userInfo.session.Config.Ip + " lat 为 0");
                                         if (!closeGPS.FWList.Any(w => w == item.ZS_Fw))
                                             closeGPS.AddFW(item.ZS_Fw);
                                         // gamersend.session.Send(new ArraySegment<byte>(CreateHead.CreateMessage(GameInformationBase.BASEAGREEMENTNUMBER + 7091, dataGPS.Length, requestInfo.MessageNum, dataGPS)));
                                     }
                                     else if (userInfo.Lat.Equals("0,0") || string.IsNullOrEmpty(userInfo.Lat))
                                     {
+                                        Console.WriteLine("ConnectionStatusLogic : " + userInfo.session.Config.Ip + " lat 为 0");
                                         if (!closeGPS.FWList.Any(w => w == mjUser.ZS_Fw))
                                             closeGPS.AddFW(mjUser.ZS_Fw);
                                     }

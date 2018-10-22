@@ -2,6 +2,7 @@
 using MJBLL.model;
 using SuperSocket.SocketBase.Command;
 using System;
+using System.Linq;
 
 namespace MJBLL.mjrule
 {
@@ -22,12 +23,12 @@ namespace MJBLL.mjrule
         public void ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo)
         {
 
-            //if (!Gongyong.userlist.Any(w => w.session.SessionID.Equals(session.SessionID)))
-            //{
-            //    session.Logger.Debug("AddRoomOne : 非法连接");
-            //    session.Close();
-            //    return;
-            //}
+            if (!Gongyong.userlist.Any(w => w.session.SessionID.Equals(session.SessionID)))
+            {
+                session.Logger.Debug("AddRoomOne : 非法连接");
+                session.Close();
+                return;
+            }
             var getdata = SendAddRoomOne.ParseFrom(requestInfo.Body);
             var senddata = ReturnRoomAdd.CreateBuilder();
             UserInfo user = Gongyong.userlist.Find(u => u.openid == getdata.Openid);

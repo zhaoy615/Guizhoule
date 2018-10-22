@@ -114,6 +114,8 @@ namespace MJBLL.mjrule
                         UserInfo gamersend = Gongyong.userlist.Find(u => u.openid == items.Openid);
                         if (gamersend.Lat.Equals("0,0") || string.IsNullOrEmpty(gamersend.Lat))
                         {
+                            Console.WriteLine("AddRoom : " + gamersend.session.Config.Ip + " lat 为 0");
+                            //Console.WriteLine(" : " + mjuser.)
                             closeGPS.AddFW(items.ZS_Fw);
                             //gamersend.session.Send(new ArraySegment<byte>(CreateHead.CreateMessage(GameInformationBase.BASEAGREEMENTNUMBER + 7091, dataGPS.Length, requestInfo.MessageNum, dataGPS)));
                         }
@@ -121,6 +123,7 @@ namespace MJBLL.mjrule
                         {
                             if (items.Openid.Equals(gameuser.openid))
                             {
+                                Console.WriteLine("AddRoom : " + gamersend.session.Config.Ip + " lat 为 0");
                                 if (!closeGPS.FWList.Any(w => w == items.ZS_Fw))
                                     closeGPS.AddFW(items.ZS_Fw);
                             }
