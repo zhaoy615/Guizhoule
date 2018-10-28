@@ -1,0 +1,920 @@
+﻿2018-10-22 10:23:18,764 [11] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:23:21,753 [11] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:23:26,906 [8] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:28:44,218 [8] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:28:47,467 [8] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:28:52,640 [12] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:28:54,599 [8] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:28:56,584 [12] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:34:09,635 [12] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:34:13,107 [8] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:34:18,330 [12] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:34:20,329 [8] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:34:22,333 [8] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:35:04,379 [11] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:35:07,856 [11] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:35:11,339 [12] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:35:12,993 [11] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:35:13,438 [21] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:35:14,977 [21] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:35:16,977 [21] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:35:18,977 [8] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:35:20,963 [11] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:35:22,974 [8] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:35:24,972 [12] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:35:26,958 [8] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:35:28,948 [12] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:36:19,643 [12] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:36:26,080 [26] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:36:59,093 [8] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:37:37,205 [12] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:37:38,542 [8] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:37:40,233 [8] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:37:41,728 [12] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:37:45,292 [29] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:37:46,865 [29] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:37:48,863 [29] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:37:50,871 [8] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:37:52,859 [8] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:37:54,863 [12] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:37:56,852 [12] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:37:58,849 [11] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:38:00,868 [11] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:38:02,861 [12] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:38:04,857 [11] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:38:06,852 [8] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:38:08,851 [8] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:38:10,872 [11] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:38:12,863 [8] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:38:14,884 [12] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:38:16,854 [8] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:38:17,091 [29] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:38:18,853 [8] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:38:19,279 [29] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:38:20,850 [29] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:38:22,868 [29] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:38:24,861 [11] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:38:26,853 [8] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 10:38:28,858 [11] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 11:05:55,137 [8] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 11:05:57,503 [8] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 11:07:40,262 [12] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 11:07:43,722 [11] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 11:07:48,849 [12] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 11:07:50,891 [12] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 11:07:52,854 [11] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 11:07:54,878 [12] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 12:56:33,741 [9] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 12:56:33,755 [8] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 12:56:37,839 [8] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 12:56:37,962 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 12:56:43,274 [7] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 12:56:45,181 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 12:56:47,151 [8] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:35:56,195 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:35:58,374 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:36:03,465 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:36:05,444 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:36:07,444 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:36:09,445 [14] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:36:11,450 [14] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:36:39,374 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:36:42,482 [14] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:36:47,609 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:36:49,634 [14] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:40:46,305 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:40:48,307 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:40:48,361 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:40:50,312 [14] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:40:50,410 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:40:52,304 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:40:52,388 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:40:54,312 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:40:54,393 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:40:56,308 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:40:56,363 [14] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:40:58,308 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:40:58,454 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:41:00,304 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:41:00,358 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:41:02,307 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:41:02,416 [14] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:41:04,306 [14] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:41:04,367 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:41:06,311 [14] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:41:06,453 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:41:08,302 [14] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:41:08,362 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:41:10,360 [14] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:41:12,368 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:44:32,073 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:44:33,739 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:44:34,245 [14] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:44:36,857 [14] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:44:39,273 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:44:41,291 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:44:41,986 [14] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:44:43,279 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:44:44,008 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:44:45,280 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:44:46,003 [20] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:44:47,314 [20] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:44:47,953 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:44:49,283 [14] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:44:49,970 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:44:52,007 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:44:54,036 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:44:55,984 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:45:25,046 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:45:27,125 [14] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:51:13,350 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:51:15,356 [14] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:51:15,624 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:51:17,349 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:51:17,639 [14] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:51:19,618 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:51:21,634 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:51:23,626 [14] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:51:25,632 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:51:27,622 [14] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:51:29,628 [14] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:51:31,614 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:51:33,610 [14] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:51:35,609 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:51:37,629 [14] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:51:39,634 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:51:41,627 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:51:43,620 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:51:45,638 [14] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:51:47,627 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:51:49,624 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:51:51,633 [14] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:51:53,615 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:51:55,618 [14] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:51:57,624 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:51:59,648 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:52:01,643 [14] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:52:03,763 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:52:05,628 [14] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:52:07,608 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:52:09,632 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:52:11,711 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:52:13,626 [14] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:52:15,631 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:52:17,614 [14] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:52:19,628 [14] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:52:21,632 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:52:23,623 [14] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:52:25,616 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:52:27,755 [14] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:52:29,731 [14] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:55:12,830 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:55:14,985 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:55:18,140 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:55:20,079 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:55:21,469 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:55:22,040 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:55:24,019 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:55:26,445 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:55:28,470 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:55:30,466 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:55:32,426 [18] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:58:36,327 [15] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:58:37,969 [14] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-10-22 13:58:39,993 [14] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24

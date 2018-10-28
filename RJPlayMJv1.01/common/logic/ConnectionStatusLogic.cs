@@ -66,11 +66,14 @@ namespace MJBLL.logic
                                     }
                                     else
                                     {
-                                        double jl = Erth.GetDistance(userjuliInfo.Lat, userInfo.Lat);
+                                        //double jl = Erth.GetDistance(userjuliInfo.Lat, userInfo.Lat);
+                                        double jl = 1; //  测试修改
 
                                         returnDis.SetFWT(item.ZS_Fw).SetDis(jl.ToString());//将距离封装
-                                        if (jl <= GameInformationBase.DISTANCE)
+                                        //if (jl <= GameInformationBase.DISTANCE)
+                                        if (jl <= 0.001f)  //测试修改
                                         {
+                                            Console.WriteLine("距离为 ： " + jl + userjuliInfo.nickname + ":" + userjuliInfo.Lat + " , " + userInfo.nickname + " : " + userInfo.Lat);
                                             var datauser = ReturnIsJ.CreateBuilder().SetFWO(mjUser.ZS_Fw).SetFWW(item.ZS_Fw).Build().ToByteArray();
                                             foreach (var mjuser in mjUsers)
                                             {

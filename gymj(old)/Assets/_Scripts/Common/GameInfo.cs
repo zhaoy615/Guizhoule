@@ -99,7 +99,7 @@ public static class GameInfo
     public static long GroupID = 0;  //朋友圈ID
     //public static string listIp = "192.168.2.54";   //登录后的列表服务器IP
     //public static string listIp = "192.168.2.222";   //登录后的列表服务器IP
-    public static string listIp = "192.168.1.104";   //内网
+    public static string listIp = "192.168.1.103";   //内网
     //public static string listIp = "47.106.16.58";//线上服务器
     public static string listPort = "2018";//登录后的列表服务器Port
     public static int status = 0;//状态 1为正常跳转， 2为有未结束的游戏，需要重新连接
@@ -110,7 +110,7 @@ public static class GameInfo
     public static string jieSanOpenid = null;
     public static int gameVoice= 1; ///快捷语音传出的方位
     public static bool isPYQExploits = false;
-
+    
 
 //-----------------------------静态字典变量-----------------------------------------------------------------------------------------------------------------
     public static Dictionary<int, Userinfo> MJplayers = new Dictionary<int, Userinfo>();

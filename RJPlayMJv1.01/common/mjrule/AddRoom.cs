@@ -114,7 +114,7 @@ namespace MJBLL.mjrule
                         UserInfo gamersend = Gongyong.userlist.Find(u => u.openid == items.Openid);
                         if (gamersend.Lat.Equals("0,0") || string.IsNullOrEmpty(gamersend.Lat))
                         {
-                            Console.WriteLine("AddRoom : " + gamersend.session.Config.Ip + " lat 为 0");
+                            //Console.WriteLine("AddRoom : " + gamersend.session.Config.Ip + " lat 为 0");
                             //Console.WriteLine(" : " + mjuser.)
                             closeGPS.AddFW(items.ZS_Fw);
                             //gamersend.session.Send(new ArraySegment<byte>(CreateHead.CreateMessage(GameInformationBase.BASEAGREEMENTNUMBER + 7091, dataGPS.Length, requestInfo.MessageNum, dataGPS)));
@@ -123,7 +123,7 @@ namespace MJBLL.mjrule
                         {
                             if (items.Openid.Equals(gameuser.openid))
                             {
-                                Console.WriteLine("AddRoom : " + gamersend.session.Config.Ip + " lat 为 0");
+                                //Console.WriteLine("AddRoom : " + gamersend.session.Config.Ip + " lat 为 0");
                                 if (!closeGPS.FWList.Any(w => w == items.ZS_Fw))
                                     closeGPS.AddFW(items.ZS_Fw);
                             }
@@ -133,11 +133,14 @@ namespace MJBLL.mjrule
                             var userdis = ReturnDis.CreateBuilder();
 
 
-                            double jl = Erth.GetDistance(gamersend.Lat, gameuser.Lat);
+                            //double jl = Erth.GetDistance(gamersend.Lat, gameuser.Lat);
+                            double jl = 1;  //  测试修改
                             if (shuzhu[0] != items.ZS_Fw)
                             {
-                                if (jl < GameInformationBase.DISTANCE)
+                                //if (jl < GameInformationBase.DISTANCE)
+                                if (jl < 0.001f) //任光粤测试修改
                                 {
+                                    Console.WriteLine("距离为 ： " + jl + gamersend.nickname+":" + gamersend.Lat + " , " + gameuser.nickname + " : " + gameuser.Lat);
                                     rm.Is_Jin = true;
 
                                     rm.Juser1 = shuzhu[0];

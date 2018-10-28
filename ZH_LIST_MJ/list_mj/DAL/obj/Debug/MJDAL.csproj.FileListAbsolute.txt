@@ -91,3 +91,12 @@ D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\DAL\obj\Debug\MJDAL.csproj.Core
 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\DAL\obj\Debug\MJDAL.csproj.CopyComplete
 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\DAL\obj\Debug\DAL.dll
 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\DAL\obj\Debug\DAL.pdb
+G:\UnityWorkSpace\Guizhoule\ZH_LIST_MJ\list_mj\DAL\bin\Debug\DAL.dll
+G:\UnityWorkSpace\Guizhoule\ZH_LIST_MJ\list_mj\DAL\bin\Debug\DAL.pdb
+G:\UnityWorkSpace\Guizhoule\ZH_LIST_MJ\list_mj\DAL\bin\Debug\Dapper.dll
+G:\UnityWorkSpace\Guizhoule\ZH_LIST_MJ\list_mj\DAL\bin\Debug\Dapper.xml
+G:\UnityWorkSpace\Guizhoule\ZH_LIST_MJ\list_mj\DAL\obj\Debug\MJDAL.csprojAssemblyReference.cache
+G:\UnityWorkSpace\Guizhoule\ZH_LIST_MJ\list_mj\DAL\obj\Debug\MJDAL.csproj.CoreCompileInputs.cache
+G:\UnityWorkSpace\Guizhoule\ZH_LIST_MJ\list_mj\DAL\obj\Debug\MJDAL.csproj.CopyComplete
+G:\UnityWorkSpace\Guizhoule\ZH_LIST_MJ\list_mj\DAL\obj\Debug\DAL.dll
+G:\UnityWorkSpace\Guizhoule\ZH_LIST_MJ\list_mj\DAL\obj\Debug\DAL.pdb

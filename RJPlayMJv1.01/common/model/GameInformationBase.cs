@@ -21,7 +21,7 @@ namespace MJBLL.model
         /// <summary>
         /// 距离检查的距离
         /// </summary>
-        public const int DISTANCE =3;
+        public const int DISTANCE =1;
         /// <summary>
         /// 系统托管的时间 毫秒
         /// </summary>

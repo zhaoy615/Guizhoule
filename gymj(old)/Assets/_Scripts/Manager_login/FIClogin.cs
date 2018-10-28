@@ -279,14 +279,14 @@ public class FIClogin : MonoBehaviour
     //一个暂时的测试方法
     private void GetTestUserInfo()
     {
-#if UNITY_EDITOR
+//#if UNITY_EDITOR
         GameInfo.province = "贵州";
         GameInfo.city = "贵阳";
         Debug.Log(GameInfo.Latitude);
         //GameInfo.Latitude = "0,0";
         GameInfo.Latitude = UnityEngine.Random.Range(1f, 100f).ToString() + " , " + UnityEngine.Random.Range(1f, 100f).ToString();
         Debug.Log("lit : " + GameInfo.Latitude); 
-#endif
+//#endif
         GameInfo.Sex = 0;// UnityEngine.Random.Range(1,3);
         
         //？

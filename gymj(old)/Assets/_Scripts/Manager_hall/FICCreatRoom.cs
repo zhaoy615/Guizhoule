@@ -203,6 +203,7 @@ public class FICCreatRoom : MonoBehaviour
         }
         if (GameInfo.returnCreatRoom != null && GameInfo.returnRoomMsg != null)
         {
+            Debug.Log("加载场景");
             GameObject.Find("Main Camera").GetComponent<Manager_Hall>().isClosed = true;
             GameInfo.room_id = GameInfo.returnCreatRoom.roomID;
 
