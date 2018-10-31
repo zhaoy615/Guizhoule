@@ -32,7 +32,7 @@ public class ReadConfig : MonoBehaviour
         OutLog.Log("当前列表服务器IP:" + ip.InnerText);
 
         //GameInfo.listIp = ip.InnerText;
-        GameInfo.listIp = "192.168.1.103";
+        GameInfo.listIp = "192.168.1.100";
 
         //XmlNode port = xml.SelectSingleNode("data/SeverPort");
         XmlNode port = xml.SelectSingleNode("data/SeverPort");

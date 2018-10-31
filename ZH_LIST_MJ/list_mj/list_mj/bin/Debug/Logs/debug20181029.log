@@ -1,0 +1,322 @@
+﻿2018-10-28 21:41:12,458 [1] DEBUG DefaultBootstrap - The server instance LISTServer has been created!
+2018-10-28 21:41:12,734 [1] DEBUG LISTServer - The command 11105(ListBLL.Logic.AgentGetGroupInfo) has been discovered
+2018-10-28 21:41:12,734 [1] DEBUG LISTServer - The command 11107(ListBLL.Logic.AgentGroupUsersManager) has been discovered
+2018-10-28 21:41:12,734 [1] DEBUG LISTServer - The command 11110(ListBLL.Logic.AgentSignIn) has been discovered
+2018-10-28 21:41:12,735 [1] DEBUG LISTServer - The command 11060(ListBLL.Logic.ApplyRecord) has been discovered
+2018-10-28 21:41:12,735 [1] DEBUG LISTServer - The command 11040(ListBLL.Logic.ApplyToJoin) has been discovered
+2018-10-28 21:41:12,735 [1] DEBUG LISTServer - The command 11070(ListBLL.Logic.ChangeApplyStatus) has been discovered
+2018-10-28 21:41:12,736 [1] DEBUG LISTServer - The command 11103(ListBLL.Logic.CreateGroup) has been discovered
+2018-10-28 21:41:12,736 [1] DEBUG LISTServer - The command 11109(ListBLL.Logic.DeleteGroup) has been discovered
+2018-10-28 21:41:12,736 [1] DEBUG LISTServer - The command 19005(ListBLL.Logic.Feedback) has been discovered
+2018-10-28 21:41:12,737 [1] DEBUG LISTServer - The command 11020(ListBLL.Logic.GameOperation) has been discovered
+2018-10-28 21:41:12,737 [1] DEBUG LISTServer - The command 11030(ListBLL.Logic.GetGroupInfo) has been discovered
+2018-10-28 21:41:12,737 [1] DEBUG LISTServer - The command 11032(ListBLL.Logic.GetGroupInfoByGroupID) has been discovered
+2018-10-28 21:41:12,737 [1] DEBUG LISTServer - The command 11034(ListBLL.Logic.GetGroupUserInfoByGroupID) has been discovered
+2018-10-28 21:41:12,737 [1] DEBUG LISTServer - The command 11022(ListBLL.Logic.GetRoomCard) has been discovered
+2018-10-28 21:41:12,737 [1] DEBUG LISTServer - The command 11050(ListBLL.Logic.GroupUsersManager) has been discovered
+2018-10-28 21:41:12,738 [1] DEBUG LISTServer - The command 10001(ListBLL.Logic.Heartbeat) has been discovered
+2018-10-28 21:41:12,738 [1] DEBUG LISTServer - The command 11080(ListBLL.Logic.LobbyInfo) has been discovered
+2018-10-28 21:41:12,738 [1] DEBUG LISTServer - The command 11001(ListBLL.Logic.Login) has been discovered
+2018-10-28 21:41:12,738 [1] DEBUG LISTServer - The command 11003(ListBLL.Logic.LoginPW) has been discovered
+2018-10-28 21:41:12,738 [1] DEBUG LISTServer - The command 11101(ListBLL.Logic.Package) has been discovered
+2018-10-28 21:41:12,739 [1] DEBUG LISTServer - The command 11090(ListBLL.Logic.QuitGroup) has been discovered
+2018-10-28 21:41:12,739 [1] DEBUG LISTServer - The command 11108(ListBLL.Logic.SearchPlayer) has been discovered
+2018-10-28 21:41:12,739 [1] DEBUG LISTServer - The command 19003(ListBLL.Logic.UserGamePlaybackLogic) has been discovered
+2018-10-28 21:41:12,739 [1] DEBUG LISTServer - The command 19001(ListBLL.Logic.UserRecordLogic) has been discovered
+2018-10-28 21:41:12,766 [1] DEBUG DefaultBootstrap - The server instance LISTServer has been initialized!
+2018-10-28 21:41:13,332 [1] DEBUG DefaultBootstrap - The PerformanceMonitor has been initialized!
+2018-10-28 21:41:13,332 [1] DEBUG DefaultBootstrap - The Bootstrap has been initialized!
+2018-10-28 21:41:13,367 [1] DEBUG LISTServer - Listener (0.0.0.0:2018) was started
+2018-10-28 21:41:13,375 [1] DEBUG DefaultBootstrap - The PerformanceMonitor has been started!
+2018-10-28 21:53:54,061 [1] DEBUG DefaultBootstrap - The server instance LISTServer has been created!
+2018-10-28 21:53:54,251 [1] DEBUG LISTServer - The command 11105(ListBLL.Logic.AgentGetGroupInfo) has been discovered
+2018-10-28 21:53:54,251 [1] DEBUG LISTServer - The command 11107(ListBLL.Logic.AgentGroupUsersManager) has been discovered
+2018-10-28 21:53:54,252 [1] DEBUG LISTServer - The command 11110(ListBLL.Logic.AgentSignIn) has been discovered
+2018-10-28 21:53:54,252 [1] DEBUG LISTServer - The command 11060(ListBLL.Logic.ApplyRecord) has been discovered
+2018-10-28 21:53:54,252 [1] DEBUG LISTServer - The command 11040(ListBLL.Logic.ApplyToJoin) has been discovered
+2018-10-28 21:53:54,252 [1] DEBUG LISTServer - The command 11070(ListBLL.Logic.ChangeApplyStatus) has been discovered
+2018-10-28 21:53:54,253 [1] DEBUG LISTServer - The command 11103(ListBLL.Logic.CreateGroup) has been discovered
+2018-10-28 21:53:54,253 [1] DEBUG LISTServer - The command 11109(ListBLL.Logic.DeleteGroup) has been discovered
+2018-10-28 21:53:54,253 [1] DEBUG LISTServer - The command 19005(ListBLL.Logic.Feedback) has been discovered
+2018-10-28 21:53:54,254 [1] DEBUG LISTServer - The command 11020(ListBLL.Logic.GameOperation) has been discovered
+2018-10-28 21:53:54,254 [1] DEBUG LISTServer - The command 11030(ListBLL.Logic.GetGroupInfo) has been discovered
+2018-10-28 21:53:54,254 [1] DEBUG LISTServer - The command 11032(ListBLL.Logic.GetGroupInfoByGroupID) has been discovered
+2018-10-28 21:53:54,254 [1] DEBUG LISTServer - The command 11034(ListBLL.Logic.GetGroupUserInfoByGroupID) has been discovered
+2018-10-28 21:53:54,255 [1] DEBUG LISTServer - The command 11022(ListBLL.Logic.GetRoomCard) has been discovered
+2018-10-28 21:53:54,255 [1] DEBUG LISTServer - The command 11050(ListBLL.Logic.GroupUsersManager) has been discovered
+2018-10-28 21:53:54,255 [1] DEBUG LISTServer - The command 10001(ListBLL.Logic.Heartbeat) has been discovered
+2018-10-28 21:53:54,256 [1] DEBUG LISTServer - The command 11080(ListBLL.Logic.LobbyInfo) has been discovered
+2018-10-28 21:53:54,256 [1] DEBUG LISTServer - The command 11001(ListBLL.Logic.Login) has been discovered
+2018-10-28 21:53:54,256 [1] DEBUG LISTServer - The command 11003(ListBLL.Logic.LoginPW) has been discovered
+2018-10-28 21:53:54,256 [1] DEBUG LISTServer - The command 11101(ListBLL.Logic.Package) has been discovered
+2018-10-28 21:53:54,257 [1] DEBUG LISTServer - The command 11090(ListBLL.Logic.QuitGroup) has been discovered
+2018-10-28 21:53:54,257 [1] DEBUG LISTServer - The command 11108(ListBLL.Logic.SearchPlayer) has been discovered
+2018-10-28 21:53:54,257 [1] DEBUG LISTServer - The command 19003(ListBLL.Logic.UserGamePlaybackLogic) has been discovered
+2018-10-28 21:53:54,257 [1] DEBUG LISTServer - The command 19001(ListBLL.Logic.UserRecordLogic) has been discovered
+2018-10-28 21:53:54,278 [1] DEBUG DefaultBootstrap - The server instance LISTServer has been initialized!
+2018-10-28 21:53:54,813 [1] DEBUG DefaultBootstrap - The PerformanceMonitor has been initialized!
+2018-10-28 21:53:54,813 [1] DEBUG DefaultBootstrap - The Bootstrap has been initialized!
+2018-10-28 21:53:54,848 [1] DEBUG LISTServer - Listener (0.0.0.0:2018) was started
+2018-10-28 21:53:54,868 [1] DEBUG DefaultBootstrap - The PerformanceMonitor has been started!
+2018-10-28 22:12:55,109 [1] DEBUG DefaultBootstrap - The server instance LISTServer has been created!
+2018-10-28 22:12:55,392 [1] DEBUG LISTServer - The command 11105(ListBLL.Logic.AgentGetGroupInfo) has been discovered
+2018-10-28 22:12:55,392 [1] DEBUG LISTServer - The command 11107(ListBLL.Logic.AgentGroupUsersManager) has been discovered
+2018-10-28 22:12:55,392 [1] DEBUG LISTServer - The command 11110(ListBLL.Logic.AgentSignIn) has been discovered
+2018-10-28 22:12:55,392 [1] DEBUG LISTServer - The command 11060(ListBLL.Logic.ApplyRecord) has been discovered
+2018-10-28 22:12:55,393 [1] DEBUG LISTServer - The command 11040(ListBLL.Logic.ApplyToJoin) has been discovered
+2018-10-28 22:12:55,393 [1] DEBUG LISTServer - The command 11070(ListBLL.Logic.ChangeApplyStatus) has been discovered
+2018-10-28 22:12:55,393 [1] DEBUG LISTServer - The command 11103(ListBLL.Logic.CreateGroup) has been discovered
+2018-10-28 22:12:55,393 [1] DEBUG LISTServer - The command 11109(ListBLL.Logic.DeleteGroup) has been discovered
+2018-10-28 22:12:55,393 [1] DEBUG LISTServer - The command 19005(ListBLL.Logic.Feedback) has been discovered
+2018-10-28 22:12:55,393 [1] DEBUG LISTServer - The command 11020(ListBLL.Logic.GameOperation) has been discovered
+2018-10-28 22:12:55,394 [1] DEBUG LISTServer - The command 11030(ListBLL.Logic.GetGroupInfo) has been discovered
+2018-10-28 22:12:55,394 [1] DEBUG LISTServer - The command 11032(ListBLL.Logic.GetGroupInfoByGroupID) has been discovered
+2018-10-28 22:12:55,394 [1] DEBUG LISTServer - The command 11034(ListBLL.Logic.GetGroupUserInfoByGroupID) has been discovered
+2018-10-28 22:12:55,394 [1] DEBUG LISTServer - The command 11022(ListBLL.Logic.GetRoomCard) has been discovered
+2018-10-28 22:12:55,394 [1] DEBUG LISTServer - The command 11050(ListBLL.Logic.GroupUsersManager) has been discovered
+2018-10-28 22:12:55,394 [1] DEBUG LISTServer - The command 10001(ListBLL.Logic.Heartbeat) has been discovered
+2018-10-28 22:12:55,394 [1] DEBUG LISTServer - The command 11080(ListBLL.Logic.LobbyInfo) has been discovered
+2018-10-28 22:12:55,395 [1] DEBUG LISTServer - The command 11001(ListBLL.Logic.Login) has been discovered
+2018-10-28 22:12:55,395 [1] DEBUG LISTServer - The command 11003(ListBLL.Logic.LoginPW) has been discovered
+2018-10-28 22:12:55,395 [1] DEBUG LISTServer - The command 11101(ListBLL.Logic.Package) has been discovered
+2018-10-28 22:12:55,395 [1] DEBUG LISTServer - The command 11090(ListBLL.Logic.QuitGroup) has been discovered
+2018-10-28 22:12:55,395 [1] DEBUG LISTServer - The command 11108(ListBLL.Logic.SearchPlayer) has been discovered
+2018-10-28 22:12:55,395 [1] DEBUG LISTServer - The command 19003(ListBLL.Logic.UserGamePlaybackLogic) has been discovered
+2018-10-28 22:12:55,395 [1] DEBUG LISTServer - The command 19001(ListBLL.Logic.UserRecordLogic) has been discovered
+2018-10-28 22:12:55,416 [1] DEBUG DefaultBootstrap - The server instance LISTServer has been initialized!
+2018-10-28 22:12:55,741 [1] DEBUG DefaultBootstrap - The PerformanceMonitor has been initialized!
+2018-10-28 22:12:55,741 [1] DEBUG DefaultBootstrap - The Bootstrap has been initialized!
+2018-10-28 22:12:55,770 [1] DEBUG LISTServer - Listener (0.0.0.0:2018) was started
+2018-10-28 22:12:55,776 [1] DEBUG DefaultBootstrap - The PerformanceMonitor has been started!
+2018-10-28 22:15:56,646 [12] DEBUG LISTServer - 登陆sssionID--------62af79d3-1e70-4e32-9997-a5555ce5f7ec
+2018-10-28 22:15:56,646 [12] DEBUG LISTServer - 登录游戏----------2018/10/28 星期日 22:15:56
+2018-10-28 22:15:57,827 [12] DEBUG LISTServer - 登录用户openid:2e4f57ae10a8f7e8bc894a424691d571798551fc|昵称:测试用户2e4----------2018/10/28 星期日 22:15:57
+2018-10-28 22:15:59,527 [12] DEBUG LISTServer - 登录游戏成功----------2018/10/28 星期日 22:15:59
+2018-10-28 22:21:16,533 [7] DEBUG LISTServer - 登陆sssionID--------4f24e160-7e61-4142-9f18-032aa7bf2939
+2018-10-28 22:21:16,533 [7] DEBUG LISTServer - 登录游戏----------2018/10/28 星期日 22:21:16
+2018-10-28 22:21:16,539 [7] DEBUG LISTServer - 登录用户openid:7ca8632e9664781b80bbc606018427d8|昵称:测试用户7ca----------2018/10/28 星期日 22:21:16
+2018-10-28 22:21:17,564 [7] DEBUG LISTServer - 登录游戏成功----------2018/10/28 星期日 22:21:17
+2018-10-28 22:21:24,699 [12] DEBUG LISTServer - 登陆sssionID--------3ccdbaea-7d62-4969-9bfc-4855983ecf24
+2018-10-28 22:21:24,699 [12] DEBUG LISTServer - 登录游戏----------2018/10/28 星期日 22:21:24
+2018-10-28 22:21:24,703 [12] DEBUG LISTServer - 登录用户openid:2e4f57ae10a8f7e8bc894a424691d571798551fc|昵称:测试用户2e4----------2018/10/28 星期日 22:21:24
+2018-10-28 22:21:25,723 [12] DEBUG LISTServer - 登录游戏成功----------2018/10/28 星期日 22:21:25
+2018-10-28 22:24:15,698 [1] DEBUG DefaultBootstrap - The server instance LISTServer has been created!
+2018-10-28 22:24:15,872 [1] DEBUG LISTServer - The command 11105(ListBLL.Logic.AgentGetGroupInfo) has been discovered
+2018-10-28 22:24:15,872 [1] DEBUG LISTServer - The command 11107(ListBLL.Logic.AgentGroupUsersManager) has been discovered
+2018-10-28 22:24:15,872 [1] DEBUG LISTServer - The command 11110(ListBLL.Logic.AgentSignIn) has been discovered
+2018-10-28 22:24:15,872 [1] DEBUG LISTServer - The command 11060(ListBLL.Logic.ApplyRecord) has been discovered
+2018-10-28 22:24:15,872 [1] DEBUG LISTServer - The command 11040(ListBLL.Logic.ApplyToJoin) has been discovered
+2018-10-28 22:24:15,873 [1] DEBUG LISTServer - The command 11070(ListBLL.Logic.ChangeApplyStatus) has been discovered
+2018-10-28 22:24:15,873 [1] DEBUG LISTServer - The command 11103(ListBLL.Logic.CreateGroup) has been discovered
+2018-10-28 22:24:15,873 [1] DEBUG LISTServer - The command 11109(ListBLL.Logic.DeleteGroup) has been discovered
+2018-10-28 22:24:15,873 [1] DEBUG LISTServer - The command 19005(ListBLL.Logic.Feedback) has been discovered
+2018-10-28 22:24:15,873 [1] DEBUG LISTServer - The command 11020(ListBLL.Logic.GameOperation) has been discovered
+2018-10-28 22:24:15,873 [1] DEBUG LISTServer - The command 11030(ListBLL.Logic.GetGroupInfo) has been discovered
+2018-10-28 22:24:15,873 [1] DEBUG LISTServer - The command 11032(ListBLL.Logic.GetGroupInfoByGroupID) has been discovered
+2018-10-28 22:24:15,874 [1] DEBUG LISTServer - The command 11034(ListBLL.Logic.GetGroupUserInfoByGroupID) has been discovered
+2018-10-28 22:24:15,874 [1] DEBUG LISTServer - The command 11022(ListBLL.Logic.GetRoomCard) has been discovered
+2018-10-28 22:24:15,874 [1] DEBUG LISTServer - The command 11050(ListBLL.Logic.GroupUsersManager) has been discovered
+2018-10-28 22:24:15,874 [1] DEBUG LISTServer - The command 10001(ListBLL.Logic.Heartbeat) has been discovered
+2018-10-28 22:24:15,874 [1] DEBUG LISTServer - The command 11080(ListBLL.Logic.LobbyInfo) has been discovered
+2018-10-28 22:24:15,874 [1] DEBUG LISTServer - The command 11001(ListBLL.Logic.Login) has been discovered
+2018-10-28 22:24:15,874 [1] DEBUG LISTServer - The command 11003(ListBLL.Logic.LoginPW) has been discovered
+2018-10-28 22:24:15,874 [1] DEBUG LISTServer - The command 11101(ListBLL.Logic.Package) has been discovered
+2018-10-28 22:24:15,874 [1] DEBUG LISTServer - The command 11090(ListBLL.Logic.QuitGroup) has been discovered
+2018-10-28 22:24:15,875 [1] DEBUG LISTServer - The command 11108(ListBLL.Logic.SearchPlayer) has been discovered
+2018-10-28 22:24:15,875 [1] DEBUG LISTServer - The command 19003(ListBLL.Logic.UserGamePlaybackLogic) has been discovered
+2018-10-28 22:24:15,875 [1] DEBUG LISTServer - The command 19001(ListBLL.Logic.UserRecordLogic) has been discovered
+2018-10-28 22:24:15,893 [1] DEBUG DefaultBootstrap - The server instance LISTServer has been initialized!
+2018-10-28 22:24:16,304 [1] DEBUG DefaultBootstrap - The PerformanceMonitor has been initialized!
+2018-10-28 22:24:16,304 [1] DEBUG DefaultBootstrap - The Bootstrap has been initialized!
+2018-10-28 22:24:16,337 [1] DEBUG LISTServer - Listener (0.0.0.0:2018) was started
+2018-10-28 22:24:16,343 [1] DEBUG DefaultBootstrap - The PerformanceMonitor has been started!
+2018-10-28 22:25:37,966 [8] DEBUG LISTServer - 登陆sssionID--------87c27d8d-3efd-4c73-922e-4f0c7fe88be4
+2018-10-28 22:25:37,966 [8] DEBUG LISTServer - 登录游戏----------2018/10/28 星期日 22:25:37
+2018-10-28 22:25:38,704 [8] DEBUG LISTServer - 登录用户openid:2e4f57ae10a8f7e8bc894a424691d571798551fc|昵称:测试用户2e4----------2018/10/28 星期日 22:25:38
+2018-10-28 22:25:40,321 [8] DEBUG LISTServer - 登录游戏成功----------2018/10/28 星期日 22:25:40
+2018-10-28 22:28:01,141 [1] DEBUG DefaultBootstrap - The server instance LISTServer has been created!
+2018-10-28 22:28:01,312 [1] DEBUG LISTServer - The command 11105(ListBLL.Logic.AgentGetGroupInfo) has been discovered
+2018-10-28 22:28:01,313 [1] DEBUG LISTServer - The command 11107(ListBLL.Logic.AgentGroupUsersManager) has been discovered
+2018-10-28 22:28:01,313 [1] DEBUG LISTServer - The command 11110(ListBLL.Logic.AgentSignIn) has been discovered
+2018-10-28 22:28:01,313 [1] DEBUG LISTServer - The command 11060(ListBLL.Logic.ApplyRecord) has been discovered
+2018-10-28 22:28:01,313 [1] DEBUG LISTServer - The command 11040(ListBLL.Logic.ApplyToJoin) has been discovered
+2018-10-28 22:28:01,313 [1] DEBUG LISTServer - The command 11070(ListBLL.Logic.ChangeApplyStatus) has been discovered
+2018-10-28 22:28:01,313 [1] DEBUG LISTServer - The command 11103(ListBLL.Logic.CreateGroup) has been discovered
+2018-10-28 22:28:01,314 [1] DEBUG LISTServer - The command 11109(ListBLL.Logic.DeleteGroup) has been discovered
+2018-10-28 22:28:01,314 [1] DEBUG LISTServer - The command 19005(ListBLL.Logic.Feedback) has been discovered
+2018-10-28 22:28:01,314 [1] DEBUG LISTServer - The command 11020(ListBLL.Logic.GameOperation) has been discovered
+2018-10-28 22:28:01,315 [1] DEBUG LISTServer - The command 11030(ListBLL.Logic.GetGroupInfo) has been discovered
+2018-10-28 22:28:01,315 [1] DEBUG LISTServer - The command 11032(ListBLL.Logic.GetGroupInfoByGroupID) has been discovered
+2018-10-28 22:28:01,315 [1] DEBUG LISTServer - The command 11034(ListBLL.Logic.GetGroupUserInfoByGroupID) has been discovered
+2018-10-28 22:28:01,315 [1] DEBUG LISTServer - The command 11022(ListBLL.Logic.GetRoomCard) has been discovered
+2018-10-28 22:28:01,316 [1] DEBUG LISTServer - The command 11050(ListBLL.Logic.GroupUsersManager) has been discovered
+2018-10-28 22:28:01,316 [1] DEBUG LISTServer - The command 10001(ListBLL.Logic.Heartbeat) has been discovered
+2018-10-28 22:28:01,316 [1] DEBUG LISTServer - The command 11080(ListBLL.Logic.LobbyInfo) has been discovered
+2018-10-28 22:28:01,317 [1] DEBUG LISTServer - The command 11001(ListBLL.Logic.Login) has been discovered
+2018-10-28 22:28:01,317 [1] DEBUG LISTServer - The command 11003(ListBLL.Logic.LoginPW) has been discovered
+2018-10-28 22:28:01,317 [1] DEBUG LISTServer - The command 11101(ListBLL.Logic.Package) has been discovered
+2018-10-28 22:28:01,317 [1] DEBUG LISTServer - The command 11090(ListBLL.Logic.QuitGroup) has been discovered
+2018-10-28 22:28:01,317 [1] DEBUG LISTServer - The command 11108(ListBLL.Logic.SearchPlayer) has been discovered
+2018-10-28 22:28:01,317 [1] DEBUG LISTServer - The command 19003(ListBLL.Logic.UserGamePlaybackLogic) has been discovered
+2018-10-28 22:28:01,317 [1] DEBUG LISTServer - The command 19001(ListBLL.Logic.UserRecordLogic) has been discovered
+2018-10-28 22:28:01,335 [1] DEBUG DefaultBootstrap - The server instance LISTServer has been initialized!
+2018-10-28 22:28:01,842 [1] DEBUG DefaultBootstrap - The PerformanceMonitor has been initialized!
+2018-10-28 22:28:01,842 [1] DEBUG DefaultBootstrap - The Bootstrap has been initialized!
+2018-10-28 22:28:01,879 [1] DEBUG LISTServer - Listener (0.0.0.0:2018) was started
+2018-10-28 22:28:01,885 [1] DEBUG DefaultBootstrap - The PerformanceMonitor has been started!
+2018-10-28 22:28:13,020 [9] DEBUG LISTServer - 登陆sssionID--------68ca5a81-4691-4c7d-aa78-f9ff4967576d
+2018-10-28 22:28:13,020 [9] DEBUG LISTServer - 登录游戏----------2018/10/28 星期日 22:28:13
+2018-10-28 22:28:13,711 [9] DEBUG LISTServer - 登录用户openid:2e4f57ae10a8f7e8bc894a424691d571798551fc|昵称:测试用户2e4----------2018/10/28 星期日 22:28:13
+2018-10-28 22:28:15,249 [9] DEBUG LISTServer - 登录游戏成功----------2018/10/28 星期日 22:28:15
+2018-10-28 22:28:50,575 [9] DEBUG LISTServer - 登陆sssionID--------3cc2b4df-df3d-4164-ac58-7abf3c3a5be8
+2018-10-28 22:28:50,576 [9] DEBUG LISTServer - 登录游戏----------2018/10/28 星期日 22:28:50
+2018-10-28 22:28:50,580 [9] DEBUG LISTServer - 登录用户openid:7ca8632e9664781b80bbc606018427d8|昵称:测试用户7ca----------2018/10/28 星期日 22:28:50
+2018-10-28 22:28:51,600 [9] DEBUG LISTServer - 登录游戏成功----------2018/10/28 星期日 22:28:51
+2018-10-28 22:54:36,704 [9] DEBUG LISTServer - 登陆sssionID--------bd494563-3dcf-4825-93d6-aebb59fa9586
+2018-10-28 22:54:36,704 [9] DEBUG LISTServer - 登录游戏----------2018/10/28 星期日 22:54:36
+2018-10-28 22:54:36,712 [9] DEBUG LISTServer - 登录用户openid:2e4f57ae10a8f7e8bc894a424691d571798551fc|昵称:测试用户2e4----------2018/10/28 星期日 22:54:36
+2018-10-28 22:54:37,735 [9] DEBUG LISTServer - 登录游戏成功----------2018/10/28 星期日 22:54:37
+2018-10-28 22:54:37,745 [9] DEBUG LISTServer - 登陆sssionID--------06f0f33d-fe29-41be-918e-84afa3c3f855
+2018-10-28 22:54:37,745 [9] DEBUG LISTServer - 登录游戏----------2018/10/28 星期日 22:54:37
+2018-10-28 22:54:37,748 [9] DEBUG LISTServer - 登录用户openid:7ca8632e9664781b80bbc606018427d8|昵称:测试用户7ca----------2018/10/28 星期日 22:54:37
+2018-10-28 22:54:38,775 [9] DEBUG LISTServer - 登录游戏成功----------2018/10/28 星期日 22:54:38
+2018-10-28 22:56:22,255 [9] DEBUG LISTServer - 登陆sssionID--------83c56609-4d68-4bd3-a7ad-37d3697ab2bd
+2018-10-28 22:56:22,255 [9] DEBUG LISTServer - 登录游戏----------2018/10/28 星期日 22:56:22
+2018-10-28 22:56:22,257 [9] DEBUG LISTServer - 登录用户openid:7ca8632e9664781b80bbc606018427d8|昵称:测试用户7ca----------2018/10/28 星期日 22:56:22
+2018-10-28 22:56:23,275 [9] DEBUG LISTServer - 登录游戏成功----------2018/10/28 星期日 22:56:23
+2018-10-28 22:57:02,719 [9] DEBUG LISTServer - 登陆sssionID--------d8887100-d7d8-4b42-8fdf-30e97e2df558
+2018-10-28 22:57:02,719 [9] DEBUG LISTServer - 登录游戏----------2018/10/28 星期日 22:57:02
+2018-10-28 22:57:02,723 [9] DEBUG LISTServer - 登录用户openid:39b2c5a759351f51e0aafb0f9c14b0e4|昵称:测试用户39b----------2018/10/28 星期日 22:57:02
+2018-10-28 22:57:03,741 [9] DEBUG LISTServer - 登录游戏成功----------2018/10/28 星期日 22:57:03
+2018-10-28 23:13:25,942 [9] DEBUG LISTServer - 登陆sssionID--------d251f40f-1157-4771-9a49-6b7fb67c6976
+2018-10-28 23:13:25,942 [9] DEBUG LISTServer - 登录游戏----------2018/10/28 星期日 23:13:25
+2018-10-28 23:13:25,949 [9] DEBUG LISTServer - 登录用户openid:2e4f57ae10a8f7e8bc894a424691d571798551fc|昵称:测试用户2e4----------2018/10/28 星期日 23:13:25
+2018-10-28 23:13:26,970 [9] DEBUG LISTServer - 登录游戏成功----------2018/10/28 星期日 23:13:26
+2018-10-28 23:13:27,446 [8] DEBUG LISTServer - 登陆sssionID--------57582102-ab7a-4039-bd46-93af0b8820cb
+2018-10-28 23:13:27,446 [8] DEBUG LISTServer - 登录游戏----------2018/10/28 星期日 23:13:27
+2018-10-28 23:13:27,448 [8] DEBUG LISTServer - 登录用户openid:7ca8632e9664781b80bbc606018427d8|昵称:测试用户7ca----------2018/10/28 星期日 23:13:27
+2018-10-28 23:13:28,074 [9] DEBUG LISTServer - 登陆sssionID--------75414ff8-be31-4bdb-9ef5-2039f3e36d9e
+2018-10-28 23:13:28,074 [9] DEBUG LISTServer - 登录游戏----------2018/10/28 星期日 23:13:28
+2018-10-28 23:13:28,077 [9] DEBUG LISTServer - 登录用户openid:39b2c5a759351f51e0aafb0f9c14b0e4|昵称:测试用户39b----------2018/10/28 星期日 23:13:28
+2018-10-28 23:13:28,466 [8] DEBUG LISTServer - 登录游戏成功----------2018/10/28 星期日 23:13:28
+2018-10-28 23:13:29,095 [9] DEBUG LISTServer - 登录游戏成功----------2018/10/28 星期日 23:13:29
+2018-10-28 23:14:43,465 [9] DEBUG LISTServer - 登陆sssionID--------e96e858f-63d4-4a53-af97-adc998e0b6ab
+2018-10-28 23:14:43,465 [9] DEBUG LISTServer - 登录游戏----------2018/10/28 星期日 23:14:43
+2018-10-28 23:14:43,468 [9] DEBUG LISTServer - 登录用户openid:2e4f57ae10a8f7e8bc894a424691d571798551fc|昵称:测试用户2e4----------2018/10/28 星期日 23:14:43
+2018-10-28 23:14:43,990 [8] DEBUG LISTServer - 登陆sssionID--------adcab14c-25f8-4fd1-b1ca-1571953ab781
+2018-10-28 23:14:43,990 [8] DEBUG LISTServer - 登录游戏----------2018/10/28 星期日 23:14:43
+2018-10-28 23:14:43,992 [8] DEBUG LISTServer - 登录用户openid:7ca8632e9664781b80bbc606018427d8|昵称:测试用户7ca----------2018/10/28 星期日 23:14:43
+2018-10-28 23:14:44,478 [7] DEBUG LISTServer - 登陆sssionID--------72007fce-ff8b-4edd-ad22-1100204e373c
+2018-10-28 23:14:44,478 [7] DEBUG LISTServer - 登录游戏----------2018/10/28 星期日 23:14:44
+2018-10-28 23:14:44,490 [9] DEBUG LISTServer - 登录游戏成功----------2018/10/28 星期日 23:14:44
+2018-10-28 23:14:45,012 [8] DEBUG LISTServer - 登录游戏成功----------2018/10/28 星期日 23:14:45
+2018-10-28 23:14:45,506 [7] DEBUG LISTServer - 登录游戏成功----------2018/10/28 星期日 23:14:45
+2018-10-28 23:20:45,093 [1] DEBUG DefaultBootstrap - The server instance LISTServer has been created!
+2018-10-28 23:20:45,294 [1] DEBUG LISTServer - The command 11105(ListBLL.Logic.AgentGetGroupInfo) has been discovered
+2018-10-28 23:20:45,294 [1] DEBUG LISTServer - The command 11107(ListBLL.Logic.AgentGroupUsersManager) has been discovered
+2018-10-28 23:20:45,294 [1] DEBUG LISTServer - The command 11110(ListBLL.Logic.AgentSignIn) has been discovered
+2018-10-28 23:20:45,294 [1] DEBUG LISTServer - The command 11060(ListBLL.Logic.ApplyRecord) has been discovered
+2018-10-28 23:20:45,295 [1] DEBUG LISTServer - The command 11040(ListBLL.Logic.ApplyToJoin) has been discovered
+2018-10-28 23:20:45,295 [1] DEBUG LISTServer - The command 11070(ListBLL.Logic.ChangeApplyStatus) has been discovered
+2018-10-28 23:20:45,295 [1] DEBUG LISTServer - The command 11103(ListBLL.Logic.CreateGroup) has been discovered
+2018-10-28 23:20:45,295 [1] DEBUG LISTServer - The command 11109(ListBLL.Logic.DeleteGroup) has been discovered
+2018-10-28 23:20:45,295 [1] DEBUG LISTServer - The command 19005(ListBLL.Logic.Feedback) has been discovered
+2018-10-28 23:20:45,295 [1] DEBUG LISTServer - The command 11020(ListBLL.Logic.GameOperation) has been discovered
+2018-10-28 23:20:45,295 [1] DEBUG LISTServer - The command 11030(ListBLL.Logic.GetGroupInfo) has been discovered
+2018-10-28 23:20:45,295 [1] DEBUG LISTServer - The command 11032(ListBLL.Logic.GetGroupInfoByGroupID) has been discovered
+2018-10-28 23:20:45,296 [1] DEBUG LISTServer - The command 11034(ListBLL.Logic.GetGroupUserInfoByGroupID) has been discovered
+2018-10-28 23:20:45,296 [1] DEBUG LISTServer - The command 11022(ListBLL.Logic.GetRoomCard) has been discovered
+2018-10-28 23:20:45,296 [1] DEBUG LISTServer - The command 11050(ListBLL.Logic.GroupUsersManager) has been discovered
+2018-10-28 23:20:45,296 [1] DEBUG LISTServer - The command 10001(ListBLL.Logic.Heartbeat) has been discovered
+2018-10-28 23:20:45,296 [1] DEBUG LISTServer - The command 11080(ListBLL.Logic.LobbyInfo) has been discovered
+2018-10-28 23:20:45,296 [1] DEBUG LISTServer - The command 11001(ListBLL.Logic.Login) has been discovered
+2018-10-28 23:20:45,296 [1] DEBUG LISTServer - The command 11003(ListBLL.Logic.LoginPW) has been discovered
+2018-10-28 23:20:45,296 [1] DEBUG LISTServer - The command 11101(ListBLL.Logic.Package) has been discovered
+2018-10-28 23:20:45,296 [1] DEBUG LISTServer - The command 11090(ListBLL.Logic.QuitGroup) has been discovered
+2018-10-28 23:20:45,297 [1] DEBUG LISTServer - The command 11108(ListBLL.Logic.SearchPlayer) has been discovered
+2018-10-28 23:20:45,297 [1] DEBUG LISTServer - The command 19003(ListBLL.Logic.UserGamePlaybackLogic) has been discovered
+2018-10-28 23:20:45,297 [1] DEBUG LISTServer - The command 19001(ListBLL.Logic.UserRecordLogic) has been discovered
+2018-10-28 23:20:45,315 [1] DEBUG DefaultBootstrap - The server instance LISTServer has been initialized!
+2018-10-28 23:20:45,770 [1] DEBUG DefaultBootstrap - The PerformanceMonitor has been initialized!
+2018-10-28 23:20:45,770 [1] DEBUG DefaultBootstrap - The Bootstrap has been initialized!
+2018-10-28 23:20:45,795 [1] DEBUG LISTServer - Listener (0.0.0.0:2018) was started
+2018-10-28 23:20:45,801 [1] DEBUG DefaultBootstrap - The PerformanceMonitor has been started!
+2018-10-28 23:20:58,995 [21] DEBUG LISTServer - 登陆sssionID--------e07da020-0c95-47ca-bd7f-78e95a8f1344
+2018-10-28 23:20:58,995 [21] DEBUG LISTServer - 登录游戏----------2018/10/28 星期日 23:20:58
+2018-10-28 23:20:59,724 [21] DEBUG LISTServer - 登录用户openid:39b2c5a759351f51e0aafb0f9c14b0e4|昵称:测试用户39b----------2018/10/28 星期日 23:20:59
+2018-10-28 23:20:59,828 [20] DEBUG LISTServer - 登陆sssionID--------65c7a16d-c137-4a43-9013-ebdbca5feff1
+2018-10-28 23:20:59,828 [20] DEBUG LISTServer - 登录游戏----------2018/10/28 星期日 23:20:59
+2018-10-28 23:20:59,832 [20] DEBUG LISTServer - 登录用户openid:7ca8632e9664781b80bbc606018427d8|昵称:测试用户7ca----------2018/10/28 星期日 23:20:59
+2018-10-28 23:21:01,431 [20] DEBUG LISTServer - 登录游戏成功----------2018/10/28 星期日 23:21:01
+2018-10-28 23:21:01,431 [21] DEBUG LISTServer - 登录游戏成功----------2018/10/28 星期日 23:21:01
+2018-10-28 23:21:14,174 [20] DEBUG LISTServer - 登陆sssionID--------5c20548f-e17c-46a8-8a8d-4c8b0c03b3ae
+2018-10-28 23:21:14,175 [20] DEBUG LISTServer - 登录游戏----------2018/10/28 星期日 23:21:14
+2018-10-28 23:21:14,177 [20] DEBUG LISTServer - 登录用户openid:2e4f57ae10a8f7e8bc894a424691d571798551fc|昵称:测试用户2e4----------2018/10/28 星期日 23:21:14
+2018-10-28 23:21:15,198 [20] DEBUG LISTServer - 登录游戏成功----------2018/10/28 星期日 23:21:15
+2018-10-28 23:22:40,885 [20] DEBUG LISTServer - 登陆sssionID--------b7551308-d423-4f1c-adc2-ccb1e5fa2805
+2018-10-28 23:22:40,885 [20] DEBUG LISTServer - 登录游戏----------2018/10/28 星期日 23:22:40
+2018-10-28 23:22:40,888 [20] DEBUG LISTServer - 登录用户openid:2e4f57ae10a8f7e8bc894a424691d571798551fc|昵称:测试用户2e4----------2018/10/28 星期日 23:22:40
+2018-10-28 23:22:41,132 [19] DEBUG LISTServer - 登陆sssionID--------304febed-ca92-4a33-a5b9-fbf7a1d32de3
+2018-10-28 23:22:41,132 [19] DEBUG LISTServer - 登录游戏----------2018/10/28 星期日 23:22:41
+2018-10-28 23:22:41,135 [19] DEBUG LISTServer - 登录用户openid:39b2c5a759351f51e0aafb0f9c14b0e4|昵称:测试用户39b----------2018/10/28 星期日 23:22:41
+2018-10-28 23:22:42,165 [19] DEBUG LISTServer - 登录游戏成功----------2018/10/28 星期日 23:22:42
+2018-10-28 23:22:46,048 [20] DEBUG LISTServer - 登陆sssionID--------eceea317-4cdf-40fe-ab85-bdba4fcbdf19
+2018-10-28 23:22:46,048 [20] DEBUG LISTServer - 登录游戏----------2018/10/28 星期日 23:22:46
+2018-10-28 23:22:46,050 [20] DEBUG LISTServer - 登录用户openid:7ca8632e9664781b80bbc606018427d8|昵称:测试用户7ca----------2018/10/28 星期日 23:22:46
+2018-10-28 23:22:47,085 [20] DEBUG LISTServer - 登录游戏成功----------2018/10/28 星期日 23:22:47
+2018-10-28 23:29:39,541 [21] DEBUG LISTServer - 登陆sssionID--------9188c95b-3de6-405d-9c50-9ef42b8df2d4
+2018-10-28 23:29:39,541 [21] DEBUG LISTServer - 登录游戏----------2018/10/28 星期日 23:29:39
+2018-10-28 23:29:39,548 [21] DEBUG LISTServer - 登录用户openid:2e4f57ae10a8f7e8bc894a424691d571798551fc|昵称:测试用户2e4----------2018/10/28 星期日 23:29:39
+2018-10-28 23:29:40,139 [20] DEBUG LISTServer - 登陆sssionID--------f9f1fd57-e45a-4e45-8c44-aa3e604d4396
+2018-10-28 23:29:40,139 [20] DEBUG LISTServer - 登录游戏----------2018/10/28 星期日 23:29:40
+2018-10-28 23:29:40,142 [20] DEBUG LISTServer - 登录用户openid:39b2c5a759351f51e0aafb0f9c14b0e4|昵称:测试用户39b----------2018/10/28 星期日 23:29:40
+2018-10-28 23:29:40,831 [21] DEBUG LISTServer - 登录游戏成功----------2018/10/28 星期日 23:29:40
+2018-10-28 23:29:41,214 [20] DEBUG LISTServer - 登录游戏成功----------2018/10/28 星期日 23:29:41
+2018-10-28 23:29:42,758 [20] DEBUG LISTServer - 登陆sssionID--------a526fbc8-6353-4d72-bf31-69b4b66cee99
+2018-10-28 23:29:42,758 [20] DEBUG LISTServer - 登录游戏----------2018/10/28 星期日 23:29:42
+2018-10-28 23:29:42,761 [20] DEBUG LISTServer - 登录用户openid:7ca8632e9664781b80bbc606018427d8|昵称:测试用户7ca----------2018/10/28 星期日 23:29:42
+2018-10-28 23:29:43,790 [20] DEBUG LISTServer - 登录游戏成功----------2018/10/28 星期日 23:29:43
+2018-10-28 23:30:12,920 [29] DEBUG LISTServer - 登陆sssionID--------fffce6b6-8ae4-4448-a813-6b7b64b53695
+2018-10-28 23:30:12,920 [29] DEBUG LISTServer - 登录游戏----------2018/10/28 星期日 23:30:12
+2018-10-28 23:30:12,922 [29] DEBUG LISTServer - 登录用户openid:39b2c5a759351f51e0aafb0f9c14b0e4|昵称:测试用户39b----------2018/10/28 星期日 23:30:12
+2018-10-28 23:30:13,948 [29] DEBUG LISTServer - 登录游戏成功----------2018/10/28 星期日 23:30:13
+2018-10-28 23:30:14,625 [20] DEBUG LISTServer - 登陆sssionID--------6414e444-744d-4924-8265-9c184bb95b89
+2018-10-28 23:30:14,625 [20] DEBUG LISTServer - 登录游戏----------2018/10/28 星期日 23:30:14
+2018-10-28 23:30:14,627 [20] DEBUG LISTServer - 登录用户openid:2e4f57ae10a8f7e8bc894a424691d571798551fc|昵称:测试用户2e4----------2018/10/28 星期日 23:30:14
+2018-10-28 23:30:15,648 [20] DEBUG LISTServer - 登录游戏成功----------2018/10/28 星期日 23:30:15
+2018-10-28 23:33:41,423 [19] DEBUG LISTServer - 登陆sssionID--------c5125316-608f-4ba7-9aba-1d4ecad2601c
+2018-10-28 23:33:41,423 [19] DEBUG LISTServer - 登录游戏----------2018/10/28 星期日 23:33:41
+2018-10-28 23:33:41,427 [19] DEBUG LISTServer - 登录用户openid:2e4f57ae10a8f7e8bc894a424691d571798551fc|昵称:测试用户2e4----------2018/10/28 星期日 23:33:41
+2018-10-28 23:33:41,965 [20] DEBUG LISTServer - 登陆sssionID--------c67dc588-0e13-4856-9b8c-a323095c950f
+2018-10-28 23:33:41,965 [20] DEBUG LISTServer - 登录游戏----------2018/10/28 星期日 23:33:41
+2018-10-28 23:33:41,968 [20] DEBUG LISTServer - 登录用户openid:39b2c5a759351f51e0aafb0f9c14b0e4|昵称:测试用户39b----------2018/10/28 星期日 23:33:41
+2018-10-28 23:33:42,715 [19] DEBUG LISTServer - 登录游戏成功----------2018/10/28 星期日 23:33:42
+2018-10-28 23:33:43,001 [20] DEBUG LISTServer - 登录游戏成功----------2018/10/28 星期日 23:33:43
+2018-10-28 23:33:45,698 [21] DEBUG LISTServer - 登陆sssionID--------378bbfdb-0a4f-449a-9fb0-91458f1807c3
+2018-10-28 23:33:45,698 [21] DEBUG LISTServer - 登录游戏----------2018/10/28 星期日 23:33:45
+2018-10-28 23:33:45,700 [21] DEBUG LISTServer - 登录用户openid:7ca8632e9664781b80bbc606018427d8|昵称:测试用户7ca----------2018/10/28 星期日 23:33:45
+2018-10-28 23:33:46,759 [21] DEBUG LISTServer - 登录游戏成功----------2018/10/28 星期日 23:33:46
+2018-10-28 23:38:41,288 [21] DEBUG LISTServer - 登陆sssionID--------f7a9b873-3848-442f-882c-29c10c561932
+2018-10-28 23:38:41,288 [21] DEBUG LISTServer - 登录游戏----------2018/10/28 星期日 23:38:41
+2018-10-28 23:38:41,290 [21] DEBUG LISTServer - 登录用户openid:2e4f57ae10a8f7e8bc894a424691d571798551fc|昵称:测试用户2e4----------2018/10/28 星期日 23:38:41
+2018-10-28 23:38:42,310 [21] DEBUG LISTServer - 登录游戏成功----------2018/10/28 星期日 23:38:42
+2018-10-28 23:38:47,479 [21] DEBUG LISTServer - 登陆sssionID--------5cd333de-777e-4a9e-b2ef-c53abe6a8bc1
+2018-10-28 23:38:47,479 [21] DEBUG LISTServer - 登录游戏----------2018/10/28 星期日 23:38:47
+2018-10-28 23:38:47,481 [21] DEBUG LISTServer - 登录用户openid:39b2c5a759351f51e0aafb0f9c14b0e4|昵称:测试用户39b----------2018/10/28 星期日 23:38:47
+2018-10-28 23:38:48,042 [19] DEBUG LISTServer - 登陆sssionID--------c800d5aa-b074-4333-af88-06b6c421a40f
+2018-10-28 23:38:48,043 [19] DEBUG LISTServer - 登录游戏----------2018/10/28 星期日 23:38:48
+2018-10-28 23:38:48,045 [19] DEBUG LISTServer - 登录用户openid:7ca8632e9664781b80bbc606018427d8|昵称:测试用户7ca----------2018/10/28 星期日 23:38:48
+2018-10-28 23:38:48,502 [21] DEBUG LISTServer - 登录游戏成功----------2018/10/28 星期日 23:38:48
+2018-10-28 23:38:49,067 [19] DEBUG LISTServer - 登录游戏成功----------2018/10/28 星期日 23:38:49
+2018-10-28 23:46:36,932 [21] DEBUG LISTServer - 登陆sssionID--------66d8606e-2f1b-4fdf-bde7-87a245e982a8
+2018-10-28 23:46:36,932 [21] DEBUG LISTServer - 登录游戏----------2018/10/28 星期日 23:46:36
+2018-10-28 23:46:36,938 [21] DEBUG LISTServer - 登录用户openid:2e4f57ae10a8f7e8bc894a424691d571798551fc|昵称:测试用户2e4----------2018/10/28 星期日 23:46:36
+2018-10-28 23:46:37,958 [21] DEBUG LISTServer - 登录游戏成功----------2018/10/28 星期日 23:46:37
+2018-10-28 23:46:38,188 [19] DEBUG LISTServer - 登陆sssionID--------50e2909e-9339-4403-9500-d3d0bd135f0c
+2018-10-28 23:46:38,188 [19] DEBUG LISTServer - 登录游戏----------2018/10/28 星期日 23:46:38
+2018-10-28 23:46:38,190 [19] DEBUG LISTServer - 登录用户openid:39b2c5a759351f51e0aafb0f9c14b0e4|昵称:测试用户39b----------2018/10/28 星期日 23:46:38
+2018-10-28 23:46:39,209 [19] DEBUG LISTServer - 登录游戏成功----------2018/10/28 星期日 23:46:39
+2018-10-28 23:46:42,467 [19] DEBUG LISTServer - 登陆sssionID--------c021c5a9-f8e0-4900-a6de-899f8effb792
+2018-10-28 23:46:42,467 [19] DEBUG LISTServer - 登录游戏----------2018/10/28 星期日 23:46:42
+2018-10-28 23:46:42,470 [19] DEBUG LISTServer - 登录用户openid:7ca8632e9664781b80bbc606018427d8|昵称:测试用户7ca----------2018/10/28 星期日 23:46:42
+2018-10-28 23:46:43,490 [19] DEBUG LISTServer - 登录游戏成功----------2018/10/28 星期日 23:46:43

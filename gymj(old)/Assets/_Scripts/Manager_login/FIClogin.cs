@@ -63,7 +63,7 @@ public class FIClogin : MonoBehaviour
         Screen.sleepTimeout = SleepTimeout.NeverSleep;
 		//mobSDK4连
         myShareSdk = Camera.main.transform.GetComponent<ShareSDK>();
-        myShareSdk.authHandler = AuthResultHandler;
+        //myShareSdk.authHandler = AuthResultHandler;
         myShareSdk.showUserHandler = GetUserInfoResultHandler;
         myShareSdk.shareHandler = FICStartGame.ShareResultHandler;
 		//服务器类型为列表服务器
@@ -92,6 +92,8 @@ public class FIClogin : MonoBehaviour
         //warnPanelForWorld = Resources.Load<GameObject>("Game_GYMJ/Prefabs/warningPanelForWorld");
         //GameObject go= GameObject.Instantiate(warnPanelForWorld);
         //DontDestroyOnLoad(go);
+
+      
 
     }
 	//copy end
@@ -243,13 +245,13 @@ public class FIClogin : MonoBehaviour
 	void ShowLoginButtons()
 	{
 		loginButton.gameObject.SetActive(true);
-		longBaoLoginButton.gameObject.SetActive(true);
+		//longBaoLoginButton.gameObject.SetActive(true);
 	}
 	//设置微信登录按钮和龙宝登录按钮的按钮起效
     void EnableLoginButtons()
     {
         loginButton.enabled = true;
-        longBaoLoginButton.enabled = true;
+        //longBaoLoginButton.enabled = true;
         ShowLoginButtons();
     }
 	//设置微信登录按钮和龙宝登录按钮的按钮失效
@@ -258,6 +260,7 @@ public class FIClogin : MonoBehaviour
         loginButton.enabled = false;
         longBaoLoginButton.enabled = false;
     }
+    public Text Txt_Loading;
 	//房卡登录模式（？微信登录模式）
     public void OnPointerClick()
     {
@@ -267,18 +270,21 @@ public class FIClogin : MonoBehaviour
             return;
         }
         GPSManager.instance.StartCrt();
+
+        //myShareSdk.GetUserInfo(PlatformType.WeChat);
         GetTestUserInfo();
         DisableLoginButtons();
-
+        
         GameInfo.loginType = LoginType.fangka;
         // myShareSdk.Authorize(PlatformType.WeChat);
-        //myShareSdk.GetUserInfo(PlatformType.WeChat);
+       
         OutLog.log("点击登陆 !");
-        //Txt_Loading.text = "点击登录";
+        Txt_Loading.text = "点击登录";
     }
     //一个暂时的测试方法
     private void GetTestUserInfo()
     {
+        Debug.Log("ERITOR 测试");
 //#if UNITY_EDITOR
         GameInfo.province = "贵州";
         GameInfo.city = "贵阳";
@@ -375,6 +381,8 @@ public class FIClogin : MonoBehaviour
                 //OutLog.PrintLog(MiniJSON.jsonEncode(data));
                 // Txt_Loading.text = "获取用户信息成功";
                 OutLog.log("微信获取openid："+GameInfo.OpenID);
+                //Txt_Loading.text += "微信获取openid：" + GameInfo.OpenID;
+                GameInfo.Latitude = UnityEngine.Random.Range(1f, 1000f).ToString() + " , " + UnityEngine.Random.Range(1f, 1000f).ToString();
                 GameInfo.cs.SentUserLoginMessage(GameInfo.OpenID, GameInfo.NickName, GameInfo.Sex.ToString(), GameInfo.province, GameInfo.city, GameInfo.HeadImg, GameInfo.unionid, GameInfo.Latitude);
 
             }

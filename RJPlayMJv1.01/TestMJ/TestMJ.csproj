@@ -34,7 +34,7 @@
   <ItemGroup>
     <Reference Include="Aliyun.OSS, Version=2.5.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Aliyun.OSS.dll</HintPath>
+      <HintPath>..\..\AuthServer\trunk\integral_server1.01\packages\Aliyun.OSS.dll</HintPath>
     </Reference>
     <Reference Include="Google.ProtocolBuffers, Version=2.4.1.555, Culture=neutral, PublicKeyToken=55f7125234beb589, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
