@@ -3,10 +3,6 @@ using SuperSocket.SocketBase;
 using SuperSocket.SocketBase.Config;
 using SuperSocket.SocketBase.Protocol;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace List_mj
 {
@@ -18,6 +14,7 @@ namespace List_mj
         }
         protected override bool Setup(IRootConfig rootConfig, IServerConfig config)
         {
+            Console.WriteLine("List服务器启动ip : " + config.Ip + " ，端口号 ：" + config.Port);
             return base.Setup(rootConfig, config);
         }
 

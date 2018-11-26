@@ -101,6 +101,12 @@
     <Reference Include="UnityEditor">
       <HintPath>F:/Unity/Unity5.4.0/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>F:/Unity/Unity5.4.0/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>F:/Unity/Unity5.4.0/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Plugins\Google.ProtocolBuffers.2.4.1.555\lib\ProtobufUtility.cs" />

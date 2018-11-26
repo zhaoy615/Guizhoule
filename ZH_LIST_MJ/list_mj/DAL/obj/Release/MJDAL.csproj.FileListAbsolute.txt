@@ -15,3 +15,12 @@ D:\千羽瑞佳-白\ZH_LIST_MJ\list_mj\DAL\obj\Release\MJDAL.csproj.CoreCompileI
 D:\千羽瑞佳-白\ZH_LIST_MJ\list_mj\DAL\obj\Release\MJDAL.csproj.CopyComplete
 D:\千羽瑞佳-白\ZH_LIST_MJ\list_mj\DAL\obj\Release\DAL.dll
 D:\千羽瑞佳-白\ZH_LIST_MJ\list_mj\DAL\obj\Release\DAL.pdb
+D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\DAL\bin\Release\DAL.dll
+D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\DAL\bin\Release\DAL.pdb
+D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\DAL\bin\Release\Dapper.dll
+D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\DAL\bin\Release\Dapper.xml
+D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\DAL\obj\Release\MJDAL.csproj.CoreCompileInputs.cache
+D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\DAL\obj\Release\MJDAL.csproj.CopyComplete
+D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\DAL\obj\Release\DAL.dll
+D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\DAL\obj\Release\DAL.pdb
+D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\DAL\obj\Release\MJDAL.csprojAssemblyReference.cache

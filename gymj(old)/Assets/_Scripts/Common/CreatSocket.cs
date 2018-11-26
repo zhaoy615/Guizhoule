@@ -295,7 +295,7 @@ public class CreatSocket
             case CreateHead.CSXYNUM + 1010:
                 var returnServerIP = ProtobufUtility.DeserializeProtobuf<ReturnServerIP>(body);
                 GameInfo.returnServerIP = returnServerIP;
-                Debug.Log(CreateHead.CSXYNUM + 1010 + "服务器返回IP和端口" + returnServerIP.ToString());
+                Debug.Log(CreateHead.CSXYNUM + 1010 + "服务器返回IP和端口" + returnServerIP.ip.ToString() + " ," + returnServerIP.port);
                 OutLog.log("11010:服务器返回IP和端口");
                 break;
             case CreateHead.CSXYNUM + 1012:

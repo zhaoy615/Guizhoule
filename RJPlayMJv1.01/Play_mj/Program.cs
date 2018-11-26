@@ -18,6 +18,7 @@ namespace Play_mj
             Console.WriteLine();
 
             var bootstrap = BootstrapFactory.CreateBootstrap();
+          
 
             if (!bootstrap.Initialize())
             {
@@ -27,6 +28,8 @@ namespace Play_mj
             }
 
             var result = bootstrap.Start();
+
+        
 
             Console.WriteLine("Start result: {0}!", result);
 

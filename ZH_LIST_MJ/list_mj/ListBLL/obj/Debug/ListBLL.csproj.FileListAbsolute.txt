@@ -74,7 +74,6 @@ D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\bin\Debug\Aliyun.OSS.xm
 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\bin\Debug\Google.ProtocolBuffers.xml
 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\bin\Debug\log4net.xml
 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\bin\Debug\Newtonsoft.Json.xml
-D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\bin\Debug\StackExchange.Redis.xml
 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\bin\Debug\SuperSocket.Common.xml
 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\bin\Debug\SuperSocket.Facility.xml
 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\bin\Debug\SuperSocket.SocketBase.xml
@@ -114,3 +113,7 @@ G:\UnityWorkSpace\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\obj\Debug\ListBLL.csproj.
 G:\UnityWorkSpace\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\obj\Debug\ListBLL.csproj.CopyComplete
 G:\UnityWorkSpace\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\obj\Debug\ListBLL.dll
 G:\UnityWorkSpace\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\obj\Debug\ListBLL.pdb
+D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\bin\Debug\MySql.Data.dll
+D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\bin\Debug\Google.Protobuf.dll
+D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\bin\Debug\MySql.Data.xml
+D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\bin\Debug\Google.Protobuf.xml

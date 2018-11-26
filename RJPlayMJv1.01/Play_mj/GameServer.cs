@@ -20,6 +20,7 @@ namespace Play_mj
         }
         protected override bool Setup(IRootConfig rootConfig, IServerConfig config)
         {
+            Console.WriteLine("Play服务器启动ip : " + config.Ip + " ，端口号 ：" + config.Port);
             return base.Setup(rootConfig, config);
         }
 

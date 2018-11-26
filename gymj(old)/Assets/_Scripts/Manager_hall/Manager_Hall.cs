@@ -257,7 +257,7 @@ public class Manager_Hall : MonoBehaviour
 			//状态 1为正常跳转， 2为有未结束的游戏，需要重新连接
             GameInfo.status = GameInfo.returnServerIP.Status;
 
-            OutLog.log("马上断开socket链接");
+           
             GameInfo.cs.Closed();
             SendAddServer sendAddServer = new SendAddServer();//..CreateBuilder()
             sendAddServer.openid = GameInfo.OpenID;
@@ -269,10 +269,10 @@ public class Manager_Hall : MonoBehaviour
             byte[] data = CreateHead.CreateMessage(CreateHead.CSXYNUM + 1011, body.Length, 0, body);
             GameInfo.cs.serverType = ServerType.GameServer;
 
-            OutLog.log("马上重新socket链接");
+          
             GameInfo.cs.Send(data);
 
-            OutLog.log("已经重新socket链接");
+           
 			//重连提示
             if (GameInfo.status == 2)
             {

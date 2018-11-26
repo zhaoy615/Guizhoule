@@ -271,12 +271,11 @@ public class FIClogin : MonoBehaviour
         }
         GPSManager.instance.StartCrt();
 
-        //myShareSdk.GetUserInfo(PlatformType.WeChat);
-        GetTestUserInfo();
+        myShareSdk.GetUserInfo(PlatformType.WeChat);
+        //GetTestUserInfo();
         DisableLoginButtons();
         
         GameInfo.loginType = LoginType.fangka;
-        // myShareSdk.Authorize(PlatformType.WeChat);
        
         OutLog.log("点击登陆 !");
         Txt_Loading.text = "点击登录";

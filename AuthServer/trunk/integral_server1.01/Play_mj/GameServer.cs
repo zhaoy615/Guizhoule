@@ -2,6 +2,7 @@
 using SuperSocket.SocketBase;
 using SuperSocket.SocketBase.Config;
 using SuperSocket.SocketBase.Protocol;
+using System;
 
 namespace AuthServer
 {
@@ -14,6 +15,7 @@ namespace AuthServer
         }
         protected override bool Setup(IRootConfig rootConfig, IServerConfig config)
         {
+            Console.WriteLine("Auth服务器启动ip : " + config.Ip + " ，端口号 ：" + config.Port);
             return base.Setup(rootConfig, config);
         }
 
