@@ -234,8 +234,9 @@ namespace ListBLL.common
             if (roomAddStatus != 0)
                 serverIP.SetStatus(roomAddStatus);
             byte[] serverIPData = serverIP.Build().ToByteArray();
+            
 
-
+            //告知Play服务器进行房间号存储
             Socket sc = new Socket(ipInfo.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
             var roomData = SendRoomExist.CreateBuilder().SetOpenid(openid).SetUnionid(unionid).SetRoomID(roomID).Build().ToByteArray();
             if (roomID == 0)

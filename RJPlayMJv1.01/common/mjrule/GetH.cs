@@ -417,19 +417,24 @@ namespace MJBLL.mjrule
                 byte[] allsp = returnallmj.Build().ToByteArray();
 
                 byte[] jpr = jp.Build().ToByteArray();
+                //7005 返回翻鸡牌
                 var sendData7005 = new ArraySegment<byte>(CreateHead.CreateMessage(GameInformationBase.BASEAGREEMENTNUMBER + 7005, jpr.Length, requestInfo.MessageNum, jpr));
                 item.SendData.Add(sendData7005);
+
+                //7008 : 玩家手牌集合
                 var sendData7008 = new ArraySegment<byte>(CreateHead.CreateMessage(GameInformationBase.BASEAGREEMENTNUMBER + 7008, allsp.Length, requestInfo.MessageNum, allsp));
                 item.SendData.Add(sendData7008);
 
                 byte[] settlebyte = settle.Build().ToByteArray();
                 r.gameOperationProcess.SetJieSuanInfo(ByteString.CopyFrom(settlebyte));
+                //7009 : 返回结算信息(全体)
                 var sendData = new ArraySegment<byte>(CreateHead.CreateMessage(GameInformationBase.BASEAGREEMENTNUMBER + 7009, settlebyte.Length, requestInfo.MessageNum, settlebyte));
                 item.SendData.Add(sendData);
 
                 if (r.Dcount == r.count)
                 {
                     byte[] senddjsbyte = senddjs.Build().ToByteArray();
+                    //5014 : 大结算信息
                     var sendData5014 = new ArraySegment<byte>(CreateHead.CreateMessage(GameInformationBase.BASEAGREEMENTNUMBER + 5014, senddjsbyte.Length, requestInfo.MessageNum, senddjsbyte));
                     item.SendData.Add(sendData5014);
 
@@ -486,6 +491,7 @@ namespace MJBLL.mjrule
                     r.RoomPai = new CreateMj().CreateMJ(r.IsYuanQue);
                     r.Dcount += 1;
                     r.startgame = 2;
+
                 }
 
             }

@@ -187,6 +187,7 @@
     <Compile Include="Assets\_Scripts\Manager_GYMJ\VoicePlay.cs" />
     <Compile Include="Assets\_Scripts\Manager_hall\FICCreatRoom.cs" />
     <Compile Include="Assets\_Scripts\Manager_hall\FICEnterRoom.cs" />
+    <Compile Include="Assets\_Scripts\Manager_hall\FICPYQCreateRoom.cs" />
     <Compile Include="Assets\_Scripts\Manager_hall\Manager_Hall.cs" />
     <Compile Include="Assets\_Scripts\Manager_hall\Manager_HallAudio.cs" />
     <Compile Include="Assets\_Scripts\Manager_hall\MessageBox.cs" />

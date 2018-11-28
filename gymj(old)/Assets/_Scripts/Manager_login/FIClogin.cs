@@ -271,8 +271,8 @@ public class FIClogin : MonoBehaviour
         }
         GPSManager.instance.StartCrt();
 
-        myShareSdk.GetUserInfo(PlatformType.WeChat);
-        //GetTestUserInfo();
+       // myShareSdk.GetUserInfo(PlatformType.WeChat);
+        GetTestUserInfo();
         DisableLoginButtons();
         
         GameInfo.loginType = LoginType.fangka;

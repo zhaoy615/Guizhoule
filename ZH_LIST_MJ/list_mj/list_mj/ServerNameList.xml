@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <servers>
   <server name="ListServer1">
-    <ip>47.104.183.97</ip>
+    <ip>192.168.1.100</ip>
     <port>2018</port>
   </server>
   <server name="GameServer">
-    <ip>47.104.183.97</ip>
+    <ip>192.168.1.100</ip>
     <port>2019</port>
   </server>
   <server name="GameServer1">
-    <ip>47.104.183.97</ip>
+    <ip>192.168.1.100</ip>
     <port>2019</port>
   </server>
 </servers>

@@ -65,6 +65,7 @@ public class FICMaskPai : MonoBehaviour
     {
         GameInfo.queType = GameInfo.QueType.Tong;
         OnQueYiMenButtonClick(GameInfo.QueType.Tong);
+        SendQueYiMenMessage(GameInfo.QueType.Tong);
         southImage.gameObject.SetActive(true);
         southImage.overrideSprite = startGame.QueTypeArray[1];
         southImage.transform.DOMove(southQuePos, 1f);
@@ -279,6 +280,7 @@ public class FICMaskPai : MonoBehaviour
         qym.openid = GameInfo.OpenID;
         byte[] body = ProtobufUtility.GetByteFromProtoBuf(qym);
         byte[] data = CreateHead.CreateMessage(CreateHead.CSXYNUM + 5011, body.Length, 0, body);
+        Debug.Log("发送就缺一门数据 : " + qym.type);
         GameInfo.cs.Send(data);
     }
 

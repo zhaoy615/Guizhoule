@@ -354,6 +354,8 @@ namespace MJBLL.Logic
                 userSendJ.session.TrySend(new ArraySegment<byte>(CreateHead.CreateMessage(GameInformationBase.BASEAGREEMENTNUMBER + 2009, tmjsr.Length, requestInfo.MessageNum, tmjsr)));
             }
             sendmj.SetChuuser(cu.win);
+            sendmj.SetGamenumber(number);
+           
             //牌局回放 发牌
             R.gameOperationProcess.AddGameOperationInfo(GameOperationInfo.CreateBuilder()
                 .SetOperationFW(mj.ZS_Fw)

@@ -73,6 +73,7 @@ namespace MJBLL.mjrule
 
             if (room.room_peo == r.room_peo)
             {
+                //发送当前局数的信息
                 foreach (var item in listuser)
                 {
                     new CardsLogic().Clear(item, r);
@@ -95,7 +96,9 @@ namespace MJBLL.mjrule
                     Gongyong.mulist.Remove(item);
                     if (r.IsYuanQue)
                         item.QYM = 3;
-                    logic.GetMyCards(requestInfo, sendmj, ReturnGangMSG, Ruturnjsmj, session, getdata.RoomID, item, item.Openid, ref number);
+                    //logic.GetMyCards(requestInfo, sendmj, ReturnGangMSG, Ruturnjsmj, session, getdata.RoomID, item, item.Openid, ref number);
+                    var dcount = r.Dcount;
+                    logic.GetMyCards(requestInfo, sendmj, ReturnGangMSG, Ruturnjsmj, session, getdata.RoomID, item, item.Openid, ref dcount);
                 }
                 if (listuser.Any(w => w.Is_tianHu))
                 {
@@ -120,6 +123,7 @@ namespace MJBLL.mjrule
                     {
                         var userSend = Gongyong.userlist.Find(w => w.openid.Equals(user.Openid));
                         userSend.session.TrySend(new ArraySegment<byte>(CreateHead.CreateMessage(GameInformationBase.BASEAGREEMENTNUMBER + 5015, data.Length, requestInfo.MessageNum, data)));
+
                     }
                     // userSendJ.session.TrySend(new ArraySegment<byte>(CreateHead.CreateMessage(GameInformationBase.BASEAGREEMENTNUMBER + 5015, data.Length, requestInfo.MessageNum, data)));
 

@@ -1,0 +1,12 @@
+﻿
+message SendLogin{
+ required string openid=1;//玩家openid
+ required string nickname=2;//玩家昵称
+ required string sex=3;//玩家性别(1：男，2：女)
+ required string province=4;//省
+ required string city=5;//市
+ required string headimg=6;//头像
+ required string unionid=7;//唯一标示符
+ required string Latitude=8;//经纬度  经度，纬度
+}
+

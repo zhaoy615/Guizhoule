@@ -69,6 +69,7 @@ namespace MJBLL.mjrule
             Room room = new Room()
             {
                 count = info.Count,
+                //count = 1,
                 is_benji = info.IsBenji == 1 ? true : false,
                 is_wgj = info.IsWgj == 1 ? true : false,
                 is_xinqiji = info.IsXinqiji == 1 ? true : false,
@@ -84,10 +85,10 @@ namespace MJBLL.mjrule
                 QuickCard = info.HasQuickCard ? (info.QuickCard == 1) : false//十秒快速出牌
                 // RoomPai = new CreateMj().CreateMJ()
             };
-            Console.WriteLine("roomid : " + roomid);
+            //Console.WriteLine("roomid : " + roomid);
             try
             {
-                new RoomInfoDAL().Add(CardsLogic.SetRoomInfoTb(room, user.UserID));
+                new RoomInfoDAL().Add(CardsLogic.SetRoomInfoTb(room, user.UserID), user.UserID);
             }
             catch (Exception ex)
             {

@@ -1,4 +1,5 @@
-﻿using ListBLL.common;
+﻿using DAL.DAL;
+using ListBLL.common;
 using ListBLL.model;
 using SuperSocket.SocketBase.Command;
 using System;
@@ -31,7 +32,24 @@ namespace ListBLL.Logic
                 case 1:
                     if (ISUserInGruop(gameOperation))
                     {
-                        RedisUtility.GetServerIP(GameInformationBase.DEFAULTGAMESERVERNAME, requestInfo.MessageNum, session, 1, gameOperation.Openid, gameOperation.Unionid);
+                        var reslut = RedisUtility.GetServerIP(GameInformationBase.DEFAULTGAMESERVERNAME, requestInfo.MessageNum, session, 1, gameOperation.Openid, gameOperation.Unionid);
+                        if(reslut == true)
+                        {
+                            //根据groupid来查找所有在线的圈子session
+                            var groupList = Gongyong.userlist.FindAll(w => { return w.GroupID.Contains(GroupID) && w.session != session; });
+                            for(var i = 0; i < groupList.Count; i++)
+                            {
+                                Console.WriteLine("get : "+groupList[i].nickname+" , ",groupList[i]);
+                            }
+
+                            //向日志里面添加朋友圈耗卡信息
+                            //GroupInfoDAL groupInfoDAL = new GroupInfoDAL();
+                            //var userInfo = Gongyong.userlist.Find(w => { return w.session.Equals(session); });
+                            //var listRecord = groupInfoDAL.AddCreateRoomRecord(userInfo.UserID, GroupID,);
+
+                        }
+
+
                     }
                     else//不是圈内成员
                     {

@@ -82,6 +82,7 @@ namespace MJBLL.mjrule
             //    default:
             //        break;
             //}
+            var dcount = r.Dcount;
             foreach (var item in mjList)
             {
                 ReturnStartGame.Builder sendmj = ReturnStartGame.CreateBuilder();
@@ -91,7 +92,7 @@ namespace MJBLL.mjrule
                 Gongyong.mulist.Remove(item);
                 if (r.IsYuanQue)
                     item.QYM = 3;
-                logic.GetMyCards(requestInfo, sendmj, ReturnGangMSG, Ruturnjsmj, session, result.RoomID, item, item.Openid, ref number);
+                logic.GetMyCards(requestInfo, sendmj, ReturnGangMSG, Ruturnjsmj, session, result.RoomID, item, item.Openid, ref dcount);
                 var user = Gongyong.userlist.Find(w => w.openid.Equals(item.Openid));
 
                 byte[] stringnew = ReturnPaiCount.CreateBuilder().SetPaiCount(r.RoomPai.Count).Build().ToByteArray();

@@ -158,6 +158,34 @@ namespace DAL.DAL
             }
             return r;
         }
+        public long QueryGroupIdByUserid(long userId)
+        {
+            long groupId = 0;
+            using (var Conn = new MySqlConnection(DbHelperMySQL.connectionString))
+            {
+               
+                try
+                {
+                    Conn.Open();
+
+                    //string sql = "select count(*) from groupapplyinfo_tb where ApplyJoinUserID=@ApplyJoinUserID and GroupID=@GroupID and ApplyStatus=@ApplyStatus";
+                    //return Conn.QueryFirstOrDefault<int>(sql, new { ApplyJoinUserID = ApplyJoinUserID, GroupID = GroupID, ApplyStatus = ApplyStatus });
+                    string sql = "select groupID from group_tips where userID = @userId";
+
+                }
+                catch
+                {
+
+                }
+                finally
+                {
+                    Conn.Close();
+                }
+            }
+            return groupId;
+        }
+
+
 
         /// <summary>
         /// 申请加入
@@ -306,6 +334,17 @@ namespace DAL.DAL
                 string sql = "	SELECT * from  group_log where CreateUserID=@CreateUserID and GroupID=@GroupID  order by CreateDate ASC limit 10";
                 return Conn.Query<CreateRoomRecord>(sql, new { CreateUserID = CreateUserID, GroupID = GroupID }).ToList<CreateRoomRecord>();
             }
+        }
+        public int AddCreateRoomRecord(long CreateUserID, long GroupID,long roomid,long id)
+        {
+           
+            using (var Conn = new MySqlConnection(DbHelperMySQL.connectionString))
+            {
+                string sql = "INSERT group_log (GuoupID,RoomID,CreatUserID,,CreateDate,UserRoomCard,id) VALUES(@)";
+                return Conn.Execute(sql, new { GuoupID = CreateUserID, RoomID = roomid, CreateUserID = CreateUserID, CreateDate = DateTime.Now, UserRoomCard  = 1, id  = 1});
+            }
+
+
         }
 
         /// <summary>

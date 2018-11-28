@@ -274,6 +274,7 @@ namespace MJBLL.mjrule
 
                 CardsLogic logic = new CardsLogic();
                 int number = 0;//发牌次数，从0开始计数
+                var dcount = rm.Dcount;
                 foreach (var item in mjList)
                 {
                     ReturnStartGame.Builder sendmj = ReturnStartGame.CreateBuilder();
@@ -283,7 +284,7 @@ namespace MJBLL.mjrule
                     Gongyong.mulist.Remove(item);
                     if (rm.IsYuanQue)
                         item.QYM = 3;
-                    logic.GetMyCards(requestInfo, sendmj, ReturnGangMSG, Ruturnjsmj, session, rm.RoomID, item, item.Openid, ref number);
+                    logic.GetMyCards(requestInfo, sendmj, ReturnGangMSG, Ruturnjsmj, session, rm.RoomID, item, item.Openid, ref dcount);
 
                 }
 
