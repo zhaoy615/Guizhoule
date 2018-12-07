@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAL\BoarddetailstbDAL.cs" />
+    <Compile Include="DAL\GroupInfoDAL.cs" />
     <Compile Include="DAL\login_logDAL.cs" />
     <Compile Include="DAL\mjuserinfoDAL.cs" />
     <Compile Include="DAL\RoomInfoDAL.cs" />

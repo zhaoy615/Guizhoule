@@ -78,6 +78,7 @@ namespace MJBLL.mjrule
                 room_peo = info.RoomPeo,
                 Dcount = 1,
                 RoomID = roomid,
+                GroupID = info.GroupID,
                 startgame = 0,
                 is_lianz = info.IsYikousan == 3 ? true : false,
                 CreateDate = DateTime.Now,
@@ -88,7 +89,7 @@ namespace MJBLL.mjrule
             //Console.WriteLine("roomid : " + roomid);
             try
             {
-                new RoomInfoDAL().Add(CardsLogic.SetRoomInfoTb(room, user.UserID), user.UserID);
+                new RoomInfoDAL().Add(CardsLogic.SetRoomInfoTb(room, user.UserID), info.GroupID);
             }
             catch (Exception ex)
             {

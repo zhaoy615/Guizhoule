@@ -9,6 +9,7 @@ using MJBLL.common;
 using SuperSocket.SocketBase.Command;
 using MJBLL.Logic;
 using MJBLL.model;
+using DAL.DAL;
 
 namespace MJBLL.mjrule
 {
@@ -46,9 +47,10 @@ namespace MJBLL.mjrule
                 return;
             if (mjList.Count != r.room_peo)
                 return;
+
+           
             foreach (var item in mjList)
             {
-
                 if (!item.ConfirmationStarts)
                     return;
             }
@@ -58,6 +60,8 @@ namespace MJBLL.mjrule
 
             CardsLogic logic = new CardsLogic();
             int number = 0;//发牌次数，从0开始计数
+
+            
 
             //switch (r.room_peo)
             //{

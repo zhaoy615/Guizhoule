@@ -12,6 +12,12 @@ namespace MJBLL.model
         /// 房间ID
         /// </summary>
         public int RoomID { get; set; }
+
+        /// <summary>
+        /// 房间的groupid  如果没有groupid 则groupid默认为0
+        /// </summary>
+        public int GroupID { get; set; }
+
         /// <summary>
         /// 是否乌骨鸡
         /// </summary>

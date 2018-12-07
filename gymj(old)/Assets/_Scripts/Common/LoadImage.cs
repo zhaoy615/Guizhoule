@@ -10,6 +10,7 @@ public class LoadImage : MonoBehaviour
     public Sprite error;
     private void Awake()
     {
+        
         if (Instance == null)
         {
             Instance = this;

@@ -15,7 +15,7 @@ namespace MJBLL.mjrule
         public void ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo)
         {
             log4net.ILog log = log4net.LogManager.GetLogger("ColoredConsoleAppender");
-            //  ILog log = log4net.LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
+         
 
             var info = RequestUserInfo.ParseFrom(requestInfo.Body);
 

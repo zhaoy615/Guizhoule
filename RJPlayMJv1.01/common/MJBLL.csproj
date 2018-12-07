@@ -82,11 +82,13 @@
     <Compile Include="common\GameSession.cs" />
     <Compile Include="common\IntToByte.cs" />
     <Compile Include="common\MyLogger.cs" />
+    <Compile Include="common\MySocket.cs" />
     <Compile Include="common\PictureUtility.cs" />
     <Compile Include="common\ProtobufReceiveFilter.cs" />
     <Compile Include="common\ProtobufRequestInfo.cs" />
     <Compile Include="common\PutObjectSample.cs" />
     <Compile Include="common\RedisUtility.cs" />
+    <Compile Include="common\RoomCardUtility.cs" />
     <Compile Include="common\ThreadUtility.cs" />
     <Compile Include="common\TimerOut.cs" />
     <Compile Include="common\Ting.cs" />

@@ -1,0 +1,71 @@
+﻿2018-12-07 13:45:11,498 [7] ERROR LISTServer - System.InvalidOperationException: 序列不包含任何匹配元素
+   在 System.Linq.Enumerable.First[TSource](IEnumerable`1 source, Func`2 predicate)
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 25
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-12-07 14:06:50,483 [9] ERROR LISTServer - Google.ProtocolBuffers.InvalidProtocolBufferException: Message missing required fields: openid, unionid
+   在 Google.ProtocolBuffers.GeneratedBuilder`2.BuildParsed()
+   在 SendGetRoomCard.ParseFrom(Byte[] data) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\proto\DNL.cs:行号 5302
+   在 ListBLL.Logic.GetRoomCard.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\Logic\GetRoomCard.cs:行号 21
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-12-07 14:06:51,581 [8] ERROR LISTServer - Google.ProtocolBuffers.InvalidProtocolBufferException: Message missing required fields: openid, unionid
+   在 Google.ProtocolBuffers.GeneratedBuilder`2.BuildParsed()
+   在 MaintainHeartbeat.ParseFrom(Byte[] data) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\proto\DNL.cs:行号 2939
+   在 ListBLL.Logic.Heartbeat.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\Logic\Heartbeat.cs:行号 31
+2018-12-07 14:06:53,580 [9] ERROR LISTServer - Google.ProtocolBuffers.InvalidProtocolBufferException: Message missing required fields: openid, unionid
+   在 Google.ProtocolBuffers.GeneratedBuilder`2.BuildParsed()
+   在 MaintainHeartbeat.ParseFrom(Byte[] data) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\proto\DNL.cs:行号 2939
+   在 ListBLL.Logic.Heartbeat.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\Logic\Heartbeat.cs:行号 31
+2018-12-07 15:02:54,832 [8] ERROR LISTServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 ListBLL.Logic.GameOperation.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\Logic\GameOperation.cs:行号 56
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-12-07 15:04:01,130 [15] ERROR LISTServer - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 ListBLL.Logic.GameOperation.ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\Logic\GameOperation.cs:行号 56
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(IAppSession session, TRequestInfo requestInfo)
+   在 SuperSocket.SocketBase.AppSession`2.SuperSocket.SocketBase.IAppSession.ProcessRequest(Byte[] readBuffer, Int32 offset, Int32 length, Boolean toBeCopied)
+2018-12-07 17:05:18,063 [7] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 ListBLL.common.MySocket.SendReceive(Byte[] data) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 38
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-12-07 17:05:18,871 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-12-07 17:05:20,731 [10] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-12-07 17:05:20,825 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-12-07 17:05:22,708 [10] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-12-07 17:05:22,822 [7] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-12-07 17:05:24,697 [7] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24
+2018-12-07 17:05:24,865 [13] ERROR 手动添加日志 - 请求扣除房卡异常:System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2020
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 ListBLL.common.MySocket..ctor(String ip, Int32 point) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\MySocket.cs:行号 22
+   在 ListBLL.common.RoomCardUtility.GetRoomCard(Int64 userID) 位置 D:\千羽瑞佳-白\Guizhoule\ZH_LIST_MJ\list_mj\ListBLL\common\RoomCardUtility.cs:行号 24

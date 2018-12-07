@@ -212,6 +212,10 @@ public static partial class DNL {
   internal static pb::FieldAccess.FieldAccessorTable<global::SendRoomExist, global::SendRoomExist.Builder> internal__static_SendRoomExist__FieldAccessorTable;
   internal static pbd::MessageDescriptor internal__static_ReturnRoomExist__Descriptor;
   internal static pb::FieldAccess.FieldAccessorTable<global::ReturnRoomExist, global::ReturnRoomExist.Builder> internal__static_ReturnRoomExist__FieldAccessorTable;
+  internal static pbd::MessageDescriptor internal__static_RoomCardBusiness__Descriptor;
+  internal static pb::FieldAccess.FieldAccessorTable<global::RoomCardBusiness, global::RoomCardBusiness.Builder> internal__static_RoomCardBusiness__FieldAccessorTable;
+  internal static pbd::MessageDescriptor internal__static_Result__Descriptor;
+  internal static pb::FieldAccess.FieldAccessorTable<global::Result, global::Result.Builder> internal__static_Result__FieldAccessorTable;
   #endregion
   #region Descriptor
   public static pbd::FileDescriptor Descriptor {
@@ -234,151 +238,154 @@ public static partial class DNL {
           "KAkSDwoHdW5pb25pZBgCIAIoCSIhCg9SZXR1cm5BZGRTZXJ2ZXISDgoGc3Rh", 
           "dHVzGAEgAigFIlcKEVNlbmRHYW1lT3BlcmF0aW9uEg4KBm9wZW5pZBgBIAIo", 
           "CRIPCgd1bmlvbmlkGAIgAigJEhEKCU9wZXJhdGlvbhgDIAIoBRIOCgZSb29t", 
-          "SUQYBCABKAki8wEKDlNlbmRDcmVhdGVSb29tEg4KBm9wZW5pZBgBIAIoCRIO", 
+          "SUQYBCABKAkihAIKDlNlbmRDcmVhdGVSb29tEg4KBm9wZW5pZBgBIAIoCRIO", 
           "CgZpc193Z2oYAiACKAUSEgoKaXNfeGlucWlqaRgDIAIoBRIVCg1pc19zaGFu", 
           "Z3hpYWppGAQgAigFEhAKCGlzX2JlbmppGAUgAigFEhMKC2lzX3lpa291c2Fu", 
           "GAYgAigFEhAKCHJvb21fcGVvGAcgASgFEg0KBWNvdW50GAggAigFEhUKDWlz", 
           "X2xpYW56aHVhbmcYCSACKAUSEAoITGF0aXR1ZGUYCiACKAkSEgoKSXNfeXVh", 
-          "bnF1ZRgLIAEoBRIRCglRdWlja0NhcmQYDCABKAUiPwoQUmV0dXJuQ3JlYXRl", 
-          "Um9vbRIOCgZyb29tSUQYASACKAUSGwoIdXNlcmluZm8YAiACKAsyCS5Vc2Vy", 
-          "aW5mbyK6AQoIVXNlcmluZm8SDgoGb3BlbmlkGAEgAigJEhAKCG5pY2tuYW1l", 
-          "GAIgAigJEg8KB2hlYWRpbWcYAyACKAkSCwoDc2V4GAQgAigFEhEKCXVzZXJf", 
-          "YmVhbhgFIAIoBRIRCgl1c2VyX2dvbGQYBiACKAUSDwoHdXNlcl9GVxgHIAIo", 
-          "BRIOCgZVc2VySUQYCCACKAMSDgoGVXNlcklQGAkgASgJEhcKD0N1bXVsYXRp", 
-          "dmVTY29yZRgKIAEoBSI/CgtTZW5kQWRkUm9vbRIOCgZyb29tSUQYASACKAUS", 
-          "DgoGb3BlbmlkGAIgAigJEhAKCExhdGl0dWRlGAMgAigJIjsKDVJldHVybkFk", 
-          "ZFJvb20SDQoFc3RhdGUYASACKAUSGwoIdXNlcmluZm8YAiADKAsyCS5Vc2Vy", 
-          "aW5mbyItCg5SZXR1cm5Vc2VySW5mbxIbCgh1c2VyaW5mbxgBIAMoCzIJLlVz", 
-          "ZXJpbmZvIicKB01hSmlhbmcSDQoFUGFpSUQYASACKAUSDQoFUGFpSFMYAiAC", 
-          "KAUiTAoPUmV0dXJuU3RhcnRHYW1lEhQKAm1qGAEgAygLMgguTWFKaWFuZxIP", 
-          "CgdjaHV1c2VyGAIgAigFEhIKCmdhbWVudW1iZXIYAyACKAUiKwoJU2VuZFN0", 
-          "YXJ0Eg4KBm9wZW5pZBgBIAIoCRIOCgZyb29taWQYAiACKAUiHAoLUmV0dXJu", 
-          "U3RhcnQSDQoFc3RhcnQYASACKAUiIAoIUmV0dXJuVFASFAoCbWoYASADKAsy", 
-          "CC5NYUppYW5nIhwKC1JldHVyblRUQVRIEg0KBXN0YXRlGAEgAigFIh4KDVJl", 
-          "dHVybk1hbmFnZWQSDQoFc3RhdGUYASACKAUiLAoLU2VuZE1hbmFnZWQSDQoF", 
-          "c3RhdGUYASACKAUSDgoGb3BlbmlkGAIgAigJIjcKBlNlbmRNUBIOCgZvcGVu", 
-          "aWQYASACKAkSDgoGcm9vbWlkGAIgAigFEg0KBW1UeXBlGAMgASgFIjoKCFJl", 
-          "dHVybk1QEhQKAm1qGAEgAigLMgguTWFKaWFuZxIMCgRnYW5nGAIgASgFEgoK", 
-          "Amh1GAMgASgFIkwKBlNlbmRDUBIOCgZvcGVuaWQYASACKAkSDgoGcm9vbWlk", 
-          "GAIgAigFEhQKAm1qGAMgAigLMgguTWFKaWFuZxIMCgR0eXBlGAQgAigFInAK", 
-          "CVJldHVybkFsbBIMCgRwZW5nGAEgASgFEgwKBGdhbmcYAiABKAUSCgoCaHUY", 
-          "AyABKAUSCgoCbW8YBCABKAUSFAoCbWoYBSABKAsyCC5NYUppYW5nEgoKAmZ3", 
-          "GAYgASgFEg0KBW1UeXBlGAcgASgFIjoKCVJldHVybk1zZxILCgNtc2cYASAB", 
-          "KAkSFAoCbWoYAiABKAsyCC5NYUppYW5nEgoKAkZXGAMgASgFInkKCFNlbmRQ", 
-          "ZW5nEg0KBXR5cGVzGAEgAigFEg0KBXN0YXRlGAIgAigFEg4KBm9wZW5pZBgD", 
-          "IAIoCRIOCgZyb29taWQYBCACKAUSCgoCRlcYBSACKAUSFAoCbWoYBiABKAsy", 
-          "CC5NYUppYW5nEg0KBUd0eXBlGAcgASgJIlkKClJldHVyblBlbmcSDQoFc3Rh", 
-          "dGUYASACKAUSFAoCbWoYAiABKAsyCC5NYUppYW5nEgoKAmZ3GAMgASgFEgsK", 
-          "A1BmdxgEIAEoBRINCgVHdHlwZRgFIAEoCSJMCgZTZW5kQlQSDgoGb3Blbmlk", 
-          "GAEgAigJEgwKBHR5cGUYAiACKAUSDgoGcm9vbUlEGAMgAigFEhQKAm1qGAQg", 
-          "AigLMgguTWFKaWFuZyIZCgtSZXR1cm5CVE1zZxIKCgJmdxgBIAIoBSI5CgZT", 
-          "ZW5kSlMSDgoGb3BlbmlkGAEgAigJEg4KBnJvb21pZBgCIAIoBRIPCgd1bmlv", 
-          "bmlkGAMgAigJIisKC1JldHVybkpTTXNnEhAKCE5pY2tOYW1lGAEgAigJEgoK", 
-          "AmZ3GAIgAigFIjsKClNlbmRKU0lkZWESDgoGcm9vbWlkGAEgAigFEg4KBm9w", 
-          "ZW5pZBgCIAIoCRINCgVzdGF0ZRgDIAIoBSI9Cg5SZXR1cm5KU0J5T25ldxIQ", 
-          "CghOaWNrTmFtZRgBIAIoCRINCgVzdGF0ZRgCIAIoBRIKCgJmdxgDIAIoBSIz", 
-          "Cg1SZXR1cm5BbGxJZGVhEg0KBXN0YXRlGAEgAigFEhMKC01lc3NnYWVUeXBl", 
-          "GAIgAigFIj0KClNlbmRSZW1vdmUSDgoGb3BlbmlkGAEgAigJEg4KBlJvb21J", 
-          "RBgCIAIoBRIPCgd1bmlvbmlkGAMgAigJIjIKEFJldHVyblJlbW92ZVVzZXIS", 
-          "DgoGb3BlbmlkGAEgAigJEg4KBnN0YXR1cxgCIAIoBSIoChZSZXR1cm5EaXNi", 
-          "YW5kZWRGYWlsdXJlEg4KBnN0YXR1cxgBIAIoBSInCgdTZW5kUVlNEgwKBHR5", 
-          "cGUYASACKAUSDgoGb3BlbmlkGAIgAigJIiUKCVJldHVyblFZTRIKCgJmdxgB", 
-          "IAIoBRIMCgR0eXBlGAIgAigFIiMKCVJldHVybkFZTRIWCgJRUBgBIAMoCzIK", 
-          "LlJldHVyblFZTSIWCghSZXR1cm5UVBIKCgJmdxgBIAIoBSJ7CgdVc2VyQUpT", 
-          "EhcKBHVzZXIYASACKAsyCS5Vc2VyaW5mbxIMCgR6aW1vGAIgAigFEg8KB2Rp", 
-          "YW5wYW8YAyACKAUSDQoFYW5kb3UYBCACKAUSDAoETWRvdRgFIAIoBRIMCgRa", 
-          "ZG91GAYgAigFEg0KBVNjYXJlGAcgAigFIjQKCVJldHVybkRKUxIYCgZ1c2Vy", 
-          "anMYASADKAsyCC5Vc2VyQUpTEg0KBXN0YXRlGAIgAigFIk0KDVJldHVybkhC", 
-          "eVR5cGUSCwoDRldaGAEgAigFEgwKBHR5cGUYAiACKAUSCwoDRldCGAMgASgF", 
-          "EhQKAk1KGAQgAigLMgguTWFKaWFuZyKDAQoGU2VuZEh1EgsKA0ZXWhgBIAIo", 
-          "BRIMCgR0eXBlGAIgAigFEgsKA0ZXQhgDIAEoBRIUCgJNShgEIAIoCzIILk1h", 
-          "SmlhbmcSDgoGb3BlbmlkGAUgAigJEg4KBnJvb21pZBgGIAIoBRIbCgZEWElu", 
-          "Zm8YByADKAsyCy5EdW9YaWFuZ0h1IioKCkR1b1hpYW5nSHUSDAoERFhGVxgB", 
-          "IAIoBRIOCgZEWFR5cGUYAiACKAUiKgoLU2VuZEdldEdhbWUSDwoHcm9vbV9J", 
-          "RBgBIAIoBRIKCgJmdxgCIAIoBSI2CghSZXR1cm5aUhINCgVndHlwZRgBIAIo", 
-          "BRIMCgR6cmZ3GAIgAigFEg0KBWR6cmZ3GAMgAigFIi4KDFNlbmRDb25uRGF0", 
-          "YRIOCgZvcGVuaWQYASACKAkSDgoGUm9vbUlEGAIgAigFIkIKDFJldHVyblpo", 
-          "dWFuZxIOCgZ6aHVhbmcYASACKAUSDQoFc2VpemkYAiACKAkSEwoLemh1YW5n", 
-          "Q291bnQYAyACKAUiaAoLUmV0dXJuSFR5cGUSCwoDRldaGAEgAigFEgwKBHR5", 
-          "cGUYAiACKAUSCwoDRldCGAMgASgFEhQKAk1KGAQgAigLMgguTWFKaWFuZxIb", 
-          "CgZEWEluZm8YBSADKAsyCy5EdW9YaWFuZ0h1IjkKB0dhbmdNU0cSCgoCZncY", 
-          "ASACKAUSDAoEVHlwZRgCIAIoBRIUCgJtahgDIAIoCzIILk1hSmlhbmciJAoK", 
-          "UmV0dXJuR2FuZxIWCgRnYW5nGAEgAygLMgguR2FuZ01TRyIcCgtSZXR1cm5S", 
-          "ZWNvbhINCgVzdGF0ZRgBIAIoBSJ7CghVc2VyU2hvdRIKCgJGVxgBIAIoBRIU", 
-          "CgJtahgCIAMoCzIILk1hSmlhbmcSDgoGUGNvdW50GAMgAigFEgsKA1FZTRgE", 
-          "IAIoBRIQCghUaWFudGluZxgFIAIoBRIPCgdCYW90aW5nGAYgAigFEg0KBVNj", 
-          "YXJlGAcgAigFIiwKCFVzZXJQZW5nEgoKAkZXGAEgAigFEhQKAm1qGAIgAygL", 
-          "MgguTWFKaWFuZyIkCghVc2VyR2FuZxIKCgJGVxgBIAIoBRIMCgRnYW5nGAIg", 
-          "AigJIisKB1VzZXJDaHUSCgoCRlcYASACKAUSFAoCbWoYAiADKAsyCC5NYUpp", 
-          "YW5nIi4KBkpwQ29ubhILCgNDRkoYASABKAUSCwoDV0dKGAIgASgFEgoKAkZX", 
-          "GAMgAigFIrcDCg5SZXR1cm5Db25uRGF0YRIaCgdzaG91cGFpGAEgAygLMgku", 
-          "VXNlclNob3USFwoEcGVuZxgCIAMoCzIJLlVzZXJQZW5nEhcKBGdhbmcYAyAD", 
-          "KAsyCS5Vc2VyR2FuZxIVCgNjaHUYBCADKAsyCC5Vc2VyQ2h1Eg4KBnJvb21J", 
-          "RBgFIAIoBRITCgJqcBgGIAMoCzIHLkpwQ29ubhIfCgdtZXNzYWdlGAcgAigL", 
-          "Mg4uUmV0dXJuUm9vbU1zZxIdCgZoeVVzZXIYCCACKAsyDS5SZXR1cm5IeVVz", 
-          "ZXISIQoIdXNlckluZm8YCSACKAsyDy5SZXR1cm5Vc2VySW5mbxIVCgJ0cBgK", 
-          "IAEoCzIJLlJldHVyblRQEh0KBnpodWFuZxgLIAIoCzINLlJldHVyblpodWFu", 
-          "ZxIQCghTZW5kRGF0YRgMIAMoDBIaCghMYXN0TW9tahgNIAEoCzIILk1hSmlh", 
-          "bmcSGwoJTGFzdENodW1qGA4gASgLMgguTWFKaWFuZxISCgpHYW1lTnVtYmVy", 
-          "GA8gAigFEhEKCUppWHVZb3VYaRgQIAIoBRIQCghQYWlDb3VudBgRIAEoBSIc", 
-          "Cg1SZXR1cm5Nc2dMaXN0EgsKA21zZxgBIAMoDCLQAQoNUmV0dXJuUm9vbU1z", 
-          "ZxIOCgZpc193Z2oYASACKAUSEgoKaXNfeGlucWlqaRgCIAIoBRIVCg1pc19z", 
-          "aGFuZ3hpYWppGAMgAigFEhAKCGlzX2JlbmppGAQgAigFEhMKC2lzX3lpa291", 
-          "c2FuGAUgAigFEhAKCHJvb21fcGVvGAYgASgFEg0KBWNvdW50GAcgAigFEhUK", 
-          "DWlzX2xpYW56aHVhbmcYCCACKAUSEgoKSXNfeXVhbnF1ZRgJIAIoBRIRCglR", 
-          "dWlja0NhcmQYCiABKAUiPAoMUmV0dXJuSHlVc2VyEgoKAmZ3GAEgAigFEgoK", 
-          "AmN6GAIgAigJEhQKAm1qGAMgASgLMgguTWFKaWFuZyIWCghSZXR1cm5GShIK", 
-          "CgJIUxgBIAIoBSI0CgZKaVBhaUYSDQoFUGFpSFMYASABKAUSDQoFQ291bnQY", 
-          "AiABKAUSDAoEdHlwZRgDIAEoBSIiCgNEb3USDAoEdHlwZRgBIAEoBRINCgVD", 
-          "b3VudBgCIAEoBSKYAQoGVXNlckpTEhsKCHVzZXJpbmZvGAEgAigLMgkuVXNl", 
-          "cmluZm8SEwoCanAYAiADKAsyBy5KaVBhaUYSEAoCZGMYAyADKAsyBC5Eb3US", 
-          "CgoCRlMYBCACKAUSDwoHaXNfamlhbxgFIAIoBRIOCgZpc19wYW8YBiABKAUS", 
-          "DQoFZHlfZnMYByABKAUSDgoGaHVUeXBlGAggASgFIh8KCFJldHVybkpTEhMK", 
-          "AmpzGAEgAygLMgcuVXNlckpTIiIKDlJldHVyblBhaUNvdW50EhAKCFBhaUNv", 
-          "dW50GAEgAigFIiwKCFVzZXJTUGFpEgoKAmZ3GAEgAigFEhQKAm1qGAIgAygL", 
-          "MgguTWFKaWFuZyIoCg5SZXR1cm5Vc2VyU1BhaRIWCgN1c3AYASADKAsyCS5V", 
-          "c2VyU1BhaSIwCg5TZW5kQWRkUm9vbU9uZRIOCgZvcGVuaWQYASACKAkSDgoG", 
-          "Um9vbUlEGAIgAigFIh4KDVJldHVyblJvb21BZGQSDQoFU3RhcnQYASACKAUi", 
-          "MQoJUmV0dXJuRGlzEgoKAkZXGAEgAigFEgsKA2RpcxgCIAIoCRILCgNGV1QY", 
-          "AyABKAUiJQoJUmV0dXJuSXNKEgsKA0ZXTxgBIAIoBRILCgNGV1cYAiACKAUi", 
-          "GgoMUmV0dXJuSVBTYW1lEgoKAkZXGAEgAygFIjgKFlNlbmRDb25maXJtYXRp", 
-          "b25TdGFydHMSDgoGb3BlbmlkGAEgAigJEg4KBlJvb21JRBgCIAIoBSItChFS", 
-          "ZXR1cm5Jc0o1U2Vjb25kcxILCgNGV08YASACKAUSCwoDRldXGAIgAigFIiIK", 
-          "FFJldHVybklQU2FtZTVTZWNvbmRzEgoKAkZXGAEgAygFIhwKDlJldHVybkNs", 
-          "b3NlR1BTEgoKAkZXGAEgAygFIjIKEFNlbmRBbm5vdW5jZW1lbnQSDgoGb3Bl", 
-          "bmlkGAEgAigJEg4KBlJvb21JRBgCIAIoBSI9ChJSZXR1cm5Bbm5vdW5jZW1l", 
-          "bnQSJwoMYW5ub3VuY2VtZW50GAEgAygLMhEuQW5ub3VuY2VtZW50SW5mbyIy", 
-          "ChBBbm5vdW5jZW1lbnRJbmZvEg0KBVRpdGxlGAEgAigJEg8KB0NvbnRlbnQY", 
-          "AiACKAkiTQoJU2VuZFZvaWNlEg4KBlJvb21JRBgBIAIoBRIOCgZvcGVuaWQY", 
-          "AiACKAkSEwoLVm9pY2VOdW1iZXIYAyACKAUSCwoDRldUGAQgASgFIjsKC1Jl", 
-          "dHVyblZvaWNlEgoKAkZXGAEgAigFEhMKC1ZvaWNlTnVtYmVyGAIgAigFEgsK", 
-          "A0ZXVBgDIAEoBSI8ChRDb25uZWN0aW9uU3RhdHVzSW5mbxIKCgJGVxgBIAIo", 
-          "BRIYChBDb25uZWN0aW9uU3RhdHVzGAIgAigFIkkKFlJldHVybkNvbm5lY3Rp", 
-          "b25TdGF0dXMSLwoQQ29ubmVjdGlvblN0YXR1cxgBIAMoCzIVLkNvbm5lY3Rp", 
-          "b25TdGF0dXNJbmZvIkAKFFNlbmRDb25uZWN0aW9uU3RhdHVzEg4KBm9wZW5p", 
-          "ZBgBIAIoCRIYChBDb25uZWN0aW9uU3RhdHVzGAIgAigFIukBChFHYW1lT3Bl", 
-          "cmF0aW9uSW5mbxIUCgxTZXJpYWxOdW1iZXIYASACKAUSEwoLT3BlcmF0aW9u", 
-          "RlcYAiACKAUSFQoNT3BlcmF0aW9uVHlwZRgDIAIoBRIOCgZQZW5nRlcYBCAB", 
-          "KAUSFAoCTUoYBSADKAsyCC5NYUppYW5nEhIKClRpbmdIdVR5cGUYBiABKAUS", 
-          "DwoHQ2h1VXNlchgHIAEoBRILCgNRWU0YCCABKAUSDgoGTUpUeXBlGAkgASgJ", 
-          "Eg0KBVBhb0ZXGAogASgFEhsKBkRYSW5mbxgLIAMoCzILLkR1b1hpYW5nSHUi", 
-          "ngEKFEdhbWVPcGVyYXRpb25Qcm9jZXNzEi0KEWdhbWVPcGVyYXRpb25JbmZv", 
-          "GAEgAygLMhIuR2FtZU9wZXJhdGlvbkluZm8SHwoHbWVzc2FnZRgCIAIoCzIO", 
-          "LlJldHVyblJvb21Nc2cSIQoIdXNlckluZm8YAyACKAsyDy5SZXR1cm5Vc2Vy", 
-          "SW5mbxITCgtKaWVTdWFuSW5mbxgEIAIoDCJEChFTZW5kR2V0VXNlclJlY29y", 
-          "ZBIOCgZVc2VySUQYASACKAMSDgoGb3BlbmlkGAIgAigJEg8KB3VuaW9uaWQY", 
-          "AyACKAkibwoOUmVjb3JkVXNlckluZm8SDgoGb3BlbmlkGAEgAigJEhAKCG5p", 
-          "Y2tuYW1lGAIgAigJEg8KB2hlYWRpbWcYAyACKAkSCwoDc2V4GAQgAigFEg0K", 
-          "BVNjb3JlGAYgAigJEg4KBlVzZXJJRBgHIAIoAyJuCgpVc2VyUmVjb3JkEicK", 
-          "DnJlY29yZFVzZXJJbmZvGAEgAygLMg8uUmVjb3JkVXNlckluZm8SEgoKUm9v", 
-          "bUluZm9JRBgCIAIoCRISCgpDcmVhdGVEYXRlGAMgASgBEg8KB0VuZFRpbWUY", 
-          "BCABKAEiMwoQUmV0dXJuVXNlclJlY29yZBIfCgp1c2VyUmVjb3JkGAEgAygL", 
-          "MgsuVXNlclJlY29yZCItChdTZW5kR2V0VXNlckdhbWVQbGF5YmFjaxISCgpS", 
-          "b29tSW5mb0lEGAIgAigJIlAKGVJldHVybkdldFVzZXJHYW1lUGxheWJhY2sS", 
-          "MwoUZ2FtZU9wZXJhdGlvblByb2Nlc3MYASADKAsyFS5HYW1lT3BlcmF0aW9u", 
-          "UHJvY2VzcyJACg1TZW5kUm9vbUV4aXN0Eg4KBnJvb21JRBgBIAIoBRIOCgZv", 
-          "cGVuaWQYAiACKAkSDwoHdW5pb25pZBgDIAIoCSIiCg9SZXR1cm5Sb29tRXhp", 
-        "c3QSDwoHSXNFeGlzdBgBIAIoBQ=="));
+          "bnF1ZRgLIAEoBRIRCglRdWlja0NhcmQYDCABKAUSDwoHR3JvdXBJRBgNIAEo", 
+          "BSI/ChBSZXR1cm5DcmVhdGVSb29tEg4KBnJvb21JRBgBIAIoBRIbCgh1c2Vy", 
+          "aW5mbxgCIAIoCzIJLlVzZXJpbmZvIroBCghVc2VyaW5mbxIOCgZvcGVuaWQY", 
+          "ASACKAkSEAoIbmlja25hbWUYAiACKAkSDwoHaGVhZGltZxgDIAIoCRILCgNz", 
+          "ZXgYBCACKAUSEQoJdXNlcl9iZWFuGAUgAigFEhEKCXVzZXJfZ29sZBgGIAIo", 
+          "BRIPCgd1c2VyX0ZXGAcgAigFEg4KBlVzZXJJRBgIIAIoAxIOCgZVc2VySVAY", 
+          "CSABKAkSFwoPQ3VtdWxhdGl2ZVNjb3JlGAogASgFIj8KC1NlbmRBZGRSb29t", 
+          "Eg4KBnJvb21JRBgBIAIoBRIOCgZvcGVuaWQYAiACKAkSEAoITGF0aXR1ZGUY", 
+          "AyACKAkiOwoNUmV0dXJuQWRkUm9vbRINCgVzdGF0ZRgBIAIoBRIbCgh1c2Vy", 
+          "aW5mbxgCIAMoCzIJLlVzZXJpbmZvIi0KDlJldHVyblVzZXJJbmZvEhsKCHVz", 
+          "ZXJpbmZvGAEgAygLMgkuVXNlcmluZm8iJwoHTWFKaWFuZxINCgVQYWlJRBgB", 
+          "IAIoBRINCgVQYWlIUxgCIAIoBSJMCg9SZXR1cm5TdGFydEdhbWUSFAoCbWoY", 
+          "ASADKAsyCC5NYUppYW5nEg8KB2NodXVzZXIYAiACKAUSEgoKZ2FtZW51bWJl", 
+          "chgDIAIoBSIrCglTZW5kU3RhcnQSDgoGb3BlbmlkGAEgAigJEg4KBnJvb21p", 
+          "ZBgCIAIoBSIcCgtSZXR1cm5TdGFydBINCgVzdGFydBgBIAIoBSIgCghSZXR1", 
+          "cm5UUBIUCgJtahgBIAMoCzIILk1hSmlhbmciHAoLUmV0dXJuVFRBVEgSDQoF", 
+          "c3RhdGUYASACKAUiHgoNUmV0dXJuTWFuYWdlZBINCgVzdGF0ZRgBIAIoBSIs", 
+          "CgtTZW5kTWFuYWdlZBINCgVzdGF0ZRgBIAIoBRIOCgZvcGVuaWQYAiACKAki", 
+          "NwoGU2VuZE1QEg4KBm9wZW5pZBgBIAIoCRIOCgZyb29taWQYAiACKAUSDQoF", 
+          "bVR5cGUYAyABKAUiOgoIUmV0dXJuTVASFAoCbWoYASACKAsyCC5NYUppYW5n", 
+          "EgwKBGdhbmcYAiABKAUSCgoCaHUYAyABKAUiTAoGU2VuZENQEg4KBm9wZW5p", 
+          "ZBgBIAIoCRIOCgZyb29taWQYAiACKAUSFAoCbWoYAyACKAsyCC5NYUppYW5n", 
+          "EgwKBHR5cGUYBCACKAUicAoJUmV0dXJuQWxsEgwKBHBlbmcYASABKAUSDAoE", 
+          "Z2FuZxgCIAEoBRIKCgJodRgDIAEoBRIKCgJtbxgEIAEoBRIUCgJtahgFIAEo", 
+          "CzIILk1hSmlhbmcSCgoCZncYBiABKAUSDQoFbVR5cGUYByABKAUiOgoJUmV0", 
+          "dXJuTXNnEgsKA21zZxgBIAEoCRIUCgJtahgCIAEoCzIILk1hSmlhbmcSCgoC", 
+          "RlcYAyABKAUieQoIU2VuZFBlbmcSDQoFdHlwZXMYASACKAUSDQoFc3RhdGUY", 
+          "AiACKAUSDgoGb3BlbmlkGAMgAigJEg4KBnJvb21pZBgEIAIoBRIKCgJGVxgF", 
+          "IAIoBRIUCgJtahgGIAEoCzIILk1hSmlhbmcSDQoFR3R5cGUYByABKAkiWQoK", 
+          "UmV0dXJuUGVuZxINCgVzdGF0ZRgBIAIoBRIUCgJtahgCIAEoCzIILk1hSmlh", 
+          "bmcSCgoCZncYAyABKAUSCwoDUGZ3GAQgASgFEg0KBUd0eXBlGAUgASgJIkwK", 
+          "BlNlbmRCVBIOCgZvcGVuaWQYASACKAkSDAoEdHlwZRgCIAIoBRIOCgZyb29t", 
+          "SUQYAyACKAUSFAoCbWoYBCACKAsyCC5NYUppYW5nIhkKC1JldHVybkJUTXNn", 
+          "EgoKAmZ3GAEgAigFIjkKBlNlbmRKUxIOCgZvcGVuaWQYASACKAkSDgoGcm9v", 
+          "bWlkGAIgAigFEg8KB3VuaW9uaWQYAyACKAkiKwoLUmV0dXJuSlNNc2cSEAoI", 
+          "Tmlja05hbWUYASACKAkSCgoCZncYAiACKAUiOwoKU2VuZEpTSWRlYRIOCgZy", 
+          "b29taWQYASACKAUSDgoGb3BlbmlkGAIgAigJEg0KBXN0YXRlGAMgAigFIj0K", 
+          "DlJldHVybkpTQnlPbmV3EhAKCE5pY2tOYW1lGAEgAigJEg0KBXN0YXRlGAIg", 
+          "AigFEgoKAmZ3GAMgAigFIjMKDVJldHVybkFsbElkZWESDQoFc3RhdGUYASAC", 
+          "KAUSEwoLTWVzc2dhZVR5cGUYAiACKAUiPQoKU2VuZFJlbW92ZRIOCgZvcGVu", 
+          "aWQYASACKAkSDgoGUm9vbUlEGAIgAigFEg8KB3VuaW9uaWQYAyACKAkiMgoQ", 
+          "UmV0dXJuUmVtb3ZlVXNlchIOCgZvcGVuaWQYASACKAkSDgoGc3RhdHVzGAIg", 
+          "AigFIigKFlJldHVybkRpc2JhbmRlZEZhaWx1cmUSDgoGc3RhdHVzGAEgAigF", 
+          "IicKB1NlbmRRWU0SDAoEdHlwZRgBIAIoBRIOCgZvcGVuaWQYAiACKAkiJQoJ", 
+          "UmV0dXJuUVlNEgoKAmZ3GAEgAigFEgwKBHR5cGUYAiACKAUiIwoJUmV0dXJu", 
+          "QVlNEhYKAlFQGAEgAygLMgouUmV0dXJuUVlNIhYKCFJldHVyblRUEgoKAmZ3", 
+          "GAEgAigFInsKB1VzZXJBSlMSFwoEdXNlchgBIAIoCzIJLlVzZXJpbmZvEgwK", 
+          "BHppbW8YAiACKAUSDwoHZGlhbnBhbxgDIAIoBRINCgVhbmRvdRgEIAIoBRIM", 
+          "CgRNZG91GAUgAigFEgwKBFpkb3UYBiACKAUSDQoFU2NhcmUYByACKAUiNAoJ", 
+          "UmV0dXJuREpTEhgKBnVzZXJqcxgBIAMoCzIILlVzZXJBSlMSDQoFc3RhdGUY", 
+          "AiACKAUiTQoNUmV0dXJuSEJ5VHlwZRILCgNGV1oYASACKAUSDAoEdHlwZRgC", 
+          "IAIoBRILCgNGV0IYAyABKAUSFAoCTUoYBCACKAsyCC5NYUppYW5nIoMBCgZT", 
+          "ZW5kSHUSCwoDRldaGAEgAigFEgwKBHR5cGUYAiACKAUSCwoDRldCGAMgASgF", 
+          "EhQKAk1KGAQgAigLMgguTWFKaWFuZxIOCgZvcGVuaWQYBSACKAkSDgoGcm9v", 
+          "bWlkGAYgAigFEhsKBkRYSW5mbxgHIAMoCzILLkR1b1hpYW5nSHUiKgoKRHVv", 
+          "WGlhbmdIdRIMCgREWEZXGAEgAigFEg4KBkRYVHlwZRgCIAIoBSIqCgtTZW5k", 
+          "R2V0R2FtZRIPCgdyb29tX0lEGAEgAigFEgoKAmZ3GAIgAigFIjYKCFJldHVy", 
+          "blpSEg0KBWd0eXBlGAEgAigFEgwKBHpyZncYAiACKAUSDQoFZHpyZncYAyAC", 
+          "KAUiLgoMU2VuZENvbm5EYXRhEg4KBm9wZW5pZBgBIAIoCRIOCgZSb29tSUQY", 
+          "AiACKAUiQgoMUmV0dXJuWmh1YW5nEg4KBnpodWFuZxgBIAIoBRINCgVzZWl6", 
+          "aRgCIAIoCRITCgt6aHVhbmdDb3VudBgDIAIoBSJoCgtSZXR1cm5IVHlwZRIL", 
+          "CgNGV1oYASACKAUSDAoEdHlwZRgCIAIoBRILCgNGV0IYAyABKAUSFAoCTUoY", 
+          "BCACKAsyCC5NYUppYW5nEhsKBkRYSW5mbxgFIAMoCzILLkR1b1hpYW5nSHUi", 
+          "OQoHR2FuZ01TRxIKCgJmdxgBIAIoBRIMCgRUeXBlGAIgAigFEhQKAm1qGAMg", 
+          "AigLMgguTWFKaWFuZyIkCgpSZXR1cm5HYW5nEhYKBGdhbmcYASADKAsyCC5H", 
+          "YW5nTVNHIhwKC1JldHVyblJlY29uEg0KBXN0YXRlGAEgAigFInsKCFVzZXJT", 
+          "aG91EgoKAkZXGAEgAigFEhQKAm1qGAIgAygLMgguTWFKaWFuZxIOCgZQY291", 
+          "bnQYAyACKAUSCwoDUVlNGAQgAigFEhAKCFRpYW50aW5nGAUgAigFEg8KB0Jh", 
+          "b3RpbmcYBiACKAUSDQoFU2NhcmUYByACKAUiLAoIVXNlclBlbmcSCgoCRlcY", 
+          "ASACKAUSFAoCbWoYAiADKAsyCC5NYUppYW5nIiQKCFVzZXJHYW5nEgoKAkZX", 
+          "GAEgAigFEgwKBGdhbmcYAiACKAkiKwoHVXNlckNodRIKCgJGVxgBIAIoBRIU", 
+          "CgJtahgCIAMoCzIILk1hSmlhbmciLgoGSnBDb25uEgsKA0NGShgBIAEoBRIL", 
+          "CgNXR0oYAiABKAUSCgoCRlcYAyACKAUitwMKDlJldHVybkNvbm5EYXRhEhoK", 
+          "B3Nob3VwYWkYASADKAsyCS5Vc2VyU2hvdRIXCgRwZW5nGAIgAygLMgkuVXNl", 
+          "clBlbmcSFwoEZ2FuZxgDIAMoCzIJLlVzZXJHYW5nEhUKA2NodRgEIAMoCzII", 
+          "LlVzZXJDaHUSDgoGcm9vbUlEGAUgAigFEhMKAmpwGAYgAygLMgcuSnBDb25u", 
+          "Eh8KB21lc3NhZ2UYByACKAsyDi5SZXR1cm5Sb29tTXNnEh0KBmh5VXNlchgI", 
+          "IAIoCzINLlJldHVybkh5VXNlchIhCgh1c2VySW5mbxgJIAIoCzIPLlJldHVy", 
+          "blVzZXJJbmZvEhUKAnRwGAogASgLMgkuUmV0dXJuVFASHQoGemh1YW5nGAsg", 
+          "AigLMg0uUmV0dXJuWmh1YW5nEhAKCFNlbmREYXRhGAwgAygMEhoKCExhc3RN", 
+          "b21qGA0gASgLMgguTWFKaWFuZxIbCglMYXN0Q2h1bWoYDiABKAsyCC5NYUpp", 
+          "YW5nEhIKCkdhbWVOdW1iZXIYDyACKAUSEQoJSmlYdVlvdVhpGBAgAigFEhAK", 
+          "CFBhaUNvdW50GBEgASgFIhwKDVJldHVybk1zZ0xpc3QSCwoDbXNnGAEgAygM", 
+          "ItABCg1SZXR1cm5Sb29tTXNnEg4KBmlzX3dnahgBIAIoBRISCgppc194aW5x", 
+          "aWppGAIgAigFEhUKDWlzX3NoYW5neGlhamkYAyACKAUSEAoIaXNfYmVuamkY", 
+          "BCACKAUSEwoLaXNfeWlrb3VzYW4YBSACKAUSEAoIcm9vbV9wZW8YBiABKAUS", 
+          "DQoFY291bnQYByACKAUSFQoNaXNfbGlhbnpodWFuZxgIIAIoBRISCgpJc195", 
+          "dWFucXVlGAkgAigFEhEKCVF1aWNrQ2FyZBgKIAEoBSI8CgxSZXR1cm5IeVVz", 
+          "ZXISCgoCZncYASACKAUSCgoCY3oYAiACKAkSFAoCbWoYAyABKAsyCC5NYUpp", 
+          "YW5nIhYKCFJldHVybkZKEgoKAkhTGAEgAigFIjQKBkppUGFpRhINCgVQYWlI", 
+          "UxgBIAEoBRINCgVDb3VudBgCIAEoBRIMCgR0eXBlGAMgASgFIiIKA0RvdRIM", 
+          "CgR0eXBlGAEgASgFEg0KBUNvdW50GAIgASgFIpgBCgZVc2VySlMSGwoIdXNl", 
+          "cmluZm8YASACKAsyCS5Vc2VyaW5mbxITCgJqcBgCIAMoCzIHLkppUGFpRhIQ", 
+          "CgJkYxgDIAMoCzIELkRvdRIKCgJGUxgEIAIoBRIPCgdpc19qaWFvGAUgAigF", 
+          "Eg4KBmlzX3BhbxgGIAEoBRINCgVkeV9mcxgHIAEoBRIOCgZodVR5cGUYCCAB", 
+          "KAUiHwoIUmV0dXJuSlMSEwoCanMYASADKAsyBy5Vc2VySlMiIgoOUmV0dXJu", 
+          "UGFpQ291bnQSEAoIUGFpQ291bnQYASACKAUiLAoIVXNlclNQYWkSCgoCZncY", 
+          "ASACKAUSFAoCbWoYAiADKAsyCC5NYUppYW5nIigKDlJldHVyblVzZXJTUGFp", 
+          "EhYKA3VzcBgBIAMoCzIJLlVzZXJTUGFpIjAKDlNlbmRBZGRSb29tT25lEg4K", 
+          "Bm9wZW5pZBgBIAIoCRIOCgZSb29tSUQYAiACKAUiHgoNUmV0dXJuUm9vbUFk", 
+          "ZBINCgVTdGFydBgBIAIoBSIxCglSZXR1cm5EaXMSCgoCRlcYASACKAUSCwoD", 
+          "ZGlzGAIgAigJEgsKA0ZXVBgDIAEoBSIlCglSZXR1cm5Jc0oSCwoDRldPGAEg", 
+          "AigFEgsKA0ZXVxgCIAIoBSIaCgxSZXR1cm5JUFNhbWUSCgoCRlcYASADKAUi", 
+          "OAoWU2VuZENvbmZpcm1hdGlvblN0YXJ0cxIOCgZvcGVuaWQYASACKAkSDgoG", 
+          "Um9vbUlEGAIgAigFIi0KEVJldHVybklzSjVTZWNvbmRzEgsKA0ZXTxgBIAIo", 
+          "BRILCgNGV1cYAiACKAUiIgoUUmV0dXJuSVBTYW1lNVNlY29uZHMSCgoCRlcY", 
+          "ASADKAUiHAoOUmV0dXJuQ2xvc2VHUFMSCgoCRlcYASADKAUiMgoQU2VuZEFu", 
+          "bm91bmNlbWVudBIOCgZvcGVuaWQYASACKAkSDgoGUm9vbUlEGAIgAigFIj0K", 
+          "ElJldHVybkFubm91bmNlbWVudBInCgxhbm5vdW5jZW1lbnQYASADKAsyES5B", 
+          "bm5vdW5jZW1lbnRJbmZvIjIKEEFubm91bmNlbWVudEluZm8SDQoFVGl0bGUY", 
+          "ASACKAkSDwoHQ29udGVudBgCIAIoCSJNCglTZW5kVm9pY2USDgoGUm9vbUlE", 
+          "GAEgAigFEg4KBm9wZW5pZBgCIAIoCRITCgtWb2ljZU51bWJlchgDIAIoBRIL", 
+          "CgNGV1QYBCABKAUiOwoLUmV0dXJuVm9pY2USCgoCRlcYASACKAUSEwoLVm9p", 
+          "Y2VOdW1iZXIYAiACKAUSCwoDRldUGAMgASgFIjwKFENvbm5lY3Rpb25TdGF0", 
+          "dXNJbmZvEgoKAkZXGAEgAigFEhgKEENvbm5lY3Rpb25TdGF0dXMYAiACKAUi", 
+          "SQoWUmV0dXJuQ29ubmVjdGlvblN0YXR1cxIvChBDb25uZWN0aW9uU3RhdHVz", 
+          "GAEgAygLMhUuQ29ubmVjdGlvblN0YXR1c0luZm8iQAoUU2VuZENvbm5lY3Rp", 
+          "b25TdGF0dXMSDgoGb3BlbmlkGAEgAigJEhgKEENvbm5lY3Rpb25TdGF0dXMY", 
+          "AiACKAUi6QEKEUdhbWVPcGVyYXRpb25JbmZvEhQKDFNlcmlhbE51bWJlchgB", 
+          "IAIoBRITCgtPcGVyYXRpb25GVxgCIAIoBRIVCg1PcGVyYXRpb25UeXBlGAMg", 
+          "AigFEg4KBlBlbmdGVxgEIAEoBRIUCgJNShgFIAMoCzIILk1hSmlhbmcSEgoK", 
+          "VGluZ0h1VHlwZRgGIAEoBRIPCgdDaHVVc2VyGAcgASgFEgsKA1FZTRgIIAEo", 
+          "BRIOCgZNSlR5cGUYCSABKAkSDQoFUGFvRlcYCiABKAUSGwoGRFhJbmZvGAsg", 
+          "AygLMgsuRHVvWGlhbmdIdSKeAQoUR2FtZU9wZXJhdGlvblByb2Nlc3MSLQoR", 
+          "Z2FtZU9wZXJhdGlvbkluZm8YASADKAsyEi5HYW1lT3BlcmF0aW9uSW5mbxIf", 
+          "CgdtZXNzYWdlGAIgAigLMg4uUmV0dXJuUm9vbU1zZxIhCgh1c2VySW5mbxgD", 
+          "IAIoCzIPLlJldHVyblVzZXJJbmZvEhMKC0ppZVN1YW5JbmZvGAQgAigMIkQK", 
+          "EVNlbmRHZXRVc2VyUmVjb3JkEg4KBlVzZXJJRBgBIAIoAxIOCgZvcGVuaWQY", 
+          "AiACKAkSDwoHdW5pb25pZBgDIAIoCSJvCg5SZWNvcmRVc2VySW5mbxIOCgZv", 
+          "cGVuaWQYASACKAkSEAoIbmlja25hbWUYAiACKAkSDwoHaGVhZGltZxgDIAIo", 
+          "CRILCgNzZXgYBCACKAUSDQoFU2NvcmUYBiACKAkSDgoGVXNlcklEGAcgAigD", 
+          "Im4KClVzZXJSZWNvcmQSJwoOcmVjb3JkVXNlckluZm8YASADKAsyDy5SZWNv", 
+          "cmRVc2VySW5mbxISCgpSb29tSW5mb0lEGAIgAigJEhIKCkNyZWF0ZURhdGUY", 
+          "AyABKAESDwoHRW5kVGltZRgEIAEoASIzChBSZXR1cm5Vc2VyUmVjb3JkEh8K", 
+          "CnVzZXJSZWNvcmQYASADKAsyCy5Vc2VyUmVjb3JkIi0KF1NlbmRHZXRVc2Vy", 
+          "R2FtZVBsYXliYWNrEhIKClJvb21JbmZvSUQYAiACKAkiUAoZUmV0dXJuR2V0", 
+          "VXNlckdhbWVQbGF5YmFjaxIzChRnYW1lT3BlcmF0aW9uUHJvY2VzcxgBIAMo", 
+          "CzIVLkdhbWVPcGVyYXRpb25Qcm9jZXNzIkAKDVNlbmRSb29tRXhpc3QSDgoG", 
+          "cm9vbUlEGAEgAigFEg4KBm9wZW5pZBgCIAIoCRIPCgd1bmlvbmlkGAMgAigJ", 
+          "IiIKD1JldHVyblJvb21FeGlzdBIPCgdJc0V4aXN0GAEgAigFIkYKEFJvb21D", 
+          "YXJkQnVzaW5lc3MSEgoKYnVzaW5lc3NJRBgBIAIoCRIOCgZ1c2VySUQYAiAC", 
+          "KAkSDgoGY291bnRzGAMgAigFIikKBlJlc3VsdBIOCgZzdGF0dXMYASACKAUS", 
+        "DwoHbWVzc2FnZRgCIAIoCQ=="));
     pbd::FileDescriptor.InternalDescriptorAssigner assigner = delegate(pbd::FileDescriptor root) {
       descriptor = root;
       internal__static_SendLogin__Descriptor = Descriptor.MessageTypes[0];
@@ -412,7 +419,7 @@ public static partial class DNL {
       internal__static_SendCreateRoom__Descriptor = Descriptor.MessageTypes[7];
       internal__static_SendCreateRoom__FieldAccessorTable = 
           new pb::FieldAccess.FieldAccessorTable<global::SendCreateRoom, global::SendCreateRoom.Builder>(internal__static_SendCreateRoom__Descriptor,
-              new string[] { "Openid", "IsWgj", "IsXinqiji", "IsShangxiaji", "IsBenji", "IsYikousan", "RoomPeo", "Count", "IsLianzhuang", "Latitude", "IsYuanque", "QuickCard", });
+              new string[] { "Openid", "IsWgj", "IsXinqiji", "IsShangxiaji", "IsBenji", "IsYikousan", "RoomPeo", "Count", "IsLianzhuang", "Latitude", "IsYuanque", "QuickCard", "GroupID", });
       internal__static_ReturnCreateRoom__Descriptor = Descriptor.MessageTypes[8];
       internal__static_ReturnCreateRoom__FieldAccessorTable = 
           new pb::FieldAccess.FieldAccessorTable<global::ReturnCreateRoom, global::ReturnCreateRoom.Builder>(internal__static_ReturnCreateRoom__Descriptor,
@@ -777,6 +784,14 @@ public static partial class DNL {
       internal__static_ReturnRoomExist__FieldAccessorTable = 
           new pb::FieldAccess.FieldAccessorTable<global::ReturnRoomExist, global::ReturnRoomExist.Builder>(internal__static_ReturnRoomExist__Descriptor,
               new string[] { "IsExist", });
+      internal__static_RoomCardBusiness__Descriptor = Descriptor.MessageTypes[99];
+      internal__static_RoomCardBusiness__FieldAccessorTable = 
+          new pb::FieldAccess.FieldAccessorTable<global::RoomCardBusiness, global::RoomCardBusiness.Builder>(internal__static_RoomCardBusiness__Descriptor,
+              new string[] { "BusinessID", "UserID", "Counts", });
+      internal__static_Result__Descriptor = Descriptor.MessageTypes[100];
+      internal__static_Result__FieldAccessorTable = 
+          new pb::FieldAccess.FieldAccessorTable<global::Result, global::Result.Builder>(internal__static_Result__Descriptor,
+              new string[] { "Status", "Message", });
       return null;
     };
     pbd::FileDescriptor.InternalBuildGeneratedFileFrom(descriptorData,
@@ -3530,8 +3545,8 @@ public sealed partial class SendGameOperation : pb::GeneratedMessage<SendGameOpe
 public sealed partial class SendCreateRoom : pb::GeneratedMessage<SendCreateRoom, SendCreateRoom.Builder> {
   private SendCreateRoom() { }
   private static readonly SendCreateRoom defaultInstance = new SendCreateRoom().MakeReadOnly();
-  private static readonly string[] _sendCreateRoomFieldNames = new string[] { "Is_yuanque", "Latitude", "QuickCard", "count", "is_benji", "is_lianzhuang", "is_shangxiaji", "is_wgj", "is_xinqiji", "is_yikousan", "openid", "room_peo" };
-  private static readonly uint[] _sendCreateRoomFieldTags = new uint[] { 88, 82, 96, 64, 40, 72, 32, 16, 24, 48, 10, 56 };
+  private static readonly string[] _sendCreateRoomFieldNames = new string[] { "GroupID", "Is_yuanque", "Latitude", "QuickCard", "count", "is_benji", "is_lianzhuang", "is_shangxiaji", "is_wgj", "is_xinqiji", "is_yikousan", "openid", "room_peo" };
+  private static readonly uint[] _sendCreateRoomFieldTags = new uint[] { 104, 88, 82, 96, 64, 40, 72, 32, 16, 24, 48, 10, 56 };
   public static SendCreateRoom DefaultInstance {
     get { return defaultInstance; }
   }
@@ -3672,6 +3687,16 @@ public sealed partial class SendCreateRoom : pb::GeneratedMessage<SendCreateRoom
     get { return quickCard_; }
   }
   
+  public const int GroupIDFieldNumber = 13;
+  private bool hasGroupID;
+  private int groupID_;
+  public bool HasGroupID {
+    get { return hasGroupID; }
+  }
+  public int GroupID {
+    get { return groupID_; }
+  }
+  
   public override bool IsInitialized {
     get {
       if (!hasOpenid) return false;
@@ -3691,40 +3716,43 @@ public sealed partial class SendCreateRoom : pb::GeneratedMessage<SendCreateRoom
     CalcSerializedSize();
     string[] field_names = _sendCreateRoomFieldNames;
     if (hasOpenid) {
-      output.WriteString(1, field_names[10], Openid);
+      output.WriteString(1, field_names[11], Openid);
     }
     if (hasIsWgj) {
-      output.WriteInt32(2, field_names[7], IsWgj);
+      output.WriteInt32(2, field_names[8], IsWgj);
     }
     if (hasIsXinqiji) {
-      output.WriteInt32(3, field_names[8], IsXinqiji);
+      output.WriteInt32(3, field_names[9], IsXinqiji);
     }
     if (hasIsShangxiaji) {
-      output.WriteInt32(4, field_names[6], IsShangxiaji);
+      output.WriteInt32(4, field_names[7], IsShangxiaji);
     }
     if (hasIsBenji) {
-      output.WriteInt32(5, field_names[4], IsBenji);
+      output.WriteInt32(5, field_names[5], IsBenji);
     }
     if (hasIsYikousan) {
-      output.WriteInt32(6, field_names[9], IsYikousan);
+      output.WriteInt32(6, field_names[10], IsYikousan);
     }
     if (hasRoomPeo) {
-      output.WriteInt32(7, field_names[11], RoomPeo);
+      output.WriteInt32(7, field_names[12], RoomPeo);
     }
     if (hasCount) {
-      output.WriteInt32(8, field_names[3], Count);
+      output.WriteInt32(8, field_names[4], Count);
     }
     if (hasIsLianzhuang) {
-      output.WriteInt32(9, field_names[5], IsLianzhuang);
+      output.WriteInt32(9, field_names[6], IsLianzhuang);
     }
     if (hasLatitude) {
-      output.WriteString(10, field_names[1], Latitude);
+      output.WriteString(10, field_names[2], Latitude);
     }
     if (hasIsYuanque) {
-      output.WriteInt32(11, field_names[0], IsYuanque);
+      output.WriteInt32(11, field_names[1], IsYuanque);
     }
     if (hasQuickCard) {
-      output.WriteInt32(12, field_names[2], QuickCard);
+      output.WriteInt32(12, field_names[3], QuickCard);
+    }
+    if (hasGroupID) {
+      output.WriteInt32(13, field_names[0], GroupID);
     }
     UnknownFields.WriteTo(output);
   }
@@ -3778,6 +3806,9 @@ public sealed partial class SendCreateRoom : pb::GeneratedMessage<SendCreateRoom
     }
     if (hasQuickCard) {
       size += pb::CodedOutputStream.ComputeInt32Size(12, QuickCard);
+    }
+    if (hasGroupID) {
+      size += pb::CodedOutputStream.ComputeInt32Size(13, GroupID);
     }
     size += UnknownFields.SerializedSize;
     memoizedSerializedSize = size;
@@ -3937,6 +3968,9 @@ public sealed partial class SendCreateRoom : pb::GeneratedMessage<SendCreateRoom
       if (other.HasQuickCard) {
         QuickCard = other.QuickCard;
       }
+      if (other.HasGroupID) {
+        GroupID = other.GroupID;
+      }
       this.MergeUnknownFields(other.UnknownFields);
       return this;
     }
@@ -4026,6 +4060,10 @@ public sealed partial class SendCreateRoom : pb::GeneratedMessage<SendCreateRoom
           }
           case 96: {
             result.hasQuickCard = input.ReadInt32(ref result.quickCard_);
+            break;
+          }
+          case 104: {
+            result.hasGroupID = input.ReadInt32(ref result.groupID_);
             break;
           }
         }
@@ -4277,6 +4315,26 @@ public sealed partial class SendCreateRoom : pb::GeneratedMessage<SendCreateRoom
       PrepareBuilder();
       result.hasQuickCard = false;
       result.quickCard_ = 0;
+      return this;
+    }
+    
+    public bool HasGroupID {
+      get { return result.hasGroupID; }
+    }
+    public int GroupID {
+      get { return result.GroupID; }
+      set { SetGroupID(value); }
+    }
+    public Builder SetGroupID(int value) {
+      PrepareBuilder();
+      result.hasGroupID = true;
+      result.groupID_ = value;
+      return this;
+    }
+    public Builder ClearGroupID() {
+      PrepareBuilder();
+      result.hasGroupID = false;
+      result.groupID_ = 0;
       return this;
     }
   }
@@ -38778,6 +38836,693 @@ public sealed partial class ReturnRoomExist : pb::GeneratedMessage<ReturnRoomExi
     }
   }
   static ReturnRoomExist() {
+    object.ReferenceEquals(global::DNL.Descriptor, null);
+  }
+}
+
+[global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+public sealed partial class RoomCardBusiness : pb::GeneratedMessage<RoomCardBusiness, RoomCardBusiness.Builder> {
+  private RoomCardBusiness() { }
+  private static readonly RoomCardBusiness defaultInstance = new RoomCardBusiness().MakeReadOnly();
+  private static readonly string[] _roomCardBusinessFieldNames = new string[] { "businessID", "counts", "userID" };
+  private static readonly uint[] _roomCardBusinessFieldTags = new uint[] { 10, 24, 18 };
+  public static RoomCardBusiness DefaultInstance {
+    get { return defaultInstance; }
+  }
+  
+  public override RoomCardBusiness DefaultInstanceForType {
+    get { return DefaultInstance; }
+  }
+  
+  protected override RoomCardBusiness ThisMessage {
+    get { return this; }
+  }
+  
+  public static pbd::MessageDescriptor Descriptor {
+    get { return global::DNL.internal__static_RoomCardBusiness__Descriptor; }
+  }
+  
+  protected override pb::FieldAccess.FieldAccessorTable<RoomCardBusiness, RoomCardBusiness.Builder> InternalFieldAccessors {
+    get { return global::DNL.internal__static_RoomCardBusiness__FieldAccessorTable; }
+  }
+  
+  public const int BusinessIDFieldNumber = 1;
+  private bool hasBusinessID;
+  private string businessID_ = "";
+  public bool HasBusinessID {
+    get { return hasBusinessID; }
+  }
+  public string BusinessID {
+    get { return businessID_; }
+  }
+  
+  public const int UserIDFieldNumber = 2;
+  private bool hasUserID;
+  private string userID_ = "";
+  public bool HasUserID {
+    get { return hasUserID; }
+  }
+  public string UserID {
+    get { return userID_; }
+  }
+  
+  public const int CountsFieldNumber = 3;
+  private bool hasCounts;
+  private int counts_;
+  public bool HasCounts {
+    get { return hasCounts; }
+  }
+  public int Counts {
+    get { return counts_; }
+  }
+  
+  public override bool IsInitialized {
+    get {
+      if (!hasBusinessID) return false;
+      if (!hasUserID) return false;
+      if (!hasCounts) return false;
+      return true;
+    }
+  }
+  
+  public override void WriteTo(pb::ICodedOutputStream output) {
+    CalcSerializedSize();
+    string[] field_names = _roomCardBusinessFieldNames;
+    if (hasBusinessID) {
+      output.WriteString(1, field_names[0], BusinessID);
+    }
+    if (hasUserID) {
+      output.WriteString(2, field_names[2], UserID);
+    }
+    if (hasCounts) {
+      output.WriteInt32(3, field_names[1], Counts);
+    }
+    UnknownFields.WriteTo(output);
+  }
+  
+  private int memoizedSerializedSize = -1;
+  public override int SerializedSize {
+    get {
+      int size = memoizedSerializedSize;
+      if (size != -1) return size;
+      return CalcSerializedSize();
+    }
+  }
+  
+  private int CalcSerializedSize() {
+    int size = memoizedSerializedSize;
+    if (size != -1) return size;
+    
+    size = 0;
+    if (hasBusinessID) {
+      size += pb::CodedOutputStream.ComputeStringSize(1, BusinessID);
+    }
+    if (hasUserID) {
+      size += pb::CodedOutputStream.ComputeStringSize(2, UserID);
+    }
+    if (hasCounts) {
+      size += pb::CodedOutputStream.ComputeInt32Size(3, Counts);
+    }
+    size += UnknownFields.SerializedSize;
+    memoizedSerializedSize = size;
+    return size;
+  }
+  public static RoomCardBusiness ParseFrom(pb::ByteString data) {
+    return ((Builder) CreateBuilder().MergeFrom(data)).BuildParsed();
+  }
+  public static RoomCardBusiness ParseFrom(pb::ByteString data, pb::ExtensionRegistry extensionRegistry) {
+    return ((Builder) CreateBuilder().MergeFrom(data, extensionRegistry)).BuildParsed();
+  }
+  public static RoomCardBusiness ParseFrom(byte[] data) {
+    return ((Builder) CreateBuilder().MergeFrom(data)).BuildParsed();
+  }
+  public static RoomCardBusiness ParseFrom(byte[] data, pb::ExtensionRegistry extensionRegistry) {
+    return ((Builder) CreateBuilder().MergeFrom(data, extensionRegistry)).BuildParsed();
+  }
+  public static RoomCardBusiness ParseFrom(global::System.IO.Stream input) {
+    return ((Builder) CreateBuilder().MergeFrom(input)).BuildParsed();
+  }
+  public static RoomCardBusiness ParseFrom(global::System.IO.Stream input, pb::ExtensionRegistry extensionRegistry) {
+    return ((Builder) CreateBuilder().MergeFrom(input, extensionRegistry)).BuildParsed();
+  }
+  public static RoomCardBusiness ParseDelimitedFrom(global::System.IO.Stream input) {
+    return CreateBuilder().MergeDelimitedFrom(input).BuildParsed();
+  }
+  public static RoomCardBusiness ParseDelimitedFrom(global::System.IO.Stream input, pb::ExtensionRegistry extensionRegistry) {
+    return CreateBuilder().MergeDelimitedFrom(input, extensionRegistry).BuildParsed();
+  }
+  public static RoomCardBusiness ParseFrom(pb::ICodedInputStream input) {
+    return ((Builder) CreateBuilder().MergeFrom(input)).BuildParsed();
+  }
+  public static RoomCardBusiness ParseFrom(pb::ICodedInputStream input, pb::ExtensionRegistry extensionRegistry) {
+    return ((Builder) CreateBuilder().MergeFrom(input, extensionRegistry)).BuildParsed();
+  }
+  private RoomCardBusiness MakeReadOnly() {
+    return this;
+  }
+  
+  public static Builder CreateBuilder() { return new Builder(); }
+  public override Builder ToBuilder() { return CreateBuilder(this); }
+  public override Builder CreateBuilderForType() { return new Builder(); }
+  public static Builder CreateBuilder(RoomCardBusiness prototype) {
+    return new Builder(prototype);
+  }
+  
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+  public sealed partial class Builder : pb::GeneratedBuilder<RoomCardBusiness, Builder> {
+    protected override Builder ThisBuilder {
+      get { return this; }
+    }
+    public Builder() {
+      result = DefaultInstance;
+      resultIsReadOnly = true;
+    }
+    internal Builder(RoomCardBusiness cloneFrom) {
+      result = cloneFrom;
+      resultIsReadOnly = true;
+    }
+    
+    private bool resultIsReadOnly;
+    private RoomCardBusiness result;
+    
+    private RoomCardBusiness PrepareBuilder() {
+      if (resultIsReadOnly) {
+        RoomCardBusiness original = result;
+        result = new RoomCardBusiness();
+        resultIsReadOnly = false;
+        MergeFrom(original);
+      }
+      return result;
+    }
+    
+    public override bool IsInitialized {
+      get { return result.IsInitialized; }
+    }
+    
+    protected override RoomCardBusiness MessageBeingBuilt {
+      get { return PrepareBuilder(); }
+    }
+    
+    public override Builder Clear() {
+      result = DefaultInstance;
+      resultIsReadOnly = true;
+      return this;
+    }
+    
+    public override Builder Clone() {
+      if (resultIsReadOnly) {
+        return new Builder(result);
+      } else {
+        return new Builder().MergeFrom(result);
+      }
+    }
+    
+    public override pbd::MessageDescriptor DescriptorForType {
+      get { return global::RoomCardBusiness.Descriptor; }
+    }
+    
+    public override RoomCardBusiness DefaultInstanceForType {
+      get { return global::RoomCardBusiness.DefaultInstance; }
+    }
+    
+    public override RoomCardBusiness BuildPartial() {
+      if (resultIsReadOnly) {
+        return result;
+      }
+      resultIsReadOnly = true;
+      return result.MakeReadOnly();
+    }
+    
+    public override Builder MergeFrom(pb::IMessage other) {
+      if (other is RoomCardBusiness) {
+        return MergeFrom((RoomCardBusiness) other);
+      } else {
+        base.MergeFrom(other);
+        return this;
+      }
+    }
+    
+    public override Builder MergeFrom(RoomCardBusiness other) {
+      if (other == global::RoomCardBusiness.DefaultInstance) return this;
+      PrepareBuilder();
+      if (other.HasBusinessID) {
+        BusinessID = other.BusinessID;
+      }
+      if (other.HasUserID) {
+        UserID = other.UserID;
+      }
+      if (other.HasCounts) {
+        Counts = other.Counts;
+      }
+      this.MergeUnknownFields(other.UnknownFields);
+      return this;
+    }
+    
+    public override Builder MergeFrom(pb::ICodedInputStream input) {
+      return MergeFrom(input, pb::ExtensionRegistry.Empty);
+    }
+    
+    public override Builder MergeFrom(pb::ICodedInputStream input, pb::ExtensionRegistry extensionRegistry) {
+      PrepareBuilder();
+      pb::UnknownFieldSet.Builder unknownFields = null;
+      uint tag;
+      string field_name;
+      while (input.ReadTag(out tag, out field_name)) {
+        if(tag == 0 && field_name != null) {
+          int field_ordinal = global::System.Array.BinarySearch(_roomCardBusinessFieldNames, field_name, global::System.StringComparer.Ordinal);
+          if(field_ordinal >= 0)
+            tag = _roomCardBusinessFieldTags[field_ordinal];
+          else {
+            if (unknownFields == null) {
+              unknownFields = pb::UnknownFieldSet.CreateBuilder(this.UnknownFields);
+            }
+            ParseUnknownField(input, unknownFields, extensionRegistry, tag, field_name);
+            continue;
+          }
+        }
+        switch (tag) {
+          case 0: {
+            throw pb::InvalidProtocolBufferException.InvalidTag();
+          }
+          default: {
+            if (pb::WireFormat.IsEndGroupTag(tag)) {
+              if (unknownFields != null) {
+                this.UnknownFields = unknownFields.Build();
+              }
+              return this;
+            }
+            if (unknownFields == null) {
+              unknownFields = pb::UnknownFieldSet.CreateBuilder(this.UnknownFields);
+            }
+            ParseUnknownField(input, unknownFields, extensionRegistry, tag, field_name);
+            break;
+          }
+          case 10: {
+            result.hasBusinessID = input.ReadString(ref result.businessID_);
+            break;
+          }
+          case 18: {
+            result.hasUserID = input.ReadString(ref result.userID_);
+            break;
+          }
+          case 24: {
+            result.hasCounts = input.ReadInt32(ref result.counts_);
+            break;
+          }
+        }
+      }
+      
+      if (unknownFields != null) {
+        this.UnknownFields = unknownFields.Build();
+      }
+      return this;
+    }
+    
+    
+    public bool HasBusinessID {
+      get { return result.hasBusinessID; }
+    }
+    public string BusinessID {
+      get { return result.BusinessID; }
+      set { SetBusinessID(value); }
+    }
+    public Builder SetBusinessID(string value) {
+      pb::ThrowHelper.ThrowIfNull(value, "value");
+      PrepareBuilder();
+      result.hasBusinessID = true;
+      result.businessID_ = value;
+      return this;
+    }
+    public Builder ClearBusinessID() {
+      PrepareBuilder();
+      result.hasBusinessID = false;
+      result.businessID_ = "";
+      return this;
+    }
+    
+    public bool HasUserID {
+      get { return result.hasUserID; }
+    }
+    public string UserID {
+      get { return result.UserID; }
+      set { SetUserID(value); }
+    }
+    public Builder SetUserID(string value) {
+      pb::ThrowHelper.ThrowIfNull(value, "value");
+      PrepareBuilder();
+      result.hasUserID = true;
+      result.userID_ = value;
+      return this;
+    }
+    public Builder ClearUserID() {
+      PrepareBuilder();
+      result.hasUserID = false;
+      result.userID_ = "";
+      return this;
+    }
+    
+    public bool HasCounts {
+      get { return result.hasCounts; }
+    }
+    public int Counts {
+      get { return result.Counts; }
+      set { SetCounts(value); }
+    }
+    public Builder SetCounts(int value) {
+      PrepareBuilder();
+      result.hasCounts = true;
+      result.counts_ = value;
+      return this;
+    }
+    public Builder ClearCounts() {
+      PrepareBuilder();
+      result.hasCounts = false;
+      result.counts_ = 0;
+      return this;
+    }
+  }
+  static RoomCardBusiness() {
+    object.ReferenceEquals(global::DNL.Descriptor, null);
+  }
+}
+
+[global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+public sealed partial class Result : pb::GeneratedMessage<Result, Result.Builder> {
+  private Result() { }
+  private static readonly Result defaultInstance = new Result().MakeReadOnly();
+  private static readonly string[] _resultFieldNames = new string[] { "message", "status" };
+  private static readonly uint[] _resultFieldTags = new uint[] { 18, 8 };
+  public static Result DefaultInstance {
+    get { return defaultInstance; }
+  }
+  
+  public override Result DefaultInstanceForType {
+    get { return DefaultInstance; }
+  }
+  
+  protected override Result ThisMessage {
+    get { return this; }
+  }
+  
+  public static pbd::MessageDescriptor Descriptor {
+    get { return global::DNL.internal__static_Result__Descriptor; }
+  }
+  
+  protected override pb::FieldAccess.FieldAccessorTable<Result, Result.Builder> InternalFieldAccessors {
+    get { return global::DNL.internal__static_Result__FieldAccessorTable; }
+  }
+  
+  public const int StatusFieldNumber = 1;
+  private bool hasStatus;
+  private int status_;
+  public bool HasStatus {
+    get { return hasStatus; }
+  }
+  public int Status {
+    get { return status_; }
+  }
+  
+  public const int MessageFieldNumber = 2;
+  private bool hasMessage;
+  private string message_ = "";
+  public bool HasMessage {
+    get { return hasMessage; }
+  }
+  public string Message {
+    get { return message_; }
+  }
+  
+  public override bool IsInitialized {
+    get {
+      if (!hasStatus) return false;
+      if (!hasMessage) return false;
+      return true;
+    }
+  }
+  
+  public override void WriteTo(pb::ICodedOutputStream output) {
+    CalcSerializedSize();
+    string[] field_names = _resultFieldNames;
+    if (hasStatus) {
+      output.WriteInt32(1, field_names[1], Status);
+    }
+    if (hasMessage) {
+      output.WriteString(2, field_names[0], Message);
+    }
+    UnknownFields.WriteTo(output);
+  }
+  
+  private int memoizedSerializedSize = -1;
+  public override int SerializedSize {
+    get {
+      int size = memoizedSerializedSize;
+      if (size != -1) return size;
+      return CalcSerializedSize();
+    }
+  }
+  
+  private int CalcSerializedSize() {
+    int size = memoizedSerializedSize;
+    if (size != -1) return size;
+    
+    size = 0;
+    if (hasStatus) {
+      size += pb::CodedOutputStream.ComputeInt32Size(1, Status);
+    }
+    if (hasMessage) {
+      size += pb::CodedOutputStream.ComputeStringSize(2, Message);
+    }
+    size += UnknownFields.SerializedSize;
+    memoizedSerializedSize = size;
+    return size;
+  }
+  public static Result ParseFrom(pb::ByteString data) {
+    return ((Builder) CreateBuilder().MergeFrom(data)).BuildParsed();
+  }
+  public static Result ParseFrom(pb::ByteString data, pb::ExtensionRegistry extensionRegistry) {
+    return ((Builder) CreateBuilder().MergeFrom(data, extensionRegistry)).BuildParsed();
+  }
+  public static Result ParseFrom(byte[] data) {
+    return ((Builder) CreateBuilder().MergeFrom(data)).BuildParsed();
+  }
+  public static Result ParseFrom(byte[] data, pb::ExtensionRegistry extensionRegistry) {
+    return ((Builder) CreateBuilder().MergeFrom(data, extensionRegistry)).BuildParsed();
+  }
+  public static Result ParseFrom(global::System.IO.Stream input) {
+    return ((Builder) CreateBuilder().MergeFrom(input)).BuildParsed();
+  }
+  public static Result ParseFrom(global::System.IO.Stream input, pb::ExtensionRegistry extensionRegistry) {
+    return ((Builder) CreateBuilder().MergeFrom(input, extensionRegistry)).BuildParsed();
+  }
+  public static Result ParseDelimitedFrom(global::System.IO.Stream input) {
+    return CreateBuilder().MergeDelimitedFrom(input).BuildParsed();
+  }
+  public static Result ParseDelimitedFrom(global::System.IO.Stream input, pb::ExtensionRegistry extensionRegistry) {
+    return CreateBuilder().MergeDelimitedFrom(input, extensionRegistry).BuildParsed();
+  }
+  public static Result ParseFrom(pb::ICodedInputStream input) {
+    return ((Builder) CreateBuilder().MergeFrom(input)).BuildParsed();
+  }
+  public static Result ParseFrom(pb::ICodedInputStream input, pb::ExtensionRegistry extensionRegistry) {
+    return ((Builder) CreateBuilder().MergeFrom(input, extensionRegistry)).BuildParsed();
+  }
+  private Result MakeReadOnly() {
+    return this;
+  }
+  
+  public static Builder CreateBuilder() { return new Builder(); }
+  public override Builder ToBuilder() { return CreateBuilder(this); }
+  public override Builder CreateBuilderForType() { return new Builder(); }
+  public static Builder CreateBuilder(Result prototype) {
+    return new Builder(prototype);
+  }
+  
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+  public sealed partial class Builder : pb::GeneratedBuilder<Result, Builder> {
+    protected override Builder ThisBuilder {
+      get { return this; }
+    }
+    public Builder() {
+      result = DefaultInstance;
+      resultIsReadOnly = true;
+    }
+    internal Builder(Result cloneFrom) {
+      result = cloneFrom;
+      resultIsReadOnly = true;
+    }
+    
+    private bool resultIsReadOnly;
+    private Result result;
+    
+    private Result PrepareBuilder() {
+      if (resultIsReadOnly) {
+        Result original = result;
+        result = new Result();
+        resultIsReadOnly = false;
+        MergeFrom(original);
+      }
+      return result;
+    }
+    
+    public override bool IsInitialized {
+      get { return result.IsInitialized; }
+    }
+    
+    protected override Result MessageBeingBuilt {
+      get { return PrepareBuilder(); }
+    }
+    
+    public override Builder Clear() {
+      result = DefaultInstance;
+      resultIsReadOnly = true;
+      return this;
+    }
+    
+    public override Builder Clone() {
+      if (resultIsReadOnly) {
+        return new Builder(result);
+      } else {
+        return new Builder().MergeFrom(result);
+      }
+    }
+    
+    public override pbd::MessageDescriptor DescriptorForType {
+      get { return global::Result.Descriptor; }
+    }
+    
+    public override Result DefaultInstanceForType {
+      get { return global::Result.DefaultInstance; }
+    }
+    
+    public override Result BuildPartial() {
+      if (resultIsReadOnly) {
+        return result;
+      }
+      resultIsReadOnly = true;
+      return result.MakeReadOnly();
+    }
+    
+    public override Builder MergeFrom(pb::IMessage other) {
+      if (other is Result) {
+        return MergeFrom((Result) other);
+      } else {
+        base.MergeFrom(other);
+        return this;
+      }
+    }
+    
+    public override Builder MergeFrom(Result other) {
+      if (other == global::Result.DefaultInstance) return this;
+      PrepareBuilder();
+      if (other.HasStatus) {
+        Status = other.Status;
+      }
+      if (other.HasMessage) {
+        Message = other.Message;
+      }
+      this.MergeUnknownFields(other.UnknownFields);
+      return this;
+    }
+    
+    public override Builder MergeFrom(pb::ICodedInputStream input) {
+      return MergeFrom(input, pb::ExtensionRegistry.Empty);
+    }
+    
+    public override Builder MergeFrom(pb::ICodedInputStream input, pb::ExtensionRegistry extensionRegistry) {
+      PrepareBuilder();
+      pb::UnknownFieldSet.Builder unknownFields = null;
+      uint tag;
+      string field_name;
+      while (input.ReadTag(out tag, out field_name)) {
+        if(tag == 0 && field_name != null) {
+          int field_ordinal = global::System.Array.BinarySearch(_resultFieldNames, field_name, global::System.StringComparer.Ordinal);
+          if(field_ordinal >= 0)
+            tag = _resultFieldTags[field_ordinal];
+          else {
+            if (unknownFields == null) {
+              unknownFields = pb::UnknownFieldSet.CreateBuilder(this.UnknownFields);
+            }
+            ParseUnknownField(input, unknownFields, extensionRegistry, tag, field_name);
+            continue;
+          }
+        }
+        switch (tag) {
+          case 0: {
+            throw pb::InvalidProtocolBufferException.InvalidTag();
+          }
+          default: {
+            if (pb::WireFormat.IsEndGroupTag(tag)) {
+              if (unknownFields != null) {
+                this.UnknownFields = unknownFields.Build();
+              }
+              return this;
+            }
+            if (unknownFields == null) {
+              unknownFields = pb::UnknownFieldSet.CreateBuilder(this.UnknownFields);
+            }
+            ParseUnknownField(input, unknownFields, extensionRegistry, tag, field_name);
+            break;
+          }
+          case 8: {
+            result.hasStatus = input.ReadInt32(ref result.status_);
+            break;
+          }
+          case 18: {
+            result.hasMessage = input.ReadString(ref result.message_);
+            break;
+          }
+        }
+      }
+      
+      if (unknownFields != null) {
+        this.UnknownFields = unknownFields.Build();
+      }
+      return this;
+    }
+    
+    
+    public bool HasStatus {
+      get { return result.hasStatus; }
+    }
+    public int Status {
+      get { return result.Status; }
+      set { SetStatus(value); }
+    }
+    public Builder SetStatus(int value) {
+      PrepareBuilder();
+      result.hasStatus = true;
+      result.status_ = value;
+      return this;
+    }
+    public Builder ClearStatus() {
+      PrepareBuilder();
+      result.hasStatus = false;
+      result.status_ = 0;
+      return this;
+    }
+    
+    public bool HasMessage {
+      get { return result.hasMessage; }
+    }
+    public string Message {
+      get { return result.Message; }
+      set { SetMessage(value); }
+    }
+    public Builder SetMessage(string value) {
+      pb::ThrowHelper.ThrowIfNull(value, "value");
+      PrepareBuilder();
+      result.hasMessage = true;
+      result.message_ = value;
+      return this;
+    }
+    public Builder ClearMessage() {
+      PrepareBuilder();
+      result.hasMessage = false;
+      result.message_ = "";
+      return this;
+    }
+  }
+  static Result() {
     object.ReferenceEquals(global::DNL.Descriptor, null);
   }
 }

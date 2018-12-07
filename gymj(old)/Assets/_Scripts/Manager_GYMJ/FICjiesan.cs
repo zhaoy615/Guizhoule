@@ -173,6 +173,7 @@ public class FICjiesan : MonoBehaviour
     /// </summary>
     private void OnJieSanOrQuitButtonClick()
     {
+        Debug.Log("界山犯贱");
         if (JieSanOrQuitText.text.Equals("解散房间"))
         {
             JieSanOrQuitButton.transform.parent.gameObject.SetActive(false);
@@ -184,11 +185,12 @@ public class FICjiesan : MonoBehaviour
             //=================还原语言=============================//
             managerGame.Mandarin.isOn = Convert.ToBoolean(PlayerPrefs.GetString("Pop"));
             managerGame.Local.isOn = Convert.ToBoolean(PlayerPrefs.GetString("Local"));
-
+            Debug.Log("界山犯贱1");
         }
         else
         {
             SendQuitMessage();
+            Debug.Log("界山犯贱2");
         }
     }
     /// <summary>
@@ -222,7 +224,7 @@ public class FICjiesan : MonoBehaviour
         //     .Build();
         //byte[] body = sendjs.ToByteArray();
 
-
+        Debug.Log("界山房间发送");
         SendJS sendjs = new SendJS();
         sendjs.openid = GameInfo.OpenID;
         sendjs.roomid = GameInfo.room_id;
@@ -243,7 +245,7 @@ public class FICjiesan : MonoBehaviour
         // .SetUnionid(GameInfo.unionid)
         // .Build();
         //byte[] body = quitRequire.ToByteArray();
-
+        Debug.Log("点击尖山房间");
         SendRemove quitRequire = new SendRemove();
         quitRequire.openid = GameInfo.OpenID;
         quitRequire.RoomID = GameInfo.room_id;

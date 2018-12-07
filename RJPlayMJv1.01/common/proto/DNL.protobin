@@ -1,5 +1,5 @@
 
-ÿ6
+ƒ8
 	DNL.proto"Ž
 	SendLogin
 openid (	
@@ -33,7 +33,7 @@
 openid (	
 unionid (	
 	Operation (
-RoomID (	"ó
+RoomID (	"„
 SendCreateRoom
 openid (	
 is_wgj (
@@ -49,7 +49,8 @@ is_xinqiji (
  (	
 
 Is_yuanque (
-	QuickCard ("?
+	QuickCard (
+GroupID ("?
 ReturnCreateRoom
 roomID (
 userinfo (2	.Userinfo"º
@@ -458,4 +459,12 @@ RoomInfoID (	"P
 openid (	
 unionid (	""
 ReturnRoomExist
-IsExist (
+IsExist ("F
+RoomCardBusiness
+
+businessID (	
+userID (	
+counts (")
+Result
+status (
+message (	

@@ -9,6 +9,7 @@ using SuperSocket.SocketBase.Command;
 using MJBLL.common;
 using MJBLL.Logic;
 using MJBLL.model;
+using DAL.DAL;
 
 namespace MJBLL.mjrule
 {
@@ -274,6 +275,45 @@ namespace MJBLL.mjrule
 
                 CardsLogic logic = new CardsLogic();
                 int number = 0;//发牌次数，从0开始计数
+
+                //根据
+                ///获取房主信息
+                ///
+
+
+                string homeownerOpenid = "";
+                foreach (var item in mjList)
+                {
+                    if (item.IsHomeowner)
+                    {
+                        //如果是房主，记录该房主的openid
+                        homeownerOpenid = item.Openid;
+                    }
+                }
+
+             
+                var roominfodal = new RoomInfoDAL();
+                var createuserid = roominfodal.GetCreateUserIdByRoomId(rm.RoomID);
+                //var groupid = roominfodal.GetGroupInfoByGroupID(createuserid);
+                var groupid = rm.GroupID;
+
+                //不是圈子用户，直接进行扣费
+                if (groupid == 0)
+                {
+                    RoomCardUtility.ReduceRoomCard(createuserid, (rm.count / 4) * 1);
+                }
+                else
+                {
+                    GroupInfoDAL groupInfoDAL = new GroupInfoDAL();
+                    var creategroupuderid = groupInfoDAL.GetUserIDByGuoupID(groupid);
+                    var reducecount = (rm.count / 8) * 1;
+                    RoomCardUtility.ReduceRoomCard(creategroupuderid, reducecount);
+
+                    ////向日志里面添加朋友圈耗卡信息
+                    groupInfoDAL.AddCreateRoomRecord(creategroupuderid, groupid, rm.RoomID, reducecount);
+                    
+                }
+
                 var dcount = rm.Dcount;
                 foreach (var item in mjList)
                 {

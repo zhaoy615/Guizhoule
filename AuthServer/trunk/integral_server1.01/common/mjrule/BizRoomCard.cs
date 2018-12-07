@@ -38,55 +38,76 @@ namespace MJBLL.mjrule
                 session.Close();
                 return;
             }
+            #region 以前代码 可能有用
+            ////获取业务信息
+            //BusinessModel businessInfo = business.SelectBusiness(info.BusinessID);
+            //if (businessInfo == null)
+            //{
 
-            //获取业务信息
-            BusinessModel businessInfo = business.SelectBusiness(info.BusinessID);
-            if (businessInfo == null)
+            //    log.Error("该业务不存在");
+            //    var data = Result.CreateBuilder().SetStatus(0).SetMessage("该业务不存在").Build().ToByteArray();
+            //    session.Send(new ArraySegment<byte>(CreateHead.CreateMessage(10001, data.Length, requestInfo.MessageNum, data)));
+            //    session.Close();
+            //    return;
+            //}
+
+
+            ////获取操作方式
+            //ActionModel actionInfo = business.SelectAction(businessInfo.action_id);
+
+
+            ////判断余额是否充足
+            //if (actionInfo.action=="-")
+            //{
+            //    if (business.GetIntegralInfo(info.UserID, businessInfo.type) - info.Counts < 0)
+            //    {
+            //        var data = Result.CreateBuilder().SetStatus(0).SetMessage("当前余量不足").Build().ToByteArray();
+            //        session.Send(new ArraySegment<byte>(CreateHead.CreateMessage(10001, data.Length, requestInfo.MessageNum, data)));
+            //        session.Close();
+            //        return;
+            //    }
+
+            //}
+            //integralInfo = business.UpdateIntegralInfo(info.UserID, businessInfo.type, actionInfo, info.Counts);
+            #endregion
+            // 处理业务 更新积分信息并返回
+
+            decimal newRoomCard = integralInfo.roomCard - info.Counts;
+
+            if (newRoomCard < 0)
             {
-
-                log.Error("该业务不存在");
-                var data = Result.CreateBuilder().SetStatus(0).SetMessage("该业务不存在").Build().ToByteArray();
+                var data = Result.CreateBuilder().SetStatus(0).SetMessage("当前余量不足").Build().ToByteArray();
                 session.Send(new ArraySegment<byte>(CreateHead.CreateMessage(10001, data.Length, requestInfo.MessageNum, data)));
                 session.Close();
                 return;
             }
 
-
-            //获取操作方式
-            ActionModel actionInfo = business.SelectAction(businessInfo.action_id);
-
-
-            //判断余额是否充足
-            if (actionInfo.action=="-")
+            bool reslut =  business.UpdataRoomCard(info.UserID, newRoomCard);
+            if (!reslut)
             {
-                if (business.GetIntegralInfo(info.UserID, businessInfo.type) - info.Counts < 0)
-                {
-                    var data = Result.CreateBuilder().SetStatus(0).SetMessage("当前余量不足").Build().ToByteArray();
-                    session.Send(new ArraySegment<byte>(CreateHead.CreateMessage(10001, data.Length, requestInfo.MessageNum, data)));
-                    session.Close();
-                    return;
-                }
-               
+                var dataResult1 = Result.CreateBuilder().SetStatus(0).SetMessage("更新失败").Build().ToByteArray();
+                session.Send(new ArraySegment<byte>(CreateHead.CreateMessage(10001, dataResult1.Length, requestInfo.MessageNum, dataResult1)));
+                session.Close();
+                return;
             }
 
-            // 处理业务 更新积分信息并返回
-            integralInfo = business.UpdateIntegralInfo(info.UserID, businessInfo.type, actionInfo, info.Counts);
+
             log.Info("更新成功");
             var dataResult = Result.CreateBuilder().SetStatus(1).SetMessage("更新成功").Build().ToByteArray();
             session.Send(new ArraySegment<byte>(CreateHead.CreateMessage(10001, dataResult.Length, requestInfo.MessageNum, dataResult)));
-            session.Send("更新成功");
+            //session.Send("更新成功");
 
             //写入日志
-            var logModel = new LogModel
-            {
-                userID = info.UserID,
-                action = actionInfo.title,
-                business = businessInfo.tittle,
-                type = businessInfo.type,
-                count = info.Counts,
-                dateTime = DateTime.Now,
-            };
-            business.WriteLog(logModel);
+            //var logModel = new LogModel
+            //{
+            //    userID = info.UserID,
+            //    action = info.BusinessID,
+            //    business = info.BusinessID,
+            //    type = info.BusinessID,
+            //    count = info.Counts,
+            //    dateTime = DateTime.Now,
+            //};
+            //business.WriteLog(logModel);
         }
 
     }

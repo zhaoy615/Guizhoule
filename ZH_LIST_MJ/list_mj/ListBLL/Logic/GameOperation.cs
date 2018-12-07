@@ -3,10 +3,7 @@ using ListBLL.common;
 using ListBLL.model;
 using SuperSocket.SocketBase.Command;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ListBLL.Logic
 {
@@ -20,48 +17,75 @@ namespace ListBLL.Logic
 
         public void ExecuteCommand(GameSession session, ProtobufRequestInfo requestInfo)
         {
+
             var gameOperation = SendGameOperation.ParseFrom(requestInfo.Body);
             RedisLoginModel olduser = RedisUtility.Get<RedisLoginModel>(RedisUtility.GetKey(GameInformationBase.COMMUNITYUSERLIST, gameOperation.Openid, gameOperation.Unionid));
             if (olduser == null)
                 return;
             int GroupID = gameOperation.HasGroupID ? gameOperation.GroupID : 0;
             var serverGameOperation = ReturnGameOperation.CreateBuilder();
+
+            UserInfo user = Gongyong.userlist.Find(u => u.openid == olduser.Openid);
+
             switch (gameOperation.Operation)
             {
-
+                //1創建房間/2加入房間
                 case 1:
-                    if (ISUserInGruop(gameOperation))
+                    //if (ISUserInGruop(gameOperation))
+                    if (gameOperation.GroupID != 0)
                     {
+                        GroupInfoDAL groupInfoDAL = new GroupInfoDAL();
+                        var creategroupuderid = groupInfoDAL.GetUserIDByGuoupID(GroupID);
+                        var roomcardCount = RoomCardUtility.GetRoomCard(creategroupuderid);
+                        if (roomcardCount - GameInformationBase.createRoomCard < 0)
+                        {
+                            var data = serverGameOperation.SetUnionid(gameOperation.Unionid).SetOpenid(gameOperation.Openid).SetStatus(-3).Build().ToByteArray();
+                            session.Send(new ArraySegment<byte>(CreateHead.CreateMessage(GameInformationBase.BASEAGREEMENTNUMBER + 1021, data.Length, requestInfo.MessageNum, data)));
+                            return;
+                        }
+                        else
+                        {
+                            RedisUtility.GetServerIP(GameInformationBase.DEFAULTGAMESERVERNAME, requestInfo.MessageNum, session, 1, gameOperation.Openid, gameOperation.Unionid);
+                        }
+
+
                         var reslut = RedisUtility.GetServerIP(GameInformationBase.DEFAULTGAMESERVERNAME, requestInfo.MessageNum, session, 1, gameOperation.Openid, gameOperation.Unionid);
-                        if(reslut == true)
+                        if (reslut == true)
                         {
                             //根据groupid来查找所有在线的圈子session
                             var groupList = Gongyong.userlist.FindAll(w => { return w.GroupID.Contains(GroupID) && w.session != session; });
-                            for(var i = 0; i < groupList.Count; i++)
+                            for (var i = 0; i < groupList.Count; i++)
                             {
-                                Console.WriteLine("get : "+groupList[i].nickname+" , ",groupList[i]);
+                                Console.WriteLine("get : " + groupList[i].nickname + " , ", groupList[i]);
                             }
-
-                            //向日志里面添加朋友圈耗卡信息
+                            ////向日志里面添加朋友圈耗卡信息
                             //GroupInfoDAL groupInfoDAL = new GroupInfoDAL();
                             //var userInfo = Gongyong.userlist.Find(w => { return w.session.Equals(session); });
                             //var listRecord = groupInfoDAL.AddCreateRoomRecord(userInfo.UserID, GroupID,);
 
                         }
-
-
                     }
-                    else//不是圈内成员
+                    else//不是在圈子里进行创建房间的
                     {
-                        var data = serverGameOperation.SetUnionid(gameOperation.Unionid).SetOpenid(gameOperation.Openid).SetStatus(-2).Build().ToByteArray();
-                        session.Send(new ArraySegment<byte>(CreateHead.CreateMessage(GameInformationBase.BASEAGREEMENTNUMBER + 1021, data.Length, requestInfo.MessageNum, data)));
+                        //检测是否满足开房的条件
+                        var roomcardCount = RoomCardUtility.GetRoomCard(user.UserID); 
+                        if(roomcardCount - GameInformationBase.createRoomCard < 0)
+                        {
+                            var data = serverGameOperation.SetUnionid(gameOperation.Unionid).SetOpenid(gameOperation.Openid).SetStatus(-1).Build().ToByteArray();
+                            session.Send(new ArraySegment<byte>(CreateHead.CreateMessage(GameInformationBase.BASEAGREEMENTNUMBER + 1021, data.Length, requestInfo.MessageNum, data)));
+                            return;
+                        }
+                        else
+                        {
+                            RedisUtility.GetServerIP(GameInformationBase.DEFAULTGAMESERVERNAME, requestInfo.MessageNum, session, 1, gameOperation.Openid, gameOperation.Unionid);
+                        }
                     }
                     break;
                 case 2:
                     if (!gameOperation.HasRoomID)
                         return;
                     var roomInfo = RedisUtility.Get<RedisGameRoomInfo>(RedisUtility.GetKey(GameInformationBase.COMMUNITYROOMINFO, gameOperation.RoomID, string.Empty));
-                   var ddzRoomInfo = RedisUtility.Get<RedisDDZGameRoomInfo>(RedisUtility.GetKey(GameInformationBase.COMMUNITYDDZROOMINFO, gameOperation.RoomID, string.Empty));
+                    var ddzRoomInfo = RedisUtility.Get<RedisDDZGameRoomInfo>(RedisUtility.GetKey(GameInformationBase.COMMUNITYDDZROOMINFO, gameOperation.RoomID, string.Empty));
                     var status = 0;
 
                     if (roomInfo == null && ddzRoomInfo == null)
@@ -77,7 +101,7 @@ namespace ListBLL.Logic
                         if (ISUserInGruop(gameOperation))
                         {
                             status = 1;//1:加入成功
-                            RedisUtility.GetServerIP(roomInfo.ServerName, requestInfo.MessageNum, session, 1, gameOperation.Openid, gameOperation.Unionid, false, 0, status, roomInfo==null?1:0);
+                            RedisUtility.GetServerIP(roomInfo.ServerName, requestInfo.MessageNum, session, 1, gameOperation.Openid, gameOperation.Unionid, false, 0, status, roomInfo == null ? 1 : 0);
                         }
                         else//不是圈内成员
                         {
@@ -103,7 +127,7 @@ namespace ListBLL.Logic
         {
             if (gameOperation.HasGroupID)
             {
-               return Gongyong.userlist.Find(w => w.unionid.Equals(gameOperation.Unionid) && w.GroupID.Any(q => q == gameOperation.GroupID))!=null;
+                return Gongyong.userlist.Find(w => w.unionid.Equals(gameOperation.Unionid) && w.GroupID.Any(q => q == gameOperation.GroupID)) != null;
             }
             else
             {

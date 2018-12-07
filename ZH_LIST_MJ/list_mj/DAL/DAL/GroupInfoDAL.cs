@@ -55,6 +55,20 @@ namespace DAL.DAL
             }
         }
 
+        /// <summary>
+        /// 根据groupid来获取userid
+        /// </summary>
+        /// <returns></returns>
+        public long GetUserIDByGuoupID(long GroupID)
+        {
+            using (var Conn = new MySqlConnection(DbHelperMySQL.connectionString))
+            {
+                string sql = @"select CreateUserID from groupinfo_tb where GroupID=@GroupID;";
+                //string sql = @"select GroupID from groupinfo_tb where CreateUserID=@CreateUserID and isExist=0";
+                return Conn.QueryFirstOrDefault<long>(sql, new { GroupID = GroupID});
+            }
+        }
+
         public int GetGroupPeopleNumber(long groupID)
         {
             using (var Conn = new MySqlConnection(DbHelperMySQL.connectionString))
@@ -264,7 +278,7 @@ namespace DAL.DAL
                         //类型：1加入提示，2房主拒绝申请加入提示,3房主踢出提示,5同意退出提示，6房主拒绝退出房间提示
                         r += Conn.Execute(sql1, new { groupID = GroupID, userID = ApplyJoinUserID, type = ApplyStatus, datetime = DateTime.Now }, trans);
                     }
-                        trans.Commit();
+                    trans.Commit();
                 }
                 catch (Exception ex)
                 {
@@ -343,8 +357,7 @@ namespace DAL.DAL
                 string sql = "INSERT group_log (GuoupID,RoomID,CreatUserID,,CreateDate,UserRoomCard,id) VALUES(@)";
                 return Conn.Execute(sql, new { GuoupID = CreateUserID, RoomID = roomid, CreateUserID = CreateUserID, CreateDate = DateTime.Now, UserRoomCard  = 1, id  = 1});
             }
-
-
+            
         }
 
         /// <summary>

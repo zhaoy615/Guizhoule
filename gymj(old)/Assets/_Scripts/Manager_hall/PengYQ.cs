@@ -380,14 +380,14 @@ public class PengYQ : MonoBehaviour {
 			}
 			//dicTemp.Add(tf1.name, item);
 			dicTemp[tf1.name] = item;
-			tf1.Find("CreateRoomBtn").GetComponent<Button>().onClick.AddListener(delegate { GameInfo.GroupID = long.Parse(tf1.name); });
+			tf1.Find("CreateRoomBtn").GetComponent<Button>().onClick.AddListener(delegate { GameInfo.GroupID = long.Parse(tf1.name);  });
 			tf1.Find("EnterLobbiesBtn").GetComponent<Button>().onClick.AddListener(delegate {
 				groupInfo = dicTemp[tf1.name];
 				SendLobbyInfo(long.Parse(tf1.name));
 				// tempAction = delegate { SendLobbyInfo(long.Parse(tf1.name)); };
 			});
-
-		}
+           
+        }
 		PengYQMain_Pel.transform.Find("Scroll View").GetComponent<ScrollRectControl>().InitScrollRect(1, delegate { SendGroupInfo(); });
 		GameInfo.returnGroupInfo = null;
 	}

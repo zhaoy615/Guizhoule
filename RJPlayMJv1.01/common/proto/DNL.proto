@@ -81,6 +81,7 @@ message SendCreateRoom {
   required string Latitude=10;//经纬度  经度，纬度
  optional int32 Is_yuanque = 11;//是否原缺 (1是:0否)
  optional int32 QuickCard =12 ;//10秒出牌 (1是 : 0否)
+  optional  int32 GroupID = 13;
 }
 //#服务端返回房间信息 +2002
 message ReturnCreateRoom { 
@@ -731,4 +732,15 @@ required int32 roomID=1;//房间编号
 message ReturnRoomExist
 {
 	required int32 IsExist=1;//房间是否存在 1：存在 0不存在
+}
+//10030 房卡业务
+message RoomCardBusiness{
+   required string businessID=1;//业务id
+   required string userID=2;//用户id
+   required int32 counts=3;//数量
+}
+//10001  业务处理结果
+message Result{
+    required int32 status=1;//状态   1：业务处理成功   0：业务处理失败，详情见message
+    required string message=2;//消息
 }

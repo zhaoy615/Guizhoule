@@ -317,6 +317,7 @@ public class Manager_Hall : MonoBehaviour
         switch (GameInfo.returnGameOperation.status)
         {
             case 1:
+                Debug.Log("1111111111111");
                 break;
             case -1:
                 FICWaringPanel._instance.Show("房卡不足");

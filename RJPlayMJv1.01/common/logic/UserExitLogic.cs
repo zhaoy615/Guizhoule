@@ -87,9 +87,12 @@ namespace MJBLL.logic
                 UserInfo user = Gongyong.userlist.Find(u => u.openid == item.Openid);
                 if (user != null)
                 {
-                    user.session.TrySend(new ArraySegment<byte>(CreateHead.CreateMessage(GameInformationBase.BASEAGREEMENTNUMBER + 5007, Sdata.Length, messageNum, Sdata)));
+                    //RedisUtility.Get<RedisLoginModel>(RedisUtility.GetKey(GameInformationBase.COMMUNITYUSERLIST, gameOperation.Openid, gameOperation.Unionid));
                     //将用户游戏信息更新                 
                     RedisUtility.Remove(RedisUtility.GetKey(GameInformationBase.COMMUNITYUSERGAME, user.openid, user.unionid));
+                    //RedisUtility.Remove(RedisUtility.GetKey(GameInformationBase.COMMUNITYUSERLIST, user.openid, user.unionid));
+                    user.session.TrySend(new ArraySegment<byte>(CreateHead.CreateMessage(GameInformationBase.BASEAGREEMENTNUMBER + 5007, Sdata.Length, messageNum, Sdata)));
+                   
                 }
             }
         

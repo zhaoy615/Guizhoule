@@ -271,7 +271,7 @@ public class FIClogin : MonoBehaviour
         }
         GPSManager.instance.StartCrt();
 
-        myShareSdk.GetUserInfo(PlatformType.WeChat);
+        //myShareSdk.GetUserInfo(PlatformType.WeChat);
         GetTestUserInfo();
         //DisableLoginButtons();
 

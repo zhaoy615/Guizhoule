@@ -62,6 +62,25 @@ namespace DAL.DAL
             return GetIntegralInfo(userID);
         }
 
+        public bool UpdataRoomCard(string userID, decimal roomCard)
+        {
+            conn.Open();
+
+            var trans = conn.BeginTransaction();
+            try
+            {
+                string str = string.Format("UPDATE integral_info set roomCard = @roomCard WHERE userID = @userID");
+                conn.Execute(str, new { roomCard = roomCard, userID = userID }, trans);
+                trans.Commit();
+                return true;
+            }
+            catch (Exception e)
+            {
+                trans.Rollback();
+                throw e;
+            }
+        }
+
         /// <summary>
         /// 查询获取业务
         /// </summary>

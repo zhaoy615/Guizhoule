@@ -17,9 +17,9 @@ namespace DAL.DAL
         // strSql.Append("SELECT CAST(SCOPE_IDENTITY() as int)");返回自增列ID
         //var id = connection.Query<int>(sql, mytable).FirstOrDefault();返回自增列ID
 
-        public int Add(RoomInfo roomInfo,long userid)
+        public int Add(RoomInfo roomInfo,long GroupID)
         {
-            var GroupID = GetGroupInfoByGroupID(userid);
+           
 
             StringBuilder strSql = new StringBuilder();
             strSql.Append("INSERT INTO `roominfotb`(RoomInfoID,RoomID,IsBenJi,IsWGJ,IsXinQiJi,IsSangXiaJi,CountPointsType,RoomPeo,RoomNumber,CreateDate,CreateUserID,IsYuanQue,GroupID,QuickCard)");
@@ -44,10 +44,16 @@ namespace DAL.DAL
         {
             StringBuilder strSql = new StringBuilder();
             strSql.Append("select GroupID from groupstaffinfo_tb where GroupUserID=@GroupUserID");
-            return conn.QueryFirstOrDefault<long>(strSql.ToString(), new { GroupUserID = GroupUserID });
-           
+            return conn.QueryFirstOrDefault<long>(strSql.ToString(), new { GroupUserID = GroupUserID });          
         }
 
+        public long GetCreateUserIdByRoomId(long RoomID)
+        {
+            StringBuilder strSql = new StringBuilder();
+            strSql.Append("select CreateUserID from roominfotb where RoomID=@RoomID");
+            return conn.QueryFirstOrDefault<long>(strSql.ToString(), new { RoomID = RoomID });
+            
+        }
 
 
         /// <summary>
